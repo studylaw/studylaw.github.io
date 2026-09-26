@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>首页</title>
+<style>
+  :root{--bg:#eff1e8;--ink:#37402f;--link:#4f7350;--line:#c5ccb8}
+  *{box-sizing:border-box}
+  html,body{height:100%}
+  body{margin:0;color:var(--ink);background:#eff1e8;
+       font:17px/1.6 Georgia,"Times New Roman","Microsoft YaHei",serif;
+       display:flex;align-items:center;justify-content:center}
+  /* 背景图：contain 完整显示，随窗口等比缩放，永不裁切 */
+  .bg{position:fixed;inset:0;width:100%;height:100%;object-fit:contain;z-index:-1}
+  /* 四边羽化：把图片边缘融进页面底色 */
+  .fade{position:fixed;inset:0;z-index:0;pointer-events:none;
+        background:
+          linear-gradient(90deg,#eff1e8,rgba(239,241,232,0) 6%,rgba(239,241,232,0) 94%,#eff1e8),
+          linear-gradient(180deg,#eff1e8,rgba(239,241,232,0) 6%,rgba(239,241,232,0) 94%,#eff1e8)}
+  .cards{position:relative;z-index:1;display:flex;gap:38px;padding:40px}
+  .pcard{display:block;width:320px;padding:40px 36px;background:rgba(239,241,232,.90);
+         border:1px solid var(--line);border-radius:16px;text-decoration:none;color:var(--ink);
+         transition:border-color .15s,background .15s}
+  .pcard:hover{border-color:var(--link);background:rgba(223,230,205,.96)}
+  /* 楷体题签风：常规字重、大字距、衬线回落 */
+  .pcard-t{font-family:"Kaiti SC","KaiTi","STKaiti","DFKai-SB","Noto Serif SC","SimSun",serif;
+           font-weight:400;font-size:1.75em;letter-spacing:.22em;color:#3a4234}
+  .pcard-u{display:block;height:3px;width:56px;background:var(--link);margin-top:14px;
+           border-radius:2px;opacity:.45}
+  footer{position:fixed;left:0;right:0;bottom:0;z-index:2;text-align:center;padding:14px;
+         font-size:.8em;color:#7a8270}
+  @media(max-width:760px){.cards{flex-direction:column}}
+</style></head>
+<body>
+  <img class="bg" src="bg.jpg" alt="">
+  <div class="fade"></div>
+  <nav class="cards">
+    <a class="pcard" href="laws.html"><span class="pcard-t">法律法规</span><span class="pcard-u"></span></a>
+    <a class="pcard" href="cases.html"><span class="pcard-t">指导性案例</span><span class="pcard-u"></span></a>
+  </nav>
+  <footer>© 2026 Lawstudy</footer>
+</body></html>
