@@ -19,7 +19,8 @@ window.LAW_MANIFEST = {
    "sections": [
     "national-laws",
     "administrative-regulations",
-    "judicial-interpretations"
+    "judicial-interpretations",
+    "ministerial-rules"
    ]
   },
   {
@@ -81,6 +82,18 @@ window.LAW_MANIFEST = {
    "home": "judicial-interpretations/index.html",
    "law_count": 562,
    "hist_count": 157
+  },
+  {
+   "code": "ministerial-rules",
+   "name": "部门规章",
+   "type": "laws",
+   "group": "laws",
+   "desc": "国务院各部门依法制定的规章，按制定机关分类。",
+   "card_stat": "",
+   "foot": "",
+   "home": "ministerial-rules/index.html",
+   "law_count": 2675,
+   "hist_count": 0
   }
  ],
  "departments": [
@@ -299,6 +312,286 @@ window.LAW_MANIFEST = {
    "list": "judicial-interpretations/list/qita.html",
    "sec": "judicial-interpretations",
    "sec_name": "司法解释"
+  },
+  {
+   "name": "交通运输部",
+   "count": 256,
+   "file": "jiaotongyunshubu.html",
+   "list": "ministerial-rules/list/jiaotongyunshubu.html",
+   "sec": "ministerial-rules",
+   "sec_name": "部门规章"
+  },
+  {
+   "name": "市场监管总局",
+   "count": 175,
+   "file": "shichangjianguanzongju.html",
+   "list": "ministerial-rules/list/shichangjianguanzongju.html",
+   "sec": "ministerial-rules",
+   "sec_name": "部门规章"
+  },
+  {
+   "name": "商务部",
+   "count": 165,
+   "file": "shangwubu.html",
+   "list": "ministerial-rules/list/shangwubu.html",
+   "sec": "ministerial-rules",
+   "sec_name": "部门规章"
+  },
+  {
+   "name": "海关总署",
+   "count": 159,
+   "file": "haiguanzongshu.html",
+   "list": "ministerial-rules/list/haiguanzongshu.html",
+   "sec": "ministerial-rules",
+   "sec_name": "部门规章"
+  },
+  {
+   "name": "农业农村部",
+   "count": 150,
+   "file": "nongyenongcunbu.html",
+   "list": "ministerial-rules/list/nongyenongcunbu.html",
+   "sec": "ministerial-rules",
+   "sec_name": "部门规章"
+  },
+  {
+   "name": "国家发展改革委",
+   "count": 135,
+   "file": "guojiafazhangaigewei.html",
+   "list": "ministerial-rules/list/guojiafazhangaigewei.html",
+   "sec": "ministerial-rules",
+   "sec_name": "部门规章"
+  },
+  {
+   "name": "金融监管总局",
+   "count": 125,
+   "file": "jinrongjianguanzongju.html",
+   "list": "ministerial-rules/list/jinrongjianguanzongju.html",
+   "sec": "ministerial-rules",
+   "sec_name": "部门规章"
+  },
+  {
+   "name": "证监会",
+   "count": 88,
+   "file": "zhengjianhui.html",
+   "list": "ministerial-rules/list/zhengjianhui.html",
+   "sec": "ministerial-rules",
+   "sec_name": "部门规章"
+  },
+  {
+   "name": "住房城乡建设部",
+   "count": 84,
+   "file": "zhufangchengxiangjianshebu.html",
+   "list": "ministerial-rules/list/zhufangchengxiangjianshebu.html",
+   "sec": "ministerial-rules",
+   "sec_name": "部门规章"
+  },
+  {
+   "name": "工业和信息化部",
+   "count": 79,
+   "file": "gongyehexinxihuabu.html",
+   "list": "ministerial-rules/list/gongyehexinxihuabu.html",
+   "sec": "ministerial-rules",
+   "sec_name": "部门规章"
+  },
+  {
+   "name": "生态环境部",
+   "count": 78,
+   "file": "shengtaihuanjingbu.html",
+   "list": "ministerial-rules/list/shengtaihuanjingbu.html",
+   "sec": "ministerial-rules",
+   "sec_name": "部门规章"
+  },
+  {
+   "name": "人力资源社会保障部",
+   "count": 78,
+   "file": "renliziyuanshehuibaozhangbu.html",
+   "list": "ministerial-rules/list/renliziyuanshehuibaozhangbu.html",
+   "sec": "ministerial-rules",
+   "sec_name": "部门规章"
+  },
+  {
+   "name": "国家卫生健康委",
+   "count": 73,
+   "file": "guojiaweishengjiankangwei.html",
+   "list": "ministerial-rules/list/guojiaweishengjiankangwei.html",
+   "sec": "ministerial-rules",
+   "sec_name": "部门规章"
+  },
+  {
+   "name": "中国人民银行",
+   "count": 70,
+   "file": "zhongguorenminyinhang.html",
+   "list": "ministerial-rules/list/zhongguorenminyinhang.html",
+   "sec": "ministerial-rules",
+   "sec_name": "部门规章"
+  },
+  {
+   "name": "公安部",
+   "count": 64,
+   "file": "gonganbu.html",
+   "list": "ministerial-rules/list/gonganbu.html",
+   "sec": "ministerial-rules",
+   "sec_name": "部门规章"
+  },
+  {
+   "name": "国家知识产权局",
+   "count": 58,
+   "file": "guojiazhishichanquanju.html",
+   "list": "ministerial-rules/list/guojiazhishichanquanju.html",
+   "sec": "ministerial-rules",
+   "sec_name": "部门规章"
+  },
+  {
+   "name": "司法部",
+   "count": 54,
+   "file": "sifabu.html",
+   "list": "ministerial-rules/list/sifabu.html",
+   "sec": "ministerial-rules",
+   "sec_name": "部门规章"
+  },
+  {
+   "name": "财政部",
+   "count": 53,
+   "file": "caizhengbu.html",
+   "list": "ministerial-rules/list/caizhengbu.html",
+   "sec": "ministerial-rules",
+   "sec_name": "部门规章"
+  },
+  {
+   "name": "应急管理部",
+   "count": 53,
+   "file": "yingjiguanlibu.html",
+   "list": "ministerial-rules/list/yingjiguanlibu.html",
+   "sec": "ministerial-rules",
+   "sec_name": "部门规章"
+  },
+  {
+   "name": "民政部",
+   "count": 47,
+   "file": "minzhengbu.html",
+   "list": "ministerial-rules/list/minzhengbu.html",
+   "sec": "ministerial-rules",
+   "sec_name": "部门规章"
+  },
+  {
+   "name": "国家税务总局",
+   "count": 45,
+   "file": "guojiashuiwuzongju.html",
+   "list": "ministerial-rules/list/guojiashuiwuzongju.html",
+   "sec": "ministerial-rules",
+   "sec_name": "部门规章"
+  },
+  {
+   "name": "教育部",
+   "count": 44,
+   "file": "jiaoyubu.html",
+   "list": "ministerial-rules/list/jiaoyubu.html",
+   "sec": "ministerial-rules",
+   "sec_name": "部门规章"
+  },
+  {
+   "name": "水利部",
+   "count": 43,
+   "file": "shuilibu.html",
+   "list": "ministerial-rules/list/shuilibu.html",
+   "sec": "ministerial-rules",
+   "sec_name": "部门规章"
+  },
+  {
+   "name": "国家林草局",
+   "count": 42,
+   "file": "guojialincaoju.html",
+   "list": "ministerial-rules/list/guojialincaoju.html",
+   "sec": "ministerial-rules",
+   "sec_name": "部门规章"
+  },
+  {
+   "name": "文化和旅游部",
+   "count": 41,
+   "file": "wenhuahelvyoubu.html",
+   "list": "ministerial-rules/list/wenhuahelvyoubu.html",
+   "sec": "ministerial-rules",
+   "sec_name": "部门规章"
+  },
+  {
+   "name": "国家广播电视总局",
+   "count": 34,
+   "file": "guojiaguangbodianshizongju.html",
+   "list": "ministerial-rules/list/guojiaguangbodianshizongju.html",
+   "sec": "ministerial-rules",
+   "sec_name": "部门规章"
+  },
+  {
+   "name": "自然资源部",
+   "count": 32,
+   "file": "ziranziyuanbu.html",
+   "list": "ministerial-rules/list/ziranziyuanbu.html",
+   "sec": "ministerial-rules",
+   "sec_name": "部门规章"
+  },
+  {
+   "name": "国资委",
+   "count": 30,
+   "file": "guoziwei.html",
+   "list": "ministerial-rules/list/guoziwei.html",
+   "sec": "ministerial-rules",
+   "sec_name": "部门规章"
+  },
+  {
+   "name": "国家药监局",
+   "count": 30,
+   "file": "guojiayaojianju.html",
+   "list": "ministerial-rules/list/guojiayaojianju.html",
+   "sec": "ministerial-rules",
+   "sec_name": "部门规章"
+  },
+  {
+   "name": "国家网信办",
+   "count": 28,
+   "file": "guojiawangxinban.html",
+   "list": "ministerial-rules/list/guojiawangxinban.html",
+   "sec": "ministerial-rules",
+   "sec_name": "部门规章"
+  },
+  {
+   "name": "国家新闻出版署",
+   "count": 25,
+   "file": "guojiaxinwenchubanshu.html",
+   "list": "ministerial-rules/list/guojiaxinwenchubanshu.html",
+   "sec": "ministerial-rules",
+   "sec_name": "部门规章"
+  },
+  {
+   "name": "档案局",
+   "count": 23,
+   "file": "danganju.html",
+   "list": "ministerial-rules/list/danganju.html",
+   "sec": "ministerial-rules",
+   "sec_name": "部门规章"
+  },
+  {
+   "name": "体育总局",
+   "count": 21,
+   "file": "tiyuzongju.html",
+   "list": "ministerial-rules/list/tiyuzongju.html",
+   "sec": "ministerial-rules",
+   "sec_name": "部门规章"
+  },
+  {
+   "name": "中国气象局",
+   "count": 19,
+   "file": "zhongguoqixiangju.html",
+   "list": "ministerial-rules/list/zhongguoqixiangju.html",
+   "sec": "ministerial-rules",
+   "sec_name": "部门规章"
+  },
+  {
+   "name": "其他部门",
+   "count": 174,
+   "file": "qitabumen.html",
+   "list": "ministerial-rules/list/qitabumen.html",
+   "sec": "ministerial-rules",
+   "sec_name": "部门规章"
   }
  ],
  "laws": [
@@ -16627,6 +16920,24081 @@ window.LAW_MANIFEST = {
    "kind": "law",
    "file": "judicial-interpretations/laws/zuigaorenminfayuanxingzhengshenpantingguanyuzhengsd436ed.html",
    "effective": "1996-08-24"
+  },
+  {
+   "slug": "yibanyunxinghefeixingguize",
+   "short": "一般运行和飞行规则",
+   "dept": "交通运输部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/yibanyunxinghefeixingguize.html",
+   "effective": "2022-07-01"
+  },
+  {
+   "slug": "neihejiaotongshigudiaochachuliguiding",
+   "short": "内河交通事故调查处理规定",
+   "dept": "交通运输部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/neihejiaotongshigudiaochachuliguiding.html",
+   "effective": "2006-12-04"
+  },
+  {
+   "slug": "neihehaishixingzhengchufaguiding",
+   "short": "内河海事行政处罚规定",
+   "dept": "交通运输部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/neihehaishixingzhengchufaguiding.html",
+   "effective": "2015-05-29"
+  },
+  {
+   "slug": "neihechuanbochuanyuanzhibanguize",
+   "short": "内河船舶船员值班规则",
+   "dept": "交通运输部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/neihechuanbochuanyuanzhibanguize.html",
+   "effective": "2015-11-11"
+  },
+  {
+   "slug": "neihechuanbochuanyuanshirenkaoshihefazhengguize",
+   "short": "内河船舶船员适任考试和发证规则",
+   "dept": "交通运输部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/neihechuanbochuanyuanshirenkaoshihefazhengguize.html",
+   "effective": "2015-11-11"
+  },
+  {
+   "slug": "neihebipengguize",
+   "short": "内河避碰规则（1991）",
+   "dept": "交通运输部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/neihebipengguize.html",
+   "effective": "1991-04-28"
+  },
+  {
+   "slug": "guojihaiyuntiaolishishixize",
+   "short": "国际海运条例实施细则",
+   "dept": "交通运输部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/guojihaiyuntiaolishishixize.html",
+   "effective": "2003-01-20"
+  },
+  {
+   "slug": "guojichuanbobaoanguize",
+   "short": "国际船舶保安规则",
+   "dept": "交通运输部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/guojichuanbobaoanguize.html",
+   "effective": "2007-03-26"
+  },
+  {
+   "slug": "yinhangyuanguanlibanfa",
+   "short": "引航员管理办法",
+   "dept": "交通运输部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/yinhangyuanguanlibanfa.html",
+   "effective": "2025-03-01"
+  },
+  {
+   "slug": "shuishangshuixiazuoyehehuodongtonghanganquanguanli268daf",
+   "short": "水上水下作业和活动通航安全管理规定",
+   "dept": "交通运输部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/shuishangshuixiazuoyehehuodongtonghanganquanguanli268daf.html",
+   "effective": "2021-09-01"
+  },
+  {
+   "slug": "haishanghaishixingzhengchufaguiding",
+   "short": "海上海事行政处罚规定",
+   "dept": "交通运输部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/haishanghaishixingzhengchufaguiding.html",
+   "effective": "2021-09-01"
+  },
+  {
+   "slug": "haishangchuanbowuranshigudiaochachuliguiding",
+   "short": "海上船舶污染事故调查处理规定",
+   "dept": "交通运输部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/haishangchuanbowuranshigudiaochachuliguiding.html",
+   "effective": "2011-11-14"
+  },
+  {
+   "slug": "haishixingzhengxuketiaojianguiding",
+   "short": "海事行政许可条件规定",
+   "dept": "交通运输部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/haishixingzhengxuketiaojianguiding.html",
+   "effective": "2015-05-29"
+  },
+  {
+   "slug": "haiyuanwaipaiguanliguiding",
+   "short": "海员外派管理规定",
+   "dept": "交通运输部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/haiyuanwaipaiguanliguiding.html",
+   "effective": "2011-03-07"
+  },
+  {
+   "slug": "haiyuanzhengguanlibanfa",
+   "short": "海员证管理办法",
+   "dept": "交通运输部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/haiyuanzhengguanlibanfa.html",
+   "effective": "2019-02-05"
+  },
+  {
+   "slug": "haichuanchuanyuanzhibanguize",
+   "short": "海船船员值班规则",
+   "dept": "交通运输部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/haichuanchuanyuanzhibanguize.html",
+   "effective": "2012-12-17"
+  },
+  {
+   "slug": "haichuanchuanyuanshirenkaoshihefazhengguize",
+   "short": "海船船员适任考试和发证规则",
+   "dept": "交通运输部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/haichuanchuanyuanshirenkaoshihefazhengguize.html",
+   "effective": "2020-07-06"
+  },
+  {
+   "slug": "gangkousheshibaoanguize",
+   "short": "港口设施保安规则",
+   "dept": "交通运输部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/gangkousheshibaoanguize.html",
+   "effective": "2007-12-17"
+  },
+  {
+   "slug": "hangyungongsianquanyufangwuranguanliguiding",
+   "short": "航运公司安全与防污染管理规定",
+   "dept": "交通运输部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/hangyungongsianquanyufangwuranguanliguiding.html",
+   "effective": "2008-01-01"
+  },
+  {
+   "slug": "hangdaoguanlitiaolishishixize",
+   "short": "航道管理条例实施细则",
+   "dept": "交通运输部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/hangdaoguanlitiaolishishixize.html",
+   "effective": "1991-08-29"
+  },
+  {
+   "slug": "chuanyuanpeixunguanliguize",
+   "short": "船员培训管理规则",
+   "dept": "交通运输部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/chuanyuanpeixunguanliguize.html",
+   "effective": "2009-06-26"
+  },
+  {
+   "slug": "chuanbojiaotongguanlixitonganquanjianduguanliguize",
+   "short": "船舶交通管理系统安全监督管理规则",
+   "dept": "交通运输部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/chuanbojiaotongguanlixitonganquanjianduguanliguize.html",
+   "effective": "1998-01-01"
+  },
+  {
+   "slug": "chuanbojiqiyouguanzuoyehuodongwuranhaiyanghuanjingb50a16",
+   "short": "船舶及其有关作业活动污染海洋环境防治管理规定",
+   "dept": "交通运输部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/chuanbojiqiyouguanzuoyehuodongwuranhaiyanghuanjingb50a16.html",
+   "effective": "2010-11-16"
+  },
+  {
+   "slug": "chuanboanquanjianduguize",
+   "short": "船舶安全监督规则",
+   "dept": "交通运输部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/chuanboanquanjianduguize.html",
+   "effective": "2017-05-23"
+  },
+  {
+   "slug": "chuanbozuidianquanpeiyuanguize",
+   "short": "船舶最低安全配员规则",
+   "dept": "交通运输部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/chuanbozuidianquanpeiyuanguize.html",
+   "effective": "2004-06-30"
+  },
+  {
+   "slug": "chuanbowuranhaiyanghuanjingyingjifangbeiheyingjichadb47c",
+   "short": "船舶污染海洋环境应急防备和应急处置管理规定",
+   "dept": "交通运输部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/chuanbowuranhaiyanghuanjingyingjifangbeiheyingjichadb47c.html",
+   "effective": "2011-01-27"
+  },
+  {
+   "slug": "chuanboyouwusunhaiminshizerenbaoxianshishibanfa",
+   "short": "船舶油污损害民事责任保险实施办法",
+   "dept": "交通运输部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/chuanboyouwusunhaiminshizerenbaoxianshishibanfa.html",
+   "effective": "2010-08-19"
+  },
+  {
+   "slug": "chuanbodengjibanfa",
+   "short": "船舶登记办法",
+   "dept": "交通运输部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/chuanbodengjibanfa.html",
+   "effective": "2017-02-10"
+  },
+  {
+   "slug": "chuanboshibiehaoguanliguiding",
+   "short": "船舶识别号管理规定",
+   "dept": "交通运输部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/chuanboshibiehaoguanliguiding.html",
+   "effective": "2011-01-01"
+  },
+  {
+   "slug": "fangzhichuanbowuranneiheshuiyuhuanjingguanliguidindd5d07",
+   "short": "防治船舶污染内河水域环境管理规定",
+   "dept": "交通运输部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/fangzhichuanbowuranneiheshuiyuhuanjingguanliguidindd5d07.html",
+   "effective": "2015-12-31"
+  },
+  {
+   "slug": "gaosukechuananquanguanliguize",
+   "short": "高速客船安全管理规则",
+   "dept": "交通运输部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/gaosukechuananquanguanliguize.html",
+   "effective": "2006-02-24"
+  },
+  {
+   "slug": "zhongguominyonghangkongyingjiguanliguiding",
+   "short": "中国民用航空应急管理规定",
+   "dept": "交通运输部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zhongguominyonghangkongyingjiguanliguiding.html",
+   "effective": "2016-04-17"
+  },
+  {
+   "slug": "zhongguominyonghangkongqixianggongzuoguize",
+   "short": "中国民用航空气象工作规则",
+   "dept": "交通运输部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zhongguominyonghangkongqixianggongzuoguize.html",
+   "effective": "2016-04-28"
+  },
+  {
+   "slug": "zhongguominyonghangkongjianchayuanguanliguiding",
+   "short": "中国民用航空监察员管理规定",
+   "dept": "交通运输部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zhongguominyonghangkongjianchayuanguanliguiding.html",
+   "effective": "2020-05-01"
+  },
+  {
+   "slug": "zhongguojixiaoxingchuanbohangxingxianggangaomendiq1157d7",
+   "short": "中国籍小型船舶航行香港、澳门地区安全监督管理规定",
+   "dept": "交通运输部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zhongguojixiaoxingchuanbohangxingxianggangaomendiq1157d7.html",
+   "effective": "1990-09-24"
+  },
+  {
+   "slug": "jiaotongxingzhengxukeshishichengxuguiding",
+   "short": "交通行政许可实施程序规定",
+   "dept": "交通运输部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/jiaotongxingzhengxukeshishichengxuguiding.html",
+   "effective": "2005-01-01"
+  },
+  {
+   "slug": "jiaotongxingzhengxukejiandujianchajizerenzhuijiugua2e376",
+   "short": "交通行政许可监督检查及责任追究规定",
+   "dept": "交通运输部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/jiaotongxingzhengxukejiandujianchajizerenzhuijiugua2e376.html",
+   "effective": "2005-01-01"
+  },
+  {
+   "slug": "jiaotongyunshugongchengshigongdanweizhuyaofuzerenxc5a78d",
+   "short": "交通运输工程施工单位主要负责人、项目负责人和专职安全生产管理人员安全生产考核管理办法",
+   "dept": "交通运输部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/jiaotongyunshugongchengshigongdanweizhuyaofuzerenxc5a78d.html",
+   "effective": "2024-03-01"
+  },
+  {
+   "slug": "jiaotongyunshugongchengjianligongchengshizhuceguan5780d1",
+   "short": "交通运输工程监理工程师注册管理办法",
+   "dept": "交通运输部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/jiaotongyunshugongchengjianligongchengshizhuceguan5780d1.html",
+   "effective": "2024-05-01"
+  },
+  {
+   "slug": "jiaotongyunshugongchengzaojiagongchengshizhuceguan4baf37",
+   "short": "交通运输工程造价工程师注册管理办法",
+   "dept": "交通运输部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/jiaotongyunshugongchengzaojiagongchengshizhuceguan4baf37.html",
+   "effective": "2023-08-01"
+  },
+  {
+   "slug": "jiaotongyunshubiaozhunhuaguanlibanfa",
+   "short": "交通运输标准化管理办法",
+   "dept": "交通运输部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/jiaotongyunshubiaozhunhuaguanlibanfa.html",
+   "effective": "2019-07-01"
+  },
+  {
+   "slug": "jiaotongyunshufaguizhidingchengxuguiding",
+   "short": "交通运输法规制定程序规定",
+   "dept": "交通运输部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/jiaotongyunshufaguizhidingchengxuguiding.html",
+   "effective": "2016-09-02"
+  },
+  {
+   "slug": "jiaotongyunshutufashijianyingjiguanliguiding",
+   "short": "交通运输突发事件应急管理规定",
+   "dept": "交通运输部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/jiaotongyunshutufashijianyingjiguanliguiding.html",
+   "effective": "2012-01-01"
+  },
+  {
+   "slug": "jiaotongyunshutongjiguanliguiding",
+   "short": "交通运输统计管理规定",
+   "dept": "交通运输部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/jiaotongyunshutongjiguanliguiding.html",
+   "effective": "2018-10-01"
+  },
+  {
+   "slug": "jiaotongyunshuxingzhengzhifachengxuguiding",
+   "short": "交通运输行政执法程序规定",
+   "dept": "交通运输部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/jiaotongyunshuxingzhengzhifachengxuguiding.html",
+   "effective": "2019-04-12"
+  },
+  {
+   "slug": "jiaotongyunshuxingzhengzhifazhengjianguanliguiding",
+   "short": "交通运输行政执法证件管理规定",
+   "dept": "交通运输部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/jiaotongyunshuxingzhengzhifazhengjianguanliguiding.html",
+   "effective": "2011-03-01"
+  },
+  {
+   "slug": "jiaotongyunshuxingzhengzhifapingyikaoheguiding",
+   "short": "交通运输行政执法评议考核规定",
+   "dept": "交通运输部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/jiaotongyunshuxingzhengzhifapingyikaoheguiding.html",
+   "effective": "2010-10-01"
+  },
+  {
+   "slug": "jiaotongbushuiyungongchengdingeguanlibanfa",
+   "short": "交通部水运工程定额管理办法（试行）",
+   "dept": "交通运输部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/jiaotongbushuiyungongchengdingeguanlibanfa.html",
+   "effective": "1995-02-13"
+  },
+  {
+   "slug": "fangyinyoupiaotuanjianduguanlibanfa",
+   "short": "仿印邮票图案监督管理办法",
+   "dept": "交通运输部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/fangyinyoupiaotuanjianduguanlibanfa.html",
+   "effective": "2021-05-01"
+  },
+  {
+   "slug": "gonggongjiaotongqiyexinxigongkaiguiding",
+   "short": "公共交通企业信息公开规定",
+   "dept": "交通运输部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/gonggongjiaotongqiyexinxigongkaiguiding.html",
+   "effective": "2022-04-01"
+  },
+  {
+   "slug": "gonggonghangkonglvkeyunshufeixingzhonganquanbaoweib0c098",
+   "short": "公共航空旅客运输飞行中安全保卫工作规则",
+   "dept": "交通运输部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/gonggonghangkonglvkeyunshufeixingzhonganquanbaoweib0c098.html",
+   "effective": "2017-03-10"
+  },
+  {
+   "slug": "gonggonghangkongyunshuqiyejingyingxukeguiding",
+   "short": "公共航空运输企业经营许可规定",
+   "dept": "交通运输部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/gonggonghangkongyunshuqiyejingyingxukeguiding.html",
+   "effective": "2026-07-01"
+  },
+  {
+   "slug": "gonggonghangkongyunshuqiyehangkonganquanbaoweiguizba5385",
+   "short": "公共航空运输企业航空安全保卫规则",
+   "dept": "交通运输部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/gonggonghangkongyunshuqiyehangkonganquanbaoweiguizba5385.html",
+   "effective": "2016-04-21"
+  },
+  {
+   "slug": "gonggonghangkongyunshulvkefuwuguanliguiding",
+   "short": "公共航空运输旅客服务管理规定",
+   "dept": "交通运输部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/gonggonghangkongyunshulvkefuwuguanliguiding.html",
+   "effective": "2021-09-01"
+  },
+  {
+   "slug": "gonglushuilujiaotongshishijieyuenengyuanfabanfa",
+   "short": "公路、水路交通实施《节约能源法》办法",
+   "dept": "交通运输部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/gonglushuilujiaotongshishijieyuenengyuanfabanfa.html",
+   "effective": "2008-07-16"
+  },
+  {
+   "slug": "gongluyanghuzuoyedanweizizhiguanlibanfa",
+   "short": "公路养护作业单位资质管理办法",
+   "dept": "交通运输部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/gongluyanghuzuoyedanweizizhiguanlibanfa.html",
+   "effective": "2022-01-01"
+  },
+  {
+   "slug": "gonglugongchengjianshexiangmuzhaobiaotoubiaoguanli61a460",
+   "short": "公路工程建设项目招标投标管理办法",
+   "dept": "交通运输部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/gonglugongchengjianshexiangmuzhaobiaotoubiaoguanli61a460.html",
+   "effective": "2016-02-01"
+  },
+  {
+   "slug": "gonglugongchengjungongyanshoubanfa",
+   "short": "公路工程竣（交）工验收办法",
+   "dept": "交通运输部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/gonglugongchengjungongyanshoubanfa.html",
+   "effective": "2004-10-01"
+  },
+  {
+   "slug": "gonglugongchengshejibiangengguanlibanfa",
+   "short": "公路工程设计变更管理办法",
+   "dept": "交通运输部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/gonglugongchengshejibiangengguanlibanfa.html",
+   "effective": "2005-07-01"
+  },
+  {
+   "slug": "gonglugongchengshejishigongzongchengbaoguanlibanfa",
+   "short": "公路工程设计施工总承包管理办法",
+   "dept": "交通运输部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/gonglugongchengshejishigongzongchengbaoguanlibanfa.html",
+   "effective": "2015-08-01"
+  },
+  {
+   "slug": "gonglugongchengzaojiaguanlizanxingbanfa",
+   "short": "公路工程造价管理暂行办法",
+   "dept": "交通运输部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/gonglugongchengzaojiaguanlizanxingbanfa.html",
+   "effective": "2016-11-01"
+  },
+  {
+   "slug": "gonglujiansheshichangguanlibanfa",
+   "short": "公路建设市场管理办法",
+   "dept": "交通运输部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/gonglujiansheshichangguanlibanfa.html",
+   "effective": "2004-12-21"
+  },
+  {
+   "slug": "gonglujianshejianduguanlibanfa",
+   "short": "公路建设监督管理办法",
+   "dept": "交通运输部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/gonglujianshejianduguanlibanfa.html",
+   "effective": "2006-06-08"
+  },
+  {
+   "slug": "gonglujianshexiangmudaijianguanlibanfa",
+   "short": "公路建设项目代建管理办法",
+   "dept": "交通运输部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/gonglujianshexiangmudaijianguanlibanfa.html",
+   "effective": "2015-07-01"
+  },
+  {
+   "slug": "gonglushuiluguanjianxinxijichusheshianquanbaohugua7f196c",
+   "short": "公路水路关键信息基础设施安全保护管理办法",
+   "dept": "交通运输部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/gonglushuiluguanjianxinxijichusheshianquanbaohugua7f196c.html",
+   "effective": "2023-06-01"
+  },
+  {
+   "slug": "gonglushuiluhangyeneibushenjigongzuoguiding",
+   "short": "公路水路行业内部审计工作规定",
+   "dept": "交通运输部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/gonglushuiluhangyeneibushenjigongzuoguiding.html",
+   "effective": "2019-04-01"
+  },
+  {
+   "slug": "gonglushuiyungongchenganquanshengchanjianduguanlib50d316",
+   "short": "公路水运工程安全生产监督管理办法",
+   "dept": "交通运输部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/gonglushuiyungongchenganquanshengchanjianduguanlib50d316.html",
+   "effective": "2017-08-01"
+  },
+  {
+   "slug": "gonglushuiyungongchengjianliqiyezizhiguanliguiding",
+   "short": "公路水运工程监理企业资质管理规定",
+   "dept": "交通运输部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/gonglushuiyungongchengjianliqiyezizhiguanliguiding.html",
+   "effective": "2022-06-01"
+  },
+  {
+   "slug": "gonglushuiyungongchengzhiliangjianceguanlibanfa",
+   "short": "公路水运工程质量检测管理办法",
+   "dept": "交通运输部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/gonglushuiyungongchengzhiliangjianceguanlibanfa.html",
+   "effective": "2023-10-01"
+  },
+  {
+   "slug": "gonglushuiyungongchengzhiliangjianduguanliguiding",
+   "short": "公路水运工程质量监督管理规定",
+   "dept": "交通运输部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/gonglushuiyungongchengzhiliangjianduguanliguiding.html",
+   "effective": "2017-12-01"
+  },
+  {
+   "slug": "gonglujiandujianchazhuanyongcheliangguanlibanfa",
+   "short": "公路监督检查专用车辆管理办法",
+   "dept": "交通运输部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/gonglujiandujianchazhuanyongcheliangguanlibanfa.html",
+   "effective": "2003-01-01"
+  },
+  {
+   "slug": "gongluchaoxianjiancezhanguanlibanfa",
+   "short": "公路超限检测站管理办法",
+   "dept": "交通运输部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/gongluchaoxianjiancezhanguanlibanfa.html",
+   "effective": "2011-08-01"
+  },
+  {
+   "slug": "guanyuwaishangtouzidaoluyunshuyeguanliguidingdebuc775706",
+   "short": "关于《外商投资道路运输业管理规定》的补充规定",
+   "dept": "交通运输部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/guanyuwaishangtouzidaoluyunshuyeguanliguidingdebuc775706.html",
+   "effective": "2004-01-01"
+  },
+  {
+   "slug": "guanyuzaigonglushangshezhitongxingfeishoufeizhande7b4e03",
+   "short": "关于在公路上设置通行费收费站（点）的规定",
+   "dept": "交通运输部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/guanyuzaigonglushangshezhitongxingfeishoufeizhande7b4e03.html",
+   "effective": "1994-07-18"
+  },
+  {
+   "slug": "neihedukouduchuananquanguanliguiding",
+   "short": "内河渡口渡船安全管理规定",
+   "dept": "交通运输部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/neihedukouduchuananquanguanliguiding.html",
+   "effective": "2014-08-01"
+  },
+  {
+   "slug": "neihehangbiaoguanlibanfa",
+   "short": "内河航标管理办法",
+   "dept": "交通运输部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/neihehangbiaoguanlibanfa.html",
+   "effective": "1996-08-01"
+  },
+  {
+   "slug": "neihechuanbohangxingrizhijizaiguize",
+   "short": "内河船舶航行日志记载规则",
+   "dept": "交通运输部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/neihechuanbohangxingrizhijizaiguize.html",
+   "effective": "1993-01-01"
+  },
+  {
+   "slug": "neihechuanbolunjirizhijizaiguize",
+   "short": "内河船舶轮机日志记载规则",
+   "dept": "交通运输部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/neihechuanbolunjirizhijizaiguize.html",
+   "effective": "1993-01-01"
+  },
+  {
+   "slug": "neiheyunshuchuanbobiaozhunhuaguanliguiding",
+   "short": "内河运输船舶标准化管理规定",
+   "dept": "交通运输部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/neiheyunshuchuanbobiaozhunhuaguanliguiding.html",
+   "effective": "2015-04-01"
+  },
+  {
+   "slug": "nongcungongluyanghuguanlibanfa",
+   "short": "农村公路养护管理办法",
+   "dept": "交通运输部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/nongcungongluyanghuguanlibanfa.html",
+   "effective": "2016-01-01"
+  },
+  {
+   "slug": "nongcungonglujiansheguanlibanfa",
+   "short": "农村公路建设管理办法",
+   "dept": "交通运输部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/nongcungonglujiansheguanlibanfa.html",
+   "effective": "2018-06-01"
+  },
+  {
+   "slug": "chuzuqichejiashiyuancongyezigeguanliguiding",
+   "short": "出租汽车驾驶员从业资格管理规定",
+   "dept": "交通运输部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/chuzuqichejiashiyuancongyezigeguanliguiding.html",
+   "effective": "2011-12-26"
+  },
+  {
+   "slug": "weixianhuowushuiluyunshucongyerenyuankaohehecongye056967",
+   "short": "危险货物水路运输从业人员考核和从业资格管理规定",
+   "dept": "交通运输部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/weixianhuowushuiluyunshucongyerenyuankaohehecongye056967.html",
+   "effective": "2016-06-28"
+  },
+  {
+   "slug": "weixianhuowudaoluyunshuanquanguanlibanfa-2",
+   "short": "危险货物道路运输安全管理办法（2019）",
+   "dept": "交通运输部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/weixianhuowudaoluyunshuanquanguanlibanfa-2.html",
+   "effective": "2020-01-01"
+  },
+  {
+   "slug": "weixianhuowudaoluyunshuanquanguanlibanfa",
+   "short": "危险货物道路运输安全管理办法（2019）",
+   "dept": "交通运输部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/weixianhuowudaoluyunshuanquanguanlibanfa.html",
+   "effective": "2020-01-01"
+  },
+  {
+   "slug": "taiwanhaixialianganjianhangyunguanlibanfa",
+   "short": "台湾海峡两岸间航运管理办法",
+   "dept": "交通运输部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/taiwanhaixialianganjianhangyunguanlibanfa.html",
+   "effective": "1996-08-20"
+  },
+  {
+   "slug": "guoneitouziminyonghangkongyeguiding",
+   "short": "国内投资民用航空业规定",
+   "dept": "交通运输部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/guoneitouziminyonghangkongyeguiding.html",
+   "effective": "2018-01-19"
+  },
+  {
+   "slug": "guoneishuiluyunshuguanliguiding",
+   "short": "国内水路运输管理规定",
+   "dept": "交通运输部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/guoneishuiluyunshuguanliguiding.html",
+   "effective": "2014-01-03"
+  },
+  {
+   "slug": "guoneishuiluyunshufuzhuyeguanliguiding",
+   "short": "国内水路运输辅助业管理规定",
+   "dept": "交通运输部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/guoneishuiluyunshufuzhuyeguanliguiding.html",
+   "effective": "2014-03-01"
+  },
+  {
+   "slug": "guojihangkongyunshujiageguanliguiding",
+   "short": "国际航空运输价格管理规定",
+   "dept": "交通运输部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/guojihangkongyunshujiageguanliguiding.html",
+   "effective": "2021-01-01"
+  },
+  {
+   "slug": "guojidaoluyunshuguanliguiding",
+   "short": "国际道路运输管理规定",
+   "dept": "交通运输部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/guojidaoluyunshuguanliguiding.html",
+   "effective": "2022-09-26"
+  },
+  {
+   "slug": "zaiyanhaishuiyuzuoyedewaiguojizuanjingchuanyidongse42b24",
+   "short": "在沿海水域作业的外国籍钻井船、移动式平台检验规定",
+   "dept": "交通运输部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zaiyanhaishuiyuzuoyedewaiguojizuanjingchuanyidongse42b24.html",
+   "effective": "1995-10-01"
+  },
+  {
+   "slug": "chengshigonggongqichehedianchekeyunguanliguiding",
+   "short": "城市公共汽车和电车客运管理规定",
+   "dept": "交通运输部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/chengshigonggongqichehedianchekeyunguanliguiding.html",
+   "effective": "2017-05-01"
+  },
+  {
+   "slug": "chengshiguidaojiaotongyunyingguanliguiding",
+   "short": "城市轨道交通运营管理规定",
+   "dept": "交通运输部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/chengshiguidaojiaotongyunyingguanliguiding.html",
+   "effective": "2018-07-01"
+  },
+  {
+   "slug": "waiguogonggonghangkongyunshuchengyunrenyunxinghege29e8ae",
+   "short": "外国公共航空运输承运人运行合格审定规则",
+   "dept": "交通运输部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/waiguogonggonghangkongyunshuchengyunrenyunxinghege29e8ae.html",
+   "effective": "2018-01-29"
+  },
+  {
+   "slug": "waiguojichuanbozaizhongguolinghaineishuihegangkous17ee58",
+   "short": "外国籍船舶在中国领海、内水和港口使用国际海事卫星船舶地球站规定",
+   "dept": "交通运输部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/waiguojichuanbozaizhongguolinghaineishuihegangkous17ee58.html",
+   "effective": "1993-10-01"
+  },
+  {
+   "slug": "waiguohangkongyunshuqiyezaizhongguojingneizhidingdf526df",
+   "short": "外国航空运输企业在中国境内指定的销售代理直接进入和使用外国计算机订座系统许可管理暂行规定",
+   "dept": "交通运输部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/waiguohangkongyunshuqiyezaizhongguojingneizhidingdf526df.html",
+   "effective": "2016-04-28"
+  },
+  {
+   "slug": "waiguohangkongyunshuqiyechangzhudaibiaojigoushenpic24143",
+   "short": "外国航空运输企业常驻代表机构审批管理办法",
+   "dept": "交通运输部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/waiguohangkongyunshuqiyechangzhudaibiaojigoushenpic24143.html",
+   "effective": "2018-09-01"
+  },
+  {
+   "slug": "waiguohangkongyunshuqiyehangxianjingyingxukeguidin0001f3",
+   "short": "外国航空运输企业航线经营许可规定",
+   "dept": "交通运输部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/waiguohangkongyunshuqiyehangxianjingyingxukeguidin0001f3.html",
+   "effective": "2016-04-04"
+  },
+  {
+   "slug": "daxingfeijigonggonghangkongyunshuchengyunrenyunxina21395",
+   "short": "大型飞机公共航空运输承运人运行合格审定规则",
+   "dept": "交通运输部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/daxingfeijigonggonghangkongyunshuchengyunrenyunxina21395.html",
+   "effective": "2024-04-13"
+  },
+  {
+   "slug": "dingqiguojihangkongyunshuguanliguiding",
+   "short": "定期国际航空运输管理规定",
+   "dept": "交通运输部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/dingqiguojihangkongyunshuguanliguiding.html",
+   "effective": "2017-05-26"
+  },
+  {
+   "slug": "kedulunzhuanyongxinhaobiaozhiguanliguiding",
+   "short": "客渡轮专用信号标志管理规定",
+   "dept": "交通运输部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/kedulunzhuanyongxinhaobiaozhiguanliguiding.html",
+   "effective": "1991-07-01"
+  },
+  {
+   "slug": "xiaoxingshangyeyunshuhekongzhongyoulanyunyingrenyu5fd816",
+   "short": "小型商业运输和空中游览运营人运行合格审定规则",
+   "dept": "交通运输部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/xiaoxingshangyeyunshuhekongzhongyoulanyunyingrenyu5fd816.html",
+   "effective": "2022-07-01"
+  },
+  {
+   "slug": "xiaoweixingkechezulinjingyingfuwuguanlibanfa",
+   "short": "小微型客车租赁经营服务管理办法",
+   "dept": "交通运输部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/xiaoweixingkechezulinjingyingfuwuguanlibanfa.html",
+   "effective": "2020-12-20"
+  },
+  {
+   "slug": "xunyouchuzuqichejingyingfuwuguanliguiding",
+   "short": "巡游出租汽车经营服务管理规定",
+   "dept": "交通运输部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/xunyouchuzuqichejingyingfuwuguanliguiding.html",
+   "effective": "2014-09-30"
+  },
+  {
+   "slug": "pingxingpaodaotongshiyibiaoyunxingguanliguiding",
+   "short": "平行跑道同时仪表运行管理规定",
+   "dept": "交通运输部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/pingxingpaodaotongshiyibiaoyunxingguanliguiding.html",
+   "effective": "2004-05-26"
+  },
+  {
+   "slug": "kuaidiyewujingyingxukeguanlibanfa",
+   "short": "快递业务经营许可管理办法",
+   "dept": "交通运输部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/kuaidiyewujingyingxukeguanlibanfa.html",
+   "effective": "2018-10-22"
+  },
+  {
+   "slug": "kuaidishichangguanlibanfa",
+   "short": "快递市场管理办法",
+   "dept": "交通运输部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/kuaidishichangguanlibanfa.html",
+   "effective": "2024-03-01"
+  },
+  {
+   "slug": "shoufeigongluquanyizhuanrangbanfa",
+   "short": "收费公路权益转让办法",
+   "dept": "交通运输部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/shoufeigongluquanyizhuanrangbanfa.html",
+   "effective": "2008-10-01"
+  },
+  {
+   "slug": "zhinengkuaijianxiangjidifuwuguanlibanfa",
+   "short": "智能快件箱寄递服务管理办法",
+   "dept": "交通运输部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zhinengkuaijianxiangjidifuwuguanlibanfa.html",
+   "effective": "2019-10-01"
+  },
+  {
+   "slug": "jidongcheweixiuguanliguiding",
+   "short": "机动车维修管理规定",
+   "dept": "交通运输部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/jidongcheweixiuguanliguiding.html",
+   "effective": "2005-06-24"
+  },
+  {
+   "slug": "hedianzhanfaranliaoyunshuguanlibanfa",
+   "short": "核电站乏燃料运输管理办法",
+   "dept": "交通运输部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/hedianzhanfaranliaoyunshuguanlibanfa.html",
+   "effective": "2025-10-01"
+  },
+  {
+   "slug": "zhengchangleixuanyihangkongqishihangguiding",
+   "short": "正常类旋翼航空器适航规定",
+   "dept": "交通运输部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zhengchangleixuanyihangkongqishihangguiding.html",
+   "effective": "2026-01-01"
+  },
+  {
+   "slug": "zhengchangleifeijishihangguiding",
+   "short": "正常类飞机适航规定",
+   "dept": "交通运输部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zhengchangleifeijishihangguiding.html",
+   "effective": "2022-08-01"
+  },
+  {
+   "slug": "minyongwurenjiashihangkongqiyunxinganquanguanliguidf2ceb",
+   "short": "民用无人驾驶航空器运行安全管理规则",
+   "dept": "交通运输部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/minyongwurenjiashihangkongqiyunxinganquanguanliguidf2ceb.html",
+   "effective": "2024-01-01"
+  },
+  {
+   "slug": "minyongjichangzhuanyongshebeiguanliguiding",
+   "short": "民用机场专用设备管理规定",
+   "dept": "交通运输部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/minyongjichangzhuanyongshebeiguanliguiding.html",
+   "effective": "2024-11-01"
+  },
+  {
+   "slug": "minyongjichangfeixingchengxuheyunxingzuidibiaozhun6fcd14",
+   "short": "民用机场飞行程序和运行最低标准管理规定",
+   "dept": "交通运输部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/minyongjichangfeixingchengxuheyunxingzuidibiaozhun6fcd14.html",
+   "effective": "2017-01-01"
+  },
+  {
+   "slug": "minyonghangkongchanpinhelingbujianhegeshendingguidbaf5e8",
+   "short": "民用航空产品和零部件合格审定规定",
+   "dept": "交通运输部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/minyonghangkongchanpinhelingbujianhegeshendingguidbaf5e8.html",
+   "effective": "2017-05-24"
+  },
+  {
+   "slug": "minyonghangkongrenyuantijianhegezhengguanliguize",
+   "short": "民用航空人员体检合格证管理规则",
+   "dept": "交通运输部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/minyonghangkongrenyuantijianhegezhengguanliguize.html",
+   "effective": "2016-03-17"
+  },
+  {
+   "slug": "minyonghangkongweixianpinyunshuguanliguiding",
+   "short": "民用航空危险品运输管理规定",
+   "dept": "交通运输部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/minyonghangkongweixianpinyunshuguanliguiding.html",
+   "effective": "2024-07-01"
+  },
+  {
+   "slug": "minyonghangkongqishijianjishudiaochaguiding",
+   "short": "民用航空器事件技术调查规定",
+   "dept": "交通运输部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/minyonghangkongqishijianjishudiaochaguiding.html",
+   "effective": "2020-01-03"
+  },
+  {
+   "slug": "minyonghangkongqiguojidengjiguiding",
+   "short": "民用航空器国籍登记规定",
+   "dept": "交通运输部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/minyonghangkongqiguojidengjiguiding.html",
+   "effective": "1998-06-10"
+  },
+  {
+   "slug": "minyonghangkongqiweixiurenyuanzhizhaoguanliguize",
+   "short": "民用航空器维修人员执照管理规则",
+   "dept": "交通运输部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/minyonghangkongqiweixiurenyuanzhizhaoguanliguize.html",
+   "effective": "2020-07-01"
+  },
+  {
+   "slug": "minyonghangkongqiweixiudanweihegeshendingguize",
+   "short": "民用航空器维修单位合格审定规则",
+   "dept": "交通运输部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/minyonghangkongqiweixiudanweihegeshendingguize.html",
+   "effective": "2022-07-01"
+  },
+  {
+   "slug": "minyonghangkongqiweixiupeixunjigouhegeshendingguiz2fbc59",
+   "short": "民用航空器维修培训机构合格审定规则",
+   "dept": "交通运输部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/minyonghangkongqiweixiupeixunjigouhegeshendingguiz2fbc59.html",
+   "effective": "2022-05-01"
+  },
+  {
+   "slug": "minyonghangkongqifeixingjixieyuanhegeshendingguize",
+   "short": "民用航空器飞行机械员合格审定规则",
+   "dept": "交通运输部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/minyonghangkongqifeixingjixieyuanhegeshendingguize.html",
+   "effective": "2019-01-01"
+  },
+  {
+   "slug": "minyonghangkongqijiashiyuanhegeshendingguize",
+   "short": "民用航空器驾驶员合格审定规则",
+   "dept": "交通运输部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/minyonghangkongqijiashiyuanhegeshendingguize.html",
+   "effective": "2016-03-28"
+  },
+  {
+   "slug": "minyonghangkongqijiashiyuanxuexiaohegeshendingguizd35e0d",
+   "short": "民用航空器驾驶员学校合格审定规则",
+   "dept": "交通运输部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/minyonghangkongqijiashiyuanxuexiaohegeshendingguizd35e0d.html",
+   "effective": "2022-07-01"
+  },
+  {
+   "slug": "minyonghangkonganquanxinxiguanliguiding",
+   "short": "民用航空安全信息管理规定",
+   "dept": "交通运输部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/minyonghangkonganquanxinxiguanliguiding.html",
+   "effective": "2016-03-04"
+  },
+  {
+   "slug": "minyonghangkonganquanjianchaguize",
+   "short": "民用航空安全检查规则",
+   "dept": "交通运输部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/minyonghangkonganquanjianchaguize.html",
+   "effective": "2017-01-01"
+  },
+  {
+   "slug": "minyonghangkonganquanguanliguiding-2",
+   "short": "民用航空安全管理规定（2018）",
+   "dept": "交通运输部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/minyonghangkonganquanguanliguiding-2.html",
+   "effective": "2018-03-16"
+  },
+  {
+   "slug": "minyonghangkonganquanguanliguiding",
+   "short": "民用航空安全管理规定（2025）",
+   "dept": "交通运输部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/minyonghangkonganquanguanliguiding.html",
+   "effective": "2026-07-01"
+  },
+  {
+   "slug": "minyonghangkongdaohangshebeikaifangyuyunxingguanlia9f6e4",
+   "short": "民用航空导航设备开放与运行管理规定",
+   "dept": "交通运输部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/minyonghangkongdaohangshebeikaifangyuyunxingguanlia9f6e4.html",
+   "effective": "2021-07-01"
+  },
+  {
+   "slug": "minyonghangkongqingbaoyuanzhizhaoguanliguize",
+   "short": "民用航空情报员执照管理规则",
+   "dept": "交通运输部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/minyonghangkongqingbaoyuanzhizhaoguanliguize.html",
+   "effective": "2016-04-17"
+  },
+  {
+   "slug": "minyonghangkongqingbaopeixunguanliguize",
+   "short": "民用航空情报培训管理规则",
+   "dept": "交通运输部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/minyonghangkongqingbaopeixunguanliguize.html",
+   "effective": "2017-01-01"
+  },
+  {
+   "slug": "minyonghangkongqingbaogongzuoguize",
+   "short": "民用航空情报工作规则",
+   "dept": "交通运输部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/minyonghangkongqingbaogongzuoguize.html",
+   "effective": "2016-03-17"
+  },
+  {
+   "slug": "minyonghangkongbiaozhunhuaguanliguiding",
+   "short": "民用航空标准化管理规定",
+   "dept": "交通运输部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/minyonghangkongbiaozhunhuaguanliguiding.html",
+   "effective": "2016-04-28"
+  },
+  {
+   "slug": "minyonghangkongqixiangrenyuanzhizhaoguanliguize",
+   "short": "民用航空气象人员执照管理规则",
+   "dept": "交通运输部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/minyonghangkongqixiangrenyuanzhizhaoguanliguize.html",
+   "effective": "2016-04-17"
+  },
+  {
+   "slug": "minyonghangkongqixiangtancesheshijitancehuanjinggu6ea65e",
+   "short": "民用航空气象探测设施及探测环境管理办法",
+   "dept": "交通运输部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/minyonghangkongqixiangtancesheshijitancehuanjinggu6ea65e.html",
+   "effective": "2016-04-04"
+  },
+  {
+   "slug": "minyonghangkongdianxinrenyuanzhizhaoguanliguize",
+   "short": "民用航空电信人员执照管理规则",
+   "dept": "交通运输部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/minyonghangkongdianxinrenyuanzhizhaoguanliguize.html",
+   "effective": "2016-04-17"
+  },
+  {
+   "slug": "minyonghangkongkongzhongjiaotongguanzhiyuanzhizhao03b7a1",
+   "short": "民用航空空中交通管制员执照管理规则",
+   "dept": "交通运输部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/minyonghangkongkongzhongjiaotongguanzhiyuanzhizhao03b7a1.html",
+   "effective": "2026-07-01"
+  },
+  {
+   "slug": "minyonghangkongkongzhongjiaotongguanzhipeixunguanlfa5ba5",
+   "short": "民用航空空中交通管制培训管理规则",
+   "dept": "交通运输部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/minyonghangkongkongzhongjiaotongguanzhipeixunguanlfa5ba5.html",
+   "effective": "2016-05-22"
+  },
+  {
+   "slug": "minyonghangkongkongzhongjiaotongguanliguize",
+   "short": "民用航空空中交通管理规则",
+   "dept": "交通运输部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/minyonghangkongkongzhongjiaotongguanliguize.html",
+   "effective": "2017-09-29"
+  },
+  {
+   "slug": "minyonghangkongkongzhongjiaotongguanliyunxingdanwe7a4ce0",
+   "short": "民用航空空中交通管理运行单位安全管理规则",
+   "dept": "交通运输部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/minyonghangkongkongzhongjiaotongguanliyunxingdanwe7a4ce0.html",
+   "effective": "2016-04-17"
+  },
+  {
+   "slug": "minyonghangkongtongjiguanliguiding",
+   "short": "民用航空统计管理规定",
+   "dept": "交通运输部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/minyonghangkongtongjiguanliguiding.html",
+   "effective": "2017-01-07"
+  },
+  {
+   "slug": "minyonghangkongxingzhengchufashishibanfa",
+   "short": "民用航空行政处罚实施办法",
+   "dept": "交通运输部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/minyonghangkongxingzhengchufashishibanfa.html",
+   "effective": "2025-04-01"
+  },
+  {
+   "slug": "minyonghangkongxingzhengjianchagongzuoguize",
+   "short": "民用航空行政检查工作规则",
+   "dept": "交通运输部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/minyonghangkongxingzhengjianchagongzuoguize.html",
+   "effective": "2016-05-14"
+  },
+  {
+   "slug": "minyonghangkongjiliangguanliguiding",
+   "short": "民用航空计量管理规定",
+   "dept": "交通运输部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/minyonghangkongjiliangguanliguiding.html",
+   "effective": "2024-06-01"
+  },
+  {
+   "slug": "minyonghangkongcaijingxinxiguanlibanfa",
+   "short": "民用航空财经信息管理办法",
+   "dept": "交通运输部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/minyonghangkongcaijingxinxiguanlibanfa.html",
+   "effective": "2016-04-28"
+  },
+  {
+   "slug": "minyonghangkonghuowuyunshuguanliguiding",
+   "short": "民用航空货物运输管理规定",
+   "dept": "交通运输部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/minyonghangkonghuowuyunshuguanliguiding.html",
+   "effective": "2024-12-01"
+  },
+  {
+   "slug": "minyonghangkongyunshujichanghangkonganquanbaoweigu6eb8d5",
+   "short": "民用航空运输机场航空安全保卫规则",
+   "dept": "交通运输部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/minyonghangkongyunshujichanghangkonganquanbaoweigu6eb8d5.html",
+   "effective": "2016-05-22"
+  },
+  {
+   "slug": "minyonghangkongshihangweirendaibiaoheweirendanweidb9fdd5",
+   "short": "民用航空适航委任代表和委任单位代表管理规定",
+   "dept": "交通运输部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/minyonghangkongshihangweirendaibiaoheweirendanweidb9fdd5.html",
+   "effective": "2018-03-01"
+  },
+  {
+   "slug": "minyonghangkongtongxindaohangjianshigongzuoguize",
+   "short": "民用航空通信导航监视工作规则",
+   "dept": "交通运输部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/minyonghangkongtongxindaohangjianshigongzuoguize.html",
+   "effective": "2016-03-28"
+  },
+  {
+   "slug": "minyonghangkongtongxindaohangjianshishebeifeixingjbc75bb",
+   "short": "民用航空通信导航监视设备飞行校验管理规则",
+   "dept": "交通运输部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/minyonghangkongtongxindaohangjianshishebeifeixingjbc75bb.html",
+   "effective": "2021-10-01"
+  },
+  {
+   "slug": "minyonghangkongfeixingqianpaiyuanzhizhaohexunlianjf134b7",
+   "short": "民用航空飞行签派员执照和训练机构管理规则",
+   "dept": "交通运输部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/minyonghangkongfeixingqianpaiyuanzhizhaohexunlianjf134b7.html",
+   "effective": "2022-10-01"
+  },
+  {
+   "slug": "minyongyunshujichangtufashijianyingjijiuyuanguanli0d854d",
+   "short": "民用运输机场突发事件应急救援管理规则",
+   "dept": "交通运输部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/minyongyunshujichangtufashijianyingjijiuyuanguanli0d854d.html",
+   "effective": "2016-05-21"
+  },
+  {
+   "slug": "minhangqiyeanquanbaozhangcaiwukaohebanfa",
+   "short": "民航企业安全保障财务考核办法",
+   "dept": "交通运输部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/minhangqiyeanquanbaozhangcaiwukaohebanfa.html",
+   "effective": "2017-05-01"
+  },
+  {
+   "slug": "shuishangjiaotongshigutongjibanfa",
+   "short": "水上交通事故统计办法",
+   "dept": "交通运输部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/shuishangjiaotongshigutongjibanfa.html",
+   "effective": "2014-09-30"
+  },
+  {
+   "slug": "shuishangyidongweixingtongxinguanliguize",
+   "short": "水上移动卫星通信管理规则",
+   "dept": "交通运输部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/shuishangyidongweixingtongxinguanliguize.html",
+   "effective": "1997-06-14"
+  },
+  {
+   "slug": "shuilulvkeyunshushimingzhiguanliguiding",
+   "short": "水路旅客运输实名制管理规定",
+   "dept": "交通运输部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/shuilulvkeyunshushimingzhiguanliguiding.html",
+   "effective": "2017-01-10"
+  },
+  {
+   "slug": "shuiyungongchengjianshexiangmuzhaobiaotoubiaoguanl1155cf",
+   "short": "水运工程建设项目招标投标管理办法",
+   "dept": "交通运输部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/shuiyungongchengjianshexiangmuzhaobiaotoubiaoguanl1155cf.html",
+   "effective": "2012-12-20"
+  },
+  {
+   "slug": "shuiyunjiansheshichangjianduguanlibanfa",
+   "short": "水运建设市场监督管理办法",
+   "dept": "交通运输部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/shuiyunjiansheshichangjianduguanlibanfa.html",
+   "effective": "2017-02-01"
+  },
+  {
+   "slug": "qicheweixiuzhiliangjiufentiaojiebanfa",
+   "short": "汽车维修质量纠纷调解办法",
+   "dept": "交通运输部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/qicheweixiuzhiliangjiufentiaojiebanfa.html",
+   "effective": "1998-09-01"
+  },
+  {
+   "slug": "yanhaihangbiaoguanlibanfa",
+   "short": "沿海航标管理办法",
+   "dept": "交通运输部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/yanhaihangbiaoguanlibanfa.html",
+   "effective": "2003-09-01"
+  },
+  {
+   "slug": "haishanggunzhuangchuanboanquanjianduguanliguiding",
+   "short": "海上滚装船舶安全监督管理规定",
+   "dept": "交通运输部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/haishanggunzhuangchuanboanquanjianduguanliguiding.html",
+   "effective": "2019-09-01"
+  },
+  {
+   "slug": "haiquhangbiaodongtaitongbaoguanlibanfa",
+   "short": "海区航标动态通报管理办法",
+   "dept": "交通运输部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/haiquhangbiaodongtaitongbaoguanlibanfa.html",
+   "effective": "1995-12-13"
+  },
+  {
+   "slug": "haiquhangbiaoshezhiguanlibanfa",
+   "short": "海区航标设置管理办法",
+   "dept": "交通运输部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/haiquhangbiaoshezhiguanlibanfa.html",
+   "effective": "1997-03-01"
+  },
+  {
+   "slug": "haiyungutisanzhuanghuowuanquanjianduguanliguiding",
+   "short": "海运固体散装货物安全监督管理规定",
+   "dept": "交通运输部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/haiyungutisanzhuanghuowuanquanjianduguanliguiding.html",
+   "effective": "2019-01-28"
+  },
+  {
+   "slug": "wolunfadongjifeijiranyoupaixiehepaiqipaichuwuguidic791c4",
+   "short": "涡轮发动机飞机燃油排泄和排气排出物规定",
+   "dept": "交通运输部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/wolunfadongjifeijiranyoupaixiehepaiqipaichuwuguidic791c4.html",
+   "effective": "2002-03-20"
+  },
+  {
+   "slug": "yuyechuanbojianyanguanliguiding",
+   "short": "渔业船舶检验管理规定",
+   "dept": "交通运输部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/yuyechuanbojianyanguanliguiding.html",
+   "effective": "2020-01-01"
+  },
+  {
+   "slug": "gangkouweixianhuowuanquanguanliguiding",
+   "short": "港口危险货物安全管理规定",
+   "dept": "交通运输部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/gangkouweixianhuowuanquanguanliguiding.html",
+   "effective": "2017-09-04"
+  },
+  {
+   "slug": "gangkouhechuanboandianguanlibanfa",
+   "short": "港口和船舶岸电管理办法",
+   "dept": "交通运输部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/gangkouhechuanboandianguanlibanfa.html",
+   "effective": "2019-12-09"
+  },
+  {
+   "slug": "gangkoujichusheshiweihuguanliguiding",
+   "short": "港口基础设施维护管理规定",
+   "dept": "交通运输部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/gangkoujichusheshiweihuguanliguiding.html",
+   "effective": "2022-09-01"
+  },
+  {
+   "slug": "gangkoudaxingjixiefangzhenfengfangtaifengguanligui995424",
+   "short": "港口大型机械防阵风防台风管理规定",
+   "dept": "交通运输部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/gangkoudaxingjixiefangzhenfengfangtaifengguanligui995424.html",
+   "effective": "2003-06-01"
+  },
+  {
+   "slug": "gangkouanxianshiyongshenpiguanlibanfa",
+   "short": "港口岸线使用审批管理办法",
+   "dept": "交通运输部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/gangkouanxianshiyongshenpiguanlibanfa.html",
+   "effective": "2012-05-22"
+  },
+  {
+   "slug": "gangkougongchengjiansheguanliguiding",
+   "short": "港口工程建设管理规定",
+   "dept": "交通运输部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/gangkougongchengjiansheguanliguiding.html",
+   "effective": "2018-01-15"
+  },
+  {
+   "slug": "gangkoujingyingguanliguiding",
+   "short": "港口经营管理规定",
+   "dept": "交通运输部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/gangkoujingyingguanliguiding.html",
+   "effective": "2009-11-06"
+  },
+  {
+   "slug": "gangkouguihuaguanliguiding",
+   "short": "港口规划管理规定",
+   "dept": "交通运输部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/gangkouguihuaguanliguiding.html",
+   "effective": "2008-02-01"
+  },
+  {
+   "slug": "youtinganquanguanliguiding",
+   "short": "游艇安全管理规定",
+   "dept": "交通运输部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/youtinganquanguanliguiding.html",
+   "effective": "2008-07-22"
+  },
+  {
+   "slug": "teshushangyehesiyongdaxinghangkongqiyunyingrenyunxa54874",
+   "short": "特殊商业和私用大型航空器运营人运行合格审定规则",
+   "dept": "交通运输部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/teshushangyehesiyongdaxinghangkongqiyunyingrenyunxa54874.html",
+   "effective": "2022-07-01"
+  },
+  {
+   "slug": "tufagonggongweishengshijianjiaotongyingjiguiding",
+   "short": "突发公共卫生事件交通应急规定",
+   "dept": "交通运输部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/tufagonggongweishengshijianjiaotongyingjiguiding.html",
+   "effective": "2004-05-01"
+  },
+  {
+   "slug": "jingyingxinggonglujianshexiangmutouzirenzhaobiaotod7acdd",
+   "short": "经营性公路建设项目投资人招标投标管理规定",
+   "dept": "交通运输部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/jingyingxinggonglujianshexiangmutouzirenzhaobiaotod7acdd.html",
+   "effective": "2007-10-16"
+  },
+  {
+   "slug": "wangluoyuyuechuzuqichejingyingfuwuguanlizanxingband14152-2",
+   "short": "网络预约出租汽车经营服务管理暂行办法（2016）",
+   "dept": "交通运输部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/wangluoyuyuechuzuqichejingyingfuwuguanlizanxingband14152-2.html",
+   "effective": "2016-07-27"
+  },
+  {
+   "slug": "wangluoyuyuechuzuqichejingyingfuwuguanlizanxingband14152",
+   "short": "网络预约出租汽车经营服务管理暂行办法（2016）",
+   "dept": "交通运输部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/wangluoyuyuechuzuqichejingyingfuwuguanlizanxingband14152.html",
+   "effective": "2016-07-27"
+  },
+  {
+   "slug": "laojiuyunshuchuanboguanliguiding",
+   "short": "老旧运输船舶管理规定",
+   "dept": "交通运输部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/laojiuyunshuchuanboguanliguiding.html",
+   "effective": "2006-07-05"
+  },
+  {
+   "slug": "hangbanzhengchangguanliguiding",
+   "short": "航班正常管理规定",
+   "dept": "交通运输部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/hangbanzhengchangguanliguiding.html",
+   "effective": "2017-01-01"
+  },
+  {
+   "slug": "hangkongfadongjishihangguiding",
+   "short": "航空发动机适航规定",
+   "dept": "交通运输部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/hangkongfadongjishihangguiding.html",
+   "effective": "2016-04-17"
+  },
+  {
+   "slug": "hangkongqixinghaoheshihanghegeshendingzaoshengguid380c61",
+   "short": "航空器型号和适航合格审定噪声规定",
+   "dept": "交通运输部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/hangkongqixinghaoheshihanghegeshendingzaoshengguid380c61.html",
+   "effective": "2017-12-12"
+  },
+  {
+   "slug": "hangkonganquanyuanhegeshendingguize",
+   "short": "航空安全员合格审定规则",
+   "dept": "交通运输部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/hangkonganquanyuanhegeshendingguize.html",
+   "effective": "2019-01-01"
+  },
+  {
+   "slug": "hangdaoyanghuguanliguiding",
+   "short": "航道养护管理规定",
+   "dept": "交通运输部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/hangdaoyanghuguanliguiding.html",
+   "effective": "2021-02-01"
+  },
+  {
+   "slug": "hangdaogongchengjiansheguanliguiding",
+   "short": "航道工程建设管理规定",
+   "dept": "交通运输部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/hangdaogongchengjiansheguanliguiding.html",
+   "effective": "2020-02-01"
+  },
+  {
+   "slug": "hangdaotonghangtiaojianyingxiangpingjiashenheguanl2be469",
+   "short": "航道通航条件影响评价审核管理办法",
+   "dept": "交通运输部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/hangdaotonghangtiaojianyingxiangpingjiashenheguanl2be469.html",
+   "effective": "2017-01-16"
+  },
+  {
+   "slug": "chuanboshengguaguoqiguanlibanfa",
+   "short": "船舶升挂国旗管理办法",
+   "dept": "交通运输部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/chuanboshengguaguoqiguanlibanfa.html",
+   "effective": "1991-11-01"
+  },
+  {
+   "slug": "chuanboyinhangguanliguiding",
+   "short": "船舶引航管理规定",
+   "dept": "交通运输部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/chuanboyinhangguanliguiding.html",
+   "effective": "2001-11-30"
+  },
+  {
+   "slug": "chuanbowuxiandiantaizhizhaohefabanfa",
+   "short": "船舶无线电台执照核发办法",
+   "dept": "交通运输部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/chuanbowuxiandiantaizhizhaohefabanfa.html",
+   "effective": "1989-02-10"
+  },
+  {
+   "slug": "chuanbojianyanguanliguiding",
+   "short": "船舶检验管理规定",
+   "dept": "交通运输部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/chuanbojianyanguanliguiding.html",
+   "effective": "2016-05-01"
+  },
+  {
+   "slug": "chuanbozaiyunweixianhuowuanquanjianduguanliguiding",
+   "short": "船舶载运危险货物安全监督管理规定",
+   "dept": "交通运输部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/chuanbozaiyunweixianhuowuanquanjianduguanliguiding.html",
+   "effective": "2025-03-01"
+  },
+  {
+   "slug": "luoxuanjiangshihangguiding",
+   "short": "螺旋桨适航规定",
+   "dept": "交通运输部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/luoxuanjiangshihangguiding.html",
+   "effective": "2026-01-01"
+  },
+  {
+   "slug": "chaoxianyunshucheliangxingshigongluguanliguiding",
+   "short": "超限运输车辆行驶公路管理规定",
+   "dept": "交通运输部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/chaoxianyunshucheliangxingshigongluguanliguiding.html",
+   "effective": "2016-08-19"
+  },
+  {
+   "slug": "luzhengguanliguiding",
+   "short": "路政管理规定",
+   "dept": "交通运输部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/luzhengguanliguiding.html",
+   "effective": "2003-01-27"
+  },
+  {
+   "slug": "zairenziyouqiqiushihangguiding",
+   "short": "载人自由气球适航规定",
+   "dept": "交通运输部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zairenziyouqiqiushihangguiding.html",
+   "effective": "2022-09-01"
+  },
+  {
+   "slug": "yunshujichangzhuanyegongchengjianshezhiliangheanqudf6509",
+   "short": "运输机场专业工程建设质量和安全生产监督管理规定",
+   "dept": "交通运输部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/yunshujichangzhuanyegongchengjianshezhiliangheanqudf6509.html",
+   "effective": "2022-03-15"
+  },
+  {
+   "slug": "yunshujichangshiyongxukeguiding",
+   "short": "运输机场使用许可规定",
+   "dept": "交通运输部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/yunshujichangshiyongxukeguiding.html",
+   "effective": "2018-08-31"
+  },
+  {
+   "slug": "yunshujichangjiansheguanliguiding",
+   "short": "运输机场建设管理规定",
+   "dept": "交通运输部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/yunshujichangjiansheguanliguiding.html",
+   "effective": "2016-04-21"
+  },
+  {
+   "slug": "yunshujichangyunxinganquanguanliguiding-2",
+   "short": "运输机场运行安全管理规定（2007）",
+   "dept": "交通运输部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/yunshujichangyunxinganquanguanliguiding-2.html",
+   "effective": "2007-12-17"
+  },
+  {
+   "slug": "yunshujichangyunxinganquanguanliguiding",
+   "short": "运输机场运行安全管理规定（2025）",
+   "dept": "交通运输部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/yunshujichangyunxinganquanguanliguiding.html",
+   "effective": "2026-07-01"
+  },
+  {
+   "slug": "yunshuleixuanyihangkongqishihangguiding",
+   "short": "运输类旋翼航空器适航规定",
+   "dept": "交通运输部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/yunshuleixuanyihangkongqishihangguiding.html",
+   "effective": "2026-01-01"
+  },
+  {
+   "slug": "yunshuleifeijidechixushihangheanquangaijinguiding",
+   "short": "运输类飞机的持续适航和安全改进规定",
+   "dept": "交通运输部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/yunshuleifeijidechixushihangheanquangaijinguiding.html",
+   "effective": "2016-04-17"
+  },
+  {
+   "slug": "yunshuleifeijishihangbiaozhun",
+   "short": "运输类飞机适航标准",
+   "dept": "交通运输部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/yunshuleifeijishihangbiaozhun.html",
+   "effective": "2016-04-17"
+  },
+  {
+   "slug": "weifantieluanquanguanlitiaolixingzhengchufashishib8a1b64",
+   "short": "违反《铁路安全管理条例》行政处罚实施办法",
+   "dept": "交通运输部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/weifantieluanquanguanlitiaolixingzhengchufashishib8a1b64.html",
+   "effective": "2013-12-24"
+  },
+  {
+   "slug": "tongyongjichangguanliguiding",
+   "short": "通用机场管理规定",
+   "dept": "交通运输部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/tongyongjichangguanliguiding.html",
+   "effective": "2025-04-01"
+  },
+  {
+   "slug": "tongyonghangkonganquanbaoweiguize",
+   "short": "通用航空安全保卫规则",
+   "dept": "交通运输部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/tongyonghangkonganquanbaoweiguize.html",
+   "effective": "2022-07-01"
+  },
+  {
+   "slug": "tongyonghangkongjingyingxukeguanliguiding",
+   "short": "通用航空经营许可管理规定",
+   "dept": "交通运输部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/tongyonghangkongjingyingxukeguanliguiding.html",
+   "effective": "2021-01-01"
+  },
+  {
+   "slug": "tonghangjianzhuwuyunxingguanlibanfa",
+   "short": "通航建筑物运行管理办法",
+   "dept": "交通运输部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/tonghangjianzhuwuyunxingguanlibanfa.html",
+   "effective": "2019-02-05"
+  },
+  {
+   "slug": "daolulvkeyunshujikeyunzhanguanliguiding",
+   "short": "道路旅客运输及客运站管理规定",
+   "dept": "交通运输部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/daolulvkeyunshujikeyunzhanguanliguiding.html",
+   "effective": "2020-07-06"
+  },
+  {
+   "slug": "daolulvkeyunshubanxianjingyingquanzhaobiaotoubiaoba35417",
+   "short": "道路旅客运输班线经营权招标投标办法",
+   "dept": "交通运输部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/daolulvkeyunshubanxianjingyingquanzhaobiaotoubiaoba35417.html",
+   "effective": "2009-01-01"
+  },
+  {
+   "slug": "daoluyunshufuwuzhiliangtousuguanliguiding",
+   "short": "道路运输服务质量投诉管理规定",
+   "dept": "交通运输部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/daoluyunshufuwuzhiliangtousuguanliguiding.html",
+   "effective": "1999-10-11"
+  },
+  {
+   "slug": "daoluyunshucheliangdongtaijianduguanlibanfa",
+   "short": "道路运输车辆动态监督管理办法",
+   "dept": "交通运输部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/daoluyunshucheliangdongtaijianduguanlibanfa.html",
+   "effective": "2014-01-28"
+  },
+  {
+   "slug": "daoluyunshucheliangjishuguanliguiding",
+   "short": "道路运输车辆技术管理规定",
+   "dept": "交通运输部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/daoluyunshucheliangjishuguanliguiding.html",
+   "effective": "2023-06-01"
+  },
+  {
+   "slug": "daoluyunshucheliangranliaoxiaohaoliangjiancehejian03cd89",
+   "short": "道路运输车辆燃料消耗量检测和监督管理办法",
+   "dept": "交通运输部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/daoluyunshucheliangranliaoxiaohaoliangjiancehejian03cd89.html",
+   "effective": "2009-11-01"
+  },
+  {
+   "slug": "youjiankuaijianbaozhuangguanlibanfa",
+   "short": "邮件快件包装管理办法",
+   "dept": "交通运输部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/youjiankuaijianbaozhuangguanlibanfa.html",
+   "effective": "2021-03-12"
+  },
+  {
+   "slug": "youjiankuaijianshimingshoujiguanlibanfa",
+   "short": "邮件快件实名收寄管理办法",
+   "dept": "交通运输部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/youjiankuaijianshimingshoujiguanlibanfa.html",
+   "effective": "2018-10-22"
+  },
+  {
+   "slug": "youzhengyejidianquanjianduguanlibanfa",
+   "short": "邮政业寄递安全监督管理办法",
+   "dept": "交通运输部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/youzhengyejidianquanjianduguanlibanfa.html",
+   "effective": "2020-01-02"
+  },
+  {
+   "slug": "youzhengpubianfuwujianduguanlibanfa",
+   "short": "邮政普遍服务监督管理办法",
+   "dept": "交通运输部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/youzhengpubianfuwujianduguanlibanfa.html",
+   "effective": "2015-10-14"
+  },
+  {
+   "slug": "youzhenghangyetongjiguanlibanfa",
+   "short": "邮政行业统计管理办法",
+   "dept": "交通运输部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/youzhenghangyetongjiguanlibanfa.html",
+   "effective": "2011-10-11"
+  },
+  {
+   "slug": "youzhengxingzhengzhifajiandubanfa",
+   "short": "邮政行政执法监督办法",
+   "dept": "交通运输部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/youzhengxingzhengzhifajiandubanfa.html",
+   "effective": "2020-02-24"
+  },
+  {
+   "slug": "youpiaofaxingjianduguanlibanfa",
+   "short": "邮票发行监督管理办法",
+   "dept": "交通运输部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/youpiaofaxingjianduguanlibanfa.html",
+   "effective": "2010-11-25"
+  },
+  {
+   "slug": "tieluzhuanyongshebeiquexianchanpinzhaohuiguanliban45c7a0",
+   "short": "铁路专用设备缺陷产品召回管理办法",
+   "dept": "交通运输部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/tieluzhuanyongshebeiquexianchanpinzhaohuiguanliban45c7a0.html",
+   "effective": "2015-11-19"
+  },
+  {
+   "slug": "tieluguanjianxinxijichusheshianquanbaohuguanlibanf13fdcc",
+   "short": "铁路关键信息基础设施安全保护管理办法",
+   "dept": "交通运输部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/tieluguanjianxinxijichusheshianquanbaohuguanlibanf13fdcc.html",
+   "effective": "2024-02-01"
+  },
+  {
+   "slug": "tieluweixianhuowuyunshuanquanjianduguanliguiding",
+   "short": "铁路危险货物运输安全监督管理规定",
+   "dept": "交通运输部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/tieluweixianhuowuyunshuanquanjianduguanliguiding.html",
+   "effective": "2022-12-01"
+  },
+  {
+   "slug": "tielugongchengjianshexiangmuzhaobiaotoubiaoguanlibdbf0be",
+   "short": "铁路工程建设项目招标投标管理办法",
+   "dept": "交通运输部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/tielugongchengjianshexiangmuzhaobiaotoubiaoguanlibdbf0be.html",
+   "effective": "2019-01-01"
+  },
+  {
+   "slug": "tielujianshegongchengkanchashejiguanlibanfa",
+   "short": "铁路建设工程勘察设计管理办法",
+   "dept": "交通运输部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/tielujianshegongchengkanchashejiguanlibanfa.html",
+   "effective": "2025-09-01"
+  },
+  {
+   "slug": "tielujianshegongchenganquanshengchanjianduguanliba610ceb",
+   "short": "铁路建设工程安全生产监督管理办法",
+   "dept": "交通运输部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/tielujianshegongchenganquanshengchanjianduguanliba610ceb.html",
+   "effective": "2026-09-01"
+  },
+  {
+   "slug": "tielujianshegongchengjungongyanshouguanlibanfa",
+   "short": "铁路建设工程竣工验收管理办法",
+   "dept": "交通运输部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/tielujianshegongchengjungongyanshouguanlibanfa.html",
+   "effective": "2026-09-01"
+  },
+  {
+   "slug": "tielujianshegongchengzhiliangjianduguanliguiding",
+   "short": "铁路建设工程质量监督管理规定",
+   "dept": "交通运输部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/tielujianshegongchengzhiliangjianduguanliguiding.html",
+   "effective": "2015-03-12"
+  },
+  {
+   "slug": "tielulvkechepiaoshimingzhiguanlibanfa",
+   "short": "铁路旅客车票实名制管理办法",
+   "dept": "交通运输部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/tielulvkechepiaoshimingzhiguanlibanfa.html",
+   "effective": "2023-01-01"
+  },
+  {
+   "slug": "tielulvkeyunshuanquanjianchaguanlibanfa",
+   "short": "铁路旅客运输安全检查管理办法",
+   "dept": "交通运输部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/tielulvkeyunshuanquanjianchaguanlibanfa.html",
+   "effective": "2024-02-01"
+  },
+  {
+   "slug": "tielulvkeyunshuguicheng",
+   "short": "铁路旅客运输规程",
+   "dept": "交通运输部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/tielulvkeyunshuguicheng.html",
+   "effective": "2023-01-01"
+  },
+  {
+   "slug": "tielujichecheliangshejizhizaoweixiujinkouxukebanfa",
+   "short": "铁路机车车辆设计制造维修进口许可办法",
+   "dept": "交通运输部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/tielujichecheliangshejizhizaoweixiujinkouxukebanfa.html",
+   "effective": "2013-12-24"
+  },
+  {
+   "slug": "tielujichecheliangjiashirenyuanzigexukebanfa",
+   "short": "铁路机车车辆驾驶人员资格许可办法",
+   "dept": "交通运输部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/tielujichecheliangjiashirenyuanzigexukebanfa.html",
+   "effective": "2024-12-01"
+  },
+  {
+   "slug": "tieluhangyetongjiguanliguiding",
+   "short": "铁路行业统计管理规定",
+   "dept": "交通运输部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/tieluhangyetongjiguanliguiding.html",
+   "effective": "2018-07-01"
+  },
+  {
+   "slug": "tielushebeizhilianganquanjianduguanlibanfa",
+   "short": "铁路设备质量安全监督管理办法",
+   "dept": "交通运输部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/tielushebeizhilianganquanjianduguanlibanfa.html",
+   "effective": "2023-09-01"
+  },
+  {
+   "slug": "tieluhuowuyunshuguize",
+   "short": "铁路货物运输规则",
+   "dept": "交通运输部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/tieluhuowuyunshuguize.html",
+   "effective": "2026-05-01"
+  },
+  {
+   "slug": "tieluyunshuqiyezhunruxukebanfa",
+   "short": "铁路运输企业准入许可办法",
+   "dept": "交通运输部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/tieluyunshuqiyezhunruxukebanfa.html",
+   "effective": "2014-12-08"
+  },
+  {
+   "slug": "tieluyunshujichushebeishengchanqiyeshenpibanfa",
+   "short": "铁路运输基础设备生产企业审批办法",
+   "dept": "交通运输部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/tieluyunshujichushebeishengchanqiyeshenpibanfa.html",
+   "effective": "2013-12-23"
+  },
+  {
+   "slug": "tieluyunshufuwuzhiliangjianduguanlibanfa",
+   "short": "铁路运输服务质量监督管理办法",
+   "dept": "交通运输部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/tieluyunshufuwuzhiliangjianduguanlibanfa.html",
+   "effective": "2023-07-01"
+  },
+  {
+   "slug": "changjiangsanxiashuilishuniushuishangjiaotongguanz6e9be6",
+   "short": "长江三峡水利枢纽水上交通管制区域通航安全管理办法",
+   "dept": "交通运输部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/changjiangsanxiashuilishuniushuishangjiaotongguanz6e9be6.html",
+   "effective": "2003-05-16"
+  },
+  {
+   "slug": "changjiangsanxiashuilishuniuguozhachuanboanquanjiab342ff",
+   "short": "长江三峡水利枢纽过闸船舶安全检查暂行办法",
+   "dept": "交通运输部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/changjiangsanxiashuilishuniuguozhachuanboanquanjiab342ff.html",
+   "effective": "2018-06-01"
+  },
+  {
+   "slug": "changjiangganliuqiaoquhangbiaoshezhijiweihuguanlig427307",
+   "short": "长江干流桥区航标设置及维护管理规定",
+   "dept": "交通运输部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/changjiangganliuqiaoquhangbiaoshezhijiweihuguanlig427307.html",
+   "effective": "1996-09-01"
+  },
+  {
+   "slug": "changjiangganxianshuishangjiaotonganquanguanlitebib5dce1",
+   "short": "长江干线水上交通安全管理特别规定",
+   "dept": "交通运输部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/changjiangganxianshuishangjiaotonganquanguanlitebib5dce1.html",
+   "effective": "2018-01-01"
+  },
+  {
+   "slug": "changjiangjidongchuanboanquantongxinguanliguiding",
+   "short": "长江机动船舶安全通信管理规定",
+   "dept": "交通运输部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/changjiangjidongchuanboanquantongxinguanliguiding.html",
+   "effective": "1998-05-01"
+  },
+  {
+   "slug": "jiyoushichangguanlibanfa",
+   "short": "集邮市场管理办法",
+   "dept": "交通运输部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/jiyoushichangguanlibanfa.html",
+   "effective": "2016-08-01"
+  },
+  {
+   "slug": "feixingmonixunlianshebeiguanliheyunxingguize",
+   "short": "飞行模拟训练设备管理和运行规则",
+   "dept": "交通运输部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/feixingmonixunlianshebeiguanliheyunxingguize.html",
+   "effective": "2019-10-01"
+  },
+  {
+   "slug": "gaosutielujichusheshiyunyongzhuangtaijianceguanlib3f426f",
+   "short": "高速铁路基础设施运用状态检测管理办法",
+   "dept": "交通运输部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/gaosutielujichusheshiyunyongzhuangtaijianceguanlib3f426f.html",
+   "effective": "2018-10-01"
+  },
+  {
+   "slug": "gaosutieluanquanfanghuguanlibanfa-2",
+   "short": "高速铁路安全防护管理办法（2020）",
+   "dept": "交通运输部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/gaosutieluanquanfanghuguanlibanfa-2.html",
+   "effective": "2020-07-01"
+  },
+  {
+   "slug": "gaosutieluanquanfanghuguanlibanfa",
+   "short": "高速铁路安全防护管理办法（2020）",
+   "dept": "交通运输部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/gaosutieluanquanfanghuguanlibanfa.html",
+   "effective": "2020-07-01"
+  },
+  {
+   "slug": "zhuanyejiliangzhanguanlibanfa",
+   "short": "专业计量站管理办法",
+   "dept": "市场监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zhuanyejiliangzhanguanlibanfa.html",
+   "effective": "1991-09-15"
+  },
+  {
+   "slug": "zhuanlidailishizigekaoshibanfa",
+   "short": "专利代理师资格考试办法（2019）",
+   "dept": "市场监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zhuanlidailishizigekaoshibanfa.html",
+   "effective": "2019-06-01"
+  },
+  {
+   "slug": "zhuanlidailiguanlibanfa",
+   "short": "专利代理管理办法（2019）",
+   "dept": "市场监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zhuanlidailiguanlibanfa.html",
+   "effective": "2019-05-01"
+  },
+  {
+   "slug": "getigongshanghumingchengdengjiguanlibanfa",
+   "short": "个体工商户名称登记管理办法",
+   "dept": "市场监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/getigongshanghumingchengdengjiguanlibanfa.html",
+   "effective": "2009-04-01"
+  },
+  {
+   "slug": "getigongshanghuniandubaogaobanfa-2",
+   "short": "个体工商户年度报告办法（2014）",
+   "dept": "市场监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/getigongshanghuniandubaogaobanfa-2.html",
+   "effective": "2014-08-19"
+  },
+  {
+   "slug": "getigongshanghuniandubaogaobanfa",
+   "short": "个体工商户年度报告办法（2014）",
+   "dept": "市场监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/getigongshanghuniandubaogaobanfa.html",
+   "effective": "2014-08-19"
+  },
+  {
+   "slug": "getigongshanghuniandubaogaozanxingbanfa",
+   "short": "个体工商户年度报告暂行办法",
+   "dept": "市场监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/getigongshanghuniandubaogaozanxingbanfa.html",
+   "effective": "2014-10-01"
+  },
+  {
+   "slug": "getigongshanghudengjiguanliguiding",
+   "short": "个体工商户登记管理规定",
+   "dept": "市场监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/getigongshanghudengjiguanliguiding.html",
+   "effective": "2025-07-15"
+  },
+  {
+   "slug": "guojiagongshanghangzhengguanlijuguanyujinzhifangmaa2977d",
+   "short": "国家工商行政管理局关于禁止仿冒知名商品特有的名称、包装、装潢的不正当竞争行为的若干规定",
+   "dept": "市场监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/guojiagongshanghangzhengguanlijuguanyujinzhifangmaa2977d.html",
+   "effective": "1995-07-06"
+  },
+  {
+   "slug": "gongyechanpinshengchanxukezhengguanlitiaolishishib85b561",
+   "short": "工业产品生产许可证管理条例实施办法",
+   "dept": "市场监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/gongyechanpinshengchanxukezhengguanlitiaolishishib85b561.html",
+   "effective": "2014-08-01"
+  },
+  {
+   "slug": "shichangzhutidengjiguanlitiaolishishixize",
+   "short": "市场主体登记管理条例实施细则",
+   "dept": "市场监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/shichangzhutidengjiguanlitiaolishishixize.html",
+   "effective": "2022-03-01"
+  },
+  {
+   "slug": "jinkoujiliangqijujianduguanlibanfashishixize",
+   "short": "进口计量器具监督管理办法实施细则",
+   "dept": "市场监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/jinkoujiliangqijujianduguanlibanfashishixize.html",
+   "effective": "1996-06-24"
+  },
+  {
+   "slug": "zhongguozhiliangjiangguanlibanfa",
+   "short": "中国质量奖管理办法",
+   "dept": "市场监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zhongguozhiliangjiangguanlibanfa.html",
+   "effective": "2021-05-01"
+  },
+  {
+   "slug": "hulianwangguanggaoguanlibanfa",
+   "short": "互联网广告管理办法",
+   "dept": "市场监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/hulianwangguanggaoguanlibanfa.html",
+   "effective": "2023-05-01"
+  },
+  {
+   "slug": "chanpinzhiliangjianduchouchaguanlizanxingbanfa",
+   "short": "产品质量监督抽查管理暂行办法",
+   "dept": "市场监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/chanpinzhiliangjianduchouchaguanlizanxingbanfa.html",
+   "effective": "2020-01-01"
+  },
+  {
+   "slug": "chanpinfangweijianduguanlibanfa",
+   "short": "产品防伪监督管理办法",
+   "dept": "市场监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/chanpinfangweijianduguanlibanfa.html",
+   "effective": "2002-12-01"
+  },
+  {
+   "slug": "qiyegongshixinxichouchabanfa",
+   "short": "企业公示信息抽查办法",
+   "dept": "市场监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/qiyegongshixinxichouchabanfa.html",
+   "effective": "2014-08-19"
+  },
+  {
+   "slug": "qiyegongshixinxichouchazanxingbanfa",
+   "short": "企业公示信息抽查暂行办法",
+   "dept": "市场监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/qiyegongshixinxichouchazanxingbanfa.html",
+   "effective": "2014-10-01"
+  },
+  {
+   "slug": "qiyemingchengdengjiguanlishishibanfa",
+   "short": "企业名称登记管理实施办法",
+   "dept": "市场监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/qiyemingchengdengjiguanlishishibanfa.html",
+   "effective": "2004-07-01"
+  },
+  {
+   "slug": "qiyemingchengdengjiguanliguidingshishibanfa",
+   "short": "企业名称登记管理规定实施办法",
+   "dept": "市场监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/qiyemingchengdengjiguanliguidingshishibanfa.html",
+   "effective": "2023-10-01"
+  },
+  {
+   "slug": "qiyebiaozhunhuacujinbanfa",
+   "short": "企业标准化促进办法",
+   "dept": "市场监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/qiyebiaozhunhuacujinbanfa.html",
+   "effective": "2024-01-01"
+  },
+  {
+   "slug": "qiyebiaozhunhuaguanlibanfa",
+   "short": "企业标准化管理办法",
+   "dept": "市场监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/qiyebiaozhunhuaguanlibanfa.html",
+   "effective": "1990-08-24"
+  },
+  {
+   "slug": "qiyejingyingyichangmingluguanlibanfa",
+   "short": "企业经营异常名录管理办法",
+   "dept": "市场监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/qiyejingyingyichangmingluguanlibanfa.html",
+   "effective": "2014-08-19"
+  },
+  {
+   "slug": "qiyejingyingyichangmingluguanlizanxingbanfa",
+   "short": "企业经营异常名录管理暂行办法",
+   "dept": "市场监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/qiyejingyingyichangmingluguanlizanxingbanfa.html",
+   "effective": "2014-10-01"
+  },
+  {
+   "slug": "qiyeluoshishipinanquanzhutizerenjianduguanliguidin7d535f",
+   "short": "企业落实食品安全主体责任监督管理规定",
+   "dept": "市场监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/qiyeluoshishipinanquanzhutizerenjianduguanliguidin7d535f.html",
+   "effective": "2022-11-01"
+  },
+  {
+   "slug": "tiwaizhenduanshijizhuceyubeianguanlibanfa",
+   "short": "体外诊断试剂注册与备案管理办法",
+   "dept": "市场监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/tiwaizhenduanshijizhuceyubeianguanlibanfa.html",
+   "effective": "2021-10-01"
+  },
+  {
+   "slug": "qinhaixiaofeizhequanyixingweichufabanfa",
+   "short": "侵害消费者权益行为处罚办法",
+   "dept": "市场监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/qinhaixiaofeizhequanyixingweichufabanfa.html",
+   "effective": "2015-03-15"
+  },
+  {
+   "slug": "baojianshipinyuanliaomuluyubaojiangongnengmuluguand2bdd1",
+   "short": "保健食品原料目录与保健功能目录管理办法",
+   "dept": "市场监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/baojianshipinyuanliaomuluyubaojiangongnengmuluguand2bdd1.html",
+   "effective": "2019-10-01"
+  },
+  {
+   "slug": "quanguozhuanyebiaozhunhuajishuweiyuanhuiguanlibanf5fbd6f",
+   "short": "全国专业标准化技术委员会管理办法",
+   "dept": "市场监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/quanguozhuanyebiaozhunhuajishuweiyuanhuiguanlibanf5fbd6f.html",
+   "effective": "2018-01-01"
+  },
+  {
+   "slug": "gongsidengjiguanlishishibanfa",
+   "short": "公司登记管理实施办法",
+   "dept": "市场监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/gongsidengjiguanlishishibanfa.html",
+   "effective": "2025-02-10"
+  },
+  {
+   "slug": "gongpingjingzhengshenchatiaolishishibanfa",
+   "short": "公平竞争审查条例实施办法",
+   "dept": "市场监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/gongpingjingzhengshenchatiaolishishibanfa.html",
+   "effective": "2025-04-20"
+  },
+  {
+   "slug": "gongyiguanggaocujinheguanlizanxingbanfa-2",
+   "short": "公益广告促进和管理暂行办法（2016）",
+   "dept": "市场监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/gongyiguanggaocujinheguanlizanxingbanfa-2.html",
+   "effective": "2016-03-01"
+  },
+  {
+   "slug": "guanyujinzhiqinfanshangyemimixingweideruoganguidin46533e",
+   "short": "关于禁止侵犯商业秘密行为的若干规定",
+   "dept": "市场监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/guanyujinzhiqinfanshangyemimixingweideruoganguidin46533e.html",
+   "effective": "1995-11-23"
+  },
+  {
+   "slug": "guanyujinzhilanyongzhishichanquanpaichuxianzhijinga6404e",
+   "short": "关于禁止滥用知识产权排除、限制竞争行为的规定",
+   "dept": "市场监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/guanyujinzhilanyongzhishichanquanpaichuxianzhijinga6404e.html",
+   "effective": "2015-08-01"
+  },
+  {
+   "slug": "shouyaoguanggaoshenchafabuguiding",
+   "short": "兽药广告审查发布规定",
+   "dept": "市场监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/shouyaoguanggaoshenchafabuguiding.html",
+   "effective": "2016-02-01"
+  },
+  {
+   "slug": "nongyenongcunbiaozhunhuaguanlibanfa",
+   "short": "农业农村标准化管理办法",
+   "dept": "市场监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/nongyenongcunbiaozhunhuaguanlibanfa.html",
+   "effective": "2024-07-01"
+  },
+  {
+   "slug": "nongyejixiechanpinxiuligenghuantuihuozerenguiding-2",
+   "short": "农业机械产品修理、更换、退货责任规定（2010）",
+   "dept": "市场监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/nongyejixiechanpinxiuligenghuantuihuozerenguiding-2.html",
+   "effective": "2010-06-01"
+  },
+  {
+   "slug": "nongyebiaozhunhuaguanlibanfa",
+   "short": "农业标准化管理办法",
+   "dept": "市场监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/nongyebiaozhunhuaguanlibanfa.html",
+   "effective": "1991-02-26"
+  },
+  {
+   "slug": "nongminzhuanyehezuosheniandubaogaogongshibanfa",
+   "short": "农民专业合作社年度报告公示办法",
+   "dept": "市场监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/nongminzhuanyehezuosheniandubaogaogongshibanfa.html",
+   "effective": "2014-08-19"
+  },
+  {
+   "slug": "nongminzhuanyehezuosheniandubaogaogongshizanxingbaf64435",
+   "short": "农民专业合作社年度报告公示暂行办法",
+   "dept": "市场监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/nongminzhuanyehezuosheniandubaogaogongshizanxingbaf64435.html",
+   "effective": "2014-10-01"
+  },
+  {
+   "slug": "nongyaoguanggaoshenchafabuguiding",
+   "short": "农药广告审查发布规定",
+   "dept": "市场监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/nongyaoguanggaoshenchafabuguiding.html",
+   "effective": "2016-02-01"
+  },
+  {
+   "slug": "zhizhilanyongxingzhengquanlipaichuxianzhijingzhengde1457-2",
+   "short": "制止滥用行政权力排除、限制竞争行为规定（2023）",
+   "dept": "市场监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zhizhilanyongxingzhengquanlipaichuxianzhijingzhengde1457-2.html",
+   "effective": "2023-04-15"
+  },
+  {
+   "slug": "zhizhilanyongxingzhengquanlipaichuxianzhijingzhengde1457",
+   "short": "制止滥用行政权力排除、限制竞争行为规定（2025）",
+   "dept": "市场监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zhizhilanyongxingzhengquanlipaichuxianzhijingzhengde1457.html",
+   "effective": "2026-02-01"
+  },
+  {
+   "slug": "jiayouzhanjiliangjianduguanlibanfa",
+   "short": "加油站计量监督管理办法",
+   "dept": "市场监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/jiayouzhanjiliangjianduguanlibanfa.html",
+   "effective": "2002-12-31"
+  },
+  {
+   "slug": "huazhuangpinbiaoshiguanliguiding",
+   "short": "化妆品标识管理规定",
+   "dept": "市场监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/huazhuangpinbiaoshiguanliguiding.html",
+   "effective": "2008-09-01"
+  },
+  {
+   "slug": "huazhuangpinzhucebeianguanlibanfa",
+   "short": "化妆品注册备案管理办法",
+   "dept": "市场监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/huazhuangpinzhucebeianguanlibanfa.html",
+   "effective": "2021-05-01"
+  },
+  {
+   "slug": "huazhuangpinshengchanjingyingjianduguanlibanfa",
+   "short": "化妆品生产经营监督管理办法",
+   "dept": "市场监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/huazhuangpinshengchanjingyingjianduguanlibanfa.html",
+   "effective": "2022-01-01"
+  },
+  {
+   "slug": "yiliaoqixiebuliangshijianjiancehezaipingjiaguanlib5122f5",
+   "short": "医疗器械不良事件监测和再评价管理办法",
+   "dept": "市场监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/yiliaoqixiebuliangshijianjiancehezaipingjiaguanlib5122f5.html",
+   "effective": "2019-01-01"
+  },
+  {
+   "slug": "yiliaoqixiezhuceyubeianguanlibanfa",
+   "short": "医疗器械注册与备案管理办法",
+   "dept": "市场监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/yiliaoqixiezhuceyubeianguanlibanfa.html",
+   "effective": "2021-10-01"
+  },
+  {
+   "slug": "yiliaoqixieshengchanjianduguanlibanfa",
+   "short": "医疗器械生产监督管理办法",
+   "dept": "市场监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/yiliaoqixieshengchanjianduguanlibanfa.html",
+   "effective": "2022-05-01"
+  },
+  {
+   "slug": "yiliaoqixiejingyingjianduguanlibanfa",
+   "short": "医疗器械经营监督管理办法",
+   "dept": "市场监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/yiliaoqixiejingyingjianduguanlibanfa.html",
+   "effective": "2022-05-01"
+  },
+  {
+   "slug": "yiliaoguanggaoguanlibanfa",
+   "short": "医疗广告管理办法",
+   "dept": "市场监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/yiliaoguanggaoguanlibanfa.html",
+   "effective": "2007-01-01"
+  },
+  {
+   "slug": "hetongxingzhengjianduguanlibanfa",
+   "short": "合同行政监督管理办法",
+   "dept": "市场监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/hetongxingzhengjianduguanlibanfa.html",
+   "effective": "2023-05-18"
+  },
+  {
+   "slug": "shangyemimibaohuguiding",
+   "short": "商业秘密保护规定",
+   "dept": "市场监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/shangyemimibaohuguiding.html",
+   "effective": "2026-06-01"
+  },
+  {
+   "slug": "shangpintiaomaguanlibanfa",
+   "short": "商品条码管理办法",
+   "dept": "市场监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/shangpintiaomaguanlibanfa.html",
+   "effective": "2005-10-01"
+  },
+  {
+   "slug": "shangpinliangjiliangweifaxingweichufaguiding",
+   "short": "商品量计量违法行为处罚规定",
+   "dept": "市场监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/shangpinliangjiliangweifaxingweichufaguiding.html",
+   "effective": "1999-03-12"
+  },
+  {
+   "slug": "shangbiaodailijianduguanliguiding",
+   "short": "商标代理监督管理规定",
+   "dept": "市场监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/shangbiaodailijianduguanliguiding.html",
+   "effective": "2022-12-01"
+  },
+  {
+   "slug": "shangbiaoyinzhiguanlibanfa",
+   "short": "商标印制管理办法（1996）",
+   "dept": "市场监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/shangbiaoyinzhiguanlibanfa.html",
+   "effective": "2004-09-01"
+  },
+  {
+   "slug": "shangbiaopingshenguize",
+   "short": "商标评审规则（2014）",
+   "dept": "市场监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/shangbiaopingshenguize.html",
+   "effective": "2014-06-01"
+  },
+  {
+   "slug": "gudingdianhuajishangpinxiuligenghuantuihuozerenguife4f5a",
+   "short": "固定电话机商品修理更换退货责任规定",
+   "dept": "市场监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/gudingdianhuajishangpinxiuligenghuantuihuozerenguife4f5a.html",
+   "effective": "2001-11-15"
+  },
+  {
+   "slug": "guojiagongshanghangzhengguanlijuguanyujinzhishangybf5996",
+   "short": "国家工商行政管理局关于禁止商业贿赂行为的暂行规定",
+   "dept": "市场监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/guojiagongshanghangzhengguanlijuguanyujinzhishangybf5996.html",
+   "effective": "1996-11-15"
+  },
+  {
+   "slug": "guojiashichangjianduguanlizongjuguizhangzhidingche7affea",
+   "short": "国家市场监督管理总局规章制定程序规定",
+   "dept": "市场监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/guojiashichangjianduguanlizongjuguizhangzhidingche7affea.html",
+   "effective": "2019-04-23"
+  },
+  {
+   "slug": "guojiabiaozhunguanlibanfa",
+   "short": "国家标准管理办法",
+   "dept": "市场监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/guojiabiaozhunguanlibanfa.html",
+   "effective": "2023-03-01"
+  },
+  {
+   "slug": "guojiajiliangjishuguifanguanlibanfa",
+   "short": "国家计量技术规范管理办法",
+   "dept": "市场监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/guojiajiliangjishuguifanguanlibanfa.html",
+   "effective": "2024-05-01"
+  },
+  {
+   "slug": "guojiajiliangjiandingguichengguanlibanfa",
+   "short": "国家计量检定规程管理办法",
+   "dept": "市场监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/guojiajiliangjiandingguichengguanlibanfa.html",
+   "effective": "2003-02-01"
+  },
+  {
+   "slug": "difangbiaozhunguanlibanfa",
+   "short": "地方标准管理办法",
+   "dept": "市场监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/difangbiaozhunguanlibanfa.html",
+   "effective": "2020-03-01"
+  },
+  {
+   "slug": "dilibiaozhichanpinbaohuguiding",
+   "short": "地理标志产品保护规定（2005）",
+   "dept": "市场监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/dilibiaozhichanpinbaohuguiding.html",
+   "effective": "2005-07-15"
+  },
+  {
+   "slug": "waishangtouziqiyeshouquandengjiguanlibanfa",
+   "short": "外商投资企业授权登记管理办法",
+   "dept": "市场监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/waishangtouziqiyeshouquandengjiguanlibanfa.html",
+   "effective": "2022-04-01"
+  },
+  {
+   "slug": "waiguoqiyezaizhongguojingneicongshishengchanjingyia878d3",
+   "short": "外国（地区）企业在中国境内从事生产经营活动登记管理办法",
+   "dept": "市场监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/waiguoqiyezaizhongguojingneicongshishengchanjingyia878d3.html",
+   "effective": "1992-10-01"
+  },
+  {
+   "slug": "daxingyoulesheshianquanjianchaguiding",
+   "short": "大型游乐设施安全监察规定",
+   "dept": "市场监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/daxingyoulesheshianquanjianchaguiding.html",
+   "effective": "2014-01-01"
+  },
+  {
+   "slug": "yingyouerpeifangrufenchanpinpeifangzhuceguanlibanfbba623",
+   "short": "婴幼儿配方乳粉产品配方注册管理办法（2023）",
+   "dept": "市场监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/yingyouerpeifangrufenchanpinpeifangzhuceguanlibanfbba623.html",
+   "effective": "2023-06-26"
+  },
+  {
+   "slug": "anquanjishufangfanchanpinguanlibanfa",
+   "short": "安全技术防范产品管理办法",
+   "dept": "市场监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/anquanjishufangfanchanpinguanlibanfa.html",
+   "effective": "2000-09-01"
+  },
+  {
+   "slug": "dingliangbaozhuangshangpinjiliangjianduguanlibanfa-2",
+   "short": "定量包装商品计量监督管理办法（2005）",
+   "dept": "市场监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/dingliangbaozhuangshangpinjiliangjianduguanlibanfa-2.html",
+   "effective": "2006-01-01"
+  },
+  {
+   "slug": "dingliangbaozhuangshangpinjiliangjianduguanlibanfa",
+   "short": "定量包装商品计量监督管理办法（2023）",
+   "dept": "市场监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/dingliangbaozhuangshangpinjiliangjianduguanlibanfa.html",
+   "effective": "2023-06-01"
+  },
+  {
+   "slug": "keyunsuodaoanquanjianduguanliguiding",
+   "short": "客运索道安全监督管理规定",
+   "dept": "市场监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/keyunsuodaoanquanjianduguanliguiding.html",
+   "effective": "2016-04-01"
+  },
+  {
+   "slug": "jiayongqichechanpinxiuligenghuantuihuozerenguiding",
+   "short": "家用汽车产品修理更换退货责任规定",
+   "dept": "市场监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/jiayongqichechanpinxiuligenghuantuihuozerenguiding.html",
+   "effective": "2022-01-01"
+  },
+  {
+   "slug": "jiayongshitingshangpinxiuligenghuantuihuozerenguidd3ee99",
+   "short": "家用视听商品修理更换退货责任规定",
+   "dept": "市场监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/jiayongshitingshangpinxiuligenghuantuihuozerenguidd3ee99.html",
+   "effective": "2002-09-01"
+  },
+  {
+   "slug": "gongyechanpinshengchandanweiluoshizhilianganquanzh62a780",
+   "short": "工业产品生产单位落实质量安全主体责任监督管理规定",
+   "dept": "市场监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/gongyechanpinshengchandanweiluoshizhilianganquanzh62a780.html",
+   "effective": "2023-05-05"
+  },
+  {
+   "slug": "gongyechanpinxiaoshoudanweiluoshizhilianganquanzhu0c7dfc",
+   "short": "工业产品销售单位落实质量安全主体责任监督管理规定",
+   "dept": "市场监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/gongyechanpinxiaoshoudanweiluoshizhilianganquanzhu0c7dfc.html",
+   "effective": "2023-05-05"
+  },
+  {
+   "slug": "gongshanghangzhengguanlijiguanxingzhengchufaanjian432d06",
+   "short": "工商行政管理机关行政处罚案件违法所得认定办法",
+   "dept": "市场监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/gongshanghangzhengguanlijiguanxingzhengchufaanjian432d06.html",
+   "effective": "2009-01-01"
+  },
+  {
+   "slug": "shichangjianduguanliyanzhongweifashixinmingdanguanc30ec1",
+   "short": "市场监督管理严重违法失信名单管理办法",
+   "dept": "市场监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/shichangjianduguanliyanzhongweifashixinmingdanguanc30ec1.html",
+   "effective": "2021-09-01"
+  },
+  {
+   "slug": "shichangjianduguanlixinyongxiufuguanlibanfa",
+   "short": "市场监督管理信用修复管理办法",
+   "dept": "市场监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/shichangjianduguanlixinyongxiufuguanlibanfa.html",
+   "effective": "2025-12-25"
+  },
+  {
+   "slug": "shichangjianduguanlizhifajianduzanxingguiding",
+   "short": "市场监督管理执法监督暂行规定",
+   "dept": "市场监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/shichangjianduguanlizhifajianduzanxingguiding.html",
+   "effective": "2020-04-01"
+  },
+  {
+   "slug": "shichangjianduguanlizhifajianduguiding",
+   "short": "市场监督管理执法监督规定",
+   "dept": "市场监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/shichangjianduguanlizhifajianduguiding.html",
+   "effective": "2019-12-31"
+  },
+  {
+   "slug": "shichangjianduguanlitousujubaochulizanxingbanfa",
+   "short": "市场监督管理投诉举报处理暂行办法",
+   "dept": "市场监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/shichangjianduguanlitousujubaochulizanxingbanfa.html",
+   "effective": "2019-11-30"
+  },
+  {
+   "slug": "shichangjianduguanlixingzhengchufaxinxigongshiguid9e20a8-2",
+   "short": "市场监督管理行政处罚信息公示规定（2021）",
+   "dept": "市场监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/shichangjianduguanlixingzhengchufaxinxigongshiguid9e20a8-2.html",
+   "effective": "2021-09-01"
+  },
+  {
+   "slug": "shichangjianduguanlixingzhengchufaxinxigongshiguid9e20a8",
+   "short": "市场监督管理行政处罚信息公示规定（2021）",
+   "dept": "市场监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/shichangjianduguanlixingzhengchufaxinxigongshiguid9e20a8.html",
+   "effective": "2021-07-30"
+  },
+  {
+   "slug": "shichangjianduguanlixingzhengchufachengxuguiding",
+   "short": "市场监督管理行政处罚程序规定",
+   "dept": "市场监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/shichangjianduguanlixingzhengchufachengxuguiding.html",
+   "effective": "2018-12-21"
+  },
+  {
+   "slug": "shichangjianduguanlixingzhengzhifazerenzhiguiding",
+   "short": "市场监督管理行政执法责任制规定",
+   "dept": "市场监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/shichangjianduguanlixingzhengzhifazerenzhiguiding.html",
+   "effective": "2021-07-15"
+  },
+  {
+   "slug": "shichangjianduguanlixingzhengxukechengxuzanxinggui6b7937",
+   "short": "市场监督管理行政许可程序暂行规定",
+   "dept": "市场监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/shichangjianduguanlixingzhengxukechengxuzanxinggui6b7937.html",
+   "effective": "2019-08-21"
+  },
+  {
+   "slug": "qiangzhixingchanpinrenzhengjigouheshiyanshiguanlib4d2efd",
+   "short": "强制性产品认证机构和实验室管理办法",
+   "dept": "市场监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/qiangzhixingchanpinrenzhengjigouheshiyanshiguanlib4d2efd.html",
+   "effective": "2004-06-23"
+  },
+  {
+   "slug": "qiangzhixingchanpinrenzhengguanliguiding",
+   "short": "强制性产品认证管理规定",
+   "dept": "市场监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/qiangzhixingchanpinrenzhengguanliguiding.html",
+   "effective": "2009-07-03"
+  },
+  {
+   "slug": "qiangzhixingguojiabiaozhunguanlibanfa",
+   "short": "强制性国家标准管理办法",
+   "dept": "市场监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/qiangzhixingguojiabiaozhunguanlibanfa.html",
+   "effective": "2020-06-01"
+  },
+  {
+   "slug": "qiangzhizhuxiaogongsidengjizhidushishibanfa",
+   "short": "强制注销公司登记制度实施办法",
+   "dept": "市场监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/qiangzhizhuxiaogongsidengjizhidushishibanfa.html",
+   "effective": "2025-10-10"
+  },
+  {
+   "slug": "weixingjisuanjishangpinxiuligenghuantuihuozerengui0073b9",
+   "short": "微型计算机商品修理更换退货责任规定",
+   "dept": "市场监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/weixingjisuanjishangpinxiuligenghuantuihuozerengui0073b9.html",
+   "effective": "2002-09-01"
+  },
+  {
+   "slug": "fangdichanguanggaofabuguiding",
+   "short": "房地产广告发布规定",
+   "dept": "市场监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/fangdichanguanggaofabuguiding.html",
+   "effective": "2016-02-01"
+  },
+  {
+   "slug": "paimaijianduguanlibanfa",
+   "short": "拍卖监督管理办法",
+   "dept": "市场监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/paimaijianduguanlibanfa.html",
+   "effective": "2017-11-01"
+  },
+  {
+   "slug": "mingmabiaojiahejinzhijiageqizhaguiding",
+   "short": "明码标价和禁止价格欺诈规定",
+   "dept": "市场监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/mingmabiaojiahejinzhijiageqizhaguiding.html",
+   "effective": "2022-07-01"
+  },
+  {
+   "slug": "youjichanpinrenzhengguanlibanfa",
+   "short": "有机产品认证管理办法",
+   "dept": "市场监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/youjichanpinrenzhengguanlibanfa.html",
+   "effective": "2014-04-01"
+  },
+  {
+   "slug": "jidongchepaifangzhaohuiguanliguiding",
+   "short": "机动车排放召回管理规定",
+   "dept": "市场监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/jidongchepaifangzhaohuiguanliguiding.html",
+   "effective": "2021-07-01"
+  },
+  {
+   "slug": "biaozhunchubanfaxingguanlibanfa",
+   "short": "标准出版发行管理办法",
+   "dept": "市场监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/biaozhunchubanfaxingguanlibanfa.html",
+   "effective": "1991-11-07"
+  },
+  {
+   "slug": "jianyanjiancejigoujianduguanlibanfa",
+   "short": "检验检测机构监督管理办法",
+   "dept": "市场监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/jianyanjiancejigoujianduguanlibanfa.html",
+   "effective": "2021-06-01"
+  },
+  {
+   "slug": "jianyanjiancejigouzizhirendingguanlibanfa",
+   "short": "检验检测机构资质认定管理办法",
+   "dept": "市场监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/jianyanjiancejigouzizhirendingguanlibanfa.html",
+   "effective": "2015-08-01"
+  },
+  {
+   "slug": "maorongxianweizhiliangjianduguanlibanfa",
+   "short": "毛绒纤维质量监督管理办法",
+   "dept": "市场监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/maorongxianweizhiliangjianduguanlibanfa.html",
+   "effective": "2003-08-01"
+  },
+  {
+   "slug": "fadingjiliangjiandingjigoujianduguanlibanfa",
+   "short": "法定计量检定机构监督管理办法",
+   "dept": "市场监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/fadingjiliangjiandingjigoujianduguanlibanfa.html",
+   "effective": "2001-01-21"
+  },
+  {
+   "slug": "xiaofeipinzhaohuiguanlizanxingguiding",
+   "short": "消费品召回管理暂行规定",
+   "dept": "市场监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/xiaofeipinzhaohuiguanlizanxingguiding.html",
+   "effective": "2020-01-01"
+  },
+  {
+   "slug": "yagaojianduguanlibanfa",
+   "short": "牙膏监督管理办法",
+   "dept": "市场监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/yagaojianduguanlibanfa.html",
+   "effective": "2023-12-01"
+  },
+  {
+   "slug": "tezhongshebeishigubaogaohediaochachuliguiding",
+   "short": "特种设备事故报告和调查处理规定",
+   "dept": "市场监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/tezhongshebeishigubaogaohediaochachuliguiding.html",
+   "effective": "2022-03-01"
+  },
+  {
+   "slug": "tezhongshebeishiyongdanweiluoshishiyonganquanzhuti0d91dd",
+   "short": "特种设备使用单位落实使用安全主体责任监督管理规定",
+   "dept": "市场监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/tezhongshebeishiyongdanweiluoshishiyonganquanzhuti0d91dd.html",
+   "effective": "2023-05-05"
+  },
+  {
+   "slug": "tezhongshebeianquanjiandujianchabanfa",
+   "short": "特种设备安全监督检查办法",
+   "dept": "市场监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/tezhongshebeianquanjiandujianchabanfa.html",
+   "effective": "2022-07-01"
+  },
+  {
+   "slug": "tezhongshebeishengchandanweiluoshizhilianganquanzh2dfb13",
+   "short": "特种设备生产单位落实质量安全主体责任监督管理规定",
+   "dept": "市场监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/tezhongshebeishengchandanweiluoshizhilianganquanzh2dfb13.html",
+   "effective": "2023-05-05"
+  },
+  {
+   "slug": "shengwuzhipinpiqianfaguanlibanfa",
+   "short": "生物制品批签发管理办法",
+   "dept": "市场监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/shengwuzhipinpiqianfaguanlibanfa.html",
+   "effective": "2021-03-01"
+  },
+  {
+   "slug": "zhibodianshangjingyingzheluoshishipinanquanzhutize13b292",
+   "short": "直播电商经营者落实食品安全主体责任监督管理规定",
+   "dept": "市场监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zhibodianshangjingyingzheluoshishipinanquanzhutize13b292.html",
+   "effective": "2026-03-20"
+  },
+  {
+   "slug": "yanjingzhipeijiliangjianduguanlibanfa",
+   "short": "眼镜制配计量监督管理办法",
+   "dept": "市场监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/yanjingzhipeijiliangjianduguanlibanfa.html",
+   "effective": "2003-10-15"
+  },
+  {
+   "slug": "jinzhilongduanxieyiguiding",
+   "short": "禁止垄断协议规定",
+   "dept": "市场监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/jinzhilongduanxieyiguiding.html",
+   "effective": "2023-03-10"
+  },
+  {
+   "slug": "jinzhilanyongshichangzhipeidiweixingweiguiding",
+   "short": "禁止滥用市场支配地位行为规定",
+   "dept": "市场监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/jinzhilanyongshichangzhipeidiweixingweiguiding.html",
+   "effective": "2023-04-15"
+  },
+  {
+   "slug": "jinzhilanyongzhishichanquanpaichuxianzhijingzhengx1b3d3c",
+   "short": "禁止滥用知识产权排除、限制竞争行为规定",
+   "dept": "市场监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/jinzhilanyongzhishichanquanpaichuxianzhijingzhengx1b3d3c.html",
+   "effective": "2023-08-01"
+  },
+  {
+   "slug": "jinzhifeifashengchanxiaoshoushiyongqietingqiezhaozbd7888",
+   "short": "禁止非法生产销售使用窃听窃照专用器材和“伪基站”设备的规定",
+   "dept": "市场监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/jinzhifeifashengchanxiaoshoushiyongqietingqiezhaozbd7888.html",
+   "effective": "2014-12-23"
+  },
+  {
+   "slug": "yidongdianhuajishangpinxiuligenghuantuihuozerenguidb48c3",
+   "short": "移动电话机商品修理更换退货责任规定",
+   "dept": "市场监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/yidongdianhuajishangpinxiuligenghuantuihuozerenguidb48c3.html",
+   "effective": "2001-11-15"
+  },
+  {
+   "slug": "xianweizhipinzhiliangjianduguanlibanfa-2",
+   "short": "纤维制品质量监督管理办法（2016）",
+   "dept": "市场监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/xianweizhipinzhiliangjianduguanlibanfa-2.html",
+   "effective": "2016-03-31"
+  },
+  {
+   "slug": "xianweizhipinzhiliangjianduguanlibanfa",
+   "short": "纤维制品质量监督管理办法（2025）",
+   "dept": "市场监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/xianweizhipinzhiliangjianduguanlibanfa.html",
+   "effective": "2026-07-01"
+  },
+  {
+   "slug": "zuzhijigoutongyishehuixinyongdaimaguanlibanfa",
+   "short": "组织机构统一社会信用代码管理办法",
+   "dept": "市场监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zuzhijigoutongyishehuixinyongdaimaguanlibanfa.html",
+   "effective": "2026-02-01"
+  },
+  {
+   "slug": "jingyingzhutidengjidanganguanlibanfa",
+   "short": "经营主体登记档案管理办法",
+   "dept": "市场监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/jingyingzhutidengjidanganguanlibanfa.html",
+   "effective": "2025-03-20"
+  },
+  {
+   "slug": "jingyingzhejizhongshenchaguiding",
+   "short": "经营者集中审查规定",
+   "dept": "市场监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/jingyingzhejizhongshenchaguiding.html",
+   "effective": "2023-04-15"
+  },
+  {
+   "slug": "quexianqichechanpinzhaohuiguanlitiaolishishibanfa",
+   "short": "缺陷汽车产品召回管理条例实施办法",
+   "dept": "市场监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/quexianqichechanpinzhaohuiguanlitiaolishishibanfa.html",
+   "effective": "2016-01-01"
+  },
+  {
+   "slug": "wangluojiaoyijianduguanlibanfa",
+   "short": "网络交易监督管理办法",
+   "dept": "市场监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/wangluojiaoyijianduguanlibanfa.html",
+   "effective": "2021-05-01"
+  },
+  {
+   "slug": "wangluofanbuzhengdangjingzhengzanxingguiding",
+   "short": "网络反不正当竞争暂行规定",
+   "dept": "市场监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/wangluofanbuzhengdangjingzhengzanxingguiding.html",
+   "effective": "2024-09-01"
+  },
+  {
+   "slug": "wangluoanquanshenchabanfa-3",
+   "short": "网络安全审查办法（2021）",
+   "dept": "市场监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/wangluoanquanshenchabanfa-3.html",
+   "effective": "2022-02-15"
+  },
+  {
+   "slug": "wangluogoumaishangpinqiriwuliyoutuihuozanxingbanfa",
+   "short": "网络购买商品七日无理由退货暂行办法",
+   "dept": "市场监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/wangluogoumaishangpinqiriwuliyoutuihuozanxingbanfa.html",
+   "effective": "2017-03-15"
+  },
+  {
+   "slug": "wangluoshipinxiaoshoujingyingzheluoshishipinanquana7f0dd",
+   "short": "网络食品销售经营者落实食品安全主体责任监督管理规定",
+   "dept": "市场监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/wangluoshipinxiaoshoujingyingzheluoshishipinanquana7f0dd.html",
+   "effective": "2026-05-20"
+  },
+  {
+   "slug": "wangluocanyinfuwujingyingzheluoshishipinanquanzhutb53ed9",
+   "short": "网络餐饮服务经营者落实食品安全主体责任监督管理规定",
+   "dept": "市场监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/wangluocanyinfuwujingyingzheluoshishipinanquanzhutb53ed9.html",
+   "effective": "2026-06-01"
+  },
+  {
+   "slug": "nengyuanjiliangjianduguanlibanfa",
+   "short": "能源计量监督管理办法",
+   "dept": "市场监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/nengyuanjiliangjianduguanlibanfa.html",
+   "effective": "2010-09-17"
+  },
+  {
+   "slug": "jienengditanchanpinrenzhengguanlibanfa",
+   "short": "节能低碳产品认证管理办法",
+   "dept": "市场监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/jienengditanchanpinrenzhengguanlibanfa.html",
+   "effective": "2015-11-01"
+  },
+  {
+   "slug": "jiansizhiliangjianduguanlibanfa",
+   "short": "茧丝质量监督管理办法",
+   "dept": "市场监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/jiansizhiliangjianduguanlibanfa.html",
+   "effective": "2003-01-14"
+  },
+  {
+   "slug": "yaopinyiliaoqixiebaojianshipinteshuyixueyongtupeifa0e834",
+   "short": "药品、医疗器械、保健食品、特殊医学用途配方食品广告审查管理暂行办法",
+   "dept": "市场监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/yaopinyiliaoqixiebaojianshipinteshuyixueyongtupeifa0e834.html",
+   "effective": "2020-03-01"
+  },
+  {
+   "slug": "yaopinzhuceguanlibanfa",
+   "short": "药品注册管理办法",
+   "dept": "市场监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/yaopinzhuceguanlibanfa.html",
+   "effective": "2020-07-01"
+  },
+  {
+   "slug": "yaopinshengchanjianduguanlibanfa",
+   "short": "药品生产监督管理办法",
+   "dept": "市场监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/yaopinshengchanjianduguanlibanfa.html",
+   "effective": "2020-07-01"
+  },
+  {
+   "slug": "yaopinjingyingheshiyongzhiliangjianduguanlibanfa",
+   "short": "药品经营和使用质量监督管理办法",
+   "dept": "市场监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/yaopinjingyingheshiyongzhiliangjianduguanlibanfa.html",
+   "effective": "2024-01-01"
+  },
+  {
+   "slug": "yaopinwangluoxiaoshoujianduguanlibanfa",
+   "short": "药品网络销售监督管理办法",
+   "dept": "市场监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/yaopinwangluoxiaoshoujianduguanlibanfa.html",
+   "effective": "2022-12-01"
+  },
+  {
+   "slug": "hangyebiaozhunguanlibanfa",
+   "short": "行业标准管理办法",
+   "dept": "市场监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/hangyebiaozhunguanlibanfa.html",
+   "effective": "1990-08-24"
+  },
+  {
+   "slug": "guifancuxiaoxingweizanxingguiding",
+   "short": "规范促销行为暂行规定",
+   "dept": "市场监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/guifancuxiaoxingweizanxingguiding.html",
+   "effective": "2020-12-01"
+  },
+  {
+   "slug": "guifanshangbiaoshenqingzhucexingweiruoganguiding",
+   "short": "规范商标申请注册行为若干规定（2019）",
+   "dept": "市场监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/guifanshangbiaoshenqingzhucexingweiruoganguiding.html",
+   "effective": "2019-12-01"
+  },
+  {
+   "slug": "jiliangqijuxinchanpinguanlibanfa-2",
+   "short": "计量器具新产品管理办法（2005）",
+   "dept": "市场监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/jiliangqijuxinchanpinguanlibanfa-2.html",
+   "effective": "2005-08-01"
+  },
+  {
+   "slug": "jiliangqijuxinchanpinguanlibanfa",
+   "short": "计量器具新产品管理办法（2023）",
+   "dept": "市场监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/jiliangqijuxinchanpinguanlibanfa.html",
+   "effective": "2023-06-01"
+  },
+  {
+   "slug": "jiliangjizhunguanlibanfa",
+   "short": "计量基准管理办法",
+   "dept": "市场监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/jiliangjizhunguanlibanfa.html",
+   "effective": "2007-06-06"
+  },
+  {
+   "slug": "jiliangshouquanguanlibanfa",
+   "short": "计量授权管理办法",
+   "dept": "市场监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/jiliangshouquanguanlibanfa.html",
+   "effective": "1989-11-06"
+  },
+  {
+   "slug": "jiliangbiaozhunkaohebanfa",
+   "short": "计量标准考核办法",
+   "dept": "市场监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/jiliangbiaozhunkaohebanfa.html",
+   "effective": "2005-01-14"
+  },
+  {
+   "slug": "jiliangbiduiguanlibanfa-2",
+   "short": "计量比对管理办法（2008）",
+   "dept": "市场监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/jiliangbiduiguanlibanfa-2.html",
+   "effective": "2008-08-01"
+  },
+  {
+   "slug": "jiliangbiduiguanlibanfa",
+   "short": "计量比对管理办法（2023）",
+   "dept": "市场监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/jiliangbiduiguanlibanfa.html",
+   "effective": "2023-06-01"
+  },
+  {
+   "slug": "jiliangweifaxingweichufaxize",
+   "short": "计量违法行为处罚细则",
+   "dept": "市场监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/jiliangweifaxingweichufaxize.html",
+   "effective": "1990-08-25"
+  },
+  {
+   "slug": "renzhengjirenzhengpeixunzixunrenyuanguanlibanfa",
+   "short": "认证及认证培训、咨询人员管理办法",
+   "dept": "市场监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/renzhengjirenzhengpeixunzixunrenyuanguanlibanfa.html",
+   "effective": "2004-06-24"
+  },
+  {
+   "slug": "renzhengjigouguanlibanfa",
+   "short": "认证机构管理办法",
+   "dept": "市场监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/renzhengjigouguanlibanfa.html",
+   "effective": "2018-01-01"
+  },
+  {
+   "slug": "renzhengzhengshuherenzhengbiaozhiguanlibanfa",
+   "short": "认证证书和认证标志管理办法",
+   "dept": "市场监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/renzhengzhengshuherenzhengbiaozhiguanlibanfa.html",
+   "effective": "2004-06-23"
+  },
+  {
+   "slug": "jinchukoushangpinjianyanjiandingjigouguanlibanfa",
+   "short": "进出口商品检验鉴定机构管理办法（2016）",
+   "dept": "市场监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/jinchukoushangpinjianyanjiandingjigouguanlibanfa.html",
+   "effective": "2016-05-01"
+  },
+  {
+   "slug": "jinkouyaocaiguanlibanfa",
+   "short": "进口药材管理办法",
+   "dept": "市场监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/jinkouyaocaiguanlibanfa.html",
+   "effective": "2020-01-01"
+  },
+  {
+   "slug": "caiyongguojibiaozhunguanlibanfa",
+   "short": "采用国际标准管理办法",
+   "dept": "市场监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/caiyongguojibiaozhunguanlibanfa.html",
+   "effective": "2001-12-04"
+  },
+  {
+   "slug": "zhongdianyetaishipindaolusanzhuangyunshuzhunyunguafffb10",
+   "short": "重点液态食品道路散装运输准运管理办法",
+   "dept": "市场监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zhongdianyetaishipindaolusanzhuangyunshuzhunyunguafffb10.html",
+   "effective": "2026-02-03"
+  },
+  {
+   "slug": "fangfanhechachujiamaoqiyedengjiweifaxingweiguiding",
+   "short": "防范和查处假冒企业登记违法行为规定",
+   "dept": "市场监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/fangfanhechachujiamaoqiyedengjiweifaxingweiguiding.html",
+   "effective": "2024-03-15"
+  },
+  {
+   "slug": "jizhongyongcandanweiluoshishipinanquanzhutizerenji2df9a4",
+   "short": "集中用餐单位落实食品安全主体责任监督管理规定",
+   "dept": "市场监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/jizhongyongcandanweiluoshishipinanquanzhutizerenji2df9a4.html",
+   "effective": "2025-04-15"
+  },
+  {
+   "slug": "jitishangbiaozhengmingshangbiaozhuceheguanlibanfa",
+   "short": "集体商标、证明商标注册和管理办法（2003）",
+   "dept": "市场监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/jitishangbiaozhengmingshangbiaozhuceheguanlibanfa.html",
+   "effective": "2003-04-17"
+  },
+  {
+   "slug": "jimaoshichangjiliangjianduguanlibanfa",
+   "short": "集贸市场计量监督管理办法",
+   "dept": "市场监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/jimaoshichangjiliangjianduguanlibanfa.html",
+   "effective": "2025-03-01"
+  },
+  {
+   "slug": "lingshoushangpinchengzhongjiliangjianduguanlibanfa",
+   "short": "零售商品称重计量监督管理办法",
+   "dept": "市场监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/lingshoushangpinchengzhongjiliangjianduguanlibanfa.html",
+   "effective": "2004-08-10"
+  },
+  {
+   "slug": "feifadingjiliangdanweixianzhishiyongguanlibanfa",
+   "short": "非法定计量单位限制使用管理办法",
+   "dept": "市场监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/feifadingjiliangdanweixianzhishiyongguanlibanfa.html",
+   "effective": "2024-06-01"
+  },
+  {
+   "slug": "shipinzhaohuiguanlibanfa",
+   "short": "食品召回管理办法（2026）",
+   "dept": "市场监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/shipinzhaohuiguanlibanfa.html",
+   "effective": "2026-12-01"
+  },
+  {
+   "slug": "shipinanquanchouyangjianyanguanlibanfa",
+   "short": "食品安全抽样检验管理办法",
+   "dept": "市场监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/shipinanquanchouyangjianyanguanlibanfa.html",
+   "effective": "2019-08-08"
+  },
+  {
+   "slug": "shipinbiaoshijianduguanlibanfa",
+   "short": "食品标识监督管理办法",
+   "dept": "市场监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/shipinbiaoshijianduguanlibanfa.html",
+   "effective": "2027-03-16"
+  },
+  {
+   "slug": "shipinshengchanjingyingjiandujianchaguanlibanfa",
+   "short": "食品生产经营监督检查管理办法",
+   "dept": "市场监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/shipinshengchanjingyingjiandujianchaguanlibanfa.html",
+   "effective": "2022-03-15"
+  },
+  {
+   "slug": "shipinshengchanxukeguanlibanfa",
+   "short": "食品生产许可管理办法",
+   "dept": "市场监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/shipinshengchanxukeguanlibanfa.html",
+   "effective": "2020-03-01"
+  },
+  {
+   "slug": "shipinxiangguanchanpinzhilianganquanjianduguanlizaed333f",
+   "short": "食品相关产品质量安全监督管理暂行办法",
+   "dept": "市场监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/shipinxiangguanchanpinzhilianganquanjianduguanlizaed333f.html",
+   "effective": "2023-03-01"
+  },
+  {
+   "slug": "shipinjingyingxukehebeianguanlibanfa",
+   "short": "食品经营许可和备案管理办法",
+   "dept": "市场监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/shipinjingyingxukehebeianguanlibanfa.html",
+   "effective": "2023-12-01"
+  },
+  {
+   "slug": "shipinxiaoshouliansuoqiyeluoshishipinanquanzhutizee6d2c7",
+   "short": "食品销售连锁企业落实食品安全主体责任监督管理规定",
+   "dept": "市场监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/shipinxiaoshouliansuoqiyeluoshishipinanquanzhutizee6d2c7.html",
+   "effective": "2026-03-20"
+  },
+  {
+   "slug": "shiyanzhilianganquanjianduguanlibanfa",
+   "short": "食盐质量安全监督管理办法",
+   "dept": "市场监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/shiyanzhilianganquanjianduguanlibanfa.html",
+   "effective": "2020-03-01"
+  },
+  {
+   "slug": "chimingshangbiaorendinghebaohuguiding",
+   "short": "驰名商标认定和保护规定（2014）",
+   "dept": "市场监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/chimingshangbiaorendinghebaohuguiding.html",
+   "effective": "2014-07-03"
+  },
+  {
+   "slug": "gaohaonengtezhongshebeijienengjianduguanlibanfa",
+   "short": "高耗能特种设备节能监督管理办法",
+   "dept": "市场监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/gaohaonengtezhongshebeijienengjianduguanlibanfa.html",
+   "effective": "2009-09-01"
+  },
+  {
+   "slug": "maleixianweizhiliangjianduguanlibanfa",
+   "short": "麻类纤维质量监督管理办法",
+   "dept": "市场监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/maleixianweizhiliangjianduguanlibanfa.html",
+   "effective": "2005-07-01"
+  },
+  {
+   "slug": "guanyuwaishangtouzijubantouzixinggongsideguidingde198ea7",
+   "short": "《关于外商投资举办投资性公司的规定》的补充规定",
+   "dept": "商务部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/guanyuwaishangtouzijubantouzixinggongsideguidingde198ea7.html",
+   "effective": "2006-05-26"
+  },
+  {
+   "slug": "duiwailaowuhezuojingyingzigeguanlibanfabuchongguid62b3c5",
+   "short": "《对外劳务合作经营资格管理办法》补充规定",
+   "dept": "商务部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/duiwailaowuhezuojingyingzigeguanlibanfabuchongguid62b3c5.html",
+   "effective": "2005-08-15"
+  },
+  {
+   "slug": "kuajingfuwumaoyitebieguanlicuoshiheziyoumaoyishiya8753e8",
+   "short": "《跨境服务贸易特别管理措施（负面清单）》（2024年版）和《自由贸易试验区跨境服务贸易特别管理措施（负面清单）》（2024年版）",
+   "dept": "商务部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/kuajingfuwumaoyitebieguanlicuoshiheziyoumaoyishiya8753e8.html",
+   "effective": "2024-04-21"
+  },
+  {
+   "slug": "bukekaoshitiqingdanguiding",
+   "short": "不可靠实体清单规定",
+   "dept": "商务部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/bukekaoshitiqingdanguiding.html",
+   "effective": "2020-09-19"
+  },
+  {
+   "slug": "liangyongwuxianghejishuchukoutongyongxukeguanlibanb36d31",
+   "short": "两用物项和技术出口通用许可管理办法",
+   "dept": "商务部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/liangyongwuxianghejishuchukoutongyongxukeguanlibanb36d31.html",
+   "effective": "2009-07-01"
+  },
+  {
+   "slug": "liangyongwuxianghejishujinchukouxukezhengguanlibane02665",
+   "short": "两用物项和技术进出口许可证管理办法",
+   "dept": "商务部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/liangyongwuxianghejishujinchukouxukezhengguanlibane02665.html",
+   "effective": "2006-01-01"
+  },
+  {
+   "slug": "guojihuowuyunshudailiyeguanliguidingshishixize",
+   "short": "国际货物运输代理业管理规定实施细则",
+   "dept": "商务部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/guojihuowuyunshudailiyeguanliguidingshishixize.html",
+   "effective": "1998-01-26"
+  },
+  {
+   "slug": "zhongguoqiyejingwaishangwutousufuwuzanxingbanfa",
+   "short": "中国企业境外商务投诉服务暂行办法",
+   "dept": "商务部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zhongguoqiyejingwaishangwutousufuwuzanxingbanfa.html",
+   "effective": "2006-08-16"
+  },
+  {
+   "slug": "zhongyangchubeirouguanlibanfa",
+   "short": "中央储备肉管理办法",
+   "dept": "商务部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zhongyangchubeirouguanlibanfa.html",
+   "effective": "2007-08-13"
+  },
+  {
+   "slug": "ershoucheliutongguanlibanfa-2",
+   "short": "二手车流通管理办法（2005）",
+   "dept": "商务部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/ershoucheliutongguanlibanfa-2.html",
+   "effective": "2005-08-29"
+  },
+  {
+   "slug": "ershoucheliutongguanlibanfa",
+   "short": "二手车流通管理办法（2005）",
+   "dept": "商务部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/ershoucheliutongguanlibanfa.html",
+   "effective": "2005-10-01"
+  },
+  {
+   "slug": "chanyesunhaidiaochaxinxichayueyuxinxipiluguiding",
+   "short": "产业损害调查信息查阅与信息披露规定",
+   "dept": "商务部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/chanyesunhaidiaochaxinxichayueyuxinxipiluguiding.html",
+   "effective": "2006-08-04"
+  },
+  {
+   "slug": "dikaichukoufapiaoxingweichufazanxingbanfa",
+   "short": "低开出口发票行为处罚暂行办法",
+   "dept": "商务部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/dikaichukoufapiaoxingweichufazanxingbanfa.html",
+   "effective": "2006-01-10"
+  },
+  {
+   "slug": "gongganghuojiaqinchukouguanlizanxingguiding",
+   "short": "供港活家禽出口管理暂行规定",
+   "dept": "商务部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/gongganghuojiaqinchukouguanlizanxingguiding.html",
+   "effective": "1998-03-13"
+  },
+  {
+   "slug": "gonggangxianhuolengdongshangpinguanlizanxingbanfa",
+   "short": "供港鲜活冷冻商品管理暂行办法",
+   "dept": "商务部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/gonggangxianhuolengdongshangpinguanlizanxingbanfa.html",
+   "effective": "1999-01-30"
+  },
+  {
+   "slug": "baozhangcuoshichanyesunhaidiaochaguiding",
+   "short": "保障措施产业损害调查规定",
+   "dept": "商务部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/baozhangcuoshichanyesunhaidiaochaguiding.html",
+   "effective": "2003-10-17"
+  },
+  {
+   "slug": "baozhangcuoshidiaochatingzhenghuizanxingguize",
+   "short": "保障措施调查听证会暂行规则",
+   "dept": "商务部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/baozhangcuoshidiaochatingzhenghuizanxingguize.html",
+   "effective": "2002-03-13"
+  },
+  {
+   "slug": "baozhangcuoshidiaochalianzanxingguize",
+   "short": "保障措施调查立案暂行规则",
+   "dept": "商务部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/baozhangcuoshidiaochalianzanxingguize.html",
+   "effective": "2002-03-13"
+  },
+  {
+   "slug": "qingxiaojiqingxiaofuduqijianfushenguize",
+   "short": "倾销及倾销幅度期间复审规则",
+   "dept": "商务部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/qingxiaojiqingxiaofuduqijianfushenguize.html",
+   "effective": "2018-05-04"
+  },
+  {
+   "slug": "guanyugonggangaodongrouqindebaozhuangxiangmatoujisa7bb68",
+   "short": "关于供港澳冻肉禽的包装箱唛头及商检证书有关事项的规定",
+   "dept": "商务部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/guanyugonggangaodongrouqindebaozhuangxiangmatoujisa7bb68.html",
+   "effective": "1995-07-01"
+  },
+  {
+   "slug": "guanyubaozhangcuoshichanpinfanweitiaozhengchengxud756b54",
+   "short": "关于保障措施产品范围调整程序的暂行规则",
+   "dept": "商务部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/guanyubaozhangcuoshichanpinfanweitiaozhengchengxud756b54.html",
+   "effective": "2002-12-13"
+  },
+  {
+   "slug": "guanyuxiugaijinchukoushangpinxukezhengfazhengjigou6455c6",
+   "short": "关于修改《进出口商品许可证发证机构管理办法》的决定",
+   "dept": "商务部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/guanyuxiugaijinchukoushangpinxukezhengfazhengjigou6455c6.html",
+   "effective": "2010-09-12"
+  },
+  {
+   "slug": "guanyuyinfaguifanjinchukoudailiyewuderuoganguiding63fc9b",
+   "short": "关于印发《规范进出口代理业务的若干规定》的通知",
+   "dept": "商务部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/guanyuyinfaguifanjinchukoudailiyewuderuoganguiding63fc9b.html",
+   "effective": "1998-12-01"
+  },
+  {
+   "slug": "guanyufanqingxiaochanpinfanweitiaozhengchengxudezabe1e5a",
+   "short": "关于反倾销产品范围调整程序的暂行规则",
+   "dept": "商务部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/guanyufanqingxiaochanpinfanweitiaozhengchengxudezabe1e5a.html",
+   "effective": "2002-12-13"
+  },
+  {
+   "slug": "guanyujingneiqiyechengjiefuwuwaibaoyewuxinxibaohud9c2dba-2",
+   "short": "关于境内企业承接服务外包业务信息保护的若干规定（2009）",
+   "dept": "商务部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/guanyujingneiqiyechengjiefuwuwaibaoyewuxinxibaohud9c2dba-2.html",
+   "effective": "2010-02-01"
+  },
+  {
+   "slug": "guanyuwaishangtouzijubantouzixinggongsideguiding",
+   "short": "关于外商投资举办投资性公司的规定",
+   "dept": "商务部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/guanyuwaishangtouzijubantouzixinggongsideguiding.html",
+   "effective": "2004-11-17"
+  },
+  {
+   "slug": "guanyuwaishangtouziqiyehebingyufenlideguiding",
+   "short": "关于外商投资企业合并与分立的规定",
+   "dept": "商务部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/guanyuwaishangtouziqiyehebingyufenlideguiding.html",
+   "effective": "1999-09-23"
+  },
+  {
+   "slug": "guanyuwaishangtouziqiyejingneitouzidezanxingguidina32171",
+   "short": "关于外商投资企业境内投资的暂行规定",
+   "dept": "商务部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/guanyuwaishangtouziqiyejingneitouzidezanxingguidina32171.html",
+   "effective": "2000-07-25"
+  },
+  {
+   "slug": "guanyuwaiguotouzizhebinggoujingneiqiyedeguiding",
+   "short": "关于外国投资者并购境内企业的规定",
+   "dept": "商务部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/guanyuwaiguotouzizhebinggoujingneiqiyedeguiding.html",
+   "effective": "2009-06-22"
+  },
+  {
+   "slug": "guanyuduizousiweiguiqiyejiyujinggaohuozantingchexi3ff7a3",
+   "short": "关于对走私、违规企业给予警告或暂停、撤销对外贸易、国际货运代理经营许可行政处罚的规定",
+   "dept": "商务部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/guanyuduizousiweiguiqiyejiyujinggaohuozantingchexi3ff7a3.html",
+   "effective": "2002-04-15"
+  },
+  {
+   "slug": "guanyuquerenhekaohewaishangtouzidechanpinchukouqiy5f1e69",
+   "short": "关于确认和考核外商投资的产品出口企业和先进技术企业的实施办法",
+   "dept": "商务部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/guanyuquerenhekaohewaishangtouzidechanpinchukouqiy5f1e69.html",
+   "effective": "1997-01-01"
+  },
+  {
+   "slug": "diandangguanlibanfa",
+   "short": "典当管理办法",
+   "dept": "商务部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/diandangguanlibanfa.html",
+   "effective": "2005-04-01"
+  },
+  {
+   "slug": "zaishengziyuanhuishouguanlibanfa-2",
+   "short": "再生资源回收管理办法（2007）",
+   "dept": "商务部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zaishengziyuanhuishouguanlibanfa-2.html",
+   "effective": "2007-03-27"
+  },
+  {
+   "slug": "zaishengziyuanhuishouguanlibanfa",
+   "short": "再生资源回收管理办法（2007）",
+   "dept": "商务部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zaishengziyuanhuishouguanlibanfa.html",
+   "effective": "2007-05-01"
+  },
+  {
+   "slug": "nongchanpinjinkouguanshuipeieguanlizanxingbanfa",
+   "short": "农产品进口关税配额管理暂行办法",
+   "dept": "商务部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/nongchanpinjinkouguanshuipeieguanlizanxingbanfa.html",
+   "effective": "2003-09-27"
+  },
+  {
+   "slug": "chukouchanpinfanqingxiaoanjianyingsuguiding",
+   "short": "出口产品反倾销案件应诉规定",
+   "dept": "商务部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/chukouchanpinfanqingxiaoanjianyingsuguiding.html",
+   "effective": "2006-08-14"
+  },
+  {
+   "slug": "chukoujiagongqujiagongmaoyiguanlizanxingbanfa",
+   "short": "出口加工区加工贸易管理暂行办法",
+   "dept": "商务部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/chukoujiagongqujiagongmaoyiguanlizanxingbanfa.html",
+   "effective": "2006-01-01"
+  },
+  {
+   "slug": "chukoushangpinpeiezhaobiaobanfa",
+   "short": "出口商品配额招标办法",
+   "dept": "商务部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/chukoushangpinpeiezhaobiaobanfa.html",
+   "effective": "2001-12-20"
+  },
+  {
+   "slug": "chukoushangpinpeieguanlibanfa",
+   "short": "出口商品配额管理办法",
+   "dept": "商务部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/chukoushangpinpeieguanlibanfa.html",
+   "effective": "2002-01-01"
+  },
+  {
+   "slug": "banlilaowurenyuanchuguoshouxudebanfa",
+   "short": "办理劳务人员出国手续的办法",
+   "dept": "商务部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/banlilaowurenyuanchuguoshouxudebanfa.html",
+   "effective": "2002-04-01"
+  },
+  {
+   "slug": "jiagongmaoyibaoshuijinkouliaojianneixiaoshenpiguan0fe72f",
+   "short": "加工贸易保税进口料件内销审批管理暂行办法",
+   "dept": "商务部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/jiagongmaoyibaoshuijinkouliaojianneixiaoshenpiguan0fe72f.html",
+   "effective": "1999-06-01"
+  },
+  {
+   "slug": "jiagongmaoyishenpiguanlizanxingbanfa",
+   "short": "加工贸易审批管理暂行办法",
+   "dept": "商务部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/jiagongmaoyishenpiguanlizanxingbanfa.html",
+   "effective": "1999-06-01"
+  },
+  {
+   "slug": "huafeijinkouguanshuipeieguanlizanxingbanfa",
+   "short": "化肥进口关税配额管理暂行办法",
+   "dept": "商务部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/huafeijinkouguanshuipeieguanlizanxingbanfa.html",
+   "effective": "2002-01-15"
+  },
+  {
+   "slug": "danyongtushangyeyufukaguanlibanfa",
+   "short": "单用途商业预付卡管理办法（试行）",
+   "dept": "商务部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/danyongtushangyeyufukaguanlibanfa.html",
+   "effective": "2012-09-21"
+  },
+  {
+   "slug": "yuanyouchengpinyouhuafeiguoyingmaoyijinkoujingying934eed",
+   "short": "原油、成品油、化肥国营贸易进口经营管理试行办法",
+   "dept": "商务部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/yuanyouchengpinyouhuafeiguoyingmaoyijinkoujingying934eed.html",
+   "effective": "2002-07-18"
+  },
+  {
+   "slug": "fanqingxiaochanyesunhaidiaochaguiding",
+   "short": "反倾销产业损害调查规定",
+   "dept": "商务部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/fanqingxiaochanyesunhaidiaochaguiding.html",
+   "effective": "2003-10-17"
+  },
+  {
+   "slug": "fanqingxiaojiagechengnuozanxingguize",
+   "short": "反倾销价格承诺暂行规则",
+   "dept": "商务部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/fanqingxiaojiagechengnuozanxingguize.html",
+   "effective": "2002-04-15"
+  },
+  {
+   "slug": "fanqingxiaohefanbutiediaochatingzhenghuiguize",
+   "short": "反倾销和反补贴调查听证会规则",
+   "dept": "商务部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/fanqingxiaohefanbutiediaochatingzhenghuiguize.html",
+   "effective": "2018-05-04"
+  },
+  {
+   "slug": "fanqingxiaoxinchukoushangfushenzanxingguize",
+   "short": "反倾销新出口商复审暂行规则",
+   "dept": "商务部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/fanqingxiaoxinchukoushangfushenzanxingguize.html",
+   "effective": "2002-04-15"
+  },
+  {
+   "slug": "fanqingxiaodiaochaxinxipiluzanxingguize",
+   "short": "反倾销调查信息披露暂行规则",
+   "dept": "商务部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/fanqingxiaodiaochaxinxipiluzanxingguize.html",
+   "effective": "2002-04-15"
+  },
+  {
+   "slug": "fanqingxiaodiaochagongkaixinxichayuezanxingguize",
+   "short": "反倾销调查公开信息查阅暂行规则",
+   "dept": "商务部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/fanqingxiaodiaochagongkaixinxichayuezanxingguize.html",
+   "effective": "2002-04-15"
+  },
+  {
+   "slug": "fanqingxiaodiaochashidihechazanxingguize",
+   "short": "反倾销调查实地核查暂行规则",
+   "dept": "商务部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/fanqingxiaodiaochashidihechazanxingguize.html",
+   "effective": "2002-04-15"
+  },
+  {
+   "slug": "fanqingxiaodiaochachouyangzanxingguize",
+   "short": "反倾销调查抽样暂行规则",
+   "dept": "商务部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/fanqingxiaodiaochachouyangzanxingguize.html",
+   "effective": "2002-04-15"
+  },
+  {
+   "slug": "fanqingxiaodiaochalianzanxingguize",
+   "short": "反倾销调查立案暂行规则",
+   "dept": "商务部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/fanqingxiaodiaochalianzanxingguize.html",
+   "effective": "2002-03-13"
+  },
+  {
+   "slug": "fanqingxiaotuishuizanxingguize",
+   "short": "反倾销退税暂行规则",
+   "dept": "商务部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/fanqingxiaotuishuizanxingguize.html",
+   "effective": "2002-03-13"
+  },
+  {
+   "slug": "fanqingxiaowenjuandiaochaguize",
+   "short": "反倾销问卷调查规则",
+   "dept": "商务部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/fanqingxiaowenjuandiaochaguize.html",
+   "effective": "2018-05-04"
+  },
+  {
+   "slug": "fanbutiechanyesunhaidiaochaguiding",
+   "short": "反补贴产业损害调查规定",
+   "dept": "商务部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/fanbutiechanyesunhaidiaochaguiding.html",
+   "effective": "2003-10-17"
+  },
+  {
+   "slug": "fanbutiediaochashidihechazanxingguize",
+   "short": "反补贴调查实地核查暂行规则",
+   "dept": "商务部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/fanbutiediaochashidihechazanxingguize.html",
+   "effective": "2002-04-15"
+  },
+  {
+   "slug": "fanbutiediaochalianzanxingguize",
+   "short": "反补贴调查立案暂行规则",
+   "dept": "商务部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/fanbutiediaochalianzanxingguize.html",
+   "effective": "2002-03-13"
+  },
+  {
+   "slug": "fanbutiewenjuandiaochazanxingguize",
+   "short": "反补贴问卷调查暂行规则",
+   "dept": "商务部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/fanbutiewenjuandiaochazanxingguize.html",
+   "effective": "2002-04-15"
+  },
+  {
+   "slug": "xiangtedingguojiachukouyizhiduhuaxuepinzanxingguan05dd35",
+   "short": "向特定国家（地区）出口易制毒化学品暂行管理规定",
+   "dept": "商务部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/xiangtedingguojiachukouyizhiduhuaxuepinzanxingguan05dd35.html",
+   "effective": "2005-08-11"
+  },
+  {
+   "slug": "shangyetexujingyingxinxipiluguanlibanfa",
+   "short": "商业特许经营信息披露管理办法",
+   "dept": "商务部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/shangyetexujingyingxinxipiluguanlibanfa.html",
+   "effective": "2012-04-01"
+  },
+  {
+   "slug": "shangyetexujingyingbeianguanlibanfa",
+   "short": "商业特许经营备案管理办法",
+   "dept": "商务部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/shangyetexujingyingbeianguanlibanfa.html",
+   "effective": "2012-02-01"
+  },
+  {
+   "slug": "shangwubuguojiagongshanghangzhengguanlijuguanyuwaiaad8fc",
+   "short": "商务部、国家工商行政管理局关于外商投资企业境内投资的暂行规定",
+   "dept": "商务部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/shangwubuguojiagongshanghangzhengguanlijuguanyuwaiaad8fc.html",
+   "effective": "2000-07-25"
+  },
+  {
+   "slug": "shangwubuguanyuwaiguotouzizhebinggoujingneiqiyedege2eba0",
+   "short": "商务部关于外国投资者并购境内企业的规定",
+   "dept": "商务部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/shangwubuguanyuwaiguotouzizhebinggoujingneiqiyedege2eba0.html",
+   "effective": ""
+  },
+  {
+   "slug": "shangwubuxingzhengchufashishibanfa",
+   "short": "商务部行政处罚实施办法",
+   "dept": "商务部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/shangwubuxingzhengchufashishibanfa.html",
+   "effective": "2018-12-10"
+  },
+  {
+   "slug": "shangwubuxingzhengfuyishishibanfa",
+   "short": "商务部行政复议实施办法",
+   "dept": "商务部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/shangwubuxingzhengfuyishishibanfa.html",
+   "effective": "2004-07-01"
+  },
+  {
+   "slug": "shangwubuguifanxingwenjianzhidingheguanlibanfa",
+   "short": "商务部规范性文件制定和管理办法",
+   "dept": "商务部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/shangwubuguifanxingwenjianzhidingheguanlibanfa.html",
+   "effective": "2018-05-13"
+  },
+  {
+   "slug": "shangwulingyubiaozhunhuaguanlibanfa",
+   "short": "商务领域标准化管理办法",
+   "dept": "商务部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/shangwulingyubiaozhunhuaguanlibanfa.html",
+   "effective": "2022-10-20"
+  },
+  {
+   "slug": "shangwulingyujingyingzheshiyongbaogaoyicixingsuliafa2a56",
+   "short": "商务领域经营者使用、报告一次性塑料制品管理办法",
+   "dept": "商务部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/shangwulingyujingyingzheshiyongbaogaoyicixingsuliafa2a56.html",
+   "effective": "2023-06-20"
+  },
+  {
+   "slug": "shangpinxianhuoshichangjiaoyitebieguiding",
+   "short": "商品现货市场交易特别规定（试行）",
+   "dept": "商务部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/shangpinxianhuoshichangjiaoyitebieguiding.html",
+   "effective": "2014-01-01"
+  },
+  {
+   "slug": "shangpinlingshouchangsuosuliaogouwudaiyouchangshiyccf4a5-2",
+   "short": "商品零售场所塑料购物袋有偿使用管理办法（2008）",
+   "dept": "商务部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/shangpinlingshouchangsuosuliaogouwudaiyouchangshiyccf4a5-2.html",
+   "effective": "2008-06-01"
+  },
+  {
+   "slug": "shangpinlingshouchangsuosuliaogouwudaiyouchangshiyccf4a5",
+   "short": "商品零售场所塑料购物袋有偿使用管理办法（2008）",
+   "dept": "商务部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/shangpinlingshouchangsuosuliaogouwudaiyouchangshiyccf4a5.html",
+   "effective": "2008-06-01"
+  },
+  {
+   "slug": "guojihuoyundailiqiyebeianbanfa",
+   "short": "国际货运代理企业备案（暂行）办法",
+   "dept": "商务部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/guojihuoyundailiqiyebeianbanfa.html",
+   "effective": "2005-03-02"
+  },
+  {
+   "slug": "zaijingneijubanduiwaijingjijishuzhanlanhuiguanliza334f39",
+   "short": "在境内举办对外经济技术展览会管理暂行办法",
+   "dept": "商务部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zaijingneijubanduiwaijingjijishuzhanlanhuiguanliza334f39.html",
+   "effective": "1998-10-01"
+  },
+  {
+   "slug": "zaizuguodalujubanduitaiwanjingjijishuzhanlanhuiguaa91091",
+   "short": "在祖国大陆举办对台湾经济技术展览会管理办法",
+   "dept": "商务部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zaizuguodalujubanduitaiwanjingjijishuzhanlanhuiguaa91091.html",
+   "effective": "1998-12-01"
+  },
+  {
+   "slug": "jingwaitouziguanlibanfa",
+   "short": "境外投资管理办法",
+   "dept": "商务部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/jingwaitouziguanlibanfa.html",
+   "effective": "2014-10-06"
+  },
+  {
+   "slug": "waishangtouziqiyehebingyufenliguiding",
+   "short": "外商投资企业合并与分立规定",
+   "dept": "商务部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/waishangtouziqiyehebingyufenliguiding.html",
+   "effective": ""
+  },
+  {
+   "slug": "waishangtouziqiyetousugongzuobanfa",
+   "short": "外商投资企业投诉工作办法",
+   "dept": "商务部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/waishangtouziqiyetousugongzuobanfa.html",
+   "effective": "2020-10-01"
+  },
+  {
+   "slug": "waishangtouziqiyedanganguanlizanxingguiding",
+   "short": "外商投资企业档案管理暂行规定",
+   "dept": "商务部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/waishangtouziqiyedanganguanlizanxingguiding.html",
+   "effective": "1994-12-29"
+  },
+  {
+   "slug": "waishangtouzixinxibaogaobanfa-2",
+   "short": "外商投资信息报告办法（2019）",
+   "dept": "商务部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/waishangtouzixinxibaogaobanfa-2.html",
+   "effective": "2020-01-01"
+  },
+  {
+   "slug": "waishangtouzixinxibaogaobanfa",
+   "short": "外商投资信息报告办法（2019）",
+   "dept": "商务部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/waishangtouzixinxibaogaobanfa.html",
+   "effective": "2020-01-01"
+  },
+  {
+   "slug": "waishangtouzichuangyetouziqiyeguanliguiding-2",
+   "short": "外商投资创业投资企业管理规定（2003）",
+   "dept": "商务部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/waishangtouzichuangyetouziqiyeguanliguiding-2.html",
+   "effective": "2003-01-30"
+  },
+  {
+   "slug": "waishangtouzichuangyetouziqiyeguanliguiding",
+   "short": "外商投资创业投资企业管理规定（2003）",
+   "dept": "商务部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/waishangtouzichuangyetouziqiyeguanliguiding.html",
+   "effective": "2003-03-01"
+  },
+  {
+   "slug": "waiguotouzizheduishangshigongsizhanlvetouziguanlib6303a6-2",
+   "short": "外国投资者对上市公司战略投资管理办法（2005）",
+   "dept": "商务部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/waiguotouzizheduishangshigongsizhanlvetouziguanlib6303a6-2.html",
+   "effective": "2005-12-31"
+  },
+  {
+   "slug": "waiguotouzizheduishangshigongsizhanlvetouziguanlib6303a6",
+   "short": "外国投资者对上市公司战略投资管理办法（2005）",
+   "dept": "商务部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/waiguotouzizheduishangshigongsizhanlvetouziguanlib6303a6.html",
+   "effective": "2006-01-31"
+  },
+  {
+   "slug": "waipailaowurenyuanpeixungongzuoguanliguiding",
+   "short": "外派劳务人员培训工作管理规定（修订稿）",
+   "dept": "商务部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/waipailaowurenyuanpeixungongzuoguanliguiding.html",
+   "effective": "2002-02-01"
+  },
+  {
+   "slug": "daxingdanjihechengtaoshebeichukouxiangmuxietiaoguad86c87",
+   "short": "大型单机和成套设备出口项目协调管理办法",
+   "dept": "商务部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/daxingdanjihechengtaoshebeichukouxiangmuxietiaoguad86c87.html",
+   "effective": "2002-01-01"
+  },
+  {
+   "slug": "dazongnongchanpinjinkoubaogaohexinxifabuguanlibanf16b1b6",
+   "short": "大宗农产品进口报告和信息发布管理办法（试行）",
+   "dept": "商务部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/dazongnongchanpinjinkoubaogaohexinxifabuguanlibanf16b1b6.html",
+   "effective": "2008-08-01"
+  },
+  {
+   "slug": "jiatingfuwuyeguanlizanxingbanfa",
+   "short": "家庭服务业管理暂行办法",
+   "dept": "商务部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/jiatingfuwuyeguanlizanxingbanfa.html",
+   "effective": "2013-02-01"
+  },
+  {
+   "slug": "jiadianweixiufuwuyeguanlibanfa",
+   "short": "家电维修服务业管理办法",
+   "dept": "商务部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/jiadianweixiufuwuyeguanlibanfa.html",
+   "effective": "2012-08-01"
+  },
+  {
+   "slug": "duitaiwandiquxiaoemaoyideguanlibanfa",
+   "short": "对台湾地区小额贸易的管理办法",
+   "dept": "商务部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/duitaiwandiquxiaoemaoyideguanlibanfa.html",
+   "effective": "1993-09-25"
+  },
+  {
+   "slug": "duitaiwandiqumaoyiguanlibanfa",
+   "short": "对台湾地区贸易管理办法",
+   "dept": "商务部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/duitaiwandiqumaoyiguanlibanfa.html",
+   "effective": "2000-12-29"
+  },
+  {
+   "slug": "duiwailaowuhezuofengxianchuzhibeiyongjinguanlibanf91625c",
+   "short": "对外劳务合作风险处置备用金管理办法（试行）",
+   "dept": "商务部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/duiwailaowuhezuofengxianchuzhibeiyongjinguanlibanf91625c.html",
+   "effective": "2014-07-18"
+  },
+  {
+   "slug": "duiwaichengbaogongchengxiangmubeianhelixiangguanli015b41",
+   "short": "对外承包工程项目备案和立项管理办法",
+   "dept": "商务部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/duiwaichengbaogongchengxiangmubeianhelixiangguanli015b41.html",
+   "effective": "2024-07-01"
+  },
+  {
+   "slug": "duiwaijishuyuanzhuxiangmuguanlibanfa",
+   "short": "对外技术援助项目管理办法（试行）",
+   "dept": "商务部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/duiwaijishuyuanzhuxiangmuguanlibanfa.html",
+   "effective": "2016-01-08"
+  },
+  {
+   "slug": "duiwaiyuanzhuchengtaoxiangmuguanlibanfa",
+   "short": "对外援助成套项目管理办法（试行）",
+   "dept": "商务部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/duiwaiyuanzhuchengtaoxiangmuguanlibanfa.html",
+   "effective": "2016-01-08"
+  },
+  {
+   "slug": "duiwaiyuanzhuwuzixiangmuguanlibanfa",
+   "short": "对外援助物资项目管理办法（试行）",
+   "dept": "商务部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/duiwaiyuanzhuwuzixiangmuguanlibanfa.html",
+   "effective": "2016-01-08"
+  },
+  {
+   "slug": "duiwaiyuanzhuxiangmushishiqiyezigerendingbanfa",
+   "short": "对外援助项目实施企业资格认定办法（试行）",
+   "dept": "商务部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/duiwaiyuanzhuxiangmushishiqiyezigerendingbanfa.html",
+   "effective": "2015-10-29"
+  },
+  {
+   "slug": "duiwaimaoyibileidiaochaguize",
+   "short": "对外贸易壁垒调查规则",
+   "dept": "商务部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/duiwaimaoyibileidiaochaguize.html",
+   "effective": "2005-03-01"
+  },
+  {
+   "slug": "duiwaimaoyijingjihezuobuguanyugongyinggangaoxianhub68092",
+   "short": "对外贸易经济合作部关于供应港澳鲜活冷冻商品主动配额管理暂行规定",
+   "dept": "商务部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/duiwaimaoyijingjihezuobuguanyugongyinggangaoxianhub68092.html",
+   "effective": "1995-04-11"
+  },
+  {
+   "slug": "duiwaimaoyijingyingzhebeiandengjibanfa",
+   "short": "对外贸易经营者备案登记办法",
+   "dept": "商务部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/duiwaimaoyijingyingzhebeiandengjibanfa.html",
+   "effective": "2004-06-25"
+  },
+  {
+   "slug": "duiwaimaoyijingyingzheweifaweiguixingweigonggaoban226f4e",
+   "short": "对外贸易经营者违法违规行为公告办法",
+   "dept": "商务部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/duiwaimaoyijingyingzheweifaweiguixingweigonggaoban226f4e.html",
+   "effective": "2005-09-01"
+  },
+  {
+   "slug": "duixianggangdiqulaowuhezuoguanlibanfa",
+   "short": "对香港地区劳务合作管理办法",
+   "dept": "商务部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/duixianggangdiqulaowuhezuoguanlibanfa.html",
+   "effective": "1996-09-05"
+  },
+  {
+   "slug": "zhanhuizhishichanquanbaohubanfa-3",
+   "short": "展会知识产权保护办法（2006）",
+   "dept": "商务部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zhanhuizhishichanquanbaohubanfa-3.html",
+   "effective": "2006-03-01"
+  },
+  {
+   "slug": "zhanhuizhishichanquanbaohubanfa",
+   "short": "展会知识产权保护办法（2006）",
+   "dept": "商务部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zhanhuizhishichanquanbaohubanfa.html",
+   "effective": "2006-03-01"
+  },
+  {
+   "slug": "chengpinyouliutongguanlibanfa",
+   "short": "成品油流通管理办法",
+   "dept": "商务部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/chengpinyouliutongguanlibanfa.html",
+   "effective": "2025-09-01"
+  },
+  {
+   "slug": "zhixingshijiemaoyizuzhimaoyijiujizhengduancaijueza5f2acc",
+   "short": "执行世界贸易组织贸易救济争端裁决暂行规则",
+   "dept": "商务部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zhixingshijiemaoyizuzhimaoyijiujizhengduancaijueza5f2acc.html",
+   "effective": "2013-07-29"
+  },
+  {
+   "slug": "jishujinchukouhetongdengjiguanlibanfa",
+   "short": "技术进出口合同登记管理办法（修订）",
+   "dept": "商务部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/jishujinchukouhetongdengjiguanlibanfa.html",
+   "effective": "2009-02-01"
+  },
+  {
+   "slug": "baofeijidongchehuishouguanlibanfashishixize-2",
+   "short": "报废机动车回收管理办法实施细则（2020）",
+   "dept": "商务部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/baofeijidongchehuishouguanlibanfashishixize-2.html",
+   "effective": "2020-09-01"
+  },
+  {
+   "slug": "baofeijidongchehuishouguanlibanfashishixize",
+   "short": "报废机动车回收管理办法实施细则（2020）",
+   "dept": "商务部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/baofeijidongchehuishouguanlibanfashishixize.html",
+   "effective": "2020-09-01"
+  },
+  {
+   "slug": "paimaiguanlibanfa",
+   "short": "拍卖管理办法",
+   "dept": "商务部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/paimaiguanlibanfa.html",
+   "effective": "2004-12-02"
+  },
+  {
+   "slug": "yuanwaiqingnianzhiyuanzhexuanpaiheguanlizanxingband665af",
+   "short": "援外青年志愿者选派和管理暂行办法",
+   "dept": "商务部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/yuanwaiqingnianzhiyuanzhexuanpaiheguanlizanxingband665af.html",
+   "effective": ""
+  },
+  {
+   "slug": "sanzhuangshuiniguanlibanfa-2",
+   "short": "散装水泥管理办法（2004）",
+   "dept": "商务部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/sanzhuangshuiniguanlibanfa-2.html",
+   "effective": "2004-03-29"
+  },
+  {
+   "slug": "sanzhuangshuiniguanlibanfa",
+   "short": "散装水泥管理办法（2004）",
+   "dept": "商务部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/sanzhuangshuiniguanlibanfa.html",
+   "effective": "2004-03-29"
+  },
+  {
+   "slug": "jiudianqidianzichanpinliutongguanlibanfa",
+   "short": "旧电器电子产品流通管理办法",
+   "dept": "商务部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/jiudianqidianzichanpinliutongguanlibanfa.html",
+   "effective": "2013-05-01"
+  },
+  {
+   "slug": "jiuhuoliutongguanlibanfa",
+   "short": "旧货流通管理办法（试行）",
+   "dept": "商务部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/jiuhuoliutongguanlibanfa.html",
+   "effective": "1998-03-09"
+  },
+  {
+   "slug": "yizhiduhuaxuepinjisuanjijiankonghuaxuepinguanlishif650f6",
+   "short": "易制毒化学品、计算机、监控化学品管理适用的规定",
+   "dept": "商务部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/yizhiduhuaxuepinjisuanjijiankonghuaxuepinguanlishif650f6.html",
+   "effective": "2008-08-05"
+  },
+  {
+   "slug": "yizhiduhuaxuepinjinchukouguojihechaguanliguiding",
+   "short": "易制毒化学品进出口国际核查管理规定",
+   "dept": "商务部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/yizhiduhuaxuepinjinchukouguojihechaguanliguiding.html",
+   "effective": "2006-09-07"
+  },
+  {
+   "slug": "yizhiduhuaxuepinjinchukouguanliguiding",
+   "short": "易制毒化学品进出口管理规定",
+   "dept": "商务部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/yizhiduhuaxuepinjinchukouguanliguiding.html",
+   "effective": "2006-09-21"
+  },
+  {
+   "slug": "youguanhuaxuepinjixiangguanshebeihejishuchukouguana14c6d",
+   "short": "有关化学品及相关设备和技术出口管制办法",
+   "dept": "商务部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/youguanhuaxuepinjixiangguanshebeihejishuchukouguana14c6d.html",
+   "effective": "2002-11-19"
+  },
+  {
+   "slug": "jidongcheqiangzhibaofeibiaozhunguiding",
+   "short": "机动车强制报废标准规定",
+   "dept": "商务部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/jidongcheqiangzhibaofeibiaozhunguiding.html",
+   "effective": "2013-05-01"
+  },
+  {
+   "slug": "jidianchanpinchukouzhaobiaobanfa",
+   "short": "机电产品出口招标办法",
+   "dept": "商务部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/jidianchanpinchukouzhaobiaobanfa.html",
+   "effective": "2002-01-01"
+  },
+  {
+   "slug": "jidianchanpinguojizhaobiaodailijigoujianduguanliba488b16",
+   "short": "机电产品国际招标代理机构监督管理办法（试行）",
+   "dept": "商务部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/jidianchanpinguojizhaobiaodailijigoujianduguanliba488b16.html",
+   "effective": "2017-01-01"
+  },
+  {
+   "slug": "jidianchanpinguojizhaobiaotoubiaoshishibanfa",
+   "short": "机电产品国际招标投标实施办法（试行）",
+   "dept": "商务部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/jidianchanpinguojizhaobiaotoubiaoshishibanfa.html",
+   "effective": "2014-04-01"
+  },
+  {
+   "slug": "jidianchanpinzidongjinkouxukeshishibanfa",
+   "short": "机电产品自动进口许可实施办法",
+   "dept": "商务部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/jidianchanpinzidongjinkouxukeshishibanfa.html",
+   "effective": "2008-04-07"
+  },
+  {
+   "slug": "jidianchanpinjinkouguanlibanfa",
+   "short": "机电产品进口管理办法",
+   "dept": "商务部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/jidianchanpinjinkouguanlibanfa.html",
+   "effective": "2008-04-07"
+  },
+  {
+   "slug": "jidianchanpinjinkoupeieguanlishishixize",
+   "short": "机电产品进口配额管理实施细则",
+   "dept": "商务部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/jidianchanpinjinkoupeieguanlishishixize.html",
+   "effective": "2002-01-01"
+  },
+  {
+   "slug": "minyonghangkonglingbujianchukoufenleiguanlibanfa",
+   "short": "民用航空零部件出口分类管理办法",
+   "dept": "商务部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/minyonghangkonglingbujianchukoufenleiguanlibanfa.html",
+   "effective": "2006-08-01"
+  },
+  {
+   "slug": "qichemaoyizhengce",
+   "short": "汽车贸易政策",
+   "dept": "商务部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/qichemaoyizhengce.html",
+   "effective": "2005-08-10"
+  },
+  {
+   "slug": "qichexiaoshouguanlibanfa",
+   "short": "汽车销售管理办法",
+   "dept": "商务部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/qichexiaoshouguanlibanfa.html",
+   "effective": "2017-07-01"
+  },
+  {
+   "slug": "xiranyeguanlibanfa-2",
+   "short": "洗染业管理办法（2007）",
+   "dept": "商务部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/xiranyeguanlibanfa-2.html",
+   "effective": "2007-07-01"
+  },
+  {
+   "slug": "xiranyeguanlibanfa",
+   "short": "洗染业管理办法（2007）",
+   "dept": "商务部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/xiranyeguanlibanfa.html",
+   "effective": "2007-07-01"
+  },
+  {
+   "slug": "hainanziyoumaoyigangkuajingfuwumaoyitebieguanlicuob4278a",
+   "short": "海南自由贸易港跨境服务贸易特别管理措施(负面清单)(2021年版)",
+   "dept": "商务部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/hainanziyoumaoyigangkuajingfuwumaoyitebieguanlicuob4278a.html",
+   "effective": "2021-08-26"
+  },
+  {
+   "slug": "shenghuobixupinshichanggongyingyingjiguanlibanfa",
+   "short": "生活必需品市场供应应急管理办法",
+   "dept": "商务部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/shenghuobixupinshichanggongyingyingjiguanlibanfa.html",
+   "effective": "2012-02-01"
+  },
+  {
+   "slug": "baiyinchukouguanlizanxingbanfa",
+   "short": "白银出口管理暂行办法",
+   "dept": "商务部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/baiyinchukouguanlizanxingbanfa.html",
+   "effective": "2000-01-01"
+  },
+  {
+   "slug": "zhixiaoqiyebaozhengjincunjiaoshiyongguanlibanfa-2",
+   "short": "直销企业保证金存缴、使用管理办法（2005）",
+   "dept": "商务部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zhixiaoqiyebaozhengjincunjiaoshiyongguanlibanfa-2.html",
+   "effective": "2005-12-01"
+  },
+  {
+   "slug": "zhixiaoqiyebaozhengjincunjiaoshiyongguanlibanfa",
+   "short": "直销企业保证金存缴、使用管理办法（2005）",
+   "dept": "商务部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zhixiaoqiyebaozhengjincunjiaoshiyongguanlibanfa.html",
+   "effective": "2005-12-01"
+  },
+  {
+   "slug": "zhixiaoqiyexinxibaobeipiluguanlibanfa-2",
+   "short": "直销企业信息报备、披露管理办法（2005）",
+   "dept": "商务部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zhixiaoqiyexinxibaobeipiluguanlibanfa-2.html",
+   "effective": "2005-12-01"
+  },
+  {
+   "slug": "zhixiaoqiyexinxibaobeipiluguanlibanfa",
+   "short": "直销企业信息报备、披露管理办法（2005）",
+   "dept": "商务部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zhixiaoqiyexinxibaobeipiluguanlibanfa.html",
+   "effective": "2005-12-01"
+  },
+  {
+   "slug": "zhixiaoyuanyewupeixunguanlibanfa-2",
+   "short": "直销员业务培训管理办法（2005）",
+   "dept": "商务部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zhixiaoyuanyewupeixunguanlibanfa-2.html",
+   "effective": "2005-12-01"
+  },
+  {
+   "slug": "zhixiaoyuanyewupeixunguanlibanfa",
+   "short": "直销员业务培训管理办法（2005）",
+   "dept": "商务部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zhixiaoyuanyewupeixunguanlibanfa.html",
+   "effective": "2005-12-01"
+  },
+  {
+   "slug": "zhixiaoxingyefuwuwangdiansheliguanlibanfa",
+   "short": "直销行业服务网点设立管理办法",
+   "dept": "商务部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zhixiaoxingyefuwuwangdiansheliguanlibanfa.html",
+   "effective": "2006-10-20"
+  },
+  {
+   "slug": "jinzhichukouxianzhichukoujishuguanlibanfa",
+   "short": "禁止出口限制出口技术管理办法",
+   "dept": "商务部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/jinzhichukouxianzhichukoujishuguanlibanfa.html",
+   "effective": "2009-05-20"
+  },
+  {
+   "slug": "jinzhijinkouxianzhijinkoujishuguanlibanfa",
+   "short": "禁止进口限制进口技术管理办法",
+   "dept": "商务部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/jinzhijinkouxianzhijinkoujishuguanlibanfa.html",
+   "effective": "2009-02-01"
+  },
+  {
+   "slug": "fangzhipinchukouzidongxukezanxingbanfa",
+   "short": "纺织品出口自动许可暂行办法",
+   "dept": "商务部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/fangzhipinchukouzidongxukezanxingbanfa.html",
+   "effective": "2005-03-01"
+  },
+  {
+   "slug": "wangluolingshoudisanfangpingtaijiaoyiguizezhidingc516ca3",
+   "short": "网络零售第三方平台交易规则制定程序规定（试行）",
+   "dept": "商务部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/wangluolingshoudisanfangpingtaijiaoyiguizezhidingc516ca3.html",
+   "effective": "2015-04-01"
+  },
+  {
+   "slug": "meirongmeifayeguanlizanxingbanfa",
+   "short": "美容美发业管理暂行办法",
+   "dept": "商务部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/meirongmeifayeguanlizanxingbanfa.html",
+   "effective": "2005-01-01"
+  },
+  {
+   "slug": "huowuchukouxukezhengguanlibanfa",
+   "short": "货物出口许可证管理办法",
+   "dept": "商务部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/huowuchukouxukezhengguanlibanfa.html",
+   "effective": "2008-06-07"
+  },
+  {
+   "slug": "huowuzidongjinkouxukeguanlibanfa",
+   "short": "货物自动进口许可管理办法",
+   "dept": "商务部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/huowuzidongjinkouxukeguanlibanfa.html",
+   "effective": "2004-12-10"
+  },
+  {
+   "slug": "huowujinkouxukezhengguanlibanfa",
+   "short": "货物进口许可证管理办法",
+   "dept": "商务部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/huowujinkouxukezhengguanlibanfa.html",
+   "effective": "2005-01-01"
+  },
+  {
+   "slug": "bianjingxiaoemaoyijidianchanpinjinkouguanlishishibc66235",
+   "short": "边境小额贸易机电产品进口管理实施办法",
+   "dept": "商务部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/bianjingxiaoemaoyijidianchanpinjinkouguanlishishibc66235.html",
+   "effective": "1996-04-01"
+  },
+  {
+   "slug": "jinchukouxukezhengshoufeicaiwuguanlibanfa",
+   "short": "进出口许可证收费财务管理办法",
+   "dept": "商务部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/jinchukouxukezhengshoufeicaiwuguanlibanfa.html",
+   "effective": "2000-01-01"
+  },
+  {
+   "slug": "jinchukouxukezhengzhengshuguanliguiding",
+   "short": "进出口许可证证书管理规定",
+   "dept": "商务部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/jinchukouxukezhengzhengshuguanliguiding.html",
+   "effective": "2012-03-05"
+  },
+  {
+   "slug": "zhongdianjiujidianchanpinjinkouguanlibanfa",
+   "short": "重点旧机电产品进口管理办法",
+   "dept": "商务部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zhongdianjiujidianchanpinjinkouguanlibanfa.html",
+   "effective": "2008-04-07"
+  },
+  {
+   "slug": "jinrongyejingyingzhejizhongshenbaoyingyeejisuanban9ea786-2",
+   "short": "金融业经营者集中申报营业额计算办法（2009）",
+   "dept": "商务部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/jinrongyejingyingzhejizhongshenbaoyingyeejisuanban9ea786-2.html",
+   "effective": "2009-07-15"
+  },
+  {
+   "slug": "jinrongyejingyingzhejizhongshenbaoyingyeejisuanban9ea786",
+   "short": "金融业经营者集中申报营业额计算办法（2009）",
+   "dept": "商务部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/jinrongyejingyingzhejizhongshenbaoyingyeejisuanban9ea786.html",
+   "effective": "2009-07-15"
+  },
+  {
+   "slug": "zuduanwaiguofalvyucuoshibudangyuwaishiyongbanfa",
+   "short": "阻断外国法律与措施不当域外适用办法",
+   "dept": "商务部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zuduanwaiguofalvyucuoshibudangyuwaishiyongbanfa.html",
+   "effective": "2021-01-09"
+  },
+  {
+   "slug": "lingshoushanggongyingshanggongpingjiaoyiguanlibanfa09c39-2",
+   "short": "零售商供应商公平交易管理办法（2006）",
+   "dept": "商务部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/lingshoushanggongyingshanggongpingjiaoyiguanlibanfa09c39-2.html",
+   "effective": "2006-11-15"
+  },
+  {
+   "slug": "lingshoushanggongyingshanggongpingjiaoyiguanlibanfa09c39",
+   "short": "零售商供应商公平交易管理办法（2006）",
+   "dept": "商务部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/lingshoushanggongyingshanggongpingjiaoyiguanlibanfa09c39.html",
+   "effective": "2006-11-15"
+  },
+  {
+   "slug": "lingshoushangcuxiaoxingweiguanlibanfa-2",
+   "short": "零售商促销行为管理办法（2006）",
+   "dept": "商务部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/lingshoushangcuxiaoxingweiguanlibanfa-2.html",
+   "effective": "2006-10-15"
+  },
+  {
+   "slug": "lingshoushangcuxiaoxingweiguanlibanfa",
+   "short": "零售商促销行为管理办法（2006）",
+   "dept": "商务部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/lingshoushangcuxiaoxingweiguanlibanfa.html",
+   "effective": "2006-10-15"
+  },
+  {
+   "slug": "canyinyecujinhejingyingguanlibanfa",
+   "short": "餐饮业促进和经营管理办法",
+   "dept": "商务部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/canyinyecujinhejingyingguanlibanfa.html",
+   "effective": "2025-06-15"
+  },
+  {
+   "slug": "canyinyejingyingguanlibanfa",
+   "short": "餐饮业经营管理办法（试行）",
+   "dept": "商务部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/canyinyejingyingguanlibanfa.html",
+   "effective": "2014-11-01"
+  },
+  {
+   "slug": "mahuangsuleiyizhiduhuaxuepinchukouqiyehedingzanxin2206b4",
+   "short": "麻黄素类易制毒化学品出口企业核定暂行办法",
+   "dept": "商务部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/mahuangsuleiyizhiduhuaxuepinchukouqiyehedingzanxin2206b4.html",
+   "effective": "2006-10-10"
+  },
+  {
+   "slug": "haiguanjichatiaolishishibanfa",
+   "short": "《海关稽查条例》实施办法",
+   "dept": "海关总署",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/haiguanjichatiaolishishibanfa.html",
+   "effective": "2016-11-01"
+  },
+  {
+   "slug": "jinzhijinchujingwupinbiaohexianzhijinchujingwupinb1f7d89",
+   "short": "《禁止进出境物品表》和《限制进出境物品表》",
+   "dept": "海关总署",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/jinzhijinchujingwupinbiaohexianzhijinchujingwupinb1f7d89.html",
+   "effective": "1993-03-01"
+  },
+  {
+   "slug": "shishijinbolijinchengguojizhengshuzhiduguanliguidie26dc0",
+   "short": "实施金伯利进程国际证书制度管理规定",
+   "dept": "海关总署",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/shishijinbolijinchengguojizhengshuzhiduguanliguidie26dc0.html",
+   "effective": "2002-12-31"
+  },
+  {
+   "slug": "haiguanyudongnanyaguojialianmengquanmianjingjihezu26e9da",
+   "short": "海关《与东南亚国家联盟全面经济合作框架协议》项下进出口货物原产地管理办法",
+   "dept": "海关总署",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/haiguanyudongnanyaguojialianmengquanmianjingjihezu26e9da.html",
+   "effective": "2011-01-01"
+  },
+  {
+   "slug": "haiguanheruishilianbangziyoumaoyixiedingxiangxiaji0e2a86",
+   "short": "海关《和瑞士联邦自由贸易协定》项下进出口货物原产地管理办法",
+   "dept": "海关总署",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/haiguanheruishilianbangziyoumaoyixiedingxiangxiaji0e2a86.html",
+   "effective": "2014-07-01"
+  },
+  {
+   "slug": "haiguanzhengfuyubajisitanyisilangongheguozhengfuzi28c01a",
+   "short": "海关《政府与巴基斯坦伊斯兰共和国政府自由贸易协定》项下进口货物原产地管理办法",
+   "dept": "海关总署",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/haiguanzhengfuyubajisitanyisilangongheguozhengfuzi28c01a.html",
+   "effective": "2007-05-30"
+  },
+  {
+   "slug": "haiguanzhengfuhebingdaozhengfuziyoumaoyixiedingxiad5ac02",
+   "short": "海关《政府和冰岛政府自由贸易协定》项下进出口货物原产地管理办法",
+   "dept": "海关总署",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/haiguanzhengfuhebingdaozhengfuziyoumaoyixiedingxiad5ac02.html",
+   "effective": "2014-07-01"
+  },
+  {
+   "slug": "haiguanzhengfuhegesidalijiagongheguozhengfuziyouma729cda",
+   "short": "海关《政府和哥斯达黎加共和国政府自由贸易协定》项下进出口货物原产地管理办法",
+   "dept": "海关总署",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/haiguanzhengfuhegesidalijiagongheguozhengfuziyouma729cda.html",
+   "effective": "2011-08-01"
+  },
+  {
+   "slug": "haiguanzhengfuhedahanminguozhengfuziyoumaoyixiedin586561",
+   "short": "海关《政府和大韩民国政府自由贸易协定》项下进出口货物原产地管理办法",
+   "dept": "海关总署",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/haiguanzhengfuhedahanminguozhengfuziyoumaoyixiedin586561.html",
+   "effective": "2015-12-20"
+  },
+  {
+   "slug": "haiguanzhengfuhexinjiapogongheguozhengfuziyoumaoyi378651",
+   "short": "海关《政府和新加坡共和国政府自由贸易协定》项下进出口货物原产地管理办法",
+   "dept": "海关总署",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/haiguanzhengfuhexinjiapogongheguozhengfuziyoumaoyi378651.html",
+   "effective": "2008-12-26"
+  },
+  {
+   "slug": "haiguanzhengfuheaodaliyazhengfuziyoumaoyixiedingxiac10a1",
+   "short": "海关《政府和澳大利亚政府自由贸易协定》项下进出口货物原产地管理办法",
+   "dept": "海关总署",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/haiguanzhengfuheaodaliyazhengfuziyoumaoyixiedingxiac10a1.html",
+   "effective": "2015-12-20"
+  },
+  {
+   "slug": "haiguanzhengfuhebilugongheguozhengfuziyoumaoyixied6a5182",
+   "short": "海关《政府和秘鲁共和国政府自由贸易协定》项下进出口货物原产地管理办法",
+   "dept": "海关总署",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/haiguanzhengfuhebilugongheguozhengfuziyoumaoyixied6a5182.html",
+   "effective": "2010-03-01"
+  },
+  {
+   "slug": "haiguanyataimaoyixiedingxiangxiajinchukouhuowuyuan5af955",
+   "short": "海关《亚太贸易协定》项下进出口货物原产地管理办法",
+   "dept": "海关总署",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/haiguanyataimaoyixiedingxiangxiajinchukouhuowuyuan5af955.html",
+   "effective": "2008-11-03"
+  },
+  {
+   "slug": "haiguanquyuquanmianjingjihuobanguanxixiedingxiangx14c057",
+   "short": "海关《区域全面经济伙伴关系协定》项下进出口货物原产地管理办法",
+   "dept": "海关总署",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/haiguanquyuquanmianjingjihuobanguanxixiedingxiangx14c057.html",
+   "effective": "2022-01-01"
+  },
+  {
+   "slug": "haiguanhaixialianganjingjihezuokuangjiaxieyixiangxdd72ca",
+   "short": "海关《海峡两岸经济合作框架协议》项下进出口货物原产地管理办法",
+   "dept": "海关总署",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/haiguanhaixialianganjingjihezuokuangjiaxieyixiangxdd72ca.html",
+   "effective": "2011-01-01"
+  },
+  {
+   "slug": "haiguanbaoshuihechabanfa",
+   "short": "海关保税核查办法",
+   "dept": "海关总署",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/haiguanbaoshuihechabanfa.html",
+   "effective": "2008-03-31"
+  },
+  {
+   "slug": "haiguanguanyuzhishichanquanhaiguanbaohutiaolideshi1c2ca3",
+   "short": "海关关于《知识产权海关保护条例》的实施办法",
+   "dept": "海关总署",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/haiguanguanyuzhishichanquanhaiguanbaohutiaolideshi1c2ca3.html",
+   "effective": "2009-03-03"
+  },
+  {
+   "slug": "haiguanguanyufupincishanxingjuanzengwuzimianzhengj645cd7",
+   "short": "海关关于《扶贫、慈善性捐赠物资免征进口税收暂行办法》的实施办法",
+   "dept": "海关总署",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/haiguanguanyufupincishanxingjuanzengwuzimianzhengj645cd7.html",
+   "effective": "2001-12-13"
+  },
+  {
+   "slug": "haiguanguanyujiagongmaoyibianjiaoliaoshengyuliaoji687439",
+   "short": "海关关于加工贸易边角料、剩余料件、残次品、副产品和受灾保税货物的管理办法",
+   "dept": "海关总署",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/haiguanguanyujiagongmaoyibianjiaoliaoshengyuliaoji687439.html",
+   "effective": "2004-05-25"
+  },
+  {
+   "slug": "haiguanguanyujingneigongluchengyunhaiguanjianguanhd7d715",
+   "short": "海关关于境内公路承运海关监管货物的运输企业及其车辆的管理办法",
+   "dept": "海关总署",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/haiguanguanyujingneigongluchengyunhaiguanjianguanhd7d715.html",
+   "effective": "2001-09-27"
+  },
+  {
+   "slug": "haiguanguanyujingwaidengshantuantihegerenjinchujincc28c2",
+   "short": "海关关于境外登山团体和个人进出境物品管理规定",
+   "dept": "海关总署",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/haiguanguanyujingwaidengshantuantihegerenjinchujincc28c2.html",
+   "effective": "1992-03-10"
+  },
+  {
+   "slug": "haiguanguanyudadengduitaixiaoeshangpinjiaoyishicha92f22c",
+   "short": "海关关于大嶝对台小额商品交易市场管理办法",
+   "dept": "海关总署",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/haiguanguanyudadengduitaixiaoeshangpinjiaoyishicha92f22c.html",
+   "effective": "2007-08-31"
+  },
+  {
+   "slug": "haiguanguanyulaiwangxianggangaomengongluhuoyunqiyed23ab7",
+   "short": "海关关于来往香港、澳门公路货运企业及其车辆的管理办法",
+   "dept": "海关总署",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/haiguanguanyulaiwangxianggangaomengongluhuoyunqiyed23ab7.html",
+   "effective": "2004-08-27"
+  },
+  {
+   "slug": "haiguanguanyuchaoqiweibaoguanjinkouhuowuwuxiehuozh7f4871",
+   "short": "海关关于超期未报关进口货物、误卸或者溢卸的进境货物和放弃进口货物的处理办法",
+   "dept": "海关总署",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/haiguanguanyuchaoqiweibaoguanjinkouhuowuwuxiehuozh7f4871.html",
+   "effective": "2001-12-20"
+  },
+  {
+   "slug": "haiguanguanyuzhuanguanhuowujianguanbanfa",
+   "short": "海关关于转关货物监管办法",
+   "dept": "海关总署",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/haiguanguanyuzhuanguanhuowujianguanbanfa.html",
+   "effective": "2001-09-30"
+  },
+  {
+   "slug": "haiguanguanyuguojinglvkexingliwupinguanliguiding",
+   "short": "海关关于过境旅客行李物品管理规定",
+   "dept": "海关总署",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/haiguanguanyuguojinglvkexingliwupinguanliguiding.html",
+   "effective": "1991-09-02"
+  },
+  {
+   "slug": "haiguanguanyujinchujinglvketongguandeguiding",
+   "short": "海关关于进出境旅客通关的规定",
+   "dept": "海关总署",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/haiguanguanyujinchujinglvketongguandeguiding.html",
+   "effective": "1995-12-25"
+  },
+  {
+   "slug": "haiguanguanhuishiyongguanlibanfa",
+   "short": "海关关徽使用管理办法",
+   "dept": "海关总署",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/haiguanguanhuishiyongguanlibanfa.html",
+   "effective": "1997-05-27"
+  },
+  {
+   "slug": "haiguanchukoujiagongquhuowuchuqushenjiagongjiezhua497775",
+   "short": "海关出口加工区货物出区深加工结转管理办法",
+   "dept": "海关总署",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/haiguanchukoujiagongquhuowuchuqushenjiagongjiezhua497775.html",
+   "effective": "2005-03-21"
+  },
+  {
+   "slug": "haiguanbanlishensuanjianzanxingguiding",
+   "short": "海关办理申诉案件暂行规定",
+   "dept": "海关总署",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/haiguanbanlishensuanjianzanxingguiding.html",
+   "effective": "2004-11-30"
+  },
+  {
+   "slug": "haiguanbanlixingzhengchufaanjianchengxuguiding",
+   "short": "海关办理行政处罚案件程序规定",
+   "dept": "海关总署",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/haiguanbanlixingzhengchufaanjianchengxuguiding.html",
+   "effective": "2021-07-15"
+  },
+  {
+   "slug": "haiguanjiagongmaoyiqiyelianwangjianguanbanfa",
+   "short": "海关加工贸易企业联网监管办法",
+   "dept": "海关总署",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/haiguanjiagongmaoyiqiyelianwangjianguanbanfa.html",
+   "effective": "2006-08-01"
+  },
+  {
+   "slug": "haiguanjiagongmaoyidanhaoguanlibanfa",
+   "short": "海关加工贸易单耗管理办法",
+   "dept": "海关总署",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/haiguanjiagongmaoyidanhaoguanlibanfa.html",
+   "effective": "2007-01-04"
+  },
+  {
+   "slug": "haiguanjiagongmaoyihuowujianguanbanfa",
+   "short": "海关加工贸易货物监管办法",
+   "dept": "海关总署",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/haiguanjiagongmaoyihuowujianguanbanfa.html",
+   "effective": "2014-03-12"
+  },
+  {
+   "slug": "haiguanshishirenshenkouliuguiding",
+   "short": "海关实施人身扣留规定",
+   "dept": "海关总署",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/haiguanshishirenshenkouliuguiding.html",
+   "effective": "2006-03-01"
+  },
+  {
+   "slug": "haiguanshendingneixiaobaoshuihuowuwanshuijiagebanfb7625f",
+   "short": "海关审定内销保税货物完税价格办法",
+   "dept": "海关总署",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/haiguanshendingneixiaobaoshuihuowuwanshuijiagebanfb7625f.html",
+   "effective": "2014-02-01"
+  },
+  {
+   "slug": "haiguanshendingjinchukouhuowuwanshuijiagebanfa",
+   "short": "海关审定进出口货物完税价格办法",
+   "dept": "海关总署",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/haiguanshendingjinchukouhuowuwanshuijiagebanfa.html",
+   "effective": "2014-02-01"
+  },
+  {
+   "slug": "haiguanduishanghaizuanshijiaoyisuojianguanbanfa",
+   "short": "海关对上海钻石交易所监管办法",
+   "dept": "海关总署",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/haiguanduishanghaizuanshijiaoyisuojianguanbanfa.html",
+   "effective": "2006-09-11"
+  },
+  {
+   "slug": "haiguanduizhongguojilvkejinchujingxingliwupindeguadba1c8",
+   "short": "海关对中国籍旅客进出境行李物品的管理规定",
+   "dept": "海关总署",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/haiguanduizhongguojilvkejinchujingxingliwupindeguadba1c8.html",
+   "effective": "1996-08-10"
+  },
+  {
+   "slug": "haiguanduibaoshuicangkujisuocunhuowudeguanliguidin8e1cc6",
+   "short": "海关对保税仓库及所存货物的管理规定",
+   "dept": "海关总署",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/haiguanduibaoshuicangkujisuocunhuowudeguanliguidin8e1cc6.html",
+   "effective": "2003-12-05"
+  },
+  {
+   "slug": "haiguanduibaoshuiwuliuzhongxindezanxingguanlibanfa-2",
+   "short": "海关对保税物流中心(A型)的暂行管理办法",
+   "dept": "海关总署",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/haiguanduibaoshuiwuliuzhongxindezanxingguanlibanfa-2.html",
+   "effective": "2005-06-23"
+  },
+  {
+   "slug": "haiguanduibaoshuiwuliuzhongxindezanxingguanlibanfa",
+   "short": "海关对保税物流中心(B型)的暂行管理办法",
+   "dept": "海关总署",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/haiguanduibaoshuiwuliuzhongxindezanxingguanlibanfa.html",
+   "effective": "2005-06-23"
+  },
+  {
+   "slug": "haiguanduimianshuishangdianjimianshuipinjianguanba1bcc1b",
+   "short": "海关对免税商店及免税品监管办法",
+   "dept": "海关总署",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/haiguanduimianshuishangdianjimianshuipinjianguanba1bcc1b.html",
+   "effective": "2005-11-28"
+  },
+  {
+   "slug": "haiguanduichukoujianguancangkujisuocunhuowudeguanl0b64b2",
+   "short": "海关对出口监管仓库及所存货物的管理办法",
+   "dept": "海关总署",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/haiguanduichukoujianguancangkujisuocunhuowudeguanl0b64b2.html",
+   "effective": "2005-11-28"
+  },
+  {
+   "slug": "haiguanduiguojihangxingchuanbochuanyuanziyonghechu0308ef",
+   "short": "海关对国际航行船舶船员自用和船舶备用烟、酒的管理规定",
+   "dept": "海关总署",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/haiguanduiguojihangxingchuanbochuanyuanziyonghechu0308ef.html",
+   "effective": "1988-12-01"
+  },
+  {
+   "slug": "haiguanduiwaiguozhengfuguojizuzhiwuchangzengsongjid9dfbf",
+   "short": "海关对外国政府、国际组织无偿赠送及我国履行国际条约规定进口物资减免税的审批和管理办法",
+   "dept": "海关总署",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/haiguanduiwaiguozhengfuguojizuzhiwuchangzengsongjid9dfbf.html",
+   "effective": "1999-09-15"
+  },
+  {
+   "slug": "haiguanduiwaiguozhuzhongguoshiguanheshiguanrenyuan3a191a",
+   "short": "海关对外国驻中国使馆和使馆人员进出境物品监管办法",
+   "dept": "海关总署",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/haiguanduiwaiguozhuzhongguoshiguanheshiguanrenyuan3a191a.html",
+   "effective": "2008-06-05"
+  },
+  {
+   "slug": "haiguanduichangzhujigoujinchujinggongyongwupinjian2d2766",
+   "short": "海关对常驻机构进出境公用物品监管办法",
+   "dept": "海关总署",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/haiguanduichangzhujigoujinchujinggongyongwupinjian2d2766.html",
+   "effective": ""
+  },
+  {
+   "slug": "haiguanduipingtanzongheshiyanqujianguanbanfa",
+   "short": "海关对平潭综合实验区监管办法（试行）",
+   "dept": "海关总署",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/haiguanduipingtanzongheshiyanqujianguanbanfa.html",
+   "effective": "2013-08-01"
+  },
+  {
+   "slug": "haiguanduiwochuguorenyuanjinchujingmianyanfanweide46892a",
+   "short": "海关对我出国人员进出境免验范围的规定",
+   "dept": "海关总署",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/haiguanduiwochuguorenyuanjinchujingmianyanfanweide46892a.html",
+   "effective": "1985-02-25"
+  },
+  {
+   "slug": "haiguanduijianjuhuoxiezhuchahuoweifanhaiguanfaanjif2acdb",
+   "short": "海关对检举或协助查获违反海关法案件有功人员的奖励办法",
+   "dept": "海关总署",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/haiguanduijianjuhuoxiezhuchahuoweifanhaiguanfaanjif2acdb.html",
+   "effective": "1989-08-22"
+  },
+  {
+   "slug": "haiguanduihengqinxinqujianguanbanfa",
+   "short": "海关对横琴新区监管办法（试行）",
+   "dept": "海关总署",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/haiguanduihengqinxinqujianguanbanfa.html",
+   "effective": "2013-08-01"
+  },
+  {
+   "slug": "haiguanduiyongyuzhuangzaihaiguanjianguanhuowudejiz324664",
+   "short": "海关对用于装载海关监管货物的集装箱和集装箱式货车车厢的监管办法",
+   "dept": "海关总署",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/haiguanduiyongyuzhuangzaihaiguanjianguanhuowudejiz324664.html",
+   "effective": "2004-01-29"
+  },
+  {
+   "slug": "haiguanduijinchujingkuaijianjianguanbanfa",
+   "short": "海关对进出境快件监管办法",
+   "dept": "海关总署",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/haiguanduijinchujingkuaijianjianguanbanfa.html",
+   "effective": "2003-11-18"
+  },
+  {
+   "slug": "haiguanduijinchujinglvkelvxingziyongwupindeguanligbcdd2c",
+   "short": "海关对进出境旅客旅行自用物品的管理规定",
+   "dept": "海关总署",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/haiguanduijinchujinglvkelvxingziyongwupindeguanligbcdd2c.html",
+   "effective": "1992-10-15"
+  },
+  {
+   "slug": "haiguanduijinchujinglvkexingliwupinjianguanbanfa",
+   "short": "海关对进出境旅客行李物品监管办法",
+   "dept": "海关总署",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/haiguanduijinchujinglvkexingliwupinjianguanbanfa.html",
+   "effective": "1989-11-01"
+  },
+  {
+   "slug": "haiguanduifeijuminchangqilvkejinchujingziyongwupin8f78f9",
+   "short": "海关对非居民长期旅客进出境自用物品监管办法",
+   "dept": "海关总署",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/haiguanduifeijuminchangqilvkejinchujingziyongwupin8f78f9.html",
+   "effective": "2004-06-16"
+  },
+  {
+   "slug": "haiguanduigaocengciliuxuerencaihuiguohehaiwaikejiz1393eb",
+   "short": "海关对高层次留学人才回国和海外科技专家来华工作进出境物品管理办法",
+   "dept": "海关总署",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/haiguanduigaocengciliuxuerencaihuiguohehaiwaikejiz1393eb.html",
+   "effective": "2006-12-26"
+  },
+  {
+   "slug": "haiguanzhengshoujinkouhuowuzhibaojinbanfa",
+   "short": "海关征收进口货物滞报金办法",
+   "dept": "海关总署",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/haiguanzhengshoujinkouhuowuzhibaojinbanfa.html",
+   "effective": "2005-03-03"
+  },
+  {
+   "slug": "haiguanbaoguandanweibeianguanliguiding",
+   "short": "海关报关单位备案管理规定",
+   "dept": "海关总署",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/haiguanbaoguandanweibeianguanliguiding.html",
+   "effective": "2022-01-01"
+  },
+  {
+   "slug": "haiguanzanshijinchujinghuowuguanlibanfa",
+   "short": "海关暂时进出境货物管理办法",
+   "dept": "海关总署",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/haiguanzanshijinchujinghuowuguanlibanfa.html",
+   "effective": "2018-02-01"
+  },
+  {
+   "slug": "haiguanzuibufadaguojiatebieyouhuiguanshuidaiyujinkb60a4c",
+   "short": "海关最不发达国家特别优惠关税待遇进口货物原产地管理办法",
+   "dept": "海关总署",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/haiguanzuibufadaguojiatebieyouhuiguanshuidaiyujinkb60a4c.html",
+   "effective": ""
+  },
+  {
+   "slug": "haiguanzhucedengjihebeianqiyexinyongguanlibanfa",
+   "short": "海关注册登记和备案企业信用管理办法",
+   "dept": "海关总署",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/haiguanzhucedengjihebeianqiyexinyongguanlibanfa.html",
+   "effective": "2021-11-01"
+  },
+  {
+   "slug": "haiguanzhuaokuajinggongyequzhuhaiyuanquguanlibanfa",
+   "short": "海关珠澳跨境工业区珠海园区管理办法",
+   "dept": "海关总署",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/haiguanzhuaokuajinggongyequzhuhaiyuanquguanlibanfa.html",
+   "effective": "2007-03-08"
+  },
+  {
+   "slug": "haiguanjianguanquguanlizanxingbanfa",
+   "short": "海关监管区管理暂行办法",
+   "dept": "海关总署",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/haiguanjianguanquguanlizanxingbanfa.html",
+   "effective": "2017-08-08"
+  },
+  {
+   "slug": "haiguanshuishoubaoquanheqiangzhicuoshizanxingbanfa",
+   "short": "海关税收保全和强制措施暂行办法",
+   "dept": "海关总署",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/haiguanshuishoubaoquanheqiangzhicuoshizanxingbanfa.html",
+   "effective": "2009-09-01"
+  },
+  {
+   "slug": "haiguanlifagongzuoguanliguiding",
+   "short": "海关立法工作管理规定",
+   "dept": "海关总署",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/haiguanlifagongzuoguanliguiding.html",
+   "effective": "2009-03-01"
+  },
+  {
+   "slug": "haiguanguandaoyunshujinkounengyuanjianguanbanfa",
+   "short": "海关管道运输进口能源监管办法",
+   "dept": "海关总署",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/haiguanguandaoyunshujinkounengyuanjianguanbanfa.html",
+   "effective": "2011-10-24"
+  },
+  {
+   "slug": "haiguanjinghezhunchukoushangguanlibanfa",
+   "short": "海关经核准出口商管理办法",
+   "dept": "海关总署",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/haiguanjinghezhunchukoushangguanlibanfa.html",
+   "effective": "2022-01-01"
+  },
+  {
+   "slug": "haiguantongjigongzuoguanliguiding",
+   "short": "海关统计工作管理规定",
+   "dept": "海关总署",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/haiguantongjigongzuoguanliguiding.html",
+   "effective": "2018-08-17"
+  },
+  {
+   "slug": "haiguanzonghebaoshuiquguanlibanfa",
+   "short": "海关综合保税区管理办法",
+   "dept": "海关总署",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/haiguanzonghebaoshuiquguanlibanfa.html",
+   "effective": "2022-04-01"
+  },
+  {
+   "slug": "haiguanhangyebiaozhunguanlibanfa",
+   "short": "海关行业标准管理办法（试行）",
+   "dept": "海关总署",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/haiguanhangyebiaozhunguanlibanfa.html",
+   "effective": "2006-02-01"
+  },
+  {
+   "slug": "haiguanxingzhengfuyibanfa",
+   "short": "海关行政复议办法",
+   "dept": "海关总署",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/haiguanxingzhengfuyibanfa.html",
+   "effective": "2007-09-25"
+  },
+  {
+   "slug": "haiguanxingzhengcaidingguanlizanxingbanfa",
+   "short": "海关行政裁定管理暂行办法",
+   "dept": "海关总署",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/haiguanxingzhengcaidingguanlizanxingbanfa.html",
+   "effective": "2002-01-01"
+  },
+  {
+   "slug": "haiguanxingzhengxuketingzhengbanfa",
+   "short": "海关行政许可听证办法",
+   "dept": "海关总署",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/haiguanxingzhengxuketingzhengbanfa.html",
+   "effective": "2005-12-15"
+  },
+  {
+   "slug": "haiguanxingzhengxukeguanlibanfa",
+   "short": "海关行政许可管理办法",
+   "dept": "海关总署",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/haiguanxingzhengxukeguanlibanfa.html",
+   "effective": "2021-02-01"
+  },
+  {
+   "slug": "haiguanxingzhengpeichangbanfa",
+   "short": "海关行政赔偿办法",
+   "dept": "海关总署",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/haiguanxingzhengpeichangbanfa.html",
+   "effective": "2003-05-01"
+  },
+  {
+   "slug": "haiguanjiheshexianzousidehuowuwupintoutaoshuikuanz0d8252",
+   "short": "海关计核涉嫌走私的货物、物品偷逃税款暂行办法",
+   "dept": "海关总署",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/haiguanjiheshexianzousidehuowuwupintoutaoshuikuanz0d8252.html",
+   "effective": "2002-10-20"
+  },
+  {
+   "slug": "haiguanjiheweifanhaiguanjianguanguidinganjianhuowu281cdc",
+   "short": "海关计核违反海关监管规定案件货物、物品价值办法",
+   "dept": "海关总署",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/haiguanjiheweifanhaiguanjianguanguidinganjianhuowu281cdc.html",
+   "effective": "2009-06-01"
+  },
+  {
+   "slug": "haiguanguojinghuowujianguanbanfa",
+   "short": "海关过境货物监管办法",
+   "dept": "海关总署",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/haiguanguojinghuowujianguanbanfa.html",
+   "effective": "2022-09-26"
+  },
+  {
+   "slug": "haiguanjinchukoushangpinjianyancaixinguanlibanfa",
+   "short": "海关进出口商品检验采信管理办法",
+   "dept": "海关总署",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/haiguanjinchukoushangpinjianyancaixinguanlibanfa.html",
+   "effective": "2022-12-01"
+  },
+  {
+   "slug": "haiguanjinchukouhuowuyouhuiyuanchandiguanliguiding",
+   "short": "海关进出口货物优惠原产地管理规定",
+   "dept": "海关总署",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/haiguanjinchukouhuowuyouhuiyuanchandiguanliguiding.html",
+   "effective": "2009-03-01"
+  },
+  {
+   "slug": "haiguanjinchukouhuowujianmianshuiguanlibanfa",
+   "short": "海关进出口货物减免税管理办法",
+   "dept": "海关总署",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/haiguanjinchukouhuowujianmianshuiguanlibanfa.html",
+   "effective": "2021-03-01"
+  },
+  {
+   "slug": "haiguanjinchukouhuowushangpinguileiguanliguiding",
+   "short": "海关进出口货物商品归类管理规定",
+   "dept": "海关总署",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/haiguanjinchukouhuowushangpinguileiguanliguiding.html",
+   "effective": "2021-11-01"
+  },
+  {
+   "slug": "haiguanjinchukouhuowuzhengshuiguanlibanfa",
+   "short": "海关进出口货物征税管理办法",
+   "dept": "海关总署",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/haiguanjinchukouhuowuzhengshuiguanlibanfa.html",
+   "effective": "2005-01-04"
+  },
+  {
+   "slug": "haiguanjinchukouhuowubaoguandanxiugaihechexiaoguance29c7",
+   "short": "海关进出口货物报关单修改和撤销管理办法",
+   "dept": "海关总署",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/haiguanjinchukouhuowubaoguandanxiugaihechexiaoguance29c7.html",
+   "effective": "2014-03-13"
+  },
+  {
+   "slug": "haiguanjinchukouhuowuchayanguanlibanfa",
+   "short": "海关进出口货物查验管理办法",
+   "dept": "海关总署",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/haiguanjinchukouhuowuchayanguanlibanfa.html",
+   "effective": "2005-12-28"
+  },
+  {
+   "slug": "haiguanjinchukouhuowushenbaoguanliguiding",
+   "short": "海关进出口货物申报管理规定",
+   "dept": "海关总署",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/haiguanjinchukouhuowushenbaoguanliguiding.html",
+   "effective": "2003-09-18"
+  },
+  {
+   "slug": "haiguanjinchukouhuowujizhongshenbaoguanlibanfa",
+   "short": "海关进出口货物集中申报管理办法",
+   "dept": "海关总署",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/haiguanjinchukouhuowujizhongshenbaoguanlibanfa.html",
+   "effective": "2008-01-24"
+  },
+  {
+   "slug": "haiguanjinchujingyinshuapinjiyinxiangzhipinjiangua7b0b5a",
+   "short": "海关进出境印刷品及音像制品监管办法",
+   "dept": "海关总署",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/haiguanjinchujingyinshuapinjiyinxiangzhipinjiangua7b0b5a.html",
+   "effective": "2007-04-18"
+  },
+  {
+   "slug": "haiguanjinchujingyunshugongjujianguanbanfa",
+   "short": "海关进出境运输工具监管办法",
+   "dept": "海关总署",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/haiguanjinchujingyunshugongjujianguanbanfa.html",
+   "effective": "2010-11-01"
+  },
+  {
+   "slug": "haiguanjinchujingyunshugongjucangdanguanlibanfa",
+   "short": "海关进出境运输工具舱单管理办法",
+   "dept": "海关总署",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/haiguanjinchujingyunshugongjucangdanguanlibanfa.html",
+   "effective": "2008-03-28"
+  },
+  {
+   "slug": "haiguanjinkouhuowuzhijietuiyunguanlibanfa",
+   "short": "海关进口货物直接退运管理办法",
+   "dept": "海关总署",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/haiguanjinkouhuowuzhijietuiyunguanlibanfa.html",
+   "effective": "2014-03-12"
+  },
+  {
+   "slug": "haiguanyucaidingguanlizanxingbanfa",
+   "short": "海关预裁定管理暂行办法",
+   "dept": "海关总署",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/haiguanyucaidingguanlizanxingbanfa.html",
+   "effective": "2018-02-01"
+  },
+  {
+   "slug": "jinchukoushipinanquanguanlibanfa",
+   "short": "进出口食品安全管理办法",
+   "dept": "海关总署",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/jinchukoushipinanquanguanlibanfa.html",
+   "effective": "2022-01-01"
+  },
+  {
+   "slug": "jinkoushipinjingwaishengchanqiyezhuceguanliguiding",
+   "short": "进口食品境外生产企业注册管理规定",
+   "dept": "海关总署",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/jinkoushipinjingwaishengchanqiyezhuceguanliguiding.html",
+   "effective": "2022-01-01"
+  },
+  {
+   "slug": "feiyouhuiyuanchandizhengshuqianzhengguanlibanfa",
+   "short": "非优惠原产地证书签证管理办法",
+   "dept": "海关总署",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/feiyouhuiyuanchandizhengshuqianzhengguanlibanfa.html",
+   "effective": "2009-06-14"
+  },
+  {
+   "slug": "gonggangaohuoniujianyanjianyiguanlibanfa",
+   "short": "供港澳活牛检验检疫管理办法",
+   "dept": "海关总署",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/gonggangaohuoniujianyanjianyiguanlibanfa.html",
+   "effective": "1999-11-24"
+  },
+  {
+   "slug": "gonggangaohuozhujianyanjianyiguanlibanfa",
+   "short": "供港澳活猪检验检疫管理办法",
+   "dept": "海关总署",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/gonggangaohuozhujianyanjianyiguanlibanfa.html",
+   "effective": "2000-11-14"
+  },
+  {
+   "slug": "gonggangaohuoqinjianyanjianyiguanlibanfa",
+   "short": "供港澳活禽检验检疫管理办法",
+   "dept": "海关总署",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/gonggangaohuoqinjianyanjianyiguanlibanfa.html",
+   "effective": "2000-11-14"
+  },
+  {
+   "slug": "gonggangaohuoyangjianyanjianyiguanlibanfa",
+   "short": "供港澳活羊检验检疫管理办法",
+   "dept": "海关总署",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/gonggangaohuoyangjianyanjianyiguanlibanfa.html",
+   "effective": "1999-11-24"
+  },
+  {
+   "slug": "gonggangaoshucaijianyanjianyijianduguanlibanfa",
+   "short": "供港澳蔬菜检验检疫监督管理办法",
+   "dept": "海关总署",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/gonggangaoshucaijianyanjianyijianduguanlibanfa.html",
+   "effective": "2009-09-10"
+  },
+  {
+   "slug": "baoshuiqujianyanjianyijianduguanlibanfa",
+   "short": "保税区检验检疫监督管理办法",
+   "dept": "海关总署",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/baoshuiqujianyanjianyijianduguanlibanfa.html",
+   "effective": "2005-01-12"
+  },
+  {
+   "slug": "guanyufeiyouhuiyuanchandiguizezhongshizhixinggaibie9b507",
+   "short": "关于非优惠原产地规则中实质性改变标准的规定",
+   "dept": "海关总署",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/guanyufeiyouhuiyuanchandiguizezhongshizhixinggaibie9b507.html",
+   "effective": "2004-12-06"
+  },
+  {
+   "slug": "churujingrenyuanxiedaiwujianyiguanlibanfa",
+   "short": "出入境人员携带物检疫管理办法",
+   "dept": "海关总署",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/churujingrenyuanxiedaiwujianyiguanlibanfa.html",
+   "effective": "2012-08-02"
+  },
+  {
+   "slug": "churujingshitihaiguweishengjianyiguanlibanfa",
+   "short": "出入境尸体骸骨卫生检疫管理办法",
+   "dept": "海关总署",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/churujingshitihaiguweishengjianyiguanlibanfa.html",
+   "effective": "2017-03-09"
+  },
+  {
+   "slug": "churujingkuaijianjianyanjianyiguanlibanfa",
+   "short": "出入境快件检验检疫管理办法",
+   "dept": "海关总署",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/churujingkuaijianjianyanjianyiguanlibanfa.html",
+   "effective": "2001-09-17"
+  },
+  {
+   "slug": "churujingjianyichulidanweiherenyuanguanlibanfa",
+   "short": "出入境检疫处理单位和人员管理办法",
+   "dept": "海关总署",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/churujingjianyichulidanweiherenyuanguanlibanfa.html",
+   "effective": "2016-03-31"
+  },
+  {
+   "slug": "churujingjianyanjianyifengshiguanlibanfa",
+   "short": "出入境检验检疫封识管理办法",
+   "dept": "海关总署",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/churujingjianyanjianyifengshiguanlibanfa.html",
+   "effective": "2000-04-03"
+  },
+  {
+   "slug": "churujingjianyanjianyibaojianguiding",
+   "short": "出入境检验检疫报检规定",
+   "dept": "海关总署",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/churujingjianyanjianyibaojianguiding.html",
+   "effective": "1999-12-17"
+  },
+  {
+   "slug": "churujingjianyanjianyichafengkouyaguanliguiding",
+   "short": "出入境检验检疫查封、扣押管理规定",
+   "dept": "海关总署",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/churujingjianyanjianyichafengkouyaguanliguiding.html",
+   "effective": "2008-06-25"
+  },
+  {
+   "slug": "churujingjianyanjianyifengxianyujingjikuaisufanyin59cf50",
+   "short": "出入境检验检疫风险预警及快速反应管理规定",
+   "dept": "海关总署",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/churujingjianyanjianyifengxianyujingjikuaisufanyin59cf50.html",
+   "effective": "2001-09-25"
+  },
+  {
+   "slug": "churujingteshuwupinweishengjianyiguanliguiding",
+   "short": "出入境特殊物品卫生检疫管理规定",
+   "dept": "海关总署",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/churujingteshuwupinweishengjianyiguanliguiding.html",
+   "effective": "2015-01-21"
+  },
+  {
+   "slug": "churujingyoulunjianyiguanlibanfa",
+   "short": "出入境邮轮检疫管理办法",
+   "dept": "海关总署",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/churujingyoulunjianyiguanlibanfa.html",
+   "effective": "2016-10-25"
+  },
+  {
+   "slug": "chukouyanhuabaozhujianyanguanlibanfa",
+   "short": "出口烟花爆竹检验管理办法",
+   "dept": "海关总署",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/chukouyanhuabaozhujianyanguanlibanfa.html",
+   "effective": "1999-12-02"
+  },
+  {
+   "slug": "chujingshuiguojianyanjianyijianduguanlibanfa",
+   "short": "出境水果检验检疫监督管理办法",
+   "dept": "海关总署",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/chujingshuiguojianyanjianyijianduguanlibanfa.html",
+   "effective": "2006-12-25"
+  },
+  {
+   "slug": "chujingshuishengdongwujianyanjianyijianduguanliban54ea95",
+   "short": "出境水生动物检验检疫监督管理办法",
+   "dept": "海关总署",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/chujingshuishengdongwujianyanjianyijianduguanliban54ea95.html",
+   "effective": "2007-08-27"
+  },
+  {
+   "slug": "chujingzhumucaozhipinjianyiguanlibanfa",
+   "short": "出境竹木草制品检疫管理办法",
+   "dept": "海关总署",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/chujingzhumucaozhipinjianyiguanlibanfa.html",
+   "effective": "2003-04-16"
+  },
+  {
+   "slug": "chujinghuowumuzhibaozhuangjianyichuliguanlibanfa",
+   "short": "出境货物木质包装检疫处理管理办法",
+   "dept": "海关总署",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/chujinghuowumuzhibaozhuangjianyichuliguanlibanfa.html",
+   "effective": "2005-01-10"
+  },
+  {
+   "slug": "kouanaizibingyufangkongzhiguanlibanfa",
+   "short": "口岸艾滋病预防控制管理办法",
+   "dept": "海关总署",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/kouanaizibingyufangkongzhiguanlibanfa.html",
+   "effective": "2007-06-28"
+  },
+  {
+   "slug": "guojingkouanweishengxukeguanlibanfa",
+   "short": "国境口岸卫生许可管理办法",
+   "dept": "海关总署",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/guojingkouanweishengxukeguanlibanfa.html",
+   "effective": "2016-04-28"
+  },
+  {
+   "slug": "guojingkouantufagonggongweishengshijianchurujingji45e4f9",
+   "short": "国境口岸突发公共卫生事件出入境检验检疫应急处理规定",
+   "dept": "海关总署",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/guojingkouantufagonggongweishengshijianchurujingji45e4f9.html",
+   "effective": "2003-11-07"
+  },
+  {
+   "slug": "guojingkouanshipinweishengjianduguanliguiding",
+   "short": "国境口岸食品卫生监督管理规定",
+   "dept": "海关总署",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/guojingkouanshipinweishengjianduguanliguiding.html",
+   "effective": "2006-03-01"
+  },
+  {
+   "slug": "guojihangxingchuanbochurujingjianyanjianyiguanliba14782a",
+   "short": "国际航行船舶出入境检验检疫管理办法",
+   "dept": "海关总署",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/guojihangxingchuanbochurujingjianyanjianyiguanliba14782a.html",
+   "effective": "2002-12-31"
+  },
+  {
+   "slug": "shatoujiaobianjingtebieguanliqujinchuwupinjianyanj8b3324",
+   "short": "沙头角边境特别管理区进出物品检验检疫管理规定",
+   "dept": "海关总署",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/shatoujiaobianjingtebieguanliqujinchuwupinjianyanj8b3324.html",
+   "effective": "2003-11-04"
+  },
+  {
+   "slug": "hainanchurujingyoutingjianyiguanlibanfa",
+   "short": "海南出入境游艇检疫管理办法",
+   "dept": "海关总署",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/hainanchurujingyoutingjianyiguanlibanfa.html",
+   "effective": "2013-06-05"
+  },
+  {
+   "slug": "bianminhushimaoyiguanlibanfa",
+   "short": "边民互市贸易管理办法",
+   "dept": "海关总署",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/bianminhushimaoyiguanlibanfa.html",
+   "effective": "1996-03-29"
+  },
+  {
+   "slug": "jinchukouhuazhuangpinjianyanjianyijianduguanlibanf97123c",
+   "short": "进出口化妆品检验检疫监督管理办法",
+   "dept": "海关总署",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/jinchukouhuazhuangpinjianyanjianyijianduguanlibanf97123c.html",
+   "effective": "2011-08-10"
+  },
+  {
+   "slug": "jinchukoushangpinmianyanbanfa",
+   "short": "进出口商品免验办法",
+   "dept": "海关总署",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/jinchukoushangpinmianyanbanfa.html",
+   "effective": "2002-07-24"
+  },
+  {
+   "slug": "jinchukoushangpinfuyanbanfa",
+   "short": "进出口商品复验办法",
+   "dept": "海关总署",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/jinchukoushangpinfuyanbanfa.html",
+   "effective": "2005-06-01"
+  },
+  {
+   "slug": "jinchukoushangpinchouchajianyanguanlibanfa",
+   "short": "进出口商品抽查检验管理办法",
+   "dept": "海关总署",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/jinchukoushangpinchouchajianyanguanlibanfa.html",
+   "effective": ""
+  },
+  {
+   "slug": "jinchukoushangpinshuliangzhongliangjianyanjianding1a80e6",
+   "short": "进出口商品数量重量检验鉴定管理办法",
+   "dept": "海关总署",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/jinchukoushangpinshuliangzhongliangjianyanjianding1a80e6.html",
+   "effective": "2007-08-27"
+  },
+  {
+   "slug": "jinchukoushangpinjianyanjiandingjigouguanlibanfa-2",
+   "short": "进出口商品检验鉴定机构管理办法（2016）",
+   "dept": "海关总署",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/jinchukoushangpinjianyanjiandingjigouguanlibanfa-2.html",
+   "effective": "2016-05-01"
+  },
+  {
+   "slug": "jinchukougongyepinfengxianguanlibanfa",
+   "short": "进出口工业品风险管理办法",
+   "dept": "海关总署",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/jinchukougongyepinfengxianguanlibanfa.html",
+   "effective": "2017-03-06"
+  },
+  {
+   "slug": "jinchukoumeitanjianyanguanlibanfa",
+   "short": "进出口煤炭检验管理办法",
+   "dept": "海关总署",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/jinchukoumeitanjianyanguanlibanfa.html",
+   "effective": "2006-06-26"
+  },
+  {
+   "slug": "jinchukouwanjujianyanjianduguanlibanfa",
+   "short": "进出口玩具检验监督管理办法",
+   "dept": "海关总署",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/jinchukouwanjujianyanjianduguanlibanfa.html",
+   "effective": "2009-03-02"
+  },
+  {
+   "slug": "jinchukousiliaohesiliaotianjiajijianyanjianyijiand457e49",
+   "short": "进出口饲料和饲料添加剂检验检疫监督管理办法",
+   "dept": "海关总署",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/jinchukousiliaohesiliaotianjiajijianyanjianyijiand457e49.html",
+   "effective": "2009-07-20"
+  },
+  {
+   "slug": "jinchujingzhongyaocaijianyijianduguanlibanfa",
+   "short": "进出境中药材检疫监督管理办法",
+   "dept": "海关总署",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/jinchujingzhongyaocaijianyijianduguanlibanfa.html",
+   "effective": "2015-10-21"
+  },
+  {
+   "slug": "jinchujingliangshijianyanjianyijianduguanlibanfa",
+   "short": "进出境粮食检验检疫监督管理办法",
+   "dept": "海关总署",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/jinchujingliangshijianyanjianyijianduguanlibanfa.html",
+   "effective": "2016-01-20"
+  },
+  {
+   "slug": "jinchujingzhuanjiyinchanpinjianyanjianyiguanlibanfce8749",
+   "short": "进出境转基因产品检验检疫管理办法",
+   "dept": "海关总署",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/jinchujingzhuanjiyinchanpinjianyanjianyiguanlibanfce8749.html",
+   "effective": "2004-05-24"
+  },
+  {
+   "slug": "jinchujingjizhuangxiangjianyanjianyiguanlibanfa",
+   "short": "进出境集装箱检验检疫管理办法",
+   "dept": "海关总署",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/jinchujingjizhuangxiangjianyanjianyiguanlibanfa.html",
+   "effective": "2000-01-11"
+  },
+  {
+   "slug": "jinchujingfeishiyongdongwuchanpinjianyanjianyijian89c102",
+   "short": "进出境非食用动物产品检验检疫监督管理办法",
+   "dept": "海关总署",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/jinchujingfeishiyongdongwuchanpinjianyanjianyijian89c102.html",
+   "effective": "2014-11-13"
+  },
+  {
+   "slug": "jinkoukeyongzuoyuanliaodegutifeiwujianyanjianyijia11c3cf",
+   "short": "进口可用作原料的固体废物检验检疫监督管理办法",
+   "dept": "海关总署",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/jinkoukeyongzuoyuanliaodegutifeiwujianyanjianyijia11c3cf.html",
+   "effective": "2017-12-08"
+  },
+  {
+   "slug": "jinkoushangpincansunjianyanjiandingguanlibanfa",
+   "short": "进口商品残损检验鉴定管理办法",
+   "dept": "海关总署",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/jinkoushangpincansunjianyanjiandingguanlibanfa.html",
+   "effective": "2007-07-06"
+  },
+  {
+   "slug": "jinkoujiujidianchanpinjianyanjianduguanlibanfa",
+   "short": "进口旧机电产品检验监督管理办法",
+   "dept": "海关总署",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/jinkoujiujidianchanpinjianyanjianduguanlibanfa.html",
+   "effective": "2015-11-23"
+  },
+  {
+   "slug": "jinkoumianhuajianyanjianduguanlibanfa",
+   "short": "进口棉花检验监督管理办法",
+   "dept": "海关总署",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/jinkoumianhuajianyanjianduguanlibanfa.html",
+   "effective": "2013-01-18"
+  },
+  {
+   "slug": "jinkouqichejianyanguanlibanfa",
+   "short": "进口汽车检验管理办法",
+   "dept": "海关总署",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/jinkouqichejianyanguanlibanfa.html",
+   "effective": "1999-11-22"
+  },
+  {
+   "slug": "jinkouxukezhiduminyongshangpinrujingyanzhengguanli74528d",
+   "short": "进口许可制度民用商品入境验证管理办法",
+   "dept": "海关总署",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/jinkouxukezhiduminyongshangpinrujingyanzhengguanli74528d.html",
+   "effective": "2001-12-04"
+  },
+  {
+   "slug": "jinjingdongzhiwujianyishenpiguanlibanfa",
+   "short": "进境动植物检疫审批管理办法",
+   "dept": "海关总署",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/jinjingdongzhiwujianyishenpiguanlibanfa.html",
+   "effective": "2002-08-02"
+  },
+  {
+   "slug": "jinjingdongwuhedongwuchanpinfengxianfenxiguanliguie66f67",
+   "short": "进境动物和动物产品风险分析管理规定",
+   "dept": "海关总署",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/jinjingdongwuhedongwuchanpinfengxianfenxiguanliguie66f67.html",
+   "effective": "2002-12-31"
+  },
+  {
+   "slug": "jinjingdongwuyichuanwuzhijianyiguanlibanfa",
+   "short": "进境动物遗传物质检疫管理办法",
+   "dept": "海关总署",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/jinjingdongwuyichuanwuzhijianyiguanlibanfa.html",
+   "effective": "2003-05-14"
+  },
+  {
+   "slug": "jinjingdongwugelijianyichangshiyongjianduguanliban09b322",
+   "short": "进境动物隔离检疫场使用监督管理办法",
+   "dept": "海关总署",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/jinjingdongwugelijianyichangshiyongjianduguanliban09b322.html",
+   "effective": "2009-10-22"
+  },
+  {
+   "slug": "jinjingzaipeijiezhijianyiguanlibanfa",
+   "short": "进境栽培介质检疫管理办法",
+   "dept": "海关总署",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/jinjingzaipeijiezhijianyiguanlibanfa.html",
+   "effective": "1999-12-09"
+  },
+  {
+   "slug": "jinjingzhiwuhezhiwuchanpinfengxianfenxiguanliguidib6e77e",
+   "short": "进境植物和植物产品风险分析管理规定",
+   "dept": "海关总署",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/jinjingzhiwuhezhiwuchanpinfengxianfenxiguanliguidib6e77e.html",
+   "effective": "2002-12-31"
+  },
+  {
+   "slug": "jinjingzhiwufanzhicailiaojianyiguanlibanfa",
+   "short": "进境植物繁殖材料检疫管理办法",
+   "dept": "海关总署",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/jinjingzhiwufanzhicailiaojianyiguanlibanfa.html",
+   "effective": "1999-12-09"
+  },
+  {
+   "slug": "jinjingzhiwufanzhicailiaogelijianyipuguanlibanfa",
+   "short": "进境植物繁殖材料隔离检疫圃管理办法",
+   "dept": "海关总署",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/jinjingzhiwufanzhicailiaogelijianyipuguanlibanfa.html",
+   "effective": "1999-12-09"
+  },
+  {
+   "slug": "jinjingshuiguojianyanjianyijianduguanlibanfa",
+   "short": "进境水果检验检疫监督管理办法",
+   "dept": "海关总署",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/jinjingshuiguojianyanjianyijianduguanlibanfa.html",
+   "effective": "2005-01-05"
+  },
+  {
+   "slug": "jinjingshuishengdongwujianyanjianyijianduguanlibanaa30d6",
+   "short": "进境水生动物检验检疫监督管理办法",
+   "dept": "海关总署",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/jinjingshuishengdongwujianyanjianyijianduguanlibanaa30d6.html",
+   "effective": "2016-07-26"
+  },
+  {
+   "slug": "jinjinghuowumuzhibaozhuangjianyijianduguanlibanfa",
+   "short": "进境货物木质包装检疫监督管理办法",
+   "dept": "海关总署",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/jinjinghuowumuzhibaozhuangjianyijianduguanlibanfa.html",
+   "effective": "2005-12-31"
+  },
+  {
+   "slug": "nongyezhiwupinzhongbaohuminglu-11",
+   "short": "农业植物品种保护名录（第一批）",
+   "dept": "农业农村部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/nongyezhiwupinzhongbaohuminglu-11.html",
+   "effective": "1999-06-16"
+  },
+  {
+   "slug": "nongyezhiwupinzhongbaohuminglu-5",
+   "short": "农业植物品种保护名录（第七批）",
+   "dept": "农业农村部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/nongyezhiwupinzhongbaohuminglu-5.html",
+   "effective": "2008-04-21"
+  },
+  {
+   "slug": "nongyezhiwupinzhongbaohuminglu-9",
+   "short": "农业植物品种保护名录（第三批）",
+   "dept": "农业农村部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/nongyezhiwupinzhongbaohuminglu-9.html",
+   "effective": "2001-02-26"
+  },
+  {
+   "slug": "nongyezhiwupinzhongbaohuminglu-3",
+   "short": "农业植物品种保护名录（第九批）",
+   "dept": "农业农村部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/nongyezhiwupinzhongbaohuminglu-3.html",
+   "effective": "2013-04-11"
+  },
+  {
+   "slug": "nongyezhiwupinzhongbaohuminglu-10",
+   "short": "农业植物品种保护名录（第二批）",
+   "dept": "农业农村部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/nongyezhiwupinzhongbaohuminglu-10.html",
+   "effective": "2000-03-07"
+  },
+  {
+   "slug": "nongyezhiwupinzhongbaohuminglu-7",
+   "short": "农业植物品种保护名录（第五批）",
+   "dept": "农业农村部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/nongyezhiwupinzhongbaohuminglu-7.html",
+   "effective": "2003-08-05"
+  },
+  {
+   "slug": "nongyezhiwupinzhongbaohuminglu-4",
+   "short": "农业植物品种保护名录（第八批）",
+   "dept": "农业农村部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/nongyezhiwupinzhongbaohuminglu-4.html",
+   "effective": "2010-03-01"
+  },
+  {
+   "slug": "nongyezhiwupinzhongbaohuminglu-6",
+   "short": "农业植物品种保护名录（第六批）",
+   "dept": "农业农村部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/nongyezhiwupinzhongbaohuminglu-6.html",
+   "effective": "2005-05-20"
+  },
+  {
+   "slug": "nongyezhiwupinzhongbaohuminglu",
+   "short": "农业植物品种保护名录（第十一批）",
+   "dept": "农业农村部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/nongyezhiwupinzhongbaohuminglu.html",
+   "effective": "2019-02-22"
+  },
+  {
+   "slug": "nongyezhiwupinzhongbaohuminglu-2",
+   "short": "农业植物品种保护名录（第十批）",
+   "dept": "农业农村部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/nongyezhiwupinzhongbaohuminglu-2.html",
+   "effective": "2016-04-16"
+  },
+  {
+   "slug": "nongyezhiwupinzhongbaohuminglu-8",
+   "short": "农业植物品种保护名录（第四批）",
+   "dept": "农业农村部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/nongyezhiwupinzhongbaohuminglu-8.html",
+   "effective": "2002-01-04"
+  },
+  {
+   "slug": "nongcuntudichengbaojingyingquanzhengguanlibanfa",
+   "short": "农村土地承包经营权证管理办法",
+   "dept": "农业农村部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/nongcuntudichengbaojingyingquanzhengguanlibanfa.html",
+   "effective": "2003-11-14"
+  },
+  {
+   "slug": "zhiwuxinpinzhongbaohutiaolishishixize-2",
+   "short": "植物新品种保护条例实施细则（农业部分）",
+   "dept": "农业农村部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zhiwuxinpinzhongbaohutiaolishishixize-2.html",
+   "effective": "2008-01-01"
+  },
+  {
+   "slug": "shuishengyeshengdongwuliyongtexubanfa",
+   "short": "水生野生动物利用特许办法",
+   "dept": "农业农村部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/shuishengyeshengdongwuliyongtexubanfa.html",
+   "effective": "1999-06-24"
+  },
+  {
+   "slug": "yuyeganghangjianduxingzhengchufaguiding",
+   "short": "渔业港航监督行政处罚规定",
+   "dept": "农业农村部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/yuyeganghangjianduxingzhengchufaguiding.html",
+   "effective": "2000-06-13"
+  },
+  {
+   "slug": "yuyechuanyuanguanlibanfa",
+   "short": "渔业船员管理办法",
+   "dept": "农业农村部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/yuyechuanyuanguanlibanfa.html",
+   "effective": "2014-05-23"
+  },
+  {
+   "slug": "yuyechuanbodengjibanfa",
+   "short": "渔业船舶登记办法",
+   "dept": "农业农村部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/yuyechuanbodengjibanfa.html",
+   "effective": "2012-10-22"
+  },
+  {
+   "slug": "guanxiahaiyuwaiguorenwaiguochuanboyuyehuodongguanla05e71",
+   "short": "管辖海域外国人、外国船舶渔业活动管理暂行规定",
+   "dept": "农业农村部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/guanxiahaiyuwaiguorenwaiguochuanboyuyehuodongguanla05e71.html",
+   "effective": "1999-06-24"
+  },
+  {
+   "slug": "zhongriyuyexiedingzandingcuoshishuiyuguanlizanxinga792ca",
+   "short": "中日渔业协定暂定措施水域管理暂行办法",
+   "dept": "农业农村部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zhongriyuyexiedingzandingcuoshishuiyuguanlizanxinga792ca.html",
+   "effective": "1999-03-05"
+  },
+  {
+   "slug": "zhonghanyuyexiedingzandingcuoshishuiyuheguodushuiy58f196",
+   "short": "中韩渔业协定暂定措施水域和过渡水域管理办法",
+   "dept": "农业农村部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zhonghanyuyexiedingzandingcuoshishuiyuheguodushuiy58f196.html",
+   "effective": "2001-02-16"
+  },
+  {
+   "slug": "zhuyaonongzuowupinzhongshendingbanfa",
+   "short": "主要农作物品种审定办法",
+   "dept": "农业农村部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zhuyaonongzuowupinzhongshendingbanfa.html",
+   "effective": "2016-08-15"
+  },
+  {
+   "slug": "youliangzhongchudengjiguize",
+   "short": "优良种畜登记规则",
+   "dept": "农业农村部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/youliangzhongchudengjiguize.html",
+   "effective": "2006-07-01"
+  },
+  {
+   "slug": "guanyushishiqingliqudisanwuchuanbotonggaoyouguansh34c7c0",
+   "short": "关于实施《清理、取缔“三无”船舶通告》有关事项的通知",
+   "dept": "农业农村部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/guanyushishiqingliqudisanwuchuanbotonggaoyouguansh34c7c0.html",
+   "effective": "1994-11-08"
+  },
+  {
+   "slug": "guanyujinzhizaigonghaishiyongdaxingliuwangzuoyedet0de8bf",
+   "short": "关于禁止在公海使用大型流网作业的通知",
+   "dept": "农业农村部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/guanyujinzhizaigonghaishiyongdaxingliuwangzuoyedet0de8bf.html",
+   "effective": "1991-06-08"
+  },
+  {
+   "slug": "shouyongchufangyaohefeichufangyaoguanlibanfa",
+   "short": "兽用处方药和非处方药管理办法",
+   "dept": "农业农村部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/shouyongchufangyaohefeichufangyaoguanlibanfa.html",
+   "effective": "2013-09-11"
+  },
+  {
+   "slug": "shouyongannakaguanliguiding",
+   "short": "兽用安钠咖管理规定",
+   "dept": "农业农村部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/shouyongannakaguanliguiding.html",
+   "effective": "1999-03-22"
+  },
+  {
+   "slug": "shouyongshengwuzhipinjingyingguanlibanfa",
+   "short": "兽用生物制品经营管理办法",
+   "dept": "农业农村部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/shouyongshengwuzhipinjingyingguanlibanfa.html",
+   "effective": "2021-05-15"
+  },
+  {
+   "slug": "shouyongmazuiyaopindegongyingshiyongguanlibanfa",
+   "short": "兽用麻醉药品的供应、使用、管理办法",
+   "dept": "农业农村部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/shouyongmazuiyaopindegongyingshiyongguanlibanfa.html",
+   "effective": "1980-11-20"
+  },
+  {
+   "slug": "shouyaochanpinpizhunwenhaoguanlibanfa",
+   "short": "兽药产品批准文号管理办法",
+   "dept": "农业农村部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/shouyaochanpinpizhunwenhaoguanlibanfa.html",
+   "effective": "2015-12-03"
+  },
+  {
+   "slug": "shouyaobiaoqianheshuomingshuguanlibanfa",
+   "short": "兽药标签和说明书管理办法",
+   "dept": "农业农村部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/shouyaobiaoqianheshuomingshuguanlibanfa.html",
+   "effective": "2003-03-01"
+  },
+  {
+   "slug": "shouyaozhucebanfa",
+   "short": "兽药注册办法",
+   "dept": "农业农村部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/shouyaozhucebanfa.html",
+   "effective": "2005-01-01"
+  },
+  {
+   "slug": "shouyaoshengchanzhiliangguanliguifan",
+   "short": "兽药生产质量管理规范（2020年修订）",
+   "dept": "农业农村部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/shouyaoshengchanzhiliangguanliguifan.html",
+   "effective": "2020-04-21"
+  },
+  {
+   "slug": "shouyaojingyingzhiliangguanliguifan",
+   "short": "兽药经营质量管理规范",
+   "dept": "农业农村部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/shouyaojingyingzhiliangguanliguifan.html",
+   "effective": "2010-01-15"
+  },
+  {
+   "slug": "shouyaozhiliangjianduchouyangguiding",
+   "short": "兽药质量监督抽样规定",
+   "dept": "农业农村部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/shouyaozhiliangjianduchouyangguiding.html",
+   "effective": "2001-12-10"
+  },
+  {
+   "slug": "shouyaojinkouguanlibanfa",
+   "short": "兽药进口管理办法",
+   "dept": "农业农村部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/shouyaojinkouguanlibanfa.html",
+   "effective": "2007-07-31"
+  },
+  {
+   "slug": "nongyenongcunbuxingzhengxukeshishiguanlibanfa",
+   "short": "农业农村部行政许可实施管理办法",
+   "dept": "农业农村部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/nongyenongcunbuxingzhengxukeshishiguanlibanfa.html",
+   "effective": "2022-01-15"
+  },
+  {
+   "slug": "nongyenongcunbumentongjigongzuoguanlibanfa",
+   "short": "农业农村部门统计工作管理办法",
+   "dept": "农业农村部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/nongyenongcunbumentongjigongzuoguanlibanfa.html",
+   "effective": "2024-05-13"
+  },
+  {
+   "slug": "nongyejixieshiguchulibanfa",
+   "short": "农业机械事故处理办法",
+   "dept": "农业农村部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/nongyejixieshiguchulibanfa.html",
+   "effective": "2011-01-12"
+  },
+  {
+   "slug": "nongyejixieweixiuguanliguiding",
+   "short": "农业机械维修管理规定",
+   "dept": "农业农村部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/nongyejixieweixiuguanliguiding.html",
+   "effective": "2006-07-01"
+  },
+  {
+   "slug": "nongyejixieshiyanjiandingbanfa",
+   "short": "农业机械试验鉴定办法",
+   "dept": "农业农村部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/nongyejixieshiyanjiandingbanfa.html",
+   "effective": "2019-04-01"
+  },
+  {
+   "slug": "nongyezhiwupinzhongmingmingguiding",
+   "short": "农业植物品种命名规定",
+   "dept": "农业农村部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/nongyezhiwupinzhongmingmingguiding.html",
+   "effective": "2012-04-15"
+  },
+  {
+   "slug": "nongyezhiwuxinpinzhongquanqinquananjianchuliguidinff6d5f",
+   "short": "农业植物新品种权侵权案件处理规定",
+   "dept": "农业农村部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/nongyezhiwuxinpinzhongquanqinquananjianchuliguidinff6d5f.html",
+   "effective": "2002-12-30"
+  },
+  {
+   "slug": "nongyezhiwuyiqingbaogaoyufabuguanlibanfa",
+   "short": "农业植物疫情报告与发布管理办法",
+   "dept": "农业农村部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/nongyezhiwuyiqingbaogaoyufabuguanlibanfa.html",
+   "effective": "2010-03-01"
+  },
+  {
+   "slug": "nongyezonghexingzhengzhifaguanlibanfa",
+   "short": "农业综合行政执法管理办法",
+   "dept": "农业农村部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/nongyezonghexingzhengzhifaguanlibanfa.html",
+   "effective": "2023-01-01"
+  },
+  {
+   "slug": "nongyexingzhengchufachengxuguiding",
+   "short": "农业行政处罚程序规定",
+   "dept": "农业农村部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/nongyexingzhengchufachengxuguiding.html",
+   "effective": "2020-03-01"
+  },
+  {
+   "slug": "nongyexingzhengzhifazhengjianguanlibanfa",
+   "short": "农业行政执法证件管理办法",
+   "dept": "农业农村部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/nongyexingzhengzhifazhengjianguanlibanfa.html",
+   "effective": "1998-10-15"
+  },
+  {
+   "slug": "nongyexingzhengxuketingzhengchengxuguiding",
+   "short": "农业行政许可听证程序规定",
+   "dept": "农业农村部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/nongyexingzhengxuketingzhengchengxuguiding.html",
+   "effective": "2004-06-28"
+  },
+  {
+   "slug": "nongyezhuanjiyinshengwujiagongshenpibanfa",
+   "short": "农业转基因生物加工审批办法",
+   "dept": "农业农村部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/nongyezhuanjiyinshengwujiagongshenpibanfa.html",
+   "effective": "2006-01-27"
+  },
+  {
+   "slug": "nongyezhuanjiyinshengwuanquanpingjiaguanlibanfa",
+   "short": "农业转基因生物安全评价管理办法",
+   "dept": "农业农村部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/nongyezhuanjiyinshengwuanquanpingjiaguanlibanfa.html",
+   "effective": "2002-01-05"
+  },
+  {
+   "slug": "nongyezhuanjiyinshengwubiaoshiguanlibanfa",
+   "short": "农业转基因生物标识管理办法",
+   "dept": "农业农村部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/nongyezhuanjiyinshengwubiaoshiguanlibanfa.html",
+   "effective": "2002-01-05"
+  },
+  {
+   "slug": "nongyezhuanjiyinshengwujinkouanquanguanlibanfa",
+   "short": "农业转基因生物进口安全管理办法",
+   "dept": "农业农村部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/nongyezhuanjiyinshengwujinkouanquanguanlibanfa.html",
+   "effective": "2002-01-05"
+  },
+  {
+   "slug": "nongyebuguanyuyuyechuanboyouleijilubaoshiyongfangf838437",
+   "short": "农业部关于“渔业船舶油类记录薄”使用方法的通知",
+   "dept": "农业农村部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/nongyebuguanyuyuyechuanboyouleijilubaoshiyongfangf838437.html",
+   "effective": "1989-07-01"
+  },
+  {
+   "slug": "nongyebuguanyuyuyechuanboyouleijilubushiyongfangfadd4878",
+   "short": "农业部关于“渔业船舶油类记录簿”使用方法的通知",
+   "dept": "农业农村部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/nongyebuguanyuyuyechuanboyouleijilubushiyongfangfadd4878.html",
+   "effective": "1989-07-01"
+  },
+  {
+   "slug": "nongyebuguanyuxiafahaiyangyuyechuanbochuanyuanzhenceffc0",
+   "short": "农业部关于下发《海洋渔业船舶船员证书》考试发证收费标准的通知",
+   "dept": "农业农村部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/nongyebuguanyuxiafahaiyangyuyechuanbochuanyuanzhenceffc0.html",
+   "effective": "1989-07-20"
+  },
+  {
+   "slug": "nongyebuguanyufabudongwujidongwuyuanshipinzhongcan0165f0",
+   "short": "农业部关于发布《动物及动物源食品中残留物质监控计划》和《官方取样程序》的通知",
+   "dept": "农业农村部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/nongyebuguanyufabudongwujidongwuyuanshipinzhongcan0165f0.html",
+   "effective": "1999-05-11"
+  },
+  {
+   "slug": "nongyebuguanyuquedingjingjijiazhijiaogaodeyuyeziyu9322e1",
+   "short": "农业部关于确定经济价值较高的渔业资源品种目录的通知",
+   "dept": "农业农村部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/nongyebuguanyuquedingjingjijiazhijiaogaodeyuyeziyu9322e1.html",
+   "effective": "1989-05-30"
+  },
+  {
+   "slug": "nongyebuzhiwuxinpinzhongfushenweiyuanhuishenliguid53ccb5",
+   "short": "农业部植物新品种复审委员会审理规定",
+   "dept": "农业农村部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/nongyebuzhiwuxinpinzhongfushenweiyuanhuishenliguid53ccb5.html",
+   "effective": "2001-02-26"
+  },
+  {
+   "slug": "nongyebuzhiwujianyiyuanguanlibanfa",
+   "short": "农业部植物检疫员管理办法（试行）",
+   "dept": "农业农村部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/nongyebuzhiwujianyiyuanguanlibanfa.html",
+   "effective": "1990-11-08"
+  },
+  {
+   "slug": "nongyebulifagongzuoguiding",
+   "short": "农业部立法工作规定",
+   "dept": "农业农村部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/nongyebulifagongzuoguiding.html",
+   "effective": "2003-01-01"
+  },
+  {
+   "slug": "nongyeyeshengzhiwubaohubanfa",
+   "short": "农业野生植物保护办法",
+   "dept": "农业农村部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/nongyeyeshengzhiwubaohubanfa.html",
+   "effective": "2002-09-06"
+  },
+  {
+   "slug": "nongchanpinchandianquanguanlibanfa",
+   "short": "农产品产地安全管理办法",
+   "dept": "农业农村部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/nongchanpinchandianquanguanlibanfa.html",
+   "effective": "2006-10-17"
+  },
+  {
+   "slug": "nongchanpinbaozhuanghebiaoshiguanlibanfa",
+   "short": "农产品包装和标识管理办法",
+   "dept": "农业农村部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/nongchanpinbaozhuanghebiaoshiguanlibanfa.html",
+   "effective": "2006-11-01"
+  },
+  {
+   "slug": "nongchanpindilibiaozhiguanlibanfa",
+   "short": "农产品地理标志管理办法",
+   "dept": "农业农村部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/nongchanpindilibiaozhiguanlibanfa.html",
+   "effective": "2007-12-25"
+  },
+  {
+   "slug": "nongchanpinzhilianganquanchengnuodabiaohegezhenggufbe7ad",
+   "short": "农产品质量安全承诺达标合格证管理办法",
+   "dept": "农业农村部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/nongchanpinzhilianganquanchengnuodabiaohegezhenggufbe7ad.html",
+   "effective": "2026-02-01"
+  },
+  {
+   "slug": "nongchanpinzhilianganquanjiancejigoukaohebanfa",
+   "short": "农产品质量安全检测机构考核办法",
+   "dept": "农业农村部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/nongchanpinzhilianganquanjiancejigoukaohebanfa.html",
+   "effective": "2007-12-12"
+  },
+  {
+   "slug": "nongchanpinzhilianganquanjianceguanlibanfa",
+   "short": "农产品质量安全监测管理办法",
+   "dept": "农业农村部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/nongchanpinzhilianganquanjianceguanlibanfa.html",
+   "effective": "2012-08-14"
+  },
+  {
+   "slug": "nongzuowubingchonghaijianceyuyubaoguanlibanfa",
+   "short": "农作物病虫害监测与预报管理办法",
+   "dept": "农业农村部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/nongzuowubingchonghaijianceyuyubaoguanlibanfa.html",
+   "effective": "2022-01-24"
+  },
+  {
+   "slug": "nongzuowuzhongzibiaoqianheshiyongshuomingguanliban043c28",
+   "short": "农作物种子标签和使用说明管理办法",
+   "dept": "农业农村部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/nongzuowuzhongzibiaoqianheshiyongshuomingguanliban043c28.html",
+   "effective": ""
+  },
+  {
+   "slug": "nongzuowuzhongzishengchanjingyingxukeguanlibanfa",
+   "short": "农作物种子生产经营许可管理办法",
+   "dept": "农业农村部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/nongzuowuzhongzishengchanjingyingxukeguanlibanfa.html",
+   "effective": "2016-07-08"
+  },
+  {
+   "slug": "nongzuowuzhongzizhiliangjianyanjigoukaoheguanliban87c8f9",
+   "short": "农作物种子质量检验机构考核管理办法",
+   "dept": "农业农村部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/nongzuowuzhongzizhiliangjianyanjigoukaoheguanliban87c8f9.html",
+   "effective": "2019-08-27"
+  },
+  {
+   "slug": "nongzuowuzhongzizhiliangjianduchouchaguanlibanfa",
+   "short": "农作物种子质量监督抽查管理办法",
+   "dept": "农业农村部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/nongzuowuzhongzizhiliangjianduchouchaguanlibanfa.html",
+   "effective": "2005-03-10"
+  },
+  {
+   "slug": "nongzuowuzhongzizhiliangjiufentianjianxianchangjia33b6c1",
+   "short": "农作物种子质量纠纷田间现场鉴定办法",
+   "dept": "农业农村部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/nongzuowuzhongzizhiliangjiufentianjianxianchangjia33b6c1.html",
+   "effective": "2003-07-08"
+  },
+  {
+   "slug": "nongzuowuzhongzhiziyuanguanlibanfa",
+   "short": "农作物种质资源管理办法",
+   "dept": "农业农村部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/nongzuowuzhongzhiziyuanguanlibanfa.html",
+   "effective": "2003-07-08"
+  },
+  {
+   "slug": "nongcuntudichengbaohetongguanlibanfa",
+   "short": "农村土地承包合同管理办法",
+   "dept": "农业农村部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/nongcuntudichengbaohetongguanlibanfa.html",
+   "effective": "2023-02-17"
+  },
+  {
+   "slug": "nongcuntudichengbaojingyingjiufenzhongcaiguize",
+   "short": "农村土地承包经营纠纷仲裁规则（2009）",
+   "dept": "农业农村部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/nongcuntudichengbaojingyingjiufenzhongcaiguize.html",
+   "effective": "2010-01-01"
+  },
+  {
+   "slug": "nongcuntudijingyingquanliuzhuanguanlibanfa",
+   "short": "农村土地经营权流转管理办法",
+   "dept": "农业农村部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/nongcuntudijingyingquanliuzhuanguanlibanfa.html",
+   "effective": "2021-03-01"
+  },
+  {
+   "slug": "nongcunjitijingjizuzhishenjiguiding",
+   "short": "农村集体经济组织审计规定",
+   "dept": "农业农村部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/nongcunjitijingjizuzhishenjiguiding.html",
+   "effective": "1992-05-12"
+  },
+  {
+   "slug": "nongyongdituranghuanjingguanlibanfa-2",
+   "short": "农用地土壤环境管理办法（试行）（2017）",
+   "dept": "农业农村部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/nongyongdituranghuanjingguanlibanfa-2.html",
+   "effective": "2017-11-01"
+  },
+  {
+   "slug": "nongyongbaomoguanlibanfa-2",
+   "short": "农用薄膜管理办法（2020）",
+   "dept": "农业农村部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/nongyongbaomoguanlibanfa-2.html",
+   "effective": "2020-07-03"
+  },
+  {
+   "slug": "nongyongbaomoguanlibanfa",
+   "short": "农用薄膜管理办法（2020）",
+   "dept": "农业农村部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/nongyongbaomoguanlibanfa.html",
+   "effective": "2020-09-01"
+  },
+  {
+   "slug": "nongtianjianshexiangmuguanlibanfa",
+   "short": "农田建设项目管理办法",
+   "dept": "农业农村部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/nongtianjianshexiangmuguanlibanfa.html",
+   "effective": "2019-10-01"
+  },
+  {
+   "slug": "nongyaobaozhuangfeiqiwuhuishouchuliguanlibanfa",
+   "short": "农药包装废弃物回收处理管理办法",
+   "dept": "农业农村部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/nongyaobaozhuangfeiqiwuhuishouchuliguanlibanfa.html",
+   "effective": "2020-10-01"
+  },
+  {
+   "slug": "nongyaobiaoqianheshuomingshuguanlibanfa",
+   "short": "农药标签和说明书管理办法",
+   "dept": "农业农村部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/nongyaobiaoqianheshuomingshuguanlibanfa.html",
+   "effective": "2017-08-01"
+  },
+  {
+   "slug": "nongyaoshengchanxukeguanlibanfa",
+   "short": "农药生产许可管理办法",
+   "dept": "农业农村部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/nongyaoshengchanxukeguanlibanfa.html",
+   "effective": "2017-06-21"
+  },
+  {
+   "slug": "nongyaodengjiguanlibanfa",
+   "short": "农药登记管理办法",
+   "dept": "农业农村部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/nongyaodengjiguanlibanfa.html",
+   "effective": "2017-06-21"
+  },
+  {
+   "slug": "nongyaodengjishiyanguanlibanfa",
+   "short": "农药登记试验管理办法",
+   "dept": "农业农村部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/nongyaodengjishiyanguanlibanfa.html",
+   "effective": "2017-06-21"
+  },
+  {
+   "slug": "nongyaojingyingxukeguanlibanfa",
+   "short": "农药经营许可管理办法",
+   "dept": "农业农村部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/nongyaojingyingxukeguanlibanfa.html",
+   "effective": "2017-06-21"
+  },
+  {
+   "slug": "dongwujianyiguanlibanfa",
+   "short": "动物检疫管理办法",
+   "dept": "农业农村部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/dongwujianyiguanlibanfa.html",
+   "effective": "2022-12-01"
+  },
+  {
+   "slug": "dongwubingyuanweishengwufenleiminglu",
+   "short": "动物病原微生物分类名录",
+   "dept": "农业农村部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/dongwubingyuanweishengwufenleiminglu.html",
+   "effective": "2005-05-24"
+  },
+  {
+   "slug": "dongwubingyuanweishengwujunzhongbaocangguanlibanfa",
+   "short": "动物病原微生物菌（毒）种保藏管理办法",
+   "dept": "农业农村部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/dongwubingyuanweishengwujunzhongbaocangguanlibanfa.html",
+   "effective": "2008-11-26"
+  },
+  {
+   "slug": "dongwuzhenliaojigouguanlibanfa",
+   "short": "动物诊疗机构管理办法",
+   "dept": "农业农村部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/dongwuzhenliaojigouguanlibanfa.html",
+   "effective": "2022-10-01"
+  },
+  {
+   "slug": "dongwufangyitiaojianshenchabanfa",
+   "short": "动物防疫条件审查办法",
+   "dept": "农业农村部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/dongwufangyitiaojianshenchabanfa.html",
+   "effective": "2022-12-01"
+  },
+  {
+   "slug": "lvsichangjiangkouhezhoushanyuchangbufenhaiyubulaox043cbd",
+   "short": "吕泗、长江口和舟山渔场部分海域捕捞许可管理规定",
+   "dept": "农业农村部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/lvsichangjiangkouhezhoushanyuchangbufenhaiyubulaox043cbd.html",
+   "effective": "1999-02-13"
+  },
+  {
+   "slug": "guowaiyinzhongjianyishenpiguanlibanfa",
+   "short": "国外引种检疫审批管理办法",
+   "dept": "农业农村部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/guowaiyinzhongjianyishenpiguanlibanfa.html",
+   "effective": "1993-11-10"
+  },
+  {
+   "slug": "wailairuqinwuzhongguanlibanfa",
+   "short": "外来入侵物种管理办法",
+   "dept": "农业农村部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/wailairuqinwuzhongguanlibanfa.html",
+   "effective": "2022-08-01"
+  },
+  {
+   "slug": "jiachuyichuancailiaoshengchanxukebanfa",
+   "short": "家畜遗传材料生产许可办法",
+   "dept": "农业农村部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/jiachuyichuancailiaoshengchanxukebanfa.html",
+   "effective": "2010-01-21"
+  },
+  {
+   "slug": "zhiyeshouyihexiangcunshouyiguanlibanfa",
+   "short": "执业兽医和乡村兽医管理办法",
+   "dept": "农业农村部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zhiyeshouyihexiangcunshouyiguanlibanfa.html",
+   "effective": "2022-10-01"
+  },
+  {
+   "slug": "tuolajihelianheshougejidengjiguiding",
+   "short": "拖拉机和联合收割机登记规定",
+   "dept": "农业农村部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/tuolajihelianheshougejidengjiguiding.html",
+   "effective": "2018-06-01"
+  },
+  {
+   "slug": "tuolajihelianheshougejijiashizhengguanliguiding",
+   "short": "拖拉机和联合收割机驾驶证管理规定",
+   "dept": "农业农村部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/tuolajihelianheshougejijiashizhengguanliguiding.html",
+   "effective": "2018-06-01"
+  },
+  {
+   "slug": "tuolajijiashipeixunguanlibanfa",
+   "short": "拖拉机驾驶培训管理办法",
+   "dept": "农业农村部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/tuolajijiashipeixunguanlibanfa.html",
+   "effective": "2004-08-15"
+  },
+  {
+   "slug": "xinshouyaoyanzhiguanlibanfa",
+   "short": "新兽药研制管理办法",
+   "dept": "农业农村部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/xinshouyaoyanzhiguanlibanfa.html",
+   "effective": "2005-11-01"
+  },
+  {
+   "slug": "xinsiliaohexinsiliaotianjiajiguanlibanfa",
+   "short": "新饲料和新饲料添加剂管理办法",
+   "dept": "农业农村部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/xinsiliaohexinsiliaotianjiajiguanlibanfa.html",
+   "effective": "2012-05-02"
+  },
+  {
+   "slug": "wuguidingdongwuyibingqupingguguanlibanfa",
+   "short": "无规定动物疫病区评估管理办法",
+   "dept": "农业农村部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/wuguidingdongwuyibingqupingguguanlibanfa.html",
+   "effective": "2017-07-01"
+  },
+  {
+   "slug": "zhiwujianyitiaolishishixize-2",
+   "short": "植物检疫条例实施细则(农业部分)",
+   "dept": "农业农村部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zhiwujianyitiaolishishixize-2.html",
+   "effective": "1995-02-25"
+  },
+  {
+   "slug": "shuichanyangzhizhilianganquanguanliguiding",
+   "short": "水产养殖质量安全管理规定",
+   "dept": "农业农村部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/shuichanyangzhizhilianganquanguanliguiding.html",
+   "effective": "2003-07-24"
+  },
+  {
+   "slug": "shuichanyuanliangzhongshendingbanfa",
+   "short": "水产原、良种审定办法",
+   "dept": "农业农村部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/shuichanyuanliangzhongshendingbanfa.html",
+   "effective": "1998-03-02"
+  },
+  {
+   "slug": "shuichanpinpifashichangguanlibanfa",
+   "short": "水产品批发市场管理办法",
+   "dept": "农业农村部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/shuichanpinpifashichangguanlibanfa.html",
+   "effective": "1996-11-27"
+  },
+  {
+   "slug": "shuichanzhongzhiziyuanbaohuquguanlibanfa",
+   "short": "水产种质资源保护区管理办法",
+   "dept": "农业农村部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/shuichanzhongzhiziyuanbaohuquguanlibanfa.html",
+   "effective": "2011-01-05"
+  },
+  {
+   "slug": "shuichanzhongzhiziyuanbaohuquguanlizanxingbanfa",
+   "short": "水产种质资源保护区管理暂行办法",
+   "dept": "农业农村部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/shuichanzhongzhiziyuanbaohuquguanlizanxingbanfa.html",
+   "effective": "2011-03-01"
+  },
+  {
+   "slug": "shuichanmiaozhongguanlibanfa",
+   "short": "水产苗种管理办法",
+   "dept": "农业农村部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/shuichanmiaozhongguanlibanfa.html",
+   "effective": "2005-04-01"
+  },
+  {
+   "slug": "shuiyutantuyangzhifazhengdengjibanfa",
+   "short": "水域滩涂养殖发证登记办法",
+   "dept": "农业农村部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/shuiyutantuyangzhifazhengdengjibanfa.html",
+   "effective": "2010-05-24"
+  },
+  {
+   "slug": "shuishengshengwuzengzhifangliuguanliguiding",
+   "short": "水生生物增殖放流管理规定",
+   "dept": "农业农村部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/shuishengshengwuzengzhifangliuguanliguiding.html",
+   "effective": "2009-05-01"
+  },
+  {
+   "slug": "shuishengyeshengdongwujiqizhipinjiazhipinggubanfa-2",
+   "short": "水生野生动物及其制品价值评估办法（2019）",
+   "dept": "农业农村部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/shuishengyeshengdongwujiqizhipinjiazhipinggubanfa-2.html",
+   "effective": "2019-10-01"
+  },
+  {
+   "slug": "shuishengyeshengdongwujiqizhipinjiazhipinggubanfa",
+   "short": "水生野生动物及其制品价值评估办法（2019）",
+   "dept": "农业农村部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/shuishengyeshengdongwujiqizhipinjiazhipinggubanfa.html",
+   "effective": "2019-10-01"
+  },
+  {
+   "slug": "yuyebulaoxukeguanliguiding-2",
+   "short": "渔业捕捞许可管理规定（2018）",
+   "dept": "农业农村部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/yuyebulaoxukeguanliguiding-2.html",
+   "effective": "2019-01-01"
+  },
+  {
+   "slug": "yuyebulaoxukeguanliguiding",
+   "short": "渔业捕捞许可管理规定（2018）",
+   "dept": "农业农村部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/yuyebulaoxukeguanliguiding.html",
+   "effective": "2022-01-07"
+  },
+  {
+   "slug": "yuyeshuiyuwuranshigudiaochachulichengxuguiding",
+   "short": "渔业水域污染事故调查处理程序规定",
+   "dept": "农业农村部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/yuyeshuiyuwuranshigudiaochachulichengxuguiding.html",
+   "effective": "1997-03-26"
+  },
+  {
+   "slug": "yuyehangbiaoguanlibanfa",
+   "short": "渔业航标管理办法",
+   "dept": "农业农村部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/yuyehangbiaoguanlibanfa.html",
+   "effective": "2008-04-10"
+  },
+  {
+   "slug": "yuyechuanboshuishanganquanshigubaogaohediaochachul229097",
+   "short": "渔业船舶水上安全事故报告和调查处理规定",
+   "dept": "农业农村部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/yuyechuanboshuishanganquanshigubaogaohediaochachul229097.html",
+   "effective": "2012-12-25"
+  },
+  {
+   "slug": "yuyechuanbohangxingzhibanzhunze",
+   "short": "渔业船舶航行值班准则（试行）",
+   "dept": "农业农村部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/yuyechuanbohangxingzhibanzhunze.html",
+   "effective": "1999-11-08"
+  },
+  {
+   "slug": "yuyechuanbochuanmingguiding",
+   "short": "渔业船舶船名规定",
+   "dept": "农业农村部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/yuyechuanbochuanmingguiding.html",
+   "effective": "2013-12-31"
+  },
+  {
+   "slug": "yuyexingzhengchufaguiding",
+   "short": "渔业行政处罚规定",
+   "dept": "农业农村部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/yuyexingzhengchufaguiding.html",
+   "effective": "2022-01-07"
+  },
+  {
+   "slug": "yugangfeishouguiding",
+   "short": "渔港费收规定",
+   "dept": "农业农村部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/yugangfeishouguiding.html",
+   "effective": "1993-10-07"
+  },
+  {
+   "slug": "yuchuanzuoyebirangguiding",
+   "short": "渔船作业避让规定",
+   "dept": "农业农村部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/yuchuanzuoyebirangguiding.html",
+   "effective": "1983-09-20"
+  },
+  {
+   "slug": "bohaishengwuziyuanyanghuguiding",
+   "short": "渤海生物资源养护规定",
+   "dept": "农业农村部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/bohaishengwuziyuanyanghuguiding.html",
+   "effective": "2010-11-26"
+  },
+  {
+   "slug": "gancaohemahuangcaocaijiguanlibanfa",
+   "short": "甘草和麻黄草采集管理办法",
+   "dept": "农业农村部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/gancaohemahuangcaocaijiguanlibanfa.html",
+   "effective": "2001-10-16"
+  },
+  {
+   "slug": "shengxianrushengchanshougouguanlibanfa",
+   "short": "生鲜乳生产收购管理办法",
+   "dept": "农业农村部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/shengxianrushengchanshougouguanlibanfa.html",
+   "effective": "2008-11-11"
+  },
+  {
+   "slug": "chuqinyangzhichangbeianguanlibanfa",
+   "short": "畜禽养殖场备案管理办法",
+   "dept": "农业农村部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/chuqinyangzhichangbeianguanlibanfa.html",
+   "effective": "2025-09-01"
+  },
+  {
+   "slug": "chuqinxinpinzhongpeitaoxishendinghechuqinyichuanzieb040e",
+   "short": "畜禽新品种配套系审定和畜禽遗传资源鉴定办法",
+   "dept": "农业农村部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/chuqinxinpinzhongpeitaoxishendinghechuqinyichuanzieb040e.html",
+   "effective": "2006-07-01"
+  },
+  {
+   "slug": "chuqinbiaoshiheyangzhidanganguanlibanfa",
+   "short": "畜禽标识和养殖档案管理办法",
+   "dept": "农业农村部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/chuqinbiaoshiheyangzhidanganguanlibanfa.html",
+   "effective": "2006-07-01"
+  },
+  {
+   "slug": "chuqinyichuanziyuanbaozhongchangbaohuquhejiyinkugu218314",
+   "short": "畜禽遗传资源保种场保护区和基因库管理办法",
+   "dept": "农业农村部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/chuqinyichuanziyuanbaozhongchangbaohuquhejiyinkugu218314.html",
+   "effective": "2006-06-05"
+  },
+  {
+   "slug": "bingsichuqinhebinghaichuqinchanpinwuhaihuachuliguaad4f2a",
+   "short": "病死畜禽和病害畜禽产品无害化处理管理办法",
+   "dept": "农业农村部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/bingsichuqinhebinghaichuqinchanpinwuhaihuachuliguaad4f2a.html",
+   "effective": "2022-07-01"
+  },
+  {
+   "slug": "zhongchuqinshengchanjingyingxukeguanlibanfa",
+   "short": "种畜禽生产经营许可管理办法",
+   "dept": "农业农村部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zhongchuqinshengchanjingyingxukeguanlibanfa.html",
+   "effective": "2025-07-01"
+  },
+  {
+   "slug": "lvseshipinbiaozhiguanlibanfa",
+   "short": "绿色食品标志管理办法",
+   "dept": "农业农村部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/lvseshipinbiaozhiguanlibanfa.html",
+   "effective": "2012-07-30"
+  },
+  {
+   "slug": "gengdizhiliangdiaochajianceyupingjiabanfa",
+   "short": "耕地质量调查监测与评价办法",
+   "dept": "农业农村部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/gengdizhiliangdiaochajianceyupingjiabanfa.html",
+   "effective": "2016-08-01"
+  },
+  {
+   "slug": "lianheshougejikuaquzuoyeguanlibanfa",
+   "short": "联合收割机跨区作业管理办法",
+   "dept": "农业农村部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/lianheshougejikuaquzuoyeguanlibanfa.html",
+   "effective": "2003-09-01"
+  },
+  {
+   "slug": "feiliaodengjiguanlibanfa",
+   "short": "肥料登记管理办法",
+   "dept": "农业农村部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/feiliaodengjiguanlibanfa.html",
+   "effective": "2000-06-23"
+  },
+  {
+   "slug": "caozhongguanlibanfa",
+   "short": "草种管理办法",
+   "dept": "农业农村部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/caozhongguanlibanfa.html",
+   "effective": "2007-12-25"
+  },
+  {
+   "slug": "canzhongguanlibanfa",
+   "short": "蚕种管理办法",
+   "dept": "农业农村部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/canzhongguanlibanfa.html",
+   "effective": "2006-06-28"
+  },
+  {
+   "slug": "jinchukounongzuowuzhongziguanlizanxingbanfa",
+   "short": "进出口农作物种子（苗）管理暂行办法",
+   "dept": "农业农村部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/jinchukounongzuowuzhongziguanlizanxingbanfa.html",
+   "effective": "1997-03-28"
+  },
+  {
+   "slug": "jinkousiliaohesiliaotianjiajidengjiguanlibanfa",
+   "short": "进口饲料和饲料添加剂登记管理办法",
+   "dept": "农业农村部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/jinkousiliaohesiliaotianjiajidengjiguanlibanfa.html",
+   "effective": "2014-01-13"
+  },
+  {
+   "slug": "yuanyangyuyeguanliguiding-2",
+   "short": "远洋渔业管理规定（2020）",
+   "dept": "农业农村部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/yuanyangyuyeguanliguiding-2.html",
+   "effective": "2020-04-01"
+  },
+  {
+   "slug": "yuanyangyuyeguanliguiding",
+   "short": "远洋渔业管理规定（2020）",
+   "dept": "农业农村部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/yuanyangyuyeguanliguiding.html",
+   "effective": "2020-04-01"
+  },
+  {
+   "slug": "changjiangshuishengshengwubaohuguanliguiding",
+   "short": "长江水生生物保护管理规定",
+   "dept": "农业农村部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/changjiangshuishengshengwubaohuguanliguiding.html",
+   "effective": "2022-02-01"
+  },
+  {
+   "slug": "feizhuyaonongzuowupinzhongdengjibanfa",
+   "short": "非主要农作物品种登记办法",
+   "dept": "农业农村部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/feizhuyaonongzuowupinzhongdengjibanfa.html",
+   "effective": "2017-05-01"
+  },
+  {
+   "slug": "shiyongjunjunzhongguanlibanfa",
+   "short": "食用菌菌种管理办法",
+   "dept": "农业农村部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/shiyongjunjunzhongguanlibanfa.html",
+   "effective": "2006-03-27"
+  },
+  {
+   "slug": "siliaohesiliaotianjiajishengchanxukeguanlibanfa",
+   "short": "饲料和饲料添加剂生产许可管理办法",
+   "dept": "农业农村部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/siliaohesiliaotianjiajishengchanxukeguanlibanfa.html",
+   "effective": "2012-05-02"
+  },
+  {
+   "slug": "siliaotianjiajichanpinpizhunwenhaoguanlibanfa",
+   "short": "饲料添加剂产品批准文号管理办法",
+   "dept": "农业农村部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/siliaotianjiajichanpinpizhunwenhaoguanlibanfa.html",
+   "effective": "2012-05-02"
+  },
+  {
+   "slug": "siliaozhilianganquanguanliguifan",
+   "short": "饲料质量安全管理规范",
+   "dept": "农业农村部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/siliaozhilianganquanguanliguifan.html",
+   "effective": "2014-01-13"
+  },
+  {
+   "slug": "gaozhibingxingdongwubingyuanweishengwushiyanshishe4c85d2",
+   "short": "高致病性动物病原微生物实验室生物安全管理审批办法",
+   "dept": "农业农村部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/gaozhibingxingdongwubingyuanweishengwushiyanshishe4c85d2.html",
+   "effective": "2005-05-20"
+  },
+  {
+   "slug": "biaozhunshigongzhaobiaozigeyushenwenjianhebiaozhun1191cd-2",
+   "short": "《标准施工招标资格预审文件》和《标准施工招标文件》暂行规定（2007）",
+   "dept": "国家发展改革委",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/biaozhunshigongzhaobiaozigeyushenwenjianhebiaozhun1191cd-2.html",
+   "effective": "2007-11-01"
+  },
+  {
+   "slug": "biaozhunshigongzhaobiaozigeyushenwenjianhebiaozhun1191cd",
+   "short": "《标准施工招标资格预审文件》和《标准施工招标文件》暂行规定（2007）",
+   "dept": "国家发展改革委",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/biaozhunshigongzhaobiaozigeyushenwenjianhebiaozhun1191cd.html",
+   "effective": "2008-05-01"
+  },
+  {
+   "slug": "zhongyangchubeimianguanlibanfa",
+   "short": "中央储备棉管理办法",
+   "dept": "国家发展改革委",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zhongyangchubeimianguanlibanfa.html",
+   "effective": "2024-04-01"
+  },
+  {
+   "slug": "zhongyangchubeitangguanlibanfa",
+   "short": "中央储备糖管理办法",
+   "dept": "国家发展改革委",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zhongyangchubeitangguanlibanfa.html",
+   "effective": "2021-04-10"
+  },
+  {
+   "slug": "zhongyangdingjiamulu",
+   "short": "中央定价目录",
+   "dept": "国家发展改革委",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zhongyangdingjiamulu.html",
+   "effective": "2020-05-01"
+  },
+  {
+   "slug": "zhongyangyusuanneitouzibuzhuhetiexixiangmuguanlibaee8e14",
+   "short": "中央预算内投资补助和贴息项目管理办法",
+   "dept": "国家发展改革委",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zhongyangyusuanneitouzibuzhuhetiexixiangmuguanlibaee8e14.html",
+   "effective": "2026-03-01"
+  },
+  {
+   "slug": "zhongyangyusuanneitouzizibenjinzhuruxiangmuguanlib382eeb",
+   "short": "中央预算内投资资本金注入项目管理办法",
+   "dept": "国家发展改革委",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zhongyangyusuanneitouzizibenjinzhuruxiangmuguanlib382eeb.html",
+   "effective": "2021-08-01"
+  },
+  {
+   "slug": "zhongyangyusuanneitouzixiangmujianduguanlibanfa",
+   "short": "中央预算内投资项目监督管理办法",
+   "dept": "国家发展改革委",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zhongyangyusuanneitouzixiangmujianduguanlibanfa.html",
+   "effective": "2024-02-01"
+  },
+  {
+   "slug": "zhongyangyusuanneizhijietouzixiangmuguanlibanfa",
+   "short": "中央预算内直接投资项目管理办法",
+   "dept": "国家发展改革委",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zhongyangyusuanneizhijietouzixiangmuguanlibanfa.html",
+   "effective": "2014-03-01"
+  },
+  {
+   "slug": "chanyejiegoutiaozhengzhidaomulu",
+   "short": "产业结构调整指导目录（2024年本）",
+   "dept": "国家发展改革委",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/chanyejiegoutiaozhengzhidaomulu.html",
+   "effective": "2024-02-01"
+  },
+  {
+   "slug": "renminfangkongfanghushebeiguanlibanfa",
+   "short": "人民防空防护设备管理办法",
+   "dept": "国家发展改革委",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/renminfangkongfanghushebeiguanlibanfa.html",
+   "effective": "2025-01-01"
+  },
+  {
+   "slug": "jiagejianceguiding",
+   "short": "价格监测规定",
+   "dept": "国家发展改革委",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/jiagejianceguiding.html",
+   "effective": "2003-06-01"
+  },
+  {
+   "slug": "jiageweifaxingweixingzhengchufashishibanfa",
+   "short": "价格违法行为行政处罚实施办法",
+   "dept": "国家发展改革委",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/jiageweifaxingweixingzhengchufashishibanfa.html",
+   "effective": "2004-09-01"
+  },
+  {
+   "slug": "qiyejingwaitouziguanlibanfa",
+   "short": "企业境外投资管理办法",
+   "dept": "国家发展改革委",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/qiyejingwaitouziguanlibanfa.html",
+   "effective": "2018-03-01"
+  },
+  {
+   "slug": "qiyetouzixiangmushizhongshihoujianguanbanfa",
+   "short": "企业投资项目事中事后监管办法",
+   "dept": "国家发展改革委",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/qiyetouzixiangmushizhongshihoujianguanbanfa.html",
+   "effective": "2018-02-04"
+  },
+  {
+   "slug": "qiyetouzixiangmuhezhunhebeianguanlibanfa-2",
+   "short": "企业投资项目核准和备案管理办法（2017）",
+   "dept": "国家发展改革委",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/qiyetouzixiangmuhezhunhebeianguanlibanfa-2.html",
+   "effective": "2017-04-08"
+  },
+  {
+   "slug": "qiyetouzixiangmuhezhunhebeianguanlibanfa",
+   "short": "企业投资项目核准和备案管理办法（2017）",
+   "dept": "国家发展改革委",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/qiyetouzixiangmuhezhunhebeianguanlibanfa.html",
+   "effective": "2017-04-08"
+  },
+  {
+   "slug": "gongyongdianjianduguanlibanfa",
+   "short": "供用电监督管理办法",
+   "dept": "国家发展改革委",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/gongyongdianjianduguanlibanfa.html",
+   "effective": "1996-09-01"
+  },
+  {
+   "slug": "gongdianjianguanbanfa",
+   "short": "供电监管办法",
+   "dept": "国家发展改革委",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/gongdianjianguanbanfa.html",
+   "effective": "2010-01-01"
+  },
+  {
+   "slug": "gongdianyingyequhuafenjiguanlibanfa",
+   "short": "供电营业区划分及管理办法",
+   "dept": "国家发展改革委",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/gongdianyingyequhuafenjiguanlibanfa.html",
+   "effective": "2024-07-01"
+  },
+  {
+   "slug": "gongdianyingyeguize",
+   "short": "供电营业规则",
+   "dept": "国家发展改革委",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/gongdianyingyeguize.html",
+   "effective": "2024-06-01"
+  },
+  {
+   "slug": "quanguotouzixiangmuzaixianshenpijianguanpingtaiyunf4818a-2",
+   "short": "全国投资项目在线审批监管平台运行管理暂行办法（2017）",
+   "dept": "国家发展改革委",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/quanguotouzixiangmuzaixianshenpijianguanpingtaiyunf4818a-2.html",
+   "effective": "2017-06-25"
+  },
+  {
+   "slug": "quanguotouzixiangmuzaixianshenpijianguanpingtaiyunf4818a",
+   "short": "全国投资项目在线审批监管平台运行管理暂行办法（2017）",
+   "dept": "国家发展改革委",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/quanguotouzixiangmuzaixianshenpijianguanpingtaiyunf4818a.html",
+   "effective": "2017-05-25"
+  },
+  {
+   "slug": "gonggongjigounengyuanshenjiguanlizanxingbanfa-2",
+   "short": "公共机构能源审计管理暂行办法（2015）",
+   "dept": "国家发展改革委",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/gonggongjigounengyuanshenjiguanlizanxingbanfa-2.html",
+   "effective": "2016-03-01"
+  },
+  {
+   "slug": "gonggongjigounengyuanshenjiguanlizanxingbanfa",
+   "short": "公共机构能源审计管理暂行办法（2015）",
+   "dept": "国家发展改革委",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/gonggongjigounengyuanshenjiguanlizanxingbanfa.html",
+   "effective": "2016-03-01"
+  },
+  {
+   "slug": "gonggongziyuanjiaoyipingtaiguanlizanxingbanfa-2",
+   "short": "公共资源交易平台管理暂行办法（2016）",
+   "dept": "国家发展改革委",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/gonggongziyuanjiaoyipingtaiguanlizanxingbanfa-2.html",
+   "effective": "2016-08-01"
+  },
+  {
+   "slug": "gonggongziyuanjiaoyipingtaiguanlizanxingbanfa-3",
+   "short": "公共资源交易平台管理暂行办法（2016）",
+   "dept": "国家发展改革委",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/gonggongziyuanjiaoyipingtaiguanlizanxingbanfa-3.html",
+   "effective": "2016-06-24"
+  },
+  {
+   "slug": "guanyuzhizhidijiaqingxiaoxingweideguiding-2",
+   "short": "关于制止低价倾销行为的规定（1999）",
+   "dept": "国家发展改革委",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/guanyuzhizhidijiaqingxiaoxingweideguiding-2.html",
+   "effective": "1999-08-03"
+  },
+  {
+   "slug": "guanyuzhizhidijiaqingxiaoxingweideguiding",
+   "short": "关于制止低价倾销行为的规定（1999）",
+   "dept": "国家发展改革委",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/guanyuzhizhidijiaqingxiaoxingweideguiding.html",
+   "effective": "1999-08-03"
+  },
+  {
+   "slug": "chuangyetouziqiyeguanlizanxingbanfa",
+   "short": "创业投资企业管理暂行办法",
+   "dept": "国家发展改革委",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/chuangyetouziqiyeguanlizanxingbanfa.html",
+   "effective": "2006-03-01"
+  },
+  {
+   "slug": "kezaishengnengyuanxiaofeizuidibizhongmubiaohekezai2bc72e",
+   "short": "可再生能源消费最低比重目标和可再生能源电力消纳责任权重制度实施办法",
+   "dept": "国家发展改革委",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/kezaishengnengyuanxiaofeizuidibizhongmubiaohekezai2bc72e.html",
+   "effective": "2026-08-01"
+  },
+  {
+   "slug": "shangpinmeizhiliangguanlizanxingbanfa-2",
+   "short": "商品煤质量管理暂行办法（2014）",
+   "dept": "国家发展改革委",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/shangpinmeizhiliangguanlizanxingbanfa-2.html",
+   "effective": "2015-01-01"
+  },
+  {
+   "slug": "shangpinmeizhiliangguanlizanxingbanfa",
+   "short": "商品煤质量管理暂行办法（2014）",
+   "dept": "国家发展改革委",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/shangpinmeizhiliangguanlizanxingbanfa.html",
+   "effective": "2015-01-01"
+  },
+  {
+   "slug": "gudingzichantouzixiangmujienengshenchabanfa-2",
+   "short": "固定资产投资项目节能审查办法（2016）",
+   "dept": "国家发展改革委",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/gudingzichantouzixiangmujienengshenchabanfa-2.html",
+   "effective": "2017-01-01"
+  },
+  {
+   "slug": "gudingzichantouzixiangmujienengshenchabanfa",
+   "short": "固定资产投资项目节能审查办法（2023）",
+   "dept": "国家发展改革委",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/gudingzichantouzixiangmujienengshenchabanfa.html",
+   "effective": "2023-06-01"
+  },
+  {
+   "slug": "guojiayigongdaizhenguanlibanfa",
+   "short": "国家以工代赈管理办法",
+   "dept": "国家发展改革委",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/guojiayigongdaizhenguanlibanfa.html",
+   "effective": "2023-03-01"
+  },
+  {
+   "slug": "guojiaqiyejishuzhongxinrendingguanlibanfa",
+   "short": "国家企业技术中心认定管理办法",
+   "dept": "国家发展改革委",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/guojiaqiyejishuzhongxinrendingguanlibanfa.html",
+   "effective": "2016-04-01"
+  },
+  {
+   "slug": "guojiafazhanhegaigeweiyuanhuixingzhengfuyishishibae92a1a",
+   "short": "国家发展和改革委员会行政复议实施办法",
+   "dept": "国家发展改革委",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/guojiafazhanhegaigeweiyuanhuixingzhengfuyishishibae92a1a.html",
+   "effective": "2024-02-01"
+  },
+  {
+   "slug": "guojiafazhangaigeweiqiyejishuzhongxinrendingguanli689532",
+   "short": "国家发展改革委企业技术中心认定管理办法",
+   "dept": "国家发展改革委",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/guojiafazhangaigeweiqiyejishuzhongxinrendingguanli689532.html",
+   "effective": "2026-02-01"
+  },
+  {
+   "slug": "guojiagongchengyanjiuzhongxinguanlibanfa",
+   "short": "国家工程研究中心管理办法",
+   "dept": "国家发展改革委",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/guojiagongchengyanjiuzhongxinguanlibanfa.html",
+   "effective": "2020-09-01"
+  },
+  {
+   "slug": "guojiawuzichubeicangkuanquanbaoweibanfa",
+   "short": "国家物资储备仓库安全保卫办法",
+   "dept": "国家发展改革委",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/guojiawuzichubeicangkuanquanbaoweibanfa.html",
+   "effective": "2004-10-01"
+  },
+  {
+   "slug": "guojiawuzichubeiguanliguiding",
+   "short": "国家物资储备管理规定",
+   "dept": "国家发展改革委",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/guojiawuzichubeiguanliguiding.html",
+   "effective": "2015-06-01"
+  },
+  {
+   "slug": "guojiajiweisifabuguanyuyinfaxiangzhenfalvfuwushouf43bbf3",
+   "short": "国家计委、司法部关于印发《乡镇法律服务收费管理办法》的通知",
+   "dept": "国家发展改革委",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/guojiajiweisifabuguanyuyinfaxiangzhenfalvfuwushouf43bbf3.html",
+   "effective": "1997-03-01"
+  },
+  {
+   "slug": "guojiajiweisifabuguanyuyinfagongzhengfuwushoufeigu7f9765",
+   "short": "国家计委、司法部关于印发《公证服务收费管理办法》的通知",
+   "dept": "国家发展改革委",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/guojiajiweisifabuguanyuyinfagongzhengfuwushoufeigu7f9765.html",
+   "effective": "1997-03-01"
+  },
+  {
+   "slug": "guojiajiweijiageguizhangjiqitaguifanxingwenjianqin6b59ad",
+   "short": "国家计委价格规章及其他规范性文件清理结果",
+   "dept": "国家发展改革委",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/guojiajiweijiageguizhangjiqitaguifanxingwenjianqin6b59ad.html",
+   "effective": "2001-11-15"
+  },
+  {
+   "slug": "guojiagaojishuchanyefazhanxiangmuguanlizanxingbanf760f1a",
+   "short": "国家高技术产业发展项目管理暂行办法",
+   "dept": "国家发展改革委",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/guojiagaojishuchanyefazhanxiangmuguanlizanxingbanf760f1a.html",
+   "effective": "2006-04-01"
+  },
+  {
+   "slug": "guoyouliangyoucangchuwuliusheshibaohubanfa",
+   "short": "国有粮油仓储物流设施保护办法",
+   "dept": "国家发展改革委",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/guoyouliangyoucangchuwuliusheshibaohubanfa.html",
+   "effective": "2016-08-01"
+  },
+  {
+   "slug": "guojijinrongzuzhihewaiguozhengfudaikuantouzixiangm285535",
+   "short": "国际金融组织和外国政府贷款投资项目管理暂行办法",
+   "dept": "国家发展改革委",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/guojijinrongzuzhihewaiguozhengfudaikuantouzixiangm285535.html",
+   "effective": "2005-03-01"
+  },
+  {
+   "slug": "chengzhengongshuijiageguanlibanfa",
+   "short": "城镇供水价格管理办法",
+   "dept": "国家发展改革委",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/chengzhengongshuijiageguanlibanfa.html",
+   "effective": "2021-10-01"
+  },
+  {
+   "slug": "chengzhengongshuidingjiachengbenjianshenbanfa",
+   "short": "城镇供水定价成本监审办法",
+   "dept": "国家发展改革委",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/chengzhengongshuidingjiachengbenjianshenbanfa.html",
+   "effective": "2021-10-01"
+  },
+  {
+   "slug": "jichusheshihegongyongshiyetexujingyingguanlibanfa",
+   "short": "基础设施和公用事业特许经营管理办法",
+   "dept": "国家发展改革委",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/jichusheshihegongyongshiyetexujingyingguanlibanfa.html",
+   "effective": "2024-05-01"
+  },
+  {
+   "slug": "jingneiwaiziyinhangwaizhaiguanlibanfa",
+   "short": "境内外资银行外债管理办法",
+   "dept": "国家发展改革委",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/jingneiwaiziyinhangwaizhaiguanlibanfa.html",
+   "effective": "2004-06-27"
+  },
+  {
+   "slug": "waizhaiguanlizanxingbanfa",
+   "short": "外债管理暂行办法",
+   "dept": "国家发展改革委",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/waizhaiguanlizanxingbanfa.html",
+   "effective": "2003-03-01"
+  },
+  {
+   "slug": "waishangtouzizhunrutebieguanlicuoshi-2",
+   "short": "外商投资准入特别管理措施（负面清单）（2021年版）（2021）",
+   "dept": "国家发展改革委",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/waishangtouzizhunrutebieguanlicuoshi-2.html",
+   "effective": "2022-01-01"
+  },
+  {
+   "slug": "waishangtouzizhunrutebieguanlicuoshi-3",
+   "short": "外商投资准入特别管理措施（负面清单）（2021年版）（2021）",
+   "dept": "国家发展改革委",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/waishangtouzizhunrutebieguanlicuoshi-3.html",
+   "effective": "2022-01-01"
+  },
+  {
+   "slug": "waishangtouzizhunrutebieguanlicuoshi",
+   "short": "外商投资准入特别管理措施（负面清单）（2024年版）",
+   "dept": "国家发展改革委",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/waishangtouzizhunrutebieguanlicuoshi.html",
+   "effective": "2024-11-01"
+  },
+  {
+   "slug": "waishangtouzianquanshenchabanfa-2",
+   "short": "外商投资安全审查办法（2020）",
+   "dept": "国家发展改革委",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/waishangtouzianquanshenchabanfa-2.html",
+   "effective": "2021-01-18"
+  },
+  {
+   "slug": "waishangtouzianquanshenchabanfa",
+   "short": "外商投资安全审查办法（2020）",
+   "dept": "国家发展改革委",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/waishangtouzianquanshenchabanfa.html",
+   "effective": "2021-01-18"
+  },
+  {
+   "slug": "waishangtouzixiangmuhezhunhebeianguanlibanfa",
+   "short": "外商投资项目核准和备案管理办法",
+   "dept": "国家发展改革委",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/waishangtouzixiangmuhezhunhebeianguanlibanfa.html",
+   "effective": "2014-06-17"
+  },
+  {
+   "slug": "shixinxingweijiuzhenghoudexinyongxinxixiufuguanlib176428",
+   "short": "失信行为纠正后的信用信息修复管理办法（试行）",
+   "dept": "国家发展改革委",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/shixinxingweijiuzhenghoudexinyongxinxixiufuguanlib176428.html",
+   "effective": "2023-05-01"
+  },
+  {
+   "slug": "gongchengzixunhangyeguanlibanfa-2",
+   "short": "工程咨询行业管理办法（2017）",
+   "dept": "国家发展改革委",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/gongchengzixunhangyeguanlibanfa-2.html",
+   "effective": "2017-12-06"
+  },
+  {
+   "slug": "gongchengzixunhangyeguanlibanfa",
+   "short": "工程咨询行业管理办法（2017）",
+   "dept": "国家发展改革委",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/gongchengzixunhangyeguanlibanfa.html",
+   "effective": "2017-12-06"
+  },
+  {
+   "slug": "gongchengjianshexiangmukanchashejizhaobiaotoubiaobb5865a-2",
+   "short": "工程建设项目勘察设计招标投标办法（2003）",
+   "dept": "国家发展改革委",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/gongchengjianshexiangmukanchashejizhaobiaotoubiaobb5865a-2.html",
+   "effective": "2003-08-01"
+  },
+  {
+   "slug": "gongchengjianshexiangmukanchashejizhaobiaotoubiaobb5865a",
+   "short": "工程建设项目勘察设计招标投标办法（2003）",
+   "dept": "国家发展改革委",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/gongchengjianshexiangmukanchashejizhaobiaotoubiaobb5865a.html",
+   "effective": "2003-08-01"
+  },
+  {
+   "slug": "gongchengjianshexiangmuzhaobiaotoubiaohuodongtousufb529c-2",
+   "short": "工程建设项目招标投标活动投诉处理办法（2004）",
+   "dept": "国家发展改革委",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/gongchengjianshexiangmuzhaobiaotoubiaohuodongtousufb529c-2.html",
+   "effective": "2004-08-01"
+  },
+  {
+   "slug": "gongchengjianshexiangmuzhaobiaotoubiaohuodongtousufb529c",
+   "short": "工程建设项目招标投标活动投诉处理办法（2004）",
+   "dept": "国家发展改革委",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/gongchengjianshexiangmuzhaobiaotoubiaohuodongtousufb529c.html",
+   "effective": "2004-08-01"
+  },
+  {
+   "slug": "gongchengjianshexiangmushigongzhaobiaotoubiaobanfa-2",
+   "short": "工程建设项目施工招标投标办法（2003）",
+   "dept": "国家发展改革委",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/gongchengjianshexiangmushigongzhaobiaotoubiaobanfa-2.html",
+   "effective": "2003-05-01"
+  },
+  {
+   "slug": "gongchengjianshexiangmushigongzhaobiaotoubiaobanfa",
+   "short": "工程建设项目施工招标投标办法（2003）",
+   "dept": "国家发展改革委",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/gongchengjianshexiangmushigongzhaobiaotoubiaobanfa.html",
+   "effective": "2003-05-01"
+  },
+  {
+   "slug": "gongchengjianshexiangmushenbaocailiaozengjiazhaobi0c39f9",
+   "short": "工程建设项目申报材料增加招标内容和核准招标事项暂行规定",
+   "dept": "国家发展改革委",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/gongchengjianshexiangmushenbaocailiaozengjiazhaobi0c39f9.html",
+   "effective": "2001-06-18"
+  },
+  {
+   "slug": "gongchengjianshexiangmuzixingzhaobiaoshixingbanfa",
+   "short": "工程建设项目自行招标试行办法",
+   "dept": "国家发展改革委",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/gongchengjianshexiangmuzixingzhaobiaoshixingbanfa.html",
+   "effective": "2000-07-01"
+  },
+  {
+   "slug": "gongchengjianshexiangmuhuowuzhaobiaotoubiaobanfa-2",
+   "short": "工程建设项目货物招标投标办法（2005）",
+   "dept": "国家发展改革委",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/gongchengjianshexiangmuhuowuzhaobiaotoubiaobanfa-2.html",
+   "effective": "2005-03-01"
+  },
+  {
+   "slug": "gongchengjianshexiangmuhuowuzhaobiaotoubiaobanfa",
+   "short": "工程建设项目货物招标投标办法（2005）",
+   "dept": "国家发展改革委",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/gongchengjianshexiangmuhuowuzhaobiaotoubiaobanfa.html",
+   "effective": "2005-03-01"
+  },
+  {
+   "slug": "bixuzhaobiaodigongchengxiangmuguiding",
+   "short": "必须招标的工程项目规定",
+   "dept": "国家发展改革委",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/bixuzhaobiaodigongchengxiangmuguiding.html",
+   "effective": "2018-06-01"
+  },
+  {
+   "slug": "kouyazhuijiaomoshouwupingujiaguanlibanfa",
+   "short": "扣押、追缴、没收物品估价管理办法",
+   "dept": "国家发展改革委",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/kouyazhuijiaomoshouwupingujiaguanlibanfa.html",
+   "effective": "1997-04-22"
+  },
+  {
+   "slug": "chengzhuangdianlisheshixukezhengguanlibanfa",
+   "short": "承装（修、试）电力设施许可证管理办法",
+   "dept": "国家发展改革委",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/chengzhuangdianlisheshixukezhengguanlibanfa.html",
+   "effective": "2020-10-11"
+  },
+  {
+   "slug": "zhaobiaogonggaohegongshixinxifabuguanlibanfa",
+   "short": "招标公告和公示信息发布管理办法",
+   "dept": "国家发展改革委",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zhaobiaogonggaohegongshixinxifabuguanlibanfa.html",
+   "effective": "2018-01-01"
+  },
+  {
+   "slug": "zhaobiaotoubiaolingyuxinyongguanlizanxingbanfa",
+   "short": "招标投标领域信用管理暂行办法",
+   "dept": "国家发展改革委",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zhaobiaotoubiaolingyuxinyongguanlizanxingbanfa.html",
+   "effective": "2027-01-01"
+  },
+  {
+   "slug": "zhaobiaotoubiaolingyugongpingjingzhengshenchaguize",
+   "short": "招标投标领域公平竞争审查规则",
+   "dept": "国家发展改革委",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zhaobiaotoubiaolingyugongpingjingzhengshenchaguize.html",
+   "effective": "2024-05-01"
+  },
+  {
+   "slug": "zhengfuzhidingjiagetingzhengbanfa",
+   "short": "政府制定价格听证办法",
+   "dept": "国家发展改革委",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zhengfuzhidingjiagetingzhengbanfa.html",
+   "effective": "2019-01-10"
+  },
+  {
+   "slug": "zhengfuzhidingjiagechengbenjianshenbanfa",
+   "short": "政府制定价格成本监审办法",
+   "dept": "国家发展改革委",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zhengfuzhidingjiagechengbenjianshenbanfa.html",
+   "effective": "2018-01-01"
+  },
+  {
+   "slug": "zhengfuzhidingjiagexingweiguize",
+   "short": "政府制定价格行为规则",
+   "dept": "国家发展改革委",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zhengfuzhidingjiagexingweiguize.html",
+   "effective": "2018-01-01"
+  },
+  {
+   "slug": "xinjianchundiandongchengyongcheqiyeguanliguiding-2",
+   "short": "新建纯电动乘用车企业管理规定（2015）",
+   "dept": "国家发展改革委",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/xinjianchundiandongchengyongcheqiyeguanliguiding-2.html",
+   "effective": "2015-07-10"
+  },
+  {
+   "slug": "shuiligongchenggongshuijiageguanlibanfa",
+   "short": "水利工程供水价格管理办法",
+   "dept": "国家发展改革委",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/shuiligongchenggongshuijiageguanlibanfa.html",
+   "effective": "2023-04-01"
+  },
+  {
+   "slug": "shuiligongchenggongshuidingjiachengbenjianshenbanf57e971",
+   "short": "水利工程供水定价成本监审办法",
+   "dept": "国家发展改革委",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/shuiligongchenggongshuidingjiachengbenjianshenbanf57e971.html",
+   "effective": "2023-04-01"
+  },
+  {
+   "slug": "shuixiaobiaoshiguanlibanfa-2",
+   "short": "水效标识管理办法（2017）",
+   "dept": "国家发展改革委",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/shuixiaobiaoshiguanlibanfa-2.html",
+   "effective": "2018-03-01"
+  },
+  {
+   "slug": "shuixiaobiaoshiguanlibanfa-3",
+   "short": "水效标识管理办法（2017）",
+   "dept": "国家发展改革委",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/shuixiaobiaoshiguanlibanfa-3.html",
+   "effective": "2018-03-01"
+  },
+  {
+   "slug": "shuixiaobiaoshiguanlibanfa",
+   "short": "水效标识管理办法（2017）",
+   "dept": "国家发展改革委",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/shuixiaobiaoshiguanlibanfa.html",
+   "effective": "2018-03-01"
+  },
+  {
+   "slug": "shuidianzhandabayunxinganquanjianduguanliguiding",
+   "short": "水电站大坝运行安全监督管理规定",
+   "dept": "国家发展改革委",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/shuidianzhandabayunxinganquanjianduguanliguiding.html",
+   "effective": "2015-04-01"
+  },
+  {
+   "slug": "qichechanyetouziguanliguiding",
+   "short": "汽车产业投资管理规定",
+   "dept": "国家发展改革委",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/qichechanyetouziguanliguiding.html",
+   "effective": "2019-01-10"
+  },
+  {
+   "slug": "qichechanpinwaibubiaoshiguanlibanfa",
+   "short": "汽车产品外部标识管理办法",
+   "dept": "国家发展改革委",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/qichechanpinwaibubiaoshiguanlibanfa.html",
+   "effective": "2006-02-01"
+  },
+  {
+   "slug": "hainanziyoumaoyigangwaishangtouzizhunrutebieguanli968e67-2",
+   "short": "海南自由贸易港外商投资准入特别管理措施（负面清单）（2020年版）（2020）",
+   "dept": "国家发展改革委",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/hainanziyoumaoyigangwaishangtouzizhunrutebieguanli968e67-2.html",
+   "effective": "2021-02-01"
+  },
+  {
+   "slug": "hainanziyoumaoyigangwaishangtouzizhunrutebieguanli968e67",
+   "short": "海南自由贸易港外商投资准入特别管理措施（负面清单）（2020年版）（2020）",
+   "dept": "国家发展改革委",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/hainanziyoumaoyigangwaishangtouzizhunrutebieguanli968e67.html",
+   "effective": "2021-02-01"
+  },
+  {
+   "slug": "qingjieshengchanshenhebanfa",
+   "short": "清洁生产审核办法",
+   "dept": "国家发展改革委",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/qingjieshengchanshenhebanfa.html",
+   "effective": "2016-07-01"
+  },
+  {
+   "slug": "meitanchukoupeieguanlibanfa",
+   "short": "煤炭出口配额管理办法",
+   "dept": "国家发展改革委",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/meitanchukoupeieguanlibanfa.html",
+   "effective": "2004-07-01"
+  },
+  {
+   "slug": "meitankuangquzongtiguihuaguanlizanxingguiding",
+   "short": "煤炭矿区总体规划管理暂行规定",
+   "dept": "国家发展改革委",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/meitankuangquzongtiguihuaguanlizanxingguiding.html",
+   "effective": "2012-07-13"
+  },
+  {
+   "slug": "meiganshizongheliyongguanlibanfa",
+   "short": "煤矸石综合利用管理办法（2014年修订版）",
+   "dept": "国家发展改革委",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/meiganshizongheliyongguanlibanfa.html",
+   "effective": "2015-03-01"
+  },
+  {
+   "slug": "teshuhexiquemeileikaifaliyongguanlizanxingguiding",
+   "short": "特殊和稀缺煤类开发利用管理暂行规定",
+   "dept": "国家发展改革委",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/teshuhexiquemeileikaifaliyongguanlizanxingguiding.html",
+   "effective": "2013-01-09"
+  },
+  {
+   "slug": "shengchanmeikuanghuicailvguanlizanxingguiding",
+   "short": "生产煤矿回采率管理暂行规定",
+   "dept": "国家发展改革委",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/shengchanmeikuanghuicailvguanlizanxingguiding.html",
+   "effective": "2013-01-09"
+  },
+  {
+   "slug": "dianliqiyexinxibaosongguiding",
+   "short": "电力企业信息报送规定",
+   "dept": "国家发展改革委",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/dianliqiyexinxibaosongguiding.html",
+   "effective": "2024-04-01"
+  },
+  {
+   "slug": "dianlikekaoxingguanlibanfa",
+   "short": "电力可靠性管理办法（暂行）",
+   "dept": "国家发展改革委",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/dianlikekaoxingguanlibanfa.html",
+   "effective": "2022-06-01"
+  },
+  {
+   "slug": "dianlianquanshengchanjianduguanlibanfa",
+   "short": "电力安全生产监督管理办法",
+   "dept": "国家发展改革委",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/dianlianquanshengchanjianduguanlibanfa.html",
+   "effective": "2015-03-01"
+  },
+  {
+   "slug": "dianlishichangyunxingjibenguize",
+   "short": "电力市场运行基本规则",
+   "dept": "国家发展改革委",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/dianlishichangyunxingjibenguize.html",
+   "effective": "2024-07-01"
+  },
+  {
+   "slug": "dianlijianshegongchengshigonganquanjianduguanlibanb48e60",
+   "short": "电力建设工程施工安全监督管理办法",
+   "dept": "国家发展改革委",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/dianlijianshegongchengshigonganquanjianduguanlibanb48e60.html",
+   "effective": "2015-10-01"
+  },
+  {
+   "slug": "dianlijiankongxitonganquanfanghuguiding-2",
+   "short": "电力监控系统安全防护规定（2014）",
+   "dept": "国家发展改革委",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/dianlijiankongxitonganquanfanghuguiding-2.html",
+   "effective": "2014-09-01"
+  },
+  {
+   "slug": "dianlijiankongxitonganquanfanghuguiding",
+   "short": "电力监控系统安全防护规定（2024）",
+   "dept": "国家发展改革委",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/dianlijiankongxitonganquanfanghuguiding.html",
+   "effective": "2025-01-01"
+  },
+  {
+   "slug": "dianlisheshibaohutiaolishishixize",
+   "short": "电力设施保护条例实施细则",
+   "dept": "国家发展改革委",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/dianlisheshibaohutiaolishishixize.html",
+   "effective": "1999-03-18"
+  },
+  {
+   "slug": "dianlizhongdashiguyinhuanpandingbiaozhunjizhilijiac65903",
+   "short": "电力重大事故隐患判定标准及治理监督管理规定",
+   "dept": "国家发展改革委",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/dianlizhongdashiguyinhuanpandingbiaozhunjizhilijiac65903.html",
+   "effective": "2026-07-01"
+  },
+  {
+   "slug": "dianzizhaobiaotoubiaobanfa-2",
+   "short": "电子招标投标办法（2013）",
+   "dept": "国家发展改革委",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/dianzizhaobiaotoubiaobanfa-2.html",
+   "effective": "2013-05-01"
+  },
+  {
+   "slug": "dianzizhaobiaotoubiaobanfa-3",
+   "short": "电子招标投标办法（2013）",
+   "dept": "国家发展改革委",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/dianzizhaobiaotoubiaobanfa-3.html",
+   "effective": "2013-05-01"
+  },
+  {
+   "slug": "diannengzhiliangguanlibanfa",
+   "short": "电能质量管理办法（暂行）",
+   "dept": "国家发展改革委",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/diannengzhiliangguanlibanfa.html",
+   "effective": "2024-04-01"
+  },
+  {
+   "slug": "shiyoutianranqijichusheshiguihuajiansheyuyunyinggu8eaf14",
+   "short": "石油天然气基础设施规划建设与运营管理办法",
+   "dept": "国家发展改革委",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/shiyoutianranqijichusheshiguihuajiansheyuyunyinggu8eaf14.html",
+   "effective": "2026-01-01"
+  },
+  {
+   "slug": "fenmeihuizongheliyongguanlibanfa-2",
+   "short": "粉煤灰综合利用管理办法（2013）",
+   "dept": "国家发展改革委",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/fenmeihuizongheliyongguanlibanfa-2.html",
+   "effective": "2013-03-01"
+  },
+  {
+   "slug": "fenmeihuizongheliyongguanlibanfa",
+   "short": "粉煤灰综合利用管理办法（2013）",
+   "dept": "国家发展改革委",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/fenmeihuizongheliyongguanlibanfa.html",
+   "effective": "2013-03-01"
+  },
+  {
+   "slug": "liangyoucangchuguanlibanfa",
+   "short": "粮油仓储管理办法",
+   "dept": "国家发展改革委",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/liangyoucangchuguanlibanfa.html",
+   "effective": "2009-12-29"
+  },
+  {
+   "slug": "liangshiliutongxingzhengzhifabanfa",
+   "short": "粮食流通行政执法办法",
+   "dept": "国家发展改革委",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/liangshiliutongxingzhengzhifabanfa.html",
+   "effective": "2023-01-01"
+  },
+  {
+   "slug": "liangshizhilianganquanjianguanbanfa",
+   "short": "粮食质量安全监管办法",
+   "dept": "国家发展改革委",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/liangshizhilianganquanjianguanbanfa.html",
+   "effective": "2023-10-01"
+  },
+  {
+   "slug": "nengyuanxiaolvbiaoshiguanlibanfa-2",
+   "short": "能源效率标识管理办法（2016）",
+   "dept": "国家发展改革委",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/nengyuanxiaolvbiaoshiguanlibanfa-2.html",
+   "effective": "2016-06-01"
+  },
+  {
+   "slug": "nengyuanxiaolvbiaoshiguanlibanfa",
+   "short": "能源效率标识管理办法（2016）",
+   "dept": "国家发展改革委",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/nengyuanxiaolvbiaoshiguanlibanfa.html",
+   "effective": "2016-06-01"
+  },
+  {
+   "slug": "ziyoumaoyishiyanquwaishangtouzizhunrutebieguanlicua938e7-2",
+   "short": "自由贸易试验区外商投资准入特别管理措施（负面清单）（2021年版）（2021）",
+   "dept": "国家发展改革委",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/ziyoumaoyishiyanquwaishangtouzizhunrutebieguanlicua938e7-2.html",
+   "effective": "2022-01-01"
+  },
+  {
+   "slug": "ziyoumaoyishiyanquwaishangtouzizhunrutebieguanlicua938e7",
+   "short": "自由贸易试验区外商投资准入特别管理措施（负面清单）（2021年版）（2021）",
+   "dept": "国家发展改革委",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/ziyoumaoyishiyanquwaishangtouzizhunrutebieguanlicua938e7.html",
+   "effective": "2022-01-01"
+  },
+  {
+   "slug": "jienengjianchabanfa",
+   "short": "节能监察办法",
+   "dept": "国家发展改革委",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/jienengjianchabanfa.html",
+   "effective": "2016-03-01"
+  },
+  {
+   "slug": "xibudiqugulileichanyemulu",
+   "short": "西部地区鼓励类产业目录（2020年本）",
+   "dept": "国家发展改革委",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/xibudiqugulileichanyemulu.html",
+   "effective": "2021-03-01"
+  },
+  {
+   "slug": "pingbiaozhuanjiahepingbiaozhuanjiakuguanlibanfa",
+   "short": "评标专家和评标专家库管理办法",
+   "dept": "国家发展改革委",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/pingbiaozhuanjiahepingbiaozhuanjiakuguanlibanfa.html",
+   "effective": "2025-01-01"
+  },
+  {
+   "slug": "pingbiaozhuanjiahepingbiaozhuanjiakuguanlizanxingb220adc",
+   "short": "评标专家和评标专家库管理暂行办法",
+   "dept": "国家发展改革委",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/pingbiaozhuanjiahepingbiaozhuanjiakuguanlizanxingb220adc.html",
+   "effective": "2003-04-01"
+  },
+  {
+   "slug": "pingbiaoweiyuanhuihepingbiaofangfazanxingguiding-2",
+   "short": "评标委员会和评标方法暂行规定（2001）",
+   "dept": "国家发展改革委",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/pingbiaoweiyuanhuihepingbiaofangfazanxingguiding-2.html",
+   "effective": "2001-07-05"
+  },
+  {
+   "slug": "pingbiaoweiyuanhuihepingbiaofangfazanxingguiding",
+   "short": "评标委员会和评标方法暂行规定（2001）",
+   "dept": "国家发展改革委",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/pingbiaoweiyuanhuihepingbiaofangfazanxingguiding.html",
+   "effective": "2001-07-05"
+  },
+  {
+   "slug": "bianxiaochaguojiachubeiguanlibanfa",
+   "short": "边销茶国家储备管理办法",
+   "dept": "国家发展改革委",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/bianxiaochaguojiachubeiguanlibanfa.html",
+   "effective": "2002-06-14"
+  },
+  {
+   "slug": "bimianzaimianhuacaizhaijiaoshoujiagongguochengzhonde4225-2",
+   "short": "避免在棉花采摘、交售、加工过程中混入异性纤维的暂行规定（2002）",
+   "dept": "国家发展改革委",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/bimianzaimianhuacaizhaijiaoshoujiagongguochengzhonde4225-2.html",
+   "effective": "2002-10-30"
+  },
+  {
+   "slug": "bimianzaimianhuacaizhaijiaoshoujiagongguochengzhonde4225",
+   "short": "避免在棉花采摘、交售、加工过程中混入异性纤维的暂行规定（2002）",
+   "dept": "国家发展改革委",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/bimianzaimianhuacaizhaijiaoshoujiagongguochengzhonde4225.html",
+   "effective": "2002-10-14"
+  },
+  {
+   "slug": "zhongdianyongnengdanweijienengguanlibanfa-2",
+   "short": "重点用能单位节能管理办法（2018）",
+   "dept": "国家发展改革委",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zhongdianyongnengdanweijienengguanlibanfa-2.html",
+   "effective": "2018-05-01"
+  },
+  {
+   "slug": "zhongdianyongnengdanweijienengguanlibanfa-3",
+   "short": "重点用能单位节能管理办法（2018）",
+   "dept": "国家发展改革委",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zhongdianyongnengdanweijienengguanlibanfa-3.html",
+   "effective": "2018-05-01"
+  },
+  {
+   "slug": "feichangshiqiluoshijiageganyucuoshihejinjicuoshiza6dd461-2",
+   "short": "非常时期落实价格干预措施和紧急措施暂行办法（2003）",
+   "dept": "国家发展改革委",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/feichangshiqiluoshijiageganyucuoshihejinjicuoshiza6dd461-2.html",
+   "effective": "2004-01-01"
+  },
+  {
+   "slug": "feichangshiqiluoshijiageganyucuoshihejinjicuoshiza6dd461",
+   "short": "非常时期落实价格干预措施和紧急措施暂行办法（2003）",
+   "dept": "国家发展改革委",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/feichangshiqiluoshijiageganyucuoshihejinjicuoshiza6dd461.html",
+   "effective": "2004-01-01"
+  },
+  {
+   "slug": "guliwaishangtouzichanyemulu-2",
+   "short": "鼓励外商投资产业目录(2020年版)",
+   "dept": "国家发展改革委",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/guliwaishangtouzichanyemulu-2.html",
+   "effective": "2021-01-27"
+  },
+  {
+   "slug": "guliwaishangtouzichanyemulu",
+   "short": "鼓励外商投资产业目录（2022年版）",
+   "dept": "国家发展改革委",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/guliwaishangtouzichanyemulu.html",
+   "effective": "2023-01-01"
+  },
+  {
+   "slug": "gerendingqicundanzhiyadaikuanbanfa",
+   "short": "个人定期存单质押贷款办法",
+   "dept": "金融监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/gerendingqicundanzhiyadaikuanbanfa.html",
+   "effective": "2007-07-03"
+  },
+  {
+   "slug": "gerendaikuanguanlizanxingbanfa",
+   "short": "个人贷款管理暂行办法",
+   "dept": "金融监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/gerendaikuanguanlizanxingbanfa.html",
+   "effective": "2010-02-20"
+  },
+  {
+   "slug": "waizibaoxiangongsiguanlitiaolishishixize",
+   "short": "外资保险公司管理条例实施细则",
+   "dept": "金融监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/waizibaoxiangongsiguanlitiaolishishixize.html",
+   "effective": "2021-03-10"
+  },
+  {
+   "slug": "waiziyinhangguanlitiaolishishixize",
+   "short": "外资银行管理条例实施细则",
+   "dept": "金融监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/waiziyinhangguanlitiaolishishixize.html",
+   "effective": "2019-12-18"
+  },
+  {
+   "slug": "zhongguobaoxianjianduguanliweiyuanhuixingzhengfuyi6d474f",
+   "short": "中国保险监督管理委员会行政复议办法",
+   "dept": "金融监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zhongguobaoxianjianduguanliweiyuanhuixingzhengfuyi6d474f.html",
+   "effective": "2010-03-01"
+  },
+  {
+   "slug": "zhongguobaoxianjianduguanliweiyuanhuiguizhangzhidi46a367",
+   "short": "中国保险监督管理委员会规章制定程序规定",
+   "dept": "金融监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zhongguobaoxianjianduguanliweiyuanhuiguizhangzhidi46a367.html",
+   "effective": "2006-03-14"
+  },
+  {
+   "slug": "zhongguonongyefazhanyinhangjianduguanlibanfa",
+   "short": "中国农业发展银行监督管理办法",
+   "dept": "金融监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zhongguonongyefazhanyinhangjianduguanlibanfa.html",
+   "effective": "2018-01-01"
+  },
+  {
+   "slug": "zhongguojinchukouyinhangjianduguanlibanfa",
+   "short": "中国进出口银行监督管理办法",
+   "dept": "金融监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zhongguojinchukouyinhangjianduguanlibanfa.html",
+   "effective": "2018-01-01"
+  },
+  {
+   "slug": "zhongguoyinbaojianhuixintuogongsixingzhengxukeshixeed67f",
+   "short": "中国银保监会信托公司行政许可事项实施办法",
+   "dept": "金融监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zhongguoyinbaojianhuixintuogongsixingzhengxukeshixeed67f.html",
+   "effective": "2021-01-01"
+  },
+  {
+   "slug": "zhongguoyinbaojianhuixinfanggongzuobanfa",
+   "short": "中国银保监会信访工作办法",
+   "dept": "金融监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zhongguoyinbaojianhuixinfanggongzuobanfa.html",
+   "effective": "2020-03-01"
+  },
+  {
+   "slug": "zhongguoyinbaojianhuiwaiziyinhangxingzhengxukeshixe59846",
+   "short": "中国银保监会外资银行行政许可事项实施办法",
+   "dept": "金融监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zhongguoyinbaojianhuiwaiziyinhangxingzhengxukeshixe59846.html",
+   "effective": "2019-12-26"
+  },
+  {
+   "slug": "zhongguoyinbaojianhuixianchangjianchabanfa",
+   "short": "中国银保监会现场检查办法(试行)",
+   "dept": "金融监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zhongguoyinbaojianhuixianchangjianchabanfa.html",
+   "effective": "2020-01-28"
+  },
+  {
+   "slug": "zhongguoyinbaojianhuixingzhengxukeshishichengxugui0ed3a1",
+   "short": "中国银保监会行政许可实施程序规定",
+   "dept": "金融监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zhongguoyinbaojianhuixingzhengxukeshishichengxugui0ed3a1.html",
+   "effective": "2020-07-01"
+  },
+  {
+   "slug": "zhongguoyinbaojianhuiguifanxingwenjianguanlibanfa",
+   "short": "中国银保监会规范性文件管理办法",
+   "dept": "金融监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zhongguoyinbaojianhuiguifanxingwenjianguanlibanfa.html",
+   "effective": "2020-03-01"
+  },
+  {
+   "slug": "zhongguoyinbaojianhuifeiyinhangjinrongjigouxingzhedeb94a",
+   "short": "中国银保监会非银行金融机构行政许可事项实施办法",
+   "dept": "金融监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zhongguoyinbaojianhuifeiyinhangjinrongjigouxingzhedeb94a.html",
+   "effective": "2020-03-23"
+  },
+  {
+   "slug": "zhongguoyinjianhuizhongzishangyeyinhangxingzhengxua4c100",
+   "short": "中国银监会中资商业银行行政许可事项实施办法",
+   "dept": "金融监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zhongguoyinjianhuizhongzishangyeyinhangxingzhengxua4c100.html",
+   "effective": "2015-06-05"
+  },
+  {
+   "slug": "zhongguoyinhangyejianduguanliweiyuanhuifalvgongzuoc521e6",
+   "short": "中国银行业监督管理委员会法律工作规定",
+   "dept": "金融监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zhongguoyinhangyejianduguanliweiyuanhuifalvgongzuoc521e6.html",
+   "effective": "2006-02-01"
+  },
+  {
+   "slug": "zhongguoyinhangyejianduguanliweiyuanhuixingzhengfuf927e8",
+   "short": "中国银行业监督管理委员会行政复议办法",
+   "dept": "金融监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zhongguoyinhangyejianduguanliweiyuanhuixingzhengfuf927e8.html",
+   "effective": "2005-02-01"
+  },
+  {
+   "slug": "zhongguoyinhangbaoxianjianduguanliweiyuanhuipaichu5c40a0",
+   "short": "中国银行保险监督管理委员会派出机构监管职责规定",
+   "dept": "金融监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zhongguoyinhangbaoxianjianduguanliweiyuanhuipaichu5c40a0.html",
+   "effective": "2021-10-01"
+  },
+  {
+   "slug": "hulianwangbaoxianyewujianguanbanfa",
+   "short": "互联网保险业务监管办法",
+   "dept": "金融监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/hulianwangbaoxianyewujianguanbanfa.html",
+   "effective": "2021-02-01"
+  },
+  {
+   "slug": "renshenbaoxianyewujibenfuwuguiding",
+   "short": "人身保险业务基本服务规定",
+   "dept": "金融监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/renshenbaoxianyewujibenfuwuguiding.html",
+   "effective": "2010-05-01"
+  },
+  {
+   "slug": "renshenbaoxianchanpinxinxipiluguanlibanfa",
+   "short": "人身保险产品信息披露管理办法",
+   "dept": "金融监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/renshenbaoxianchanpinxinxipiluguanlibanfa.html",
+   "effective": "2023-06-30"
+  },
+  {
+   "slug": "renshenbaoxiangongsibaoxiantiaokuanhebaoxianfeilvgd191bc",
+   "short": "人身保险公司保险条款和保险费率管理办法",
+   "dept": "金融监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/renshenbaoxiangongsibaoxiantiaokuanhebaoxianfeilvgd191bc.html",
+   "effective": "2011-12-30"
+  },
+  {
+   "slug": "qiyejituancaiwugongsiguanlibanfa-2",
+   "short": "企业集团财务公司管理办法（2006）",
+   "dept": "金融监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/qiyejituancaiwugongsiguanlibanfa-2.html",
+   "effective": "2006-12-28"
+  },
+  {
+   "slug": "qiyejituancaiwugongsiguanlibanfa",
+   "short": "企业集团财务公司管理办法（2022）",
+   "dept": "金融监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/qiyejituancaiwugongsiguanlibanfa.html",
+   "effective": "2022-11-13"
+  },
+  {
+   "slug": "baoxianzhongjiexingzhengxukejibeianshishibanfa",
+   "short": "保险中介行政许可及备案实施办法",
+   "dept": "金融监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/baoxianzhongjiexingzhengxukejibeianshishibanfa.html",
+   "effective": "2022-02-01"
+  },
+  {
+   "slug": "baoxiandailirenjianguanguiding",
+   "short": "保险代理人监管规定",
+   "dept": "金融监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/baoxiandailirenjianguanguiding.html",
+   "effective": "2021-01-01"
+  },
+  {
+   "slug": "baoxianbaozhangjijinguanlibanfa",
+   "short": "保险保障基金管理办法",
+   "dept": "金融监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/baoxianbaozhangjijinguanlibanfa.html",
+   "effective": "2022-12-12"
+  },
+  {
+   "slug": "baoxiangonggurenjianguanguiding",
+   "short": "保险公估人监管规定",
+   "dept": "金融监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/baoxiangonggurenjianguanguiding.html",
+   "effective": "2018-05-01"
+  },
+  {
+   "slug": "baoxiangongsizhongjieyewuweifaxingweichufabanfa",
+   "short": "保险公司中介业务违法行为处罚办法",
+   "dept": "金融监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/baoxiangongsizhongjieyewuweifaxingweichufabanfa.html",
+   "effective": "2009-10-01"
+  },
+  {
+   "slug": "baoxiangongsibaoxianyewuzhuanrangguanlizanxingbanf3a1180",
+   "short": "保险公司保险业务转让管理暂行办法",
+   "dept": "金融监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/baoxiangongsibaoxianyewuzhuanrangguanlizanxingbanf3a1180.html",
+   "effective": "2011-10-01"
+  },
+  {
+   "slug": "baoxiangongsixinxipiluguanlibanfa",
+   "short": "保险公司信息披露管理办法",
+   "dept": "金融监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/baoxiangongsixinxipiluguanlibanfa.html",
+   "effective": "2018-07-01"
+  },
+  {
+   "slug": "baoxiangongsiyanglaobaoxianyewuguanlibanfa",
+   "short": "保险公司养老保险业务管理办法",
+   "dept": "金融监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/baoxiangongsiyanglaobaoxianyewuguanlibanfa.html",
+   "effective": "2008-01-01"
+  },
+  {
+   "slug": "baoxiangongsizongjingsuanshiguanlibanfa",
+   "short": "保险公司总精算师管理办法",
+   "dept": "金融监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/baoxiangongsizongjingsuanshiguanlibanfa.html",
+   "effective": "2008-01-01"
+  },
+  {
+   "slug": "baoxiangongsikonggugudongguanlibanfa",
+   "short": "保险公司控股股东管理办法",
+   "dept": "金融监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/baoxiangongsikonggugudongguanlibanfa.html",
+   "effective": "2012-10-01"
+  },
+  {
+   "slug": "baoxiangongsicijidingqizhaiwuguanlibanfa",
+   "short": "保险公司次级定期债务管理办法",
+   "dept": "金融监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/baoxiangongsicijidingqizhaiwuguanlibanfa.html",
+   "effective": "2011-10-06"
+  },
+  {
+   "slug": "baoxiangongsiguanliguiding",
+   "short": "保险公司管理规定",
+   "dept": "金融监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/baoxiangongsiguanliguiding.html",
+   "effective": "2009-10-01"
+  },
+  {
+   "slug": "baoxiangongsiguquanguanlibanfa",
+   "short": "保险公司股权管理办法",
+   "dept": "金融监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/baoxiangongsiguquanguanlibanfa.html",
+   "effective": "2018-04-10"
+  },
+  {
+   "slug": "baoxiangongsidongshijianshihegaojiguanlirenyuanrena8385b",
+   "short": "保险公司董事、监事和高级管理人员任职资格管理规定",
+   "dept": "金融监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/baoxiangongsidongshijianshihegaojiguanlirenyuanrena8385b.html",
+   "effective": "2021-07-03"
+  },
+  {
+   "slug": "baoxiangongsishelijingwaibaoxianleijigouguanlibanf003058",
+   "short": "保险公司设立境外保险类机构管理办法",
+   "dept": "金融监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/baoxiangongsishelijingwaibaoxianleijigouguanlibanf003058.html",
+   "effective": "2006-07-31"
+  },
+  {
+   "slug": "baoxiangongsicaiwufuzerenrenzhizigeguanliguiding",
+   "short": "保险公司财务负责人任职资格管理规定",
+   "dept": "金融监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/baoxiangongsicaiwufuzerenrenzhizigeguanliguiding.html",
+   "effective": "2008-12-11"
+  },
+  {
+   "slug": "baoxiangongsizichanfuzhaiguanlibanfa",
+   "short": "保险公司资产负债管理办法",
+   "dept": "金融监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/baoxiangongsizichanfuzhaiguanlibanfa.html",
+   "effective": "2027-01-01"
+  },
+  {
+   "slug": "baoxiangongsifeishouxianyewuzhunbeijinguanlibanfa",
+   "short": "保险公司非寿险业务准备金管理办法",
+   "dept": "金融监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/baoxiangongsifeishouxianyewuzhunbeijinguanlibanfa.html",
+   "effective": "2021-12-01"
+  },
+  {
+   "slug": "baoxiangongsifeixianchangjianguanzanxingbanfa",
+   "short": "保险公司非现场监管暂行办法",
+   "dept": "金融监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/baoxiangongsifeixianchangjianguanzanxingbanfa.html",
+   "effective": "2022-03-01"
+  },
+  {
+   "slug": "baoxianjigoutouzizhegupiaotouziguanlizanxingbanfa",
+   "short": "保险机构投资者股票投资管理暂行办法",
+   "dept": "金融监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/baoxianjigoutouzizhegupiaotouziguanlizanxingbanfa.html",
+   "effective": "2004-10-24"
+  },
+  {
+   "slug": "baoxianjingjirenjianguanguiding",
+   "short": "保险经纪人监管规定",
+   "dept": "金融监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/baoxianjingjirenjianguanguiding.html",
+   "effective": "2018-05-01"
+  },
+  {
+   "slug": "baoxianzichanguanlichanpinguanlizanxingbanfa",
+   "short": "保险资产管理产品管理暂行办法",
+   "dept": "金融监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/baoxianzichanguanlichanpinguanlizanxingbanfa.html",
+   "effective": "2020-05-01"
+  },
+  {
+   "slug": "baoxianzichanguanligongsiguanlizanxingguiding",
+   "short": "保险资产管理公司管理暂行规定",
+   "dept": "金融监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/baoxianzichanguanligongsiguanlizanxingguiding.html",
+   "effective": "2004-06-01"
+  },
+  {
+   "slug": "baoxianzichanguanligongsiguanliguiding",
+   "short": "保险资产管理公司管理规定",
+   "dept": "金融监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/baoxianzichanguanligongsiguanliguiding.html",
+   "effective": "2022-09-01"
+  },
+  {
+   "slug": "baoxianzijinjingwaitouziguanlizanxingbanfa",
+   "short": "保险资金境外投资管理暂行办法",
+   "dept": "金融监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/baoxianzijinjingwaitouziguanlizanxingbanfa.html",
+   "effective": "2007-07-26"
+  },
+  {
+   "slug": "baoxianzijinyunyongguanlibanfa",
+   "short": "保险资金运用管理办法",
+   "dept": "金融监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/baoxianzijinyunyongguanlibanfa.html",
+   "effective": "2018-04-01"
+  },
+  {
+   "slug": "baoxianzijinjianjietouzijichusheshixiangmuguanliba6b7863",
+   "short": "保险资金间接投资基础设施项目管理办法",
+   "dept": "金融监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/baoxianzijinjianjietouzijichusheshixiangmuguanliba6b7863.html",
+   "effective": "2016-08-01"
+  },
+  {
+   "slug": "baoxianxiaoshouxingweiguanlibanfa",
+   "short": "保险销售行为管理办法",
+   "dept": "金融监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/baoxianxiaoshouxingweiguanlibanfa.html",
+   "effective": "2024-03-01"
+  },
+  {
+   "slug": "baoxianjituangongsijianduguanlibanfa",
+   "short": "保险集团公司监督管理办法",
+   "dept": "金融监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/baoxianjituangongsijianduguanlibanfa.html",
+   "effective": "2021-11-24"
+  },
+  {
+   "slug": "xintuogongsijingzibenguanlibanfa",
+   "short": "信托公司净资本管理办法",
+   "dept": "金融监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/xintuogongsijingzibenguanlibanfa.html",
+   "effective": "2010-08-24"
+  },
+  {
+   "slug": "xintuogongsiguanlibanfa-2",
+   "short": "信托公司管理办法（2007）",
+   "dept": "金融监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/xintuogongsiguanlibanfa-2.html",
+   "effective": "2007-03-01"
+  },
+  {
+   "slug": "xintuogongsiguanlibanfa",
+   "short": "信托公司管理办法（2025）",
+   "dept": "金融监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/xintuogongsiguanlibanfa.html",
+   "effective": "2026-01-01"
+  },
+  {
+   "slug": "xintuogongsiguquanguanlizanxingbanfa",
+   "short": "信托公司股权管理暂行办法",
+   "dept": "金融监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/xintuogongsiguquanguanlizanxingbanfa.html",
+   "effective": "2020-03-01"
+  },
+  {
+   "slug": "xintuogongsijihezijinxintuojihuaguanlibanfa",
+   "short": "信托公司集合资金信托计划管理办法",
+   "dept": "金融监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/xintuogongsijihezijinxintuojihuaguanlibanfa.html",
+   "effective": "2008-12-17"
+  },
+  {
+   "slug": "jiankangbaoxianguanlibanfa",
+   "short": "健康保险管理办法",
+   "dept": "金融监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/jiankangbaoxianguanlibanfa.html",
+   "effective": "2019-12-01"
+  },
+  {
+   "slug": "zaibaoxianyewuguanliguiding",
+   "short": "再保险业务管理规定",
+   "dept": "金融监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zaibaoxianyewuguanliguiding.html",
+   "effective": "2021-12-01"
+  },
+  {
+   "slug": "zaibaoxiangongsisheliguiding",
+   "short": "再保险公司设立规定",
+   "dept": "金融监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zaibaoxiangongsisheliguiding.html",
+   "effective": "2002-09-17"
+  },
+  {
+   "slug": "nongcunzhongxiaoyinhangjigouxingzhengxukeshixiangs385a15",
+   "short": "农村中小银行机构行政许可事项实施办法",
+   "dept": "金融监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/nongcunzhongxiaoyinhangjigouxingzhengxukeshixiangs385a15.html",
+   "effective": "2019-12-26"
+  },
+  {
+   "slug": "danweidingqicundanzhiyadaikuanguanliguiding",
+   "short": "单位定期存单质押贷款管理规定",
+   "dept": "金融监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/danweidingqicundanzhiyadaikuanguanliguiding.html",
+   "effective": "2007-07-03"
+  },
+  {
+   "slug": "shangyeyinhanghulianwangdaikuanguanlizanxingbanfa",
+   "short": "商业银行互联网贷款管理暂行办法",
+   "dept": "金融监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/shangyeyinhanghulianwangdaikuanguanlizanxingbanfa.html",
+   "effective": "2020-07-12"
+  },
+  {
+   "slug": "shangyeyinhangbaoliyewuguanlizanxingbanfa",
+   "short": "商业银行保理业务管理暂行办法",
+   "dept": "金融监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/shangyeyinhangbaoliyewuguanlizanxingbanfa.html",
+   "effective": "2014-04-03"
+  },
+  {
+   "slug": "shangyeyinhangxinxipilubanfa",
+   "short": "商业银行信息披露办法",
+   "dept": "金融监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/shangyeyinhangxinxipilubanfa.html",
+   "effective": "2007-07-03"
+  },
+  {
+   "slug": "shangyeyinhangxinyongkayewujianduguanlibanfa",
+   "short": "商业银行信用卡业务监督管理办法",
+   "dept": "金融监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/shangyeyinhangxinyongkayewujianduguanlibanfa.html",
+   "effective": "2011-01-13"
+  },
+  {
+   "slug": "shangyeyinhangdaefengxianbaoluguanlibanfa",
+   "short": "商业银行大额风险暴露管理办法",
+   "dept": "金融监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/shangyeyinhangdaefengxianbaoluguanlibanfa.html",
+   "effective": "2018-07-01"
+  },
+  {
+   "slug": "shangyeyinhangshichangfengxianguanlizhiyin",
+   "short": "商业银行市场风险管理指引",
+   "dept": "金融监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/shangyeyinhangshichangfengxianguanlizhiyin.html",
+   "effective": "2005-03-01"
+  },
+  {
+   "slug": "shangyeyinhangtuoguanyewujianduguanlibanfa",
+   "short": "商业银行托管业务监督管理办法(试行)",
+   "dept": "金融监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/shangyeyinhangtuoguanyewujianduguanlibanfa.html",
+   "effective": "2026-02-01"
+  },
+  {
+   "slug": "shangyeyinhangfuwujiageguanlibanfa",
+   "short": "商业银行服务价格管理办法",
+   "dept": "金融监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/shangyeyinhangfuwujiageguanlibanfa.html",
+   "effective": "2014-08-01"
+  },
+  {
+   "slug": "shangyeyinhanggangganlvguanlibanfa",
+   "short": "商业银行杠杆率管理办法(修订)",
+   "dept": "金融监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/shangyeyinhanggangganlvguanlibanfa.html",
+   "effective": "2015-04-01"
+  },
+  {
+   "slug": "shangyeyinhangliudongxingfengxianguanlibanfa",
+   "short": "商业银行流动性风险管理办法",
+   "dept": "金融监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/shangyeyinhangliudongxingfengxianguanlibanfa.html",
+   "effective": "2018-07-01"
+  },
+  {
+   "slug": "shangyeyinhanglicaiyewujianduguanlibanfa",
+   "short": "商业银行理财业务监督管理办法",
+   "dept": "金融监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/shangyeyinhanglicaiyewujianduguanlibanfa.html",
+   "effective": "2018-09-26"
+  },
+  {
+   "slug": "shangyeyinhanglicaizigongsijingzibenguanlibanfa",
+   "short": "商业银行理财子公司净资本管理办法(试行)",
+   "dept": "金融监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/shangyeyinhanglicaizigongsijingzibenguanlibanfa.html",
+   "effective": "2020-03-01"
+  },
+  {
+   "slug": "shangyeyinhanglicaizigongsiguanlibanfa",
+   "short": "商业银行理财子公司管理办法",
+   "dept": "金融监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/shangyeyinhanglicaizigongsiguanlibanfa.html",
+   "effective": "2018-12-02"
+  },
+  {
+   "slug": "shangyeyinhangguquantuoguanbanfa",
+   "short": "商业银行股权托管办法",
+   "dept": "金融监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/shangyeyinhangguquantuoguanbanfa.html",
+   "effective": "2019-07-12"
+  },
+  {
+   "slug": "shangyeyinhangguquanguanlizanxingbanfa",
+   "short": "商业银行股权管理暂行办法",
+   "dept": "金融监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/shangyeyinhangguquanguanlizanxingbanfa.html",
+   "effective": "2018-01-05"
+  },
+  {
+   "slug": "shangyeyinhangdaikuansunshizhunbeiguanlibanfa",
+   "short": "商业银行贷款损失准备管理办法",
+   "dept": "金融监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/shangyeyinhangdaikuansunshizhunbeiguanlibanfa.html",
+   "effective": "2012-01-01"
+  },
+  {
+   "slug": "shangyeyinhangzibenguanlibanfa",
+   "short": "商业银行资本管理办法",
+   "dept": "金融监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/shangyeyinhangzibenguanlibanfa.html",
+   "effective": "2024-01-01"
+  },
+  {
+   "slug": "shangyeyinhangzibenguanlibanfa-2",
+   "short": "商业银行资本管理办法(试行)",
+   "dept": "金融监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/shangyeyinhangzibenguanlibanfa-2.html",
+   "effective": "2013-01-01"
+  },
+  {
+   "slug": "shangyeyinhangjinrongzichanfengxianfenleibanfa",
+   "short": "商业银行金融资产风险分类办法",
+   "dept": "金融监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/shangyeyinhangjinrongzichanfengxianfenleibanfa.html",
+   "effective": "2023-07-01"
+  },
+  {
+   "slug": "shangyeyinhangjituankehushouxinyewufengxianguanliz08b973",
+   "short": "商业银行集团客户授信业务风险管理指引",
+   "dept": "金融监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/shangyeyinhangjituankehushouxinyewufengxianguanliz08b973.html",
+   "effective": "2010-06-04"
+  },
+  {
+   "slug": "gudingzichandaikuanguanlibanfa",
+   "short": "固定资产贷款管理办法",
+   "dept": "金融监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/gudingzichandaikuanguanlibanfa.html",
+   "effective": "2024-07-01"
+  },
+  {
+   "slug": "gudingzichandaikuanguanlizanxingbanfa",
+   "short": "固定资产贷款管理暂行办法",
+   "dept": "金融监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/gudingzichandaikuanguanlizanxingbanfa.html",
+   "effective": "2009-10-27"
+  },
+  {
+   "slug": "guojiakaifayinhangjianduguanlibanfa",
+   "short": "国家开发银行监督管理办法",
+   "dept": "金融监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/guojiakaifayinhangjianduguanlibanfa.html",
+   "effective": "2018-01-01"
+  },
+  {
+   "slug": "guojiajinrongjianduguanlizongjuxinfanggongzuobanfa",
+   "short": "国家金融监督管理总局信访工作办法",
+   "dept": "金融监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/guojiajinrongjianduguanlizongjuxinfanggongzuobanfa.html",
+   "effective": "2025-06-01"
+  },
+  {
+   "slug": "guojiajinrongjianduguanlizongjuguanyuyanzhongshixib82b8a",
+   "short": "国家金融监督管理总局关于严重失信主体名单管理的规定（试行）",
+   "dept": "金融监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/guojiajinrongjianduguanlizongjuguanyuyanzhongshixib82b8a.html",
+   "effective": "2026-10-01"
+  },
+  {
+   "slug": "guojiajinrongjianduguanlizongjuxingzhengchufabanfa",
+   "short": "国家金融监督管理总局行政处罚办法",
+   "dept": "金融监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/guojiajinrongjianduguanlizongjuxingzhengchufabanfa.html",
+   "effective": "2025-07-01"
+  },
+  {
+   "slug": "guojiajinrongjianduguanlizongjuxingzhengchufacailie5b249",
+   "short": "国家金融监督管理总局行政处罚裁量权实施办法",
+   "dept": "金融监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/guojiajinrongjianduguanlizongjuxingzhengchufacailie5b249.html",
+   "effective": "2024-05-01"
+  },
+  {
+   "slug": "guojiajinrongjianduguanlizongjuxingzhengxukeshishi44753b",
+   "short": "国家金融监督管理总局行政许可实施程序规定",
+   "dept": "金融监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/guojiajinrongjianduguanlizongjuxingzhengxukeshishi44753b.html",
+   "effective": "2026-03-01"
+  },
+  {
+   "slug": "waiguobaoxianjigouzhuhuadaibiaojigouguanlibanfa",
+   "short": "外国保险机构驻华代表机构管理办法",
+   "dept": "金融监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/waiguobaoxianjigouzhuhuadaibiaojigouguanlibanfa.html",
+   "effective": "2006-09-01"
+  },
+  {
+   "slug": "qichejinronggongsiguanlibanfa",
+   "short": "汽车金融公司管理办法",
+   "dept": "金融监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/qichejinronggongsiguanlibanfa.html",
+   "effective": "2023-08-11"
+  },
+  {
+   "slug": "liudongzijindaikuanguanlizanxingbanfa",
+   "short": "流动资金贷款管理暂行办法",
+   "dept": "金融监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/liudongzijindaikuanguanlizanxingbanfa.html",
+   "effective": "2010-02-20"
+  },
+  {
+   "slug": "xiaofeijinronggongsiguanlibanfa",
+   "short": "消费金融公司管理办法",
+   "dept": "金融监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/xiaofeijinronggongsiguanlibanfa.html",
+   "effective": "2024-04-18"
+  },
+  {
+   "slug": "xiaofeijinronggongsishidianguanlibanfa",
+   "short": "消费金融公司试点管理办法",
+   "dept": "金融监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/xiaofeijinronggongsishidianguanlibanfa.html",
+   "effective": "2014-01-01"
+  },
+  {
+   "slug": "licaigongsineibukongzhiguanlibanfa",
+   "short": "理财公司内部控制管理办法",
+   "dept": "金融监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/licaigongsineibukongzhiguanlibanfa.html",
+   "effective": "2022-08-22"
+  },
+  {
+   "slug": "licaigongsilicaichanpinliudongxingfengxianguanliba6b7cca",
+   "short": "理财公司理财产品流动性风险管理办法",
+   "dept": "金融监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/licaigongsilicaichanpinliudongxingfengxianguanliba6b7cca.html",
+   "effective": "2022-05-10"
+  },
+  {
+   "slug": "licaigongsilicaichanpinxiaoshouguanlizanxingbanfa",
+   "short": "理财公司理财产品销售管理暂行办法",
+   "dept": "金融监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/licaigongsilicaichanpinxiaoshouguanlizanxingbanfa.html",
+   "effective": "2021-06-27"
+  },
+  {
+   "slug": "dianziyinhangyewuguanlibanfa",
+   "short": "电子银行业务管理办法",
+   "dept": "金融监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/dianziyinhangyewuguanlibanfa.html",
+   "effective": "2006-03-01"
+  },
+  {
+   "slug": "wangluojiedaixinxizhongjiejigouyewuhuodongguanliza8f48e7",
+   "short": "网络借贷信息中介机构业务活动管理暂行办法（2016）",
+   "dept": "金融监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/wangluojiedaixinxizhongjiejigouyewuhuodongguanliza8f48e7.html",
+   "effective": "2016-08-17"
+  },
+  {
+   "slug": "rongzixingdanbaogongsiguanlizanxingbanfa",
+   "short": "融资性担保公司管理暂行办法",
+   "dept": "金融监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/rongzixingdanbaogongsiguanlizanxingbanfa.html",
+   "effective": "2010-03-08"
+  },
+  {
+   "slug": "zhengquantouzijijintuoguanyewuguanlibanfa-2",
+   "short": "证券投资基金托管业务管理办法（2020）",
+   "dept": "金融监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zhengquantouzijijintuoguanyewuguanlibanfa-2.html",
+   "effective": "2020-07-10"
+  },
+  {
+   "slug": "caichanbaoxiangongsibaoxiantiaokuanhebaoxianfeilvg17ed60",
+   "short": "财产保险公司保险条款和保险费率管理办法",
+   "dept": "金融监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/caichanbaoxiangongsibaoxiantiaokuanhebaoxianfeilvg17ed60.html",
+   "effective": "2021-10-01"
+  },
+  {
+   "slug": "huobijingjigongsiguanlibanfa",
+   "short": "货币经纪公司管理办法",
+   "dept": "金融监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/huobijingjigongsiguanlibanfa.html",
+   "effective": "2025-08-01"
+  },
+  {
+   "slug": "jinrongjigouchanpinshidangxingguanlibanfa",
+   "short": "金融机构产品适当性管理办法",
+   "dept": "金融监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/jinrongjigouchanpinshidangxingguanlibanfa.html",
+   "effective": "2026-02-01"
+  },
+  {
+   "slug": "jinrongjigouxindaizichanzhengquanhuashidianjiandug7e4b9f",
+   "short": "金融机构信贷资产证券化试点监督管理办法",
+   "dept": "金融监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/jinrongjigouxindaizichanzhengquanhuashidianjiandug7e4b9f.html",
+   "effective": "2005-12-01"
+  },
+  {
+   "slug": "jinrongjigouheguiguanlibanfa",
+   "short": "金融机构合规管理办法",
+   "dept": "金融监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/jinrongjigouheguiguanlibanfa.html",
+   "effective": "2025-03-01"
+  },
+  {
+   "slug": "jinrongzulingongsiguanlibanfa-2",
+   "short": "金融租赁公司管理办法（2012）",
+   "dept": "金融监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/jinrongzulingongsiguanlibanfa-2.html",
+   "effective": "2014-03-13"
+  },
+  {
+   "slug": "jinrongzulingongsiguanlibanfa",
+   "short": "金融租赁公司管理办法（2024）",
+   "dept": "金融监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/jinrongzulingongsiguanlibanfa.html",
+   "effective": "2024-11-01"
+  },
+  {
+   "slug": "jinrongzichantouzigongsiguanlibanfa",
+   "short": "金融资产投资公司管理办法(试行)",
+   "dept": "金融监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/jinrongzichantouzigongsiguanlibanfa.html",
+   "effective": "2021-06-29"
+  },
+  {
+   "slug": "yinhangyebaoxianyexiaofeitousuchuliguanlibanfa",
+   "short": "银行业保险业消费投诉处理管理办法",
+   "dept": "金融监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/yinhangyebaoxianyexiaofeitousuchuliguanlibanfa.html",
+   "effective": "2020-03-01"
+  },
+  {
+   "slug": "yinhangyejinrongjigoufanxiqianhefankongburongzigua067fe0",
+   "short": "银行业金融机构反洗钱和反恐怖融资管理办法",
+   "dept": "金融监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/yinhangyejinrongjigoufanxiqianhefankongburongzigua067fe0.html",
+   "effective": "2019-01-29"
+  },
+  {
+   "slug": "yinhangyejinrongjigoudongshihegaojiguanlirenyuanre949012",
+   "short": "银行业金融机构董事(理事)和高级管理人员任职资格管理办法",
+   "dept": "金融监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/yinhangyejinrongjigoudongshihegaojiguanlirenyuanre949012.html",
+   "effective": "2025-06-01"
+  },
+  {
+   "slug": "yinhangyejinrongjigoudongshihegaojiguanlirenyuanred4dc3b",
+   "short": "银行业金融机构董事（理事）和高级管理人员任职资格管理办法",
+   "dept": "金融监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/yinhangyejinrongjigoudongshihegaojiguanlirenyuanred4dc3b.html",
+   "effective": "2013-12-18"
+  },
+  {
+   "slug": "yinhangyejinrongjigouyanshengchanpinjiaoyiyewuguan352b72",
+   "short": "银行业金融机构衍生产品交易业务管理暂行办法",
+   "dept": "金融监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/yinhangyejinrongjigouyanshengchanpinjiaoyiyewuguan352b72.html",
+   "effective": ""
+  },
+  {
+   "slug": "yinhangbaoxianjigouguanlianjiaoyiguanlibanfa",
+   "short": "银行保险机构关联交易管理办法",
+   "dept": "金融监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/yinhangbaoxianjigouguanlianjiaoyiguanlibanfa.html",
+   "effective": "2022-03-01"
+  },
+  {
+   "slug": "yinhangbaoxianjigouyingduitufashijianjinrongfuwugu65691b",
+   "short": "银行保险机构应对突发事件金融服务管理办法",
+   "dept": "金融监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/yinhangbaoxianjigouyingduitufashijianjinrongfuwugu65691b.html",
+   "effective": "2020-09-09"
+  },
+  {
+   "slug": "yinhangbaoxianjigouxiaofeizhequanyibaohuguanlibanf126976",
+   "short": "银行保险机构消费者权益保护管理办法",
+   "dept": "金融监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/yinhangbaoxianjigouxiaofeizhequanyibaohuguanlibanf126976.html",
+   "effective": "2023-03-01"
+  },
+  {
+   "slug": "yinhangbaoxianjigoudongshijianshilvzhipingjiabanfa",
+   "short": "银行保险机构董事监事履职评价办法(试行)",
+   "dept": "金融监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/yinhangbaoxianjigoudongshijianshilvzhipingjiabanfa.html",
+   "effective": "2021-07-01"
+  },
+  {
+   "slug": "yinhangbaoxianjigouxukezhengguanlibanfa-2",
+   "short": "银行保险机构许可证管理办法（2021）",
+   "dept": "金融监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/yinhangbaoxianjigouxukezhengguanlibanfa-2.html",
+   "effective": "2021-07-01"
+  },
+  {
+   "slug": "yinhangbaoxianjigouxukezhengguanlibanfa",
+   "short": "银行保险机构许可证管理办法（2026）",
+   "dept": "金融监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/yinhangbaoxianjigouxukezhengguanlibanfa.html",
+   "effective": "2026-06-01"
+  },
+  {
+   "slug": "yinhangbaoxianjigouzichanguanlichanpinxinxipiluguab8eb90",
+   "short": "银行保险机构资产管理产品信息披露管理办法",
+   "dept": "金融监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/yinhangbaoxianjigouzichanguanlichanpinxinxipiluguab8eb90.html",
+   "effective": "2026-09-01"
+  },
+  {
+   "slug": "yinhangbaoxianjianguantongjiguanlibanfa",
+   "short": "银行保险监管统计管理办法",
+   "dept": "金融监管总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/yinhangbaoxianjianguantongjiguanlibanfa.html",
+   "effective": "2023-02-01"
+  },
+  {
+   "slug": "shangshigongsixinxipiluguanlibanfa",
+   "short": "上市公司信息披露管理办法",
+   "dept": "证监会",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/shangshigongsixinxipiluguanlibanfa.html",
+   "effective": "2007-01-30"
+  },
+  {
+   "slug": "shangshigongsibinggouchongzucaiwuguwenyewuguanlibaf2f134",
+   "short": "上市公司并购重组财务顾问业务管理办法",
+   "dept": "证监会",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/shangshigongsibinggouchongzucaiwuguwenyewuguanlibaf2f134.html",
+   "effective": "2008-08-04"
+  },
+  {
+   "slug": "shangshigongsishougouguanlibanfa",
+   "short": "上市公司收购管理办法",
+   "dept": "证监会",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/shangshigongsishougouguanlibanfa.html",
+   "effective": "2002-09-28"
+  },
+  {
+   "slug": "shangshigongsiguquanjiliguanlibanfa",
+   "short": "上市公司股权激励管理办法",
+   "dept": "证监会",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/shangshigongsiguquanjiliguanlibanfa.html",
+   "effective": "2016-07-13"
+  },
+  {
+   "slug": "shangshigongsizhengquanfaxingguanlibanfa",
+   "short": "上市公司证券发行管理办法",
+   "dept": "证监会",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/shangshigongsizhengquanfaxingguanlibanfa.html",
+   "effective": "2006-05-06"
+  },
+  {
+   "slug": "shangshigongsizhongdazichanchongzuguanlibanfa",
+   "short": "上市公司重大资产重组管理办法",
+   "dept": "证监会",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/shangshigongsizhongdazichanchongzuguanlibanfa.html",
+   "effective": "2008-04-16"
+  },
+  {
+   "slug": "zhongguozhengquanjianduguanliweiyuanhuidongjiechafe1a6d7",
+   "short": "中国证券监督管理委员会冻结、查封实施办法",
+   "dept": "证监会",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zhongguozhengquanjianduguanliweiyuanhuidongjiechafe1a6d7.html",
+   "effective": "2005-12-30"
+  },
+  {
+   "slug": "zhongguozhengquanjianduguanliweiyuanhuifaxingshenh7e659e",
+   "short": "中国证券监督管理委员会发行审核委员会办法",
+   "dept": "证监会",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zhongguozhengquanjianduguanliweiyuanhuifaxingshenh7e659e.html",
+   "effective": "2006-05-09"
+  },
+  {
+   "slug": "zhongguozhengquanjianduguanliweiyuanhuixingzhengchb4acf0",
+   "short": "中国证券监督管理委员会行政处罚听证规则",
+   "dept": "证监会",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zhongguozhengquanjianduguanliweiyuanhuixingzhengchb4acf0.html",
+   "effective": "2015-12-04"
+  },
+  {
+   "slug": "zhongguozhengquanjianduguanliweiyuanhuixingzhengfue186f9",
+   "short": "中国证券监督管理委员会行政复议办法",
+   "dept": "证监会",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zhongguozhengquanjianduguanliweiyuanhuixingzhengfue186f9.html",
+   "effective": "2002-11-25"
+  },
+  {
+   "slug": "zhongguozhengquanjianduguanliweiyuanhuixingzhengxu328c14",
+   "short": "中国证券监督管理委员会行政许可实施程序规定",
+   "dept": "证监会",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zhongguozhengquanjianduguanliweiyuanhuixingzhengxu328c14.html",
+   "effective": "2009-12-16"
+  },
+  {
+   "slug": "zhongguozhengquanjianduguanliweiyuanhuixianzhizhene78724",
+   "short": "中国证券监督管理委员会限制证券买卖实施办法",
+   "dept": "证监会",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zhongguozhengquanjianduguanliweiyuanhuixianzhizhene78724.html",
+   "effective": "2007-05-18"
+  },
+  {
+   "slug": "zhongguozhengjianhuiweituoshanghaishenzhenzhengqua4f1dd1",
+   "short": "中国证监会委托上海、深圳证券交易所实施案件调查试点工作规定",
+   "dept": "证监会",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zhongguozhengjianhuiweituoshanghaishenzhenzhengqua4f1dd1.html",
+   "effective": "2015-01-09"
+  },
+  {
+   "slug": "zhongguozhengjianhuipaichujigoujianguanzhizeguidin207bb3",
+   "short": "中国证监会派出机构监管职责规定",
+   "dept": "证监会",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zhongguozhengjianhuipaichujigoujianguanzhizeguidin207bb3.html",
+   "effective": "2015-10-29"
+  },
+  {
+   "slug": "youxiangushidianguanlibanfa",
+   "short": "优先股试点管理办法",
+   "dept": "证监会",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/youxiangushidianguanlibanfa.html",
+   "effective": "2014-03-21"
+  },
+  {
+   "slug": "quanguozhongxiaoqiyegufenzhuanrangxitongyouxianzer358112",
+   "short": "全国中小企业股份转让系统有限责任公司管理暂行办法",
+   "dept": "证监会",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/quanguozhongxiaoqiyegufenzhuanrangxitongyouxianzer358112.html",
+   "effective": "2013-01-31"
+  },
+  {
+   "slug": "gongsizhaiquanfaxingyujiaoyiguanlibanfa",
+   "short": "公司债券发行与交易管理办法",
+   "dept": "证监会",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/gongsizhaiquanfaxingyujiaoyiguanlibanfa.html",
+   "effective": "2015-01-15"
+  },
+  {
+   "slug": "gongkaimujizhengquantouzijijinxinxipiluguanlibanfa",
+   "short": "公开募集证券投资基金信息披露管理办法",
+   "dept": "证监会",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/gongkaimujizhengquantouzijijinxinxipiluguanlibanfa.html",
+   "effective": "2019-07-26"
+  },
+  {
+   "slug": "gongkaimujizhengquantouzijijinyunzuoguanlibanfa",
+   "short": "公开募集证券投资基金运作管理办法",
+   "dept": "证监会",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/gongkaimujizhengquantouzijijinyunzuoguanlibanfa.html",
+   "effective": "2014-08-08"
+  },
+  {
+   "slug": "gongkaimujizhengquantouzijijinxiaoshoujigoujiandug8a243a",
+   "short": "公开募集证券投资基金销售机构监督管理办法",
+   "dept": "证监会",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/gongkaimujizhengquantouzijijinxiaoshoujigoujiandug8a243a.html",
+   "effective": "2020-10-01"
+  },
+  {
+   "slug": "gongkaimujizhengquantouzijijinfengxianzhunbeijinjifd89a7",
+   "short": "公开募集证券投资基金风险准备金监督管理暂行办法",
+   "dept": "证监会",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/gongkaimujizhengquantouzijijinfengxianzhunbeijinjifd89a7.html",
+   "effective": "2014-01-01"
+  },
+  {
+   "slug": "guanyuqihuojiaoyiguanlitiaolidiqishitiaodiwuxiangq0614f5",
+   "short": "关于《期货交易管理条例》第七十条第五项“其他操纵期货交易价格行为”的规定",
+   "dept": "证监会",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/guanyuqihuojiaoyiguanlitiaolidiqishitiaodiwuxiangq0614f5.html",
+   "effective": "2019-11-18"
+  },
+  {
+   "slug": "neidiyuxiangganggupiaoshichangjiaoyihulianhutongjicd51f6",
+   "short": "内地与香港股票市场交易互联互通机制若干规定",
+   "dept": "证监会",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/neidiyuxiangganggupiaoshichangjiaoyihulianhutongjicd51f6.html",
+   "effective": "2016-09-30"
+  },
+  {
+   "slug": "chuangyebanshangshigongsichixujianguanbanfa",
+   "short": "创业板上市公司持续监管办法（试行）",
+   "dept": "证监会",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/chuangyebanshangshigongsichixujianguanbanfa.html",
+   "effective": "2020-06-12"
+  },
+  {
+   "slug": "chuangyebanshangshigongsizhengquanfaxingzhuceguanlefd95f",
+   "short": "创业板上市公司证券发行注册管理办法（试行）",
+   "dept": "证监会",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/chuangyebanshangshigongsizhengquanfaxingzhuceguanlefd95f.html",
+   "effective": "2020-06-12"
+  },
+  {
+   "slug": "chuangyebanshoucigongkaifaxinggupiaozhuceguanlibanceae1e",
+   "short": "创业板首次公开发行股票注册管理办法（试行）",
+   "dept": "证监会",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/chuangyebanshoucigongkaifaxinggupiaozhuceguanlibanceae1e.html",
+   "effective": "2020-06-12"
+  },
+  {
+   "slug": "beijingzhengquanjiaoyisuoshangshigongsichixujiangu93471d",
+   "short": "北京证券交易所上市公司持续监管办法（试行）",
+   "dept": "证监会",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/beijingzhengquanjiaoyisuoshangshigongsichixujiangu93471d.html",
+   "effective": "2021-11-15"
+  },
+  {
+   "slug": "beijingzhengquanjiaoyisuoshangshigongsizhengquanfa93493d",
+   "short": "北京证券交易所上市公司证券发行注册管理办法（试行）",
+   "dept": "证监会",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/beijingzhengquanjiaoyisuoshangshigongsizhengquanfa93493d.html",
+   "effective": "2021-11-15"
+  },
+  {
+   "slug": "beijingzhengquanjiaoyisuoxiangbutedinghegetouzizheae8f44",
+   "short": "北京证券交易所向不特定合格投资者公开发行股票注册管理办法（试行）",
+   "dept": "证监会",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/beijingzhengquanjiaoyisuoxiangbutedinghegetouzizheae8f44.html",
+   "effective": "2021-11-15"
+  },
+  {
+   "slug": "quyuxingguquanshichangjianduguanlishixingbanfa",
+   "short": "区域性股权市场监督管理试行办法",
+   "dept": "证监会",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/quyuxingguquanshichangjianduguanlishixingbanfa.html",
+   "effective": "2017-07-01"
+  },
+  {
+   "slug": "kezhuanhuangongsizhaiquanguanlibanfa",
+   "short": "可转换公司债券管理办法",
+   "dept": "证监会",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/kezhuanhuangongsizhaiquanguanlibanfa.html",
+   "effective": "2021-01-31"
+  },
+  {
+   "slug": "hegejingneijigoutouzizhejingwaizhengquantouziguanlfcf19f",
+   "short": "合格境内机构投资者境外证券投资管理试行办法",
+   "dept": "证监会",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/hegejingneijigoutouzizhejingwaizhengquantouziguanlfcf19f.html",
+   "effective": "2007-07-05"
+  },
+  {
+   "slug": "hegejingwaijigoutouzizheherenminbihegejingwaijigoub7f592",
+   "short": "合格境外机构投资者和人民币合格境外机构投资者境内证券期货投资管理办法",
+   "dept": "证监会",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/hegejingwaijigoutouzizheherenminbihegejingwaijigoub7f592.html",
+   "effective": "2020-11-01"
+  },
+  {
+   "slug": "jingwaijiaoyizhehejingwaijingjijigoucongshijingnei15a022",
+   "short": "境外交易者和境外经纪机构从事境内特定品种期货交易管理暂行办法",
+   "dept": "证监会",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/jingwaijiaoyizhehejingwaijingjijigoucongshijingnei15a022.html",
+   "effective": "2015-08-01"
+  },
+  {
+   "slug": "jingwaizhengquanqihuojiaoyisuozhuhuadaibiaojigouguc5a9ff",
+   "short": "境外证券期货交易所驻华代表机构管理办法",
+   "dept": "证监会",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/jingwaizhengquanqihuojiaoyisuozhuhuadaibiaojigouguc5a9ff.html",
+   "effective": "2019-07-25"
+  },
+  {
+   "slug": "waishangtouziqihuogongsiguanlibanfa",
+   "short": "外商投资期货公司管理办法",
+   "dept": "证监会",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/waishangtouziqihuogongsiguanlibanfa.html",
+   "effective": "2018-08-24"
+  },
+  {
+   "slug": "waishangtouzizhengquangongsiguanlibanfa",
+   "short": "外商投资证券公司管理办法",
+   "dept": "证监会",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/waishangtouzizhengquangongsiguanlibanfa.html",
+   "effective": "2018-04-28"
+  },
+  {
+   "slug": "cuntuopingzhengfaxingyujiaoyiguanlibanfa",
+   "short": "存托凭证发行与交易管理办法（试行）",
+   "dept": "证监会",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/cuntuopingzhengfaxingyujiaoyiguanlibanfa.html",
+   "effective": "2018-06-06"
+  },
+  {
+   "slug": "kehujiaoyijiesuanzijinguanlibanfa",
+   "short": "客户交易结算资金管理办法",
+   "dept": "证监会",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/kehujiaoyijiesuanzijinguanlibanfa.html",
+   "effective": "2001-05-16"
+  },
+  {
+   "slug": "qihuojiaoyisuoguanlibanfa",
+   "short": "期货交易所管理办法",
+   "dept": "证监会",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/qihuojiaoyisuoguanlibanfa.html",
+   "effective": "2002-05-17"
+  },
+  {
+   "slug": "qihuocongyerenyuanguanlibanfa",
+   "short": "期货从业人员管理办法",
+   "dept": "证监会",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/qihuocongyerenyuanguanlibanfa.html",
+   "effective": "2007-07-04"
+  },
+  {
+   "slug": "qihuogongsiqihuotouzizixunyewushixingbanfa",
+   "short": "期货公司期货投资咨询业务试行办法",
+   "dept": "证监会",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/qihuogongsiqihuotouzizixunyewushixingbanfa.html",
+   "effective": "2011-05-01"
+  },
+  {
+   "slug": "qihuogongsijianduguanlibanfa",
+   "short": "期货公司监督管理办法",
+   "dept": "证监会",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/qihuogongsijianduguanlibanfa.html",
+   "effective": "2014-10-29"
+  },
+  {
+   "slug": "qihuogongsidongshijianshihegaojiguanlirenyuanrenzhaab5a8",
+   "short": "期货公司董事、监事和高级管理人员任职管理办法",
+   "dept": "证监会",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/qihuogongsidongshijianshihegaojiguanlirenyuanrenzhaab5a8.html",
+   "effective": "2007-07-04"
+  },
+  {
+   "slug": "qihuogongsifengxianjianguanzhibiaoguanlibanfa",
+   "short": "期货公司风险监管指标管理办法",
+   "dept": "证监会",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/qihuogongsifengxianjianguanzhibiaoguanlibanfa.html",
+   "effective": "2017-10-01"
+  },
+  {
+   "slug": "qihuotouzizhebaozhangjijinguanlibanfa",
+   "short": "期货投资者保障基金管理办法",
+   "dept": "证监会",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/qihuotouzizhebaozhangjijinguanlibanfa.html",
+   "effective": "2007-04-19"
+  },
+  {
+   "slug": "simutouzijijinjianduguanlizanxingbanfa",
+   "short": "私募投资基金监督管理暂行办法",
+   "dept": "证监会",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/simutouzijijinjianduguanlizanxingbanfa.html",
+   "effective": "2014-08-21"
+  },
+  {
+   "slug": "kechuangbanshangshigongsichixujianguanbanfa",
+   "short": "科创板上市公司持续监管办法（试行）",
+   "dept": "证监会",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/kechuangbanshangshigongsichixujianguanbanfa.html",
+   "effective": "2019-03-01"
+  },
+  {
+   "slug": "kechuangbanshangshigongsizhengquanfaxingzhuceguanl32cb50",
+   "short": "科创板上市公司证券发行注册管理办法（试行）",
+   "dept": "证监会",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/kechuangbanshangshigongsizhengquanfaxingzhuceguanl32cb50.html",
+   "effective": "2020-07-03"
+  },
+  {
+   "slug": "kechuangbanshoucigongkaifaxinggupiaozhuceguanlibana32575",
+   "short": "科创板首次公开发行股票注册管理办法（试行）",
+   "dept": "证监会",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/kechuangbanshoucigongkaifaxinggupiaozhuceguanlibana32575.html",
+   "effective": "2019-03-01"
+  },
+  {
+   "slug": "gupiaoqiquanjiaoyishidianguanlibanfa",
+   "short": "股票期权交易试点管理办法",
+   "dept": "证监会",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/gupiaoqiquanjiaoyishidianguanlibanfa.html",
+   "effective": "2015-01-09"
+  },
+  {
+   "slug": "xingzhenghejieshidianshishibanfa",
+   "short": "行政和解试点实施办法",
+   "dept": "证监会",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/xingzhenghejieshidianshishibanfa.html",
+   "effective": "2015-03-29"
+  },
+  {
+   "slug": "zhengquanyecongyerenyuanzigeguanlibanfa",
+   "short": "证券业从业人员资格管理办法",
+   "dept": "证监会",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zhengquanyecongyerenyuanzigeguanlibanfa.html",
+   "effective": "2003-02-01"
+  },
+  {
+   "slug": "zhengquanjiaoyisuoguanlibanfa",
+   "short": "证券交易所管理办法",
+   "dept": "证监会",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zhengquanjiaoyisuoguanlibanfa.html",
+   "effective": "1997-11-30"
+  },
+  {
+   "slug": "zhengquangongsihezhengquantouzijijinguanligongsihedc2686",
+   "short": "证券公司和证券投资基金管理公司合规管理办法",
+   "dept": "证监会",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zhengquangongsihezhengquantouzijijinguanligongsihedc2686.html",
+   "effective": "2017-06-06"
+  },
+  {
+   "slug": "zhengquangongsihezhengquantouzijijinguanligongsiji2b23b3",
+   "short": "证券公司和证券投资基金管理公司境外设立、收购、参股经营机构管理办法",
+   "dept": "证监会",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zhengquangongsihezhengquantouzijijinguanligongsiji2b23b3.html",
+   "effective": "2018-09-25"
+  },
+  {
+   "slug": "zhengquangongsiguquanguanliguiding",
+   "short": "证券公司股权管理规定",
+   "dept": "证监会",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zhengquangongsiguquanguanliguiding.html",
+   "effective": "2019-07-05"
+  },
+  {
+   "slug": "zhengquangongsidongshijianshihegaojiguanlirenyuanr180e2b",
+   "short": "证券公司董事、监事和高级管理人员任职资格监管办法",
+   "dept": "证监会",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zhengquangongsidongshijianshihegaojiguanlirenyuanr180e2b.html",
+   "effective": "2006-11-30"
+  },
+  {
+   "slug": "zhengquangongsirongzirongquanyewuguanlibanfa",
+   "short": "证券公司融资融券业务管理办法",
+   "dept": "证监会",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zhengquangongsirongzirongquanyewuguanlibanfa.html",
+   "effective": "2015-07-01"
+  },
+  {
+   "slug": "zhengquangongsifengxiankongzhizhibiaoguanlibanfa",
+   "short": "证券公司风险控制指标管理办法",
+   "dept": "证监会",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zhengquangongsifengxiankongzhizhibiaoguanlibanfa.html",
+   "effective": "2006-07-20"
+  },
+  {
+   "slug": "zhengquanfaxingshangshibaojianyewuguanlibanfa",
+   "short": "证券发行上市保荐业务管理办法",
+   "dept": "证监会",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zhengquanfaxingshangshibaojianyewuguanlibanfa.html",
+   "effective": "2008-10-17"
+  },
+  {
+   "slug": "zhengquanfaxingyuchengxiaoguanlibanfa",
+   "short": "证券发行与承销管理办法",
+   "dept": "证监会",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zhengquanfaxingyuchengxiaoguanlibanfa.html",
+   "effective": "2006-09-17"
+  },
+  {
+   "slug": "zhengquanjijinjingyingjigouxinxijishuguanlibanfa",
+   "short": "证券基金经营机构信息技术管理办法",
+   "dept": "证监会",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zhengquanjijinjingyingjigouxinxijishuguanlibanfa.html",
+   "effective": "2018-12-19"
+  },
+  {
+   "slug": "zhengquanjijinjingyingjigoudongshijianshigaojiguana433a1",
+   "short": "证券基金经营机构董事、监事、高级管理人员及从业人员监督管理办法",
+   "dept": "证监会",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zhengquanjijinjingyingjigoudongshijianshigaojiguana433a1.html",
+   "effective": "2022-04-01"
+  },
+  {
+   "slug": "zhengquanshichangjinruguiding",
+   "short": "证券市场禁入规定",
+   "dept": "证监会",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zhengquanshichangjinruguiding.html",
+   "effective": "2006-06-07"
+  },
+  {
+   "slug": "zhengquanshichangzixinpingjiyewuguanlibanfa",
+   "short": "证券市场资信评级业务管理办法",
+   "dept": "证监会",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zhengquanshichangzixinpingjiyewuguanlibanfa.html",
+   "effective": "2021-02-26"
+  },
+  {
+   "slug": "zhengquantouzijijintuoguanyewuguanlibanfa",
+   "short": "证券投资基金托管业务管理办法（2020）",
+   "dept": "证监会",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zhengquantouzijijintuoguanyewuguanlibanfa.html",
+   "effective": "2020-07-10"
+  },
+  {
+   "slug": "zhengquantouzijijinguanligongsiguanlibanfa",
+   "short": "证券投资基金管理公司管理办法",
+   "dept": "证监会",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zhengquantouzijijinguanligongsiguanlibanfa.html",
+   "effective": "2004-09-16"
+  },
+  {
+   "slug": "zhengquantouzijijinhangyegaojiguanlirenyuanrenzhigf61d64",
+   "short": "证券投资基金行业高级管理人员任职管理办法",
+   "dept": "证监会",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zhengquantouzijijinhangyegaojiguanlirenyuanrenzhigf61d64.html",
+   "effective": "2004-10-01"
+  },
+  {
+   "slug": "zhengquantouzijijinpingjiayewuguanlizanxingbanfa",
+   "short": "证券投资基金评价业务管理暂行办法",
+   "dept": "证监会",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zhengquantouzijijinpingjiayewuguanlizanxingbanfa.html",
+   "effective": "2009-11-06"
+  },
+  {
+   "slug": "zhengquantouzizhebaohujijinguanlibanfa",
+   "short": "证券投资者保护基金管理办法",
+   "dept": "证监会",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zhengquantouzizhebaohujijinguanlibanfa.html",
+   "effective": "2005-06-30"
+  },
+  {
+   "slug": "zhengquanqihuoyexinxianquanbaozhangguanlibanfa",
+   "short": "证券期货业信息安全保障管理办法",
+   "dept": "证监会",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zhengquanqihuoyexinxianquanbaozhangguanlibanfa.html",
+   "effective": "2012-11-01"
+  },
+  {
+   "slug": "zhengquanqihuoyefanxiqiangongzuoshishibanfa",
+   "short": "证券期货业反洗钱工作实施办法",
+   "dept": "证监会",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zhengquanqihuoyefanxiqiangongzuoshishibanfa.html",
+   "effective": "2010-10-01"
+  },
+  {
+   "slug": "zhengquanqihuoshichangtongjiguanlibanfa",
+   "short": "证券期货市场统计管理办法",
+   "dept": "证监会",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zhengquanqihuoshichangtongjiguanlibanfa.html",
+   "effective": "2009-03-01"
+  },
+  {
+   "slug": "zhengquanqihuoshichangchengxinjianduguanlibanfa",
+   "short": "证券期货市场诚信监督管理办法",
+   "dept": "证监会",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zhengquanqihuoshichangchengxinjianduguanlibanfa.html",
+   "effective": "2018-03-28"
+  },
+  {
+   "slug": "zhengquanqihuotouzizheshidangxingguanlibanfa",
+   "short": "证券期货投资者适当性管理办法",
+   "dept": "证监会",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zhengquanqihuotouzizheshidangxingguanlibanfa.html",
+   "effective": "2016-12-12"
+  },
+  {
+   "slug": "zhengquanqihuojingyingjigoujiqigongzuorenyuanlianj70351e",
+   "short": "证券期货经营机构及其工作人员廉洁从业规定",
+   "dept": "证监会",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zhengquanqihuojingyingjigoujiqigongzuorenyuanlianj70351e.html",
+   "effective": "2018-06-27"
+  },
+  {
+   "slug": "zhengquanqihuojingyingjigousimuzichanguanliyewugua52c8f9",
+   "short": "证券期货经营机构私募资产管理业务管理办法",
+   "dept": "证监会",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zhengquanqihuojingyingjigousimuzichanguanliyewugua52c8f9.html",
+   "effective": "2018-10-22"
+  },
+  {
+   "slug": "zhengquanqihuoguizhangzhidingchengxuguiding",
+   "short": "证券期货规章制定程序规定",
+   "dept": "证监会",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zhengquanqihuoguizhangzhidingchengxuguiding.html",
+   "effective": "2008-10-21"
+  },
+  {
+   "slug": "zhengquanqihuoweifaxingweixingzhengchufabanfa",
+   "short": "证券期货违法行为行政处罚办法",
+   "dept": "证监会",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zhengquanqihuoweifaxingweixingzhengchufabanfa.html",
+   "effective": "2021-07-14"
+  },
+  {
+   "slug": "zhengquandengjijiesuanguanlibanfa",
+   "short": "证券登记结算管理办法",
+   "dept": "证监会",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zhengquandengjijiesuanguanlibanfa.html",
+   "effective": "2006-04-07"
+  },
+  {
+   "slug": "huobishichangjijinjianduguanlibanfa",
+   "short": "货币市场基金监督管理办法",
+   "dept": "证监会",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/huobishichangjijinjianduguanlibanfa.html",
+   "effective": "2016-02-01"
+  },
+  {
+   "slug": "zhuanrongtongyewujianduguanlishixingbanfa",
+   "short": "转融通业务监督管理试行办法",
+   "dept": "证监会",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zhuanrongtongyewujianduguanlishixingbanfa.html",
+   "effective": "2011-10-26"
+  },
+  {
+   "slug": "feishangshigongzhonggongsixinxipiluguanlibanfa",
+   "short": "非上市公众公司信息披露管理办法",
+   "dept": "证监会",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/feishangshigongzhonggongsixinxipiluguanlibanfa.html",
+   "effective": "2019-12-20"
+  },
+  {
+   "slug": "feishangshigongzhonggongsishougouguanlibanfa",
+   "short": "非上市公众公司收购管理办法",
+   "dept": "证监会",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/feishangshigongzhonggongsishougouguanlibanfa.html",
+   "effective": "2014-06-23"
+  },
+  {
+   "slug": "feishangshigongzhonggongsijianduguanlibanfa",
+   "short": "非上市公众公司监督管理办法",
+   "dept": "证监会",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/feishangshigongzhonggongsijianduguanlibanfa.html",
+   "effective": "2012-09-28"
+  },
+  {
+   "slug": "feishangshigongzhonggongsizhongdazichanchongzuguan0d8267",
+   "short": "非上市公众公司重大资产重组管理办法",
+   "dept": "证监会",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/feishangshigongzhonggongsizhongdazichanchongzuguan0d8267.html",
+   "effective": "2014-06-23"
+  },
+  {
+   "slug": "shoucigongkaifaxinggupiaobingshangshiguanlibanfa",
+   "short": "首次公开发行股票并上市管理办法",
+   "dept": "证监会",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/shoucigongkaifaxinggupiaobingshangshiguanlibanfa.html",
+   "effective": "2006-05-17"
+  },
+  {
+   "slug": "zhucejianzhushitiaolishishixize",
+   "short": "注册建筑师条例实施细则",
+   "dept": "住房城乡建设部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zhucejianzhushitiaolishishixize.html",
+   "effective": "2008-03-15"
+  },
+  {
+   "slug": "zhuzhaizhuanxiangweixiuzijinguanlibanfa",
+   "short": "住宅专项维修资金管理办法",
+   "dept": "住房城乡建设部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zhuzhaizhuanxiangweixiuzijinguanlibanfa.html",
+   "effective": "2008-02-01"
+  },
+  {
+   "slug": "zhuzhaishineizhuangshizhuangxiuguanlibanfa",
+   "short": "住宅室内装饰装修管理办法",
+   "dept": "住房城乡建设部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zhuzhaishineizhuangshizhuangxiuguanlibanfa.html",
+   "effective": "2002-03-05"
+  },
+  {
+   "slug": "zhufanghechengxiangjianshexingzhengchufachengxuguifa844e",
+   "short": "住房和城乡建设行政处罚程序规定",
+   "dept": "住房城乡建设部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zhufanghechengxiangjianshexingzhengchufachengxuguifa844e.html",
+   "effective": "2022-05-01"
+  },
+  {
+   "slug": "zhufangchengxiangjianshexingzhengfuyibanfa",
+   "short": "住房城乡建设行政复议办法",
+   "dept": "住房城乡建设部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zhufangchengxiangjianshexingzhengfuyibanfa.html",
+   "effective": "2015-11-01"
+  },
+  {
+   "slug": "gonggongzulinzhufangguanlibanfa",
+   "short": "公共租赁住房管理办法",
+   "dept": "住房城乡建设部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/gonggongzulinzhufangguanlibanfa.html",
+   "effective": "2012-05-28"
+  },
+  {
+   "slug": "kanchashejizhucegongchengshiguanliguiding",
+   "short": "勘察设计注册工程师管理规定",
+   "dept": "住房城乡建设部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/kanchashejizhucegongchengshiguanliguiding.html",
+   "effective": "2005-02-04"
+  },
+  {
+   "slug": "weixianxingjiaodadefenbufenxianggongchenganquangua074478",
+   "short": "危险性较大的分部分项工程安全管理规定",
+   "dept": "住房城乡建设部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/weixianxingjiaodadefenbufenxianggongchenganquangua074478.html",
+   "effective": "2018-03-08"
+  },
+  {
+   "slug": "lishiwenhuamingchengmingzhenmingcunjiequbaohuguihu29c7dc",
+   "short": "历史文化名城名镇名村街区保护规划编制审批办法",
+   "dept": "住房城乡建设部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/lishiwenhuamingchengmingzhenmingcunjiequbaohuguihu29c7dc.html",
+   "effective": "2014-12-29"
+  },
+  {
+   "slug": "shangpinfangwuzulinguanlibanfa",
+   "short": "商品房屋租赁管理办法",
+   "dept": "住房城乡建设部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/shangpinfangwuzulinguanlibanfa.html",
+   "effective": "2011-02-01"
+  },
+  {
+   "slug": "shangpinfangxiaoshouguanlibanfa",
+   "short": "商品房销售管理办法",
+   "dept": "住房城乡建设部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/shangpinfangxiaoshouguanlibanfa.html",
+   "effective": "2001-06-01"
+  },
+  {
+   "slug": "guojiajifengjingmingshengquguihuabianzhishenpibanf87653f",
+   "short": "国家级风景名胜区规划编制审批办法",
+   "dept": "住房城乡建设部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/guojiajifengjingmingshengquguihuabianzhishenpibanf87653f.html",
+   "effective": "2015-12-01"
+  },
+  {
+   "slug": "chengxiangguihuabianzhidanweizizhiguanliguiding",
+   "short": "城乡规划编制单位资质管理规定",
+   "dept": "住房城乡建设部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/chengxiangguihuabianzhidanweizizhiguanliguiding.html",
+   "effective": "2012-07-02"
+  },
+  {
+   "slug": "chengshigongshuishuizhiguanliguiding",
+   "short": "城市供水水质管理规定",
+   "dept": "住房城乡建设部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/chengshigongshuishuizhiguanliguiding.html",
+   "effective": "2007-05-01"
+  },
+  {
+   "slug": "chengshigongceguanlibanfa",
+   "short": "城市公厕管理办法",
+   "dept": "住房城乡建设部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/chengshigongceguanlibanfa.html",
+   "effective": "1990-12-31"
+  },
+  {
+   "slug": "chengshidongwuyuanguanliguiding",
+   "short": "城市动物园管理规定",
+   "dept": "住房城乡建设部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/chengshidongwuyuanguanliguiding.html",
+   "effective": "1994-08-16"
+  },
+  {
+   "slug": "chengshiweixianfangwuguanliguiding",
+   "short": "城市危险房屋管理规定",
+   "dept": "住房城乡建设部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/chengshiweixianfangwuguanliguiding.html",
+   "effective": "1989-11-21"
+  },
+  {
+   "slug": "chengshishangpinfangyushouguanlibanfa",
+   "short": "城市商品房预售管理办法",
+   "dept": "住房城乡建设部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/chengshishangpinfangyushouguanlibanfa.html",
+   "effective": "1994-11-15"
+  },
+  {
+   "slug": "chengshiguoyoutudishiyongquanchurangzhuanrangguihue2af4b",
+   "short": "城市国有土地使用权出让转让规划管理办法",
+   "dept": "住房城乡建设部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/chengshiguoyoutudishiyongquanchurangzhuanrangguihue2af4b.html",
+   "effective": "1992-12-04"
+  },
+  {
+   "slug": "chengshidixiakongjiankaifaliyongguanliguiding",
+   "short": "城市地下空间开发利用管理规定",
+   "dept": "住房城乡建设部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/chengshidixiakongjiankaifaliyongguanliguiding.html",
+   "effective": "1997-10-27"
+  },
+  {
+   "slug": "chengshidixiaguanxiangongchengdanganguanlibanfa",
+   "short": "城市地下管线工程档案管理办法",
+   "dept": "住房城乡建设部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/chengshidixiaguanxiangongchengdanganguanlibanfa.html",
+   "effective": "2005-01-07"
+  },
+  {
+   "slug": "chengshijuminzhuzhaianquanfangfansheshijiansheguan25a314",
+   "short": "城市居民住宅安全防范设施建设管理规定",
+   "dept": "住房城乡建设部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/chengshijuminzhuzhaianquanfangfansheshijiansheguan25a314.html",
+   "effective": "1996-02-01"
+  },
+  {
+   "slug": "chengshijianzhulajiguanliguiding",
+   "short": "城市建筑垃圾管理规定",
+   "dept": "住房城乡建设部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/chengshijianzhulajiguanliguiding.html",
+   "effective": "2005-06-01"
+  },
+  {
+   "slug": "chengshijianshedanganguanliguiding",
+   "short": "城市建设档案管理规定",
+   "dept": "住房城乡建设部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/chengshijianshedanganguanliguiding.html",
+   "effective": "1997-12-23"
+  },
+  {
+   "slug": "chengshifangdichandiyaguanlibanfa",
+   "short": "城市房地产抵押管理办法",
+   "dept": "住房城乡建设部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/chengshifangdichandiyaguanlibanfa.html",
+   "effective": "1997-05-09"
+  },
+  {
+   "slug": "chengshifangdichanquanshudanganguanlibanfa",
+   "short": "城市房地产权属档案管理办法",
+   "dept": "住房城乡建设部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/chengshifangdichanquanshudanganguanlibanfa.html",
+   "effective": "2001-12-01"
+  },
+  {
+   "slug": "chengshifangdichanzhuanrangguanliguiding",
+   "short": "城市房地产转让管理规定",
+   "dept": "住房城乡建设部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/chengshifangdichanzhuanrangguanliguiding.html",
+   "effective": "1995-08-07"
+  },
+  {
+   "slug": "chengshifangwubianqishuixiangyingyongjianduguanlib2e377b",
+   "short": "城市房屋便器水箱应用监督管理办法",
+   "dept": "住房城乡建设部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/chengshifangwubianqishuixiangyingyongjianduguanlib2e377b.html",
+   "effective": "1992-04-17"
+  },
+  {
+   "slug": "chengshifangwubaiyifangzhiguanliguiding",
+   "short": "城市房屋白蚁防治管理规定",
+   "dept": "住房城乡建设部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/chengshifangwubaiyifangzhiguanliguiding.html",
+   "effective": "1999-10-15"
+  },
+  {
+   "slug": "chengshikangzhenfangzaiguihuaguanliguiding",
+   "short": "城市抗震防灾规划管理规定",
+   "dept": "住房城乡建设部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/chengshikangzhenfangzaiguihuaguanliguiding.html",
+   "effective": "2003-09-19"
+  },
+  {
+   "slug": "chengshiqiaoliangjianceheyanghuweixiuguanlibanfa",
+   "short": "城市桥梁检测和养护维修管理办法",
+   "dept": "住房城乡建设部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/chengshiqiaoliangjianceheyanghuweixiuguanlibanfa.html",
+   "effective": "2004-01-01"
+  },
+  {
+   "slug": "chengshizhaomingguanliguiding",
+   "short": "城市照明管理规定",
+   "dept": "住房城乡建设部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/chengshizhaomingguanliguiding.html",
+   "effective": "2010-07-01"
+  },
+  {
+   "slug": "chengshishenghuolajiguanlibanfa",
+   "short": "城市生活垃圾管理办法",
+   "dept": "住房城乡建设部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/chengshishenghuolajiguanlibanfa.html",
+   "effective": "2007-04-28"
+  },
+  {
+   "slug": "chengshiguanlizhifabanfa",
+   "short": "城市管理执法办法",
+   "dept": "住房城乡建设部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/chengshiguanlizhifabanfa.html",
+   "effective": "2017-05-01"
+  },
+  {
+   "slug": "chengshizixianguanlibanfa",
+   "short": "城市紫线管理办法",
+   "dept": "住房城乡建设部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/chengshizixianguanlibanfa.html",
+   "effective": "2003-12-17"
+  },
+  {
+   "slug": "chengshilvxianguanlibanfa",
+   "short": "城市绿线管理办法",
+   "dept": "住房城乡建设部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/chengshilvxianguanlibanfa.html",
+   "effective": "2002-09-13"
+  },
+  {
+   "slug": "chengshijieyueyongshuiguanliguiding",
+   "short": "城市节约用水管理规定（待定）",
+   "dept": "住房城乡建设部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/chengshijieyueyongshuiguanliguiding.html",
+   "effective": "1989-01-01"
+  },
+  {
+   "slug": "chengshilanxianguanlibanfa",
+   "short": "城市蓝线管理办法",
+   "dept": "住房城乡建设部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/chengshilanxianguanlibanfa.html",
+   "effective": "2005-12-20"
+  },
+  {
+   "slug": "chengshiguihuabianzhibanfa",
+   "short": "城市规划编制办法",
+   "dept": "住房城乡建设部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/chengshiguihuabianzhibanfa.html",
+   "effective": "2006-04-01"
+  },
+  {
+   "slug": "chengshishejiguanlibanfa",
+   "short": "城市设计管理办法",
+   "dept": "住房城乡建设部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/chengshishejiguanlibanfa.html",
+   "effective": "2017-06-01"
+  },
+  {
+   "slug": "chengshihuangxianguanlibanfa",
+   "short": "城市黄线管理办法",
+   "dept": "住房城乡建设部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/chengshihuangxianguanlibanfa.html",
+   "effective": "2005-12-20"
+  },
+  {
+   "slug": "chengzhenwushuipairupaishuiguanwangxukeguanlibanfa",
+   "short": "城镇污水排入排水管网许可管理办法",
+   "dept": "住房城乡建设部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/chengzhenwushuipairupaishuiguanwangxukeguanlibanfa.html",
+   "effective": "2015-01-22"
+  },
+  {
+   "slug": "shishigongchengjiansheqiangzhixingbiaozhunjiandugua83a4a",
+   "short": "实施工程建设强制性标准监督规定",
+   "dept": "住房城乡建设部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/shishigongchengjiansheqiangzhixingbiaozhunjiandugua83a4a.html",
+   "effective": "2000-08-25"
+  },
+  {
+   "slug": "gongchengjiansheguojiabiaozhunguanlibanfa",
+   "short": "工程建设国家标准管理办法",
+   "dept": "住房城乡建设部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/gongchengjiansheguojiabiaozhunguanlibanfa.html",
+   "effective": "1992-12-30"
+  },
+  {
+   "slug": "gongchengjianshehangyebiaozhunguanlibanfa",
+   "short": "工程建设行业标准管理办法",
+   "dept": "住房城乡建设部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/gongchengjianshehangyebiaozhunguanlibanfa.html",
+   "effective": "1992-12-30"
+  },
+  {
+   "slug": "gongchengjianliqiyezizhiguanliguiding",
+   "short": "工程监理企业资质管理规定",
+   "dept": "住房城乡建设部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/gongchengjianliqiyezizhiguanliguiding.html",
+   "effective": "2007-06-26"
+  },
+  {
+   "slug": "gongchengzaojiazixunqiyeguanlibanfa",
+   "short": "工程造价咨询企业管理办法",
+   "dept": "住房城乡建设部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/gongchengzaojiazixunqiyeguanlibanfa.html",
+   "effective": "2006-03-22"
+  },
+  {
+   "slug": "yigougongyouzhufanghejingjishiyongzhufangshangshic29b988",
+   "short": "已购公有住房和经济适用住房上市出售管理暂行办法",
+   "dept": "住房城乡建设部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/yigougongyouzhufanghejingjishiyongzhufangshangshic29b988.html",
+   "effective": "1999-04-22"
+  },
+  {
+   "slug": "shizhenggongyongshiyetexujingyingguanlibanfa",
+   "short": "市政公用事业特许经营管理办法",
+   "dept": "住房城乡建设部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/shizhenggongyongshiyetexujingyingguanlibanfa.html",
+   "effective": "2004-03-19"
+  },
+  {
+   "slug": "shizhenggongyongsheshikangzaishefangguanliguiding",
+   "short": "市政公用设施抗灾设防管理规定",
+   "dept": "住房城乡建设部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/shizhenggongyongsheshikangzaishefangguanliguiding.html",
+   "effective": "2008-10-16"
+  },
+  {
+   "slug": "lianzuzhufangbaozhangbanfa",
+   "short": "廉租住房保障办法",
+   "dept": "住房城乡建设部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/lianzuzhufangbaozhangbanfa.html",
+   "effective": "2007-12-01"
+  },
+  {
+   "slug": "jianzhizhenguihuajiansheguanlibanfa",
+   "short": "建制镇规划建设管理办法",
+   "dept": "住房城乡建设部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/jianzhizhenguihuajiansheguanlibanfa.html",
+   "effective": "1995-06-29"
+  },
+  {
+   "slug": "jianzhuyeqiyezizhiguanliguiding",
+   "short": "建筑业企业资质管理规定",
+   "dept": "住房城乡建设部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/jianzhuyeqiyezizhiguanliguiding.html",
+   "effective": "2015-01-22"
+  },
+  {
+   "slug": "jianzhugongchengshigongfabaoyuchengbaojijiaguanlib6674f9",
+   "short": "建筑工程施工发包与承包计价管理办法",
+   "dept": "住房城乡建设部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/jianzhugongchengshigongfabaoyuchengbaojijiaguanlib6674f9.html",
+   "effective": "2014-02-01"
+  },
+  {
+   "slug": "jianzhugongchengshigongxukeguanlibanfa",
+   "short": "建筑工程施工许可管理办法",
+   "dept": "住房城乡建设部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/jianzhugongchengshigongxukeguanlibanfa.html",
+   "effective": "2014-06-25"
+  },
+  {
+   "slug": "jianzhugongchengshejizhaobiaotoubiaoguanlibanfa",
+   "short": "建筑工程设计招标投标管理办法",
+   "dept": "住房城乡建设部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/jianzhugongchengshejizhaobiaotoubiaoguanlibanfa.html",
+   "effective": "2017-05-01"
+  },
+  {
+   "slug": "jianzhushigongqiyezhuyaofuzerenxiangmufuzerenhezhudd88b7",
+   "short": "建筑施工企业主要负责人、项目负责人和专职安全生产管理人员安全生产管理规定",
+   "dept": "住房城乡建设部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/jianzhushigongqiyezhuyaofuzerenxiangmufuzerenhezhudd88b7.html",
+   "effective": "2014-09-01"
+  },
+  {
+   "slug": "jianzhushigongqiyeanquanshengchanxukezhengguanligufa5bb0",
+   "short": "建筑施工企业安全生产许可证管理规定",
+   "dept": "住房城乡建设部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/jianzhushigongqiyeanquanshengchanxukezhengguanligufa5bb0.html",
+   "effective": "2004-07-05"
+  },
+  {
+   "slug": "jianzhuqizhongjixieanquanjianduguanliguiding",
+   "short": "建筑起重机械安全监督管理规定",
+   "dept": "住房城乡建设部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/jianzhuqizhongjixieanquanjianduguanliguiding.html",
+   "effective": "2008-06-01"
+  },
+  {
+   "slug": "jianshegongchengkanchashejizizhiguanliguiding",
+   "short": "建设工程勘察设计资质管理规定",
+   "dept": "住房城乡建设部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/jianshegongchengkanchashejizizhiguanliguiding.html",
+   "effective": "2007-06-26"
+  },
+  {
+   "slug": "jianshegongchengkanchazhiliangguanlibanfa",
+   "short": "建设工程勘察质量管理办法",
+   "dept": "住房城乡建设部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/jianshegongchengkanchazhiliangguanlibanfa.html",
+   "effective": "2002-12-04"
+  },
+  {
+   "slug": "jianshegongchengjianlifanweiheguimobiaozhunguiding",
+   "short": "建设工程监理范围和规模标准规定",
+   "dept": "住房城乡建设部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/jianshegongchengjianlifanweiheguimobiaozhunguiding.html",
+   "effective": "2001-01-17"
+  },
+  {
+   "slug": "jianshebuguanyunaruguowuyuanjuedingdeshiwuxiangxind9464a",
+   "short": "建设部关于纳入国务院决定的十五项行政许可的条件的规定",
+   "dept": "住房城乡建设部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/jianshebuguanyunaruguowuyuanjuedingdeshiwuxiangxind9464a.html",
+   "effective": "2004-10-15"
+  },
+  {
+   "slug": "jianshelingyutuiguangyingyongxinjishuguanliguiding",
+   "short": "建设领域推广应用新技术管理规定",
+   "dept": "住房城乡建设部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/jianshelingyutuiguangyingyongxinjishuguanliguiding.html",
+   "effective": "2001-11-29"
+  },
+  {
+   "slug": "fangchancehuiguanlibanfa",
+   "short": "房产测绘管理办法",
+   "dept": "住房城乡建设部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/fangchancehuiguanlibanfa.html",
+   "effective": "2001-05-01"
+  },
+  {
+   "slug": "fangdichangujiajigouguanlibanfa",
+   "short": "房地产估价机构管理办法",
+   "dept": "住房城乡建设部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/fangdichangujiajigouguanlibanfa.html",
+   "effective": "2005-10-12"
+  },
+  {
+   "slug": "fangdichankaifaqiyezizhiguanliguiding",
+   "short": "房地产开发企业资质管理规定",
+   "dept": "住房城乡建设部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/fangdichankaifaqiyezizhiguanliguiding.html",
+   "effective": "2000-03-29"
+  },
+  {
+   "slug": "fangdichanjingjiguanlibanfa",
+   "short": "房地产经纪管理办法",
+   "dept": "住房城乡建设部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/fangdichanjingjiguanlibanfa.html",
+   "effective": "2011-01-20"
+  },
+  {
+   "slug": "fangwujianzhuheshizhengjichusheshigongchengshigong87203d",
+   "short": "房屋建筑和市政基础设施工程施工分包管理办法",
+   "dept": "住房城乡建设部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/fangwujianzhuheshizhengjichusheshigongchengshigong87203d.html",
+   "effective": "2004-02-03"
+  },
+  {
+   "slug": "fangwujianzhuheshizhengjichusheshigongchengshigong952f69",
+   "short": "房屋建筑和市政基础设施工程施工图设计文件审查管理办法",
+   "dept": "住房城乡建设部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/fangwujianzhuheshizhengjichusheshigongchengshigong952f69.html",
+   "effective": "2013-04-27"
+  },
+  {
+   "slug": "fangwujianzhuheshizhengjichusheshigongchengshigongddf637",
+   "short": "房屋建筑和市政基础设施工程施工招标投标管理办法",
+   "dept": "住房城乡建设部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/fangwujianzhuheshizhengjichusheshigongchengshigongddf637.html",
+   "effective": "2001-06-01"
+  },
+  {
+   "slug": "fangwujianzhuheshizhengjichusheshigongchengjungongd4c8e3",
+   "short": "房屋建筑和市政基础设施工程竣工验收备案管理办法",
+   "dept": "住房城乡建设部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/fangwujianzhuheshizhengjichusheshigongchengjungongd4c8e3.html",
+   "effective": "2000-04-04"
+  },
+  {
+   "slug": "fangwujianzhuheshizhengjichusheshigongchengzhilianfbc2d0",
+   "short": "房屋建筑和市政基础设施工程质量监督管理规定",
+   "dept": "住房城乡建设部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/fangwujianzhuheshizhengjichusheshigongchengzhilianfbc2d0.html",
+   "effective": "2010-09-01"
+  },
+  {
+   "slug": "fangwujianzhugongchengkangzhenshefangguanliguiding",
+   "short": "房屋建筑工程抗震设防管理规定",
+   "dept": "住房城乡建设部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/fangwujianzhugongchengkangzhenshefangguanliguiding.html",
+   "effective": "2006-01-27"
+  },
+  {
+   "slug": "fangwujianzhugongchengzhiliangbaoxiubanfa",
+   "short": "房屋建筑工程质量保修办法",
+   "dept": "住房城乡建设部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/fangwujianzhugongchengzhiliangbaoxiubanfa.html",
+   "effective": "2000-06-30"
+  },
+  {
+   "slug": "minyongjianzhujienengguanliguiding",
+   "short": "民用建筑节能管理规定",
+   "dept": "住房城乡建设部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/minyongjianzhujienengguanliguiding.html",
+   "effective": "2006-01-01"
+  },
+  {
+   "slug": "zhucejianzaoshiguanliguiding",
+   "short": "注册建造师管理规定",
+   "dept": "住房城乡建设部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zhucejianzaoshiguanliguiding.html",
+   "effective": "2007-03-01"
+  },
+  {
+   "slug": "zhucefangdichangujiashiguanlibanfa",
+   "short": "注册房地产估价师管理办法",
+   "dept": "住房城乡建设部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zhucefangdichangujiashiguanlibanfa.html",
+   "effective": "2006-12-25"
+  },
+  {
+   "slug": "zhucejianligongchengshiguanliguiding",
+   "short": "注册监理工程师管理规定",
+   "dept": "住房城乡建设部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zhucejianligongchengshiguanliguiding.html",
+   "effective": "2006-01-26"
+  },
+  {
+   "slug": "zhucezaojiagongchengshiguanlibanfa",
+   "short": "注册造价工程师管理办法",
+   "dept": "住房城乡建设部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zhucezaojiagongchengshiguanlibanfa.html",
+   "effective": "2006-12-25"
+  },
+  {
+   "slug": "shenghuoyinyongshuiweishengjianduguanlibanfa",
+   "short": "生活饮用水卫生监督管理办法",
+   "dept": "住房城乡建设部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/shenghuoyinyongshuiweishengjianduguanlibanfa.html",
+   "effective": "1996-07-09"
+  },
+  {
+   "slug": "shengyuchengzhentixiguihuabianzhishenpibanfa",
+   "short": "省域城镇体系规划编制审批办法",
+   "dept": "住房城乡建设部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/shengyuchengzhentixiguihuabianzhishenpibanfa.html",
+   "effective": "2010-07-01"
+  },
+  {
+   "slug": "chaoxiangaocengjianzhugongchengkangzhenshefangguancf2d2e",
+   "short": "超限高层建筑工程抗震设防管理规定",
+   "dept": "住房城乡建设部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/chaoxiangaocengjianzhugongchengkangzhenshefangguancf2d2e.html",
+   "effective": "2002-09-01"
+  },
+  {
+   "slug": "gaodengxuexiaojianzhuleizhuanyejiaoyupingguzanxing96ce26",
+   "short": "高等学校建筑类专业教育评估暂行规定",
+   "dept": "住房城乡建设部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/gaodengxuexiaojianzhuleizhuanyejiaoyupingguzanxing96ce26.html",
+   "effective": "1994-04-05"
+  },
+  {
+   "slug": "jiankonghuaxuepinguanlitiaolishishixize",
+   "short": "《监控化学品管理条例》实施细则",
+   "dept": "工业和信息化部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/jiankonghuaxuepinguanlitiaolishishixize.html",
+   "effective": "2019-01-01"
+  },
+  {
+   "slug": "yeyuwuxiandiantaiguanlibanfa",
+   "short": "业余无线电台管理办法",
+   "dept": "工业和信息化部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/yeyuwuxiandiantaiguanlibanfa.html",
+   "effective": "2012-12-05"
+  },
+  {
+   "slug": "chengyongcheqiyepingjunranliaoxiaohaoliangyuxinnen28ff2a-2",
+   "short": "乘用车企业平均燃料消耗量与新能源汽车积分并行管理办法（2017）",
+   "dept": "工业和信息化部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/chengyongcheqiyepingjunranliaoxiaohaoliangyuxinnen28ff2a-2.html",
+   "effective": "2018-04-01"
+  },
+  {
+   "slug": "chengyongcheqiyepingjunranliaoxiaohaoliangyuxinnen28ff2a",
+   "short": "乘用车企业平均燃料消耗量与新能源汽车积分并行管理办法（2017）",
+   "dept": "工业和信息化部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/chengyongcheqiyepingjunranliaoxiaohaoliangyuxinnen28ff2a.html",
+   "effective": "2018-04-01"
+  },
+  {
+   "slug": "hulianwangipdizhibeianguanlibanfa",
+   "short": "互联网IP地址备案管理办法",
+   "dept": "工业和信息化部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/hulianwangipdizhibeianguanlibanfa.html",
+   "effective": "2005-02-08"
+  },
+  {
+   "slug": "hulianwangxinxifuwushenduhechengguanliguiding",
+   "short": "互联网信息服务深度合成管理规定（2022）",
+   "dept": "工业和信息化部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/hulianwangxinxifuwushenduhechengguanliguiding.html",
+   "effective": "2023-01-10"
+  },
+  {
+   "slug": "hulianwangyumingguanlibanfa",
+   "short": "互联网域名管理办法（2017）",
+   "dept": "工业和信息化部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/hulianwangyumingguanlibanfa.html",
+   "effective": "2017-11-01"
+  },
+  {
+   "slug": "hulianwangdianziyoujianfuwuguanlibanfa",
+   "short": "互联网电子邮件服务管理办法",
+   "dept": "工业和信息化部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/hulianwangdianziyoujianfuwuguanlibanfa.html",
+   "effective": "2006-02-20"
+  },
+  {
+   "slug": "hulianwangshitingjiemufuwuguanliguiding",
+   "short": "互联网视听节目服务管理规定（2007）",
+   "dept": "工业和信息化部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/hulianwangshitingjiemufuwuguanliguiding.html",
+   "effective": "2008-01-31"
+  },
+  {
+   "slug": "gonggongziyuanjiaoyipingtaiguanlizanxingbanfa",
+   "short": "公共资源交易平台管理暂行办法（2016）",
+   "dept": "工业和信息化部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/gonggongziyuanjiaoyipingtaiguanlizanxingbanfa.html",
+   "effective": "2016-08-01"
+  },
+  {
+   "slug": "gongyongdianxinwangjianhulianguanliguiding",
+   "short": "公用电信网间互联管理规定",
+   "dept": "工业和信息化部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/gongyongdianxinwangjianhulianguanliguiding.html",
+   "effective": "2001-05-10"
+  },
+  {
+   "slug": "gongyiguanggaocujinheguanlizanxingbanfa",
+   "short": "公益广告促进和管理暂行办法（2016）",
+   "dept": "工业和信息化部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/gongyiguanggaocujinheguanlizanxingbanfa.html",
+   "effective": "2016-03-01"
+  },
+  {
+   "slug": "guanyujingneiqiyechengjiefuwuwaibaoyewuxinxibaohud9c2dba",
+   "short": "关于境内企业承接服务外包业务信息保护的若干规定（2009）",
+   "dept": "工业和信息化部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/guanyujingneiqiyechengjiefuwuwaibaoyewuxinxibaohud9c2dba.html",
+   "effective": "2009-12-28"
+  },
+  {
+   "slug": "nongyehuaxuewuzhichanpinxingzhengbaohutiaolishishi00cfea",
+   "short": "农业化学物质产品行政保护条例实施细则",
+   "dept": "工业和信息化部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/nongyehuaxuewuzhichanpinxingzhengbaohutiaolishishi00cfea.html",
+   "effective": "1993-01-01"
+  },
+  {
+   "slug": "nongyejixiechanpinxiuligenghuantuihuozerenguiding",
+   "short": "农业机械产品修理、更换、退货责任规定（2010）",
+   "dept": "工业和信息化部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/nongyejixiechanpinxiuligenghuantuihuozerenguiding.html",
+   "effective": "2010-03-13"
+  },
+  {
+   "slug": "weixingyidongtongxinxitongzhongduandiqiuzhanguanlid846b5",
+   "short": "卫星移动通信系统终端地球站管理办法",
+   "dept": "工业和信息化部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/weixingyidongtongxinxitongzhongduandiqiuzhanguanlid846b5.html",
+   "effective": "2011-04-21"
+  },
+  {
+   "slug": "geleijiankonghuaxuepinminglu",
+   "short": "各类监控化学品名录",
+   "dept": "工业和信息化部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/geleijiankonghuaxuepinminglu.html",
+   "effective": "2020-04-23"
+  },
+  {
+   "slug": "guofangkexuejishujianglibanfa-2",
+   "short": "国防科学技术奖励办法（2010）",
+   "dept": "工业和信息化部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/guofangkexuejishujianglibanfa-2.html",
+   "effective": "2010-05-29"
+  },
+  {
+   "slug": "guofangkexuejishugongyeweiyuanhuitingzhengguize",
+   "short": "国防科学技术工业委员会听证规则（2006）",
+   "dept": "工业和信息化部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/guofangkexuejishugongyeweiyuanhuitingzhengguize.html",
+   "effective": "2006-12-25"
+  },
+  {
+   "slug": "guofangkexuejishugongyeweiyuanhuixingzhengchufashi9ab3c9",
+   "short": "国防科学技术工业委员会行政处罚实施办法",
+   "dept": "工业和信息化部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/guofangkexuejishugongyeweiyuanhuixingzhengchufashi9ab3c9.html",
+   "effective": "2006-12-25"
+  },
+  {
+   "slug": "guofangkexuejishugongyeweiyuanhuixingzhengfuyishis9bed63",
+   "short": "国防科学技术工业委员会行政复议实施办法",
+   "dept": "工业和信息化部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/guofangkexuejishugongyeweiyuanhuixingzhengfuyishis9bed63.html",
+   "effective": "2007-02-07"
+  },
+  {
+   "slug": "guofangkegongweixingzhengshenpiguanlizanxingbanfa",
+   "short": "国防科工委行政审批管理暂行办法（2003）",
+   "dept": "工业和信息化部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/guofangkegongweixingzhengshenpiguanlizanxingbanfa.html",
+   "effective": "2003-07-16"
+  },
+  {
+   "slug": "guofangkejigongyejunyonghesheshianquanjianduguanlidd5910-2",
+   "short": "国防科技工业军用核设施安全监督管理规定（1999）",
+   "dept": "工业和信息化部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/guofangkejigongyejunyonghesheshianquanjianduguanlidd5910-2.html",
+   "effective": "1999-11-08"
+  },
+  {
+   "slug": "guofangkejigongyejiliangjianduguanlizanxingguiding",
+   "short": "国防科技工业计量监督管理暂行规定（2000）",
+   "dept": "工业和信息化部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/guofangkejigongyejiliangjianduguanlizanxingguiding.html",
+   "effective": "2000-02-29"
+  },
+  {
+   "slug": "guofangkeyanshengchananquanshigubaogaohediaochachu732428",
+   "short": "国防科研生产安全事故报告和调查处理办法（2010）",
+   "dept": "工业和信息化部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/guofangkeyanshengchananquanshigubaogaohediaochachu732428.html",
+   "effective": "2010-12-24"
+  },
+  {
+   "slug": "guojitongxinchurukoujuguanlibanfa",
+   "short": "国际通信出入口局管理办法",
+   "dept": "工业和信息化部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/guojitongxinchurukoujuguanlibanfa.html",
+   "effective": "2002-06-26"
+  },
+  {
+   "slug": "guojitongxinsheshijiansheguanliguiding",
+   "short": "国际通信设施建设管理规定",
+   "dept": "工业和信息化部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/guojitongxinsheshijiansheguanliguiding.html",
+   "effective": "2002-06-26"
+  },
+  {
+   "slug": "dimianwuxiandiantaiguanliguiding",
+   "short": "地面无线电台（站）管理规定",
+   "dept": "工业和信息化部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/dimianwuxiandiantaiguanliguiding.html",
+   "effective": "2023-02-01"
+  },
+  {
+   "slug": "gongyehexinxihuaxingzhengchufachengxuguiding",
+   "short": "工业和信息化行政处罚程序规定",
+   "dept": "工业和信息化部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/gongyehexinxihuaxingzhengchufachengxuguiding.html",
+   "effective": "2023-09-01"
+  },
+  {
+   "slug": "gongyehexinxihuabuzhuanyebiaozhunhuajishuweiyuanhu753e0d",
+   "short": "工业和信息化部专业标准化技术委员会管理办法",
+   "dept": "工业和信息化部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/gongyehexinxihuabuzhuanyebiaozhunhuajishuweiyuanhu753e0d.html",
+   "effective": "2023-02-01"
+  },
+  {
+   "slug": "gongyehexinxihuabuxingzhengfuyishishibanfa",
+   "short": "工业和信息化部行政复议实施办法",
+   "dept": "工业和信息化部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/gongyehexinxihuabuxingzhengfuyishishibanfa.html",
+   "effective": "2017-09-01"
+  },
+  {
+   "slug": "gongyehexinxihuabuxingzhengxukeshishibanfa",
+   "short": "工业和信息化部行政许可实施办法",
+   "dept": "工业和信息化部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/gongyehexinxihuabuxingzhengxukeshishibanfa.html",
+   "effective": "2009-04-10"
+  },
+  {
+   "slug": "gongyejienengjianchabanfa",
+   "short": "工业节能监察办法",
+   "dept": "工业和信息化部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/gongyejienengjianchabanfa.html",
+   "effective": "2023-02-01"
+  },
+  {
+   "slug": "gongyejienengguanlibanfa",
+   "short": "工业节能管理办法",
+   "dept": "工业和信息化部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/gongyejienengguanlibanfa.html",
+   "effective": "2016-06-30"
+  },
+  {
+   "slug": "gongyetongxinyehangyebiaozhunzhidingguanlibanfa",
+   "short": "工业通信业行业标准制定管理办法",
+   "dept": "工业和信息化部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/gongyetongxinyehangyebiaozhunzhidingguanlibanfa.html",
+   "effective": "2020-10-01"
+  },
+  {
+   "slug": "jianliweixingtongxinwangheshezhishiyongdiqiuzhangu54b80c",
+   "short": "建立卫星通信网和设置使用地球站管理规定",
+   "dept": "工业和信息化部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/jianliweixingtongxinwangheshezhishiyongdiqiuzhangu54b80c.html",
+   "effective": "2009-03-01"
+  },
+  {
+   "slug": "xinjianchundiandongchengyongcheqiyeguanliguiding",
+   "short": "新建纯电动乘用车企业管理规定（2015）",
+   "dept": "工业和信息化部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/xinjianchundiandongchengyongcheqiyeguanliguiding.html",
+   "effective": "2015-07-10"
+  },
+  {
+   "slug": "xinnengyuanqicheshengchanqiyejichanpinzhunruguanli27065c",
+   "short": "新能源汽车生产企业及产品准入管理规定",
+   "dept": "工业和信息化部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/xinnengyuanqicheshengchanqiyejichanpinzhunruguanli27065c.html",
+   "effective": "2017-01-06"
+  },
+  {
+   "slug": "wuxiandianfasheshebeiguanliguiding",
+   "short": "无线电发射设备管理规定",
+   "dept": "工业和信息化部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/wuxiandianfasheshebeiguanliguiding.html",
+   "effective": "2023-07-01"
+  },
+  {
+   "slug": "wuxiandiantaizhizhaoguanliguiding",
+   "short": "无线电台执照管理规定",
+   "dept": "工业和信息化部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/wuxiandiantaizhizhaoguanliguiding.html",
+   "effective": "2009-03-05"
+  },
+  {
+   "slug": "wuxiandianpinlvshiyongxukeguanlibanfa",
+   "short": "无线电频率使用许可管理办法",
+   "dept": "工业和信息化部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/wuxiandianpinlvshiyongxukeguanlibanfa.html",
+   "effective": "2017-09-01"
+  },
+  {
+   "slug": "heshigufusheyingxiangyuejingyingjiguanliguiding",
+   "short": "核事故辐射影响越境应急管理规定",
+   "dept": "工业和信息化部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/heshigufusheyingxiangyuejingyingjiguanliguiding.html",
+   "effective": "2002-01-11"
+  },
+  {
+   "slug": "hejinchukoujiduiwaihehezuobaozhangjianduguanliguid1dc8ed",
+   "short": "核进出口及对外核合作保障监督管理规定",
+   "dept": "工业和信息化部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/hejinchukoujiduiwaihehezuobaozhangjianduguanliguid1dc8ed.html",
+   "effective": "2002-01-17"
+  },
+  {
+   "slug": "wuqizhuangbeikeyanshengchanxukeshishibanfa",
+   "short": "武器装备科研生产许可实施办法（2010）",
+   "dept": "工业和信息化部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/wuqizhuangbeikeyanshengchanxukeshishibanfa.html",
+   "effective": "2010-03-21"
+  },
+  {
+   "slug": "minyongbaozhawupinanquanshengchanxukeshishibanfa",
+   "short": "民用爆炸物品安全生产许可实施办法",
+   "dept": "工业和信息化部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/minyongbaozhawupinanquanshengchanxukeshishibanfa.html",
+   "effective": "2015-06-30"
+  },
+  {
+   "slug": "minyongbaozhawupinshengchanxukeshishibanfa",
+   "short": "民用爆炸物品生产许可实施办法",
+   "dept": "工业和信息化部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/minyongbaozhawupinshengchanxukeshishibanfa.html",
+   "effective": "2019-01-01"
+  },
+  {
+   "slug": "minyongbaozhawupinjinchukouguanlibanfa",
+   "short": "民用爆炸物品进出口管理办法",
+   "dept": "工业和信息化部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/minyongbaozhawupinjinchukouguanlibanfa.html",
+   "effective": "2012-03-19"
+  },
+  {
+   "slug": "minyongbaozhawupinxiaoshouxukeshishibanfa",
+   "short": "民用爆炸物品销售许可实施办法",
+   "dept": "工业和信息化部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/minyongbaozhawupinxiaoshouxukeshishibanfa.html",
+   "effective": "2006-09-01"
+  },
+  {
+   "slug": "minyonghangtianfashexiangmuxukezhengguanlizanxingbba28f6",
+   "short": "民用航天发射项目许可证管理暂行办法",
+   "dept": "工业和信息化部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/minyonghangtianfashexiangmuxukezhengguanlizanxingbba28f6.html",
+   "effective": "2002-11-21"
+  },
+  {
+   "slug": "yancaozhuanmaipinzhunyunzhengguanlibanfa",
+   "short": "烟草专卖品准运证管理办法",
+   "dept": "工业和信息化部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/yancaozhuanmaipinzhunyunzhengguanlibanfa.html",
+   "effective": "2016-07-20"
+  },
+  {
+   "slug": "yancaozhuanmaixingzhengchufachengxuguiding",
+   "short": "烟草专卖行政处罚程序规定",
+   "dept": "工业和信息化部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/yancaozhuanmaixingzhengchufachengxuguiding.html",
+   "effective": "2023-07-20"
+  },
+  {
+   "slug": "yancaozhuanmaixukezhengguanlibanfa",
+   "short": "烟草专卖许可证管理办法",
+   "dept": "工业和信息化部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/yancaozhuanmaixukezhengguanlibanfa.html",
+   "effective": "2016-07-20"
+  },
+  {
+   "slug": "dianxinyewujingyingxukeguanlibanfa",
+   "short": "电信业务经营许可管理办法",
+   "dept": "工业和信息化部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/dianxinyewujingyingxukeguanlibanfa.html",
+   "effective": "2017-09-01"
+  },
+  {
+   "slug": "dianxinhehulianwangyonghugerenxinxibaohuguiding-2",
+   "short": "电信和互联网用户个人信息保护规定（2013）",
+   "dept": "工业和信息化部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/dianxinhehulianwangyonghugerenxinxibaohuguiding-2.html",
+   "effective": "2013-07-16"
+  },
+  {
+   "slug": "dianxinjiansheguanlibanfa",
+   "short": "电信建设管理办法",
+   "dept": "工业和信息化部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/dianxinjiansheguanlibanfa.html",
+   "effective": "2002-01-04"
+  },
+  {
+   "slug": "dianxinfuwuguifan",
+   "short": "电信服务规范",
+   "dept": "工业和信息化部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/dianxinfuwuguifan.html",
+   "effective": "2005-03-13"
+  },
+  {
+   "slug": "dianxinfuwuzhiliangjianduguanlizanxingbanfa",
+   "short": "电信服务质量监督管理暂行办法",
+   "dept": "工业和信息化部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/dianxinfuwuzhiliangjianduguanlizanxingbanfa.html",
+   "effective": "2001-01-11"
+  },
+  {
+   "slug": "dianxinyonghushensuchulibanfa",
+   "short": "电信用户申诉处理办法",
+   "dept": "工业和信息化部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/dianxinyonghushensuchulibanfa.html",
+   "effective": "2016-07-30"
+  },
+  {
+   "slug": "dianxinwangmahaoziyuanguanlibanfa",
+   "short": "电信网码号资源管理办法",
+   "dept": "工业和信息化部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/dianxinwangmahaoziyuanguanlibanfa.html",
+   "effective": "2003-01-29"
+  },
+  {
+   "slug": "dianxinwangjianhulianzhengyichulibanfa",
+   "short": "电信网间互联争议处理办法",
+   "dept": "工业和信息化部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/dianxinwangjianhulianzhengyichulibanfa.html",
+   "effective": "2001-11-19"
+  },
+  {
+   "slug": "dianxinshebeijinwangguanlibanfa",
+   "short": "电信设备进网管理办法",
+   "dept": "工业和信息化部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/dianxinshebeijinwangguanlibanfa.html",
+   "effective": "2001-05-10"
+  },
+  {
+   "slug": "dianqidianzichanpinyouhaiwuzhixianzhishiyongguanli37cafa-2",
+   "short": "电器电子产品有害物质限制使用管理办法（2016）",
+   "dept": "工业和信息化部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/dianqidianzichanpinyouhaiwuzhixianzhishiyongguanli37cafa-2.html",
+   "effective": "2016-07-01"
+  },
+  {
+   "slug": "dianqidianzichanpinyouhaiwuzhixianzhishiyongguanli37cafa",
+   "short": "电器电子产品有害物质限制使用管理办法（2016）",
+   "dept": "工业和信息化部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/dianqidianzichanpinyouhaiwuzhixianzhishiyongguanli37cafa.html",
+   "effective": "2016-07-01"
+  },
+  {
+   "slug": "dianzizhaobiaotoubiaobanfa",
+   "short": "电子招标投标办法（2013）",
+   "dept": "工业和信息化部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/dianzizhaobiaotoubiaobanfa.html",
+   "effective": "2013-02-04"
+  },
+  {
+   "slug": "dianzirenzhengfuwuguanlibanfa",
+   "short": "电子认证服务管理办法",
+   "dept": "工业和信息化部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/dianzirenzhengfuwuguanlibanfa.html",
+   "effective": "2009-03-31"
+  },
+  {
+   "slug": "dianhuayonghuzhenshishenfenxinxidengjiguiding",
+   "short": "电话用户真实身份信息登记规定",
+   "dept": "工业和信息化部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/dianhuayonghuzhenshishenfenxinxidengjiguiding.html",
+   "effective": "2013-07-16"
+  },
+  {
+   "slug": "kongjianwutidengjiguanlibanfa",
+   "short": "空间物体登记管理办法（2001）",
+   "dept": "工业和信息化部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/kongjianwutidengjiguanlibanfa.html",
+   "effective": "2001-02-08"
+  },
+  {
+   "slug": "wangluojiedaixinxizhongjiejigouyewuhuodongguanliza8f48e7-2",
+   "short": "网络借贷信息中介机构业务活动管理暂行办法（2016）",
+   "dept": "工业和信息化部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/wangluojiedaixinxizhongjiejigouyewuhuodongguanliza8f48e7-2.html",
+   "effective": "2016-08-17"
+  },
+  {
+   "slug": "wangluochubanfuwuguanliguiding-2",
+   "short": "网络出版服务管理规定（2016）",
+   "dept": "工业和信息化部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/wangluochubanfuwuguanliguiding-2.html",
+   "effective": "2016-03-10"
+  },
+  {
+   "slug": "guifanhulianwangxinxifuwushichangzhixuruoganguidin311944",
+   "short": "规范互联网信息服务市场秩序若干规定（2011）",
+   "dept": "工业和信息化部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/guifanhulianwangxinxifuwushichangzhixuruoganguidin311944.html",
+   "effective": "2011-11-29"
+  },
+  {
+   "slug": "bianjingdiqudimianwuxiandianyewupinlvguojixietiaogc0f6c5",
+   "short": "边境地区地面无线电业务频率国际协调规定",
+   "dept": "工业和信息化部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/bianjingdiqudimianwuxiandianyewupinlvguojixietiaogc0f6c5.html",
+   "effective": "2017-02-01"
+  },
+  {
+   "slug": "tongxingongchengjianshexiangmuzhaobiaotoubiaoguanl22c6d2",
+   "short": "通信工程建设项目招标投标管理办法",
+   "dept": "工业和信息化部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/tongxingongchengjianshexiangmuzhaobiaotoubiaoguanl22c6d2.html",
+   "effective": "2014-05-04"
+  },
+  {
+   "slug": "tongxinjianshegongchengzhiliangjianduguanliguiding",
+   "short": "通信建设工程质量监督管理规定",
+   "dept": "工业和信息化部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/tongxinjianshegongchengzhiliangjianduguanliguiding.html",
+   "effective": "2018-07-01"
+  },
+  {
+   "slug": "tongxinduanxinxifuwuguanliguiding",
+   "short": "通信短信息服务管理规定",
+   "dept": "工业和信息化部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/tongxinduanxinxifuwuguanliguiding.html",
+   "effective": "2015-06-30"
+  },
+  {
+   "slug": "tongxinwangluoanquanfanghuguanlibanfa",
+   "short": "通信网络安全防护管理办法",
+   "dept": "工业和信息化部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/tongxinwangluoanquanfanghuguanlibanfa.html",
+   "effective": "2010-01-21"
+  },
+  {
+   "slug": "tongxinxingzhengchufachengxuguiding",
+   "short": "通信行政处罚程序规定",
+   "dept": "工业和信息化部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/tongxinxingzhengchufachengxuguiding.html",
+   "effective": "2008-01-31"
+  },
+  {
+   "slug": "daolujidongcheliangshengchanqiyejichanpinzhunrugua4c1ec0",
+   "short": "道路机动车辆生产企业及产品准入管理办法",
+   "dept": "工业和信息化部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/daolujidongcheliangshengchanqiyejichanpinzhunrugua4c1ec0.html",
+   "effective": "2019-06-01"
+  },
+  {
+   "slug": "zhongdianyongnengdanweijienengguanlibanfa",
+   "short": "重点用能单位节能管理办法（1999）",
+   "dept": "工业和信息化部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zhongdianyongnengdanweijienengguanlibanfa.html",
+   "effective": "1999-03-10"
+  },
+  {
+   "slug": "feijingyingxinghulianwangxinxifuwubeianguanlibanfa",
+   "short": "非经营性互联网信息服务备案管理办法",
+   "dept": "工业和信息化部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/feijingyingxinghulianwangxinxifuwubeianguanlibanfa.html",
+   "effective": "2005-02-08"
+  },
+  {
+   "slug": "qiyehuanjingxinxiyifapiluguanlibanfa",
+   "short": "企业环境信息依法披露管理办法",
+   "dept": "生态环境部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/qiyehuanjingxinxiyifapiluguanlibanfa.html",
+   "effective": "2022-02-08"
+  },
+  {
+   "slug": "ruhepaiwukoujianduguanlibanfa",
+   "short": "入河排污口监督管理办法（2024）",
+   "dept": "生态环境部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/ruhepaiwukoujianduguanlibanfa.html",
+   "effective": "2025-01-01"
+  },
+  {
+   "slug": "nongyongdituranghuanjingguanlibanfa",
+   "short": "农用地土壤环境管理办法（试行）（2017）",
+   "dept": "生态环境部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/nongyongdituranghuanjingguanlibanfa.html",
+   "effective": "2017-11-01"
+  },
+  {
+   "slug": "weixianfeiwuchukouhezhunguanlibanfa",
+   "short": "危险废物出口核准管理办法",
+   "dept": "生态环境部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/weixianfeiwuchukouhezhunguanlibanfa.html",
+   "effective": "2008-01-25"
+  },
+  {
+   "slug": "weixianfeiwuzhuanyiguanlibanfa",
+   "short": "危险废物转移管理办法",
+   "dept": "生态环境部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/weixianfeiwuzhuanyiguanlibanfa.html",
+   "effective": "2022-01-01"
+  },
+  {
+   "slug": "gudingwuranyuanpaiwuxukefenleiguanliminglu",
+   "short": "固定污染源排污许可分类管理名录（2019年版）",
+   "dept": "生态环境部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/gudingwuranyuanpaiwuxukefenleiguanliminglu.html",
+   "effective": "2019-12-20"
+  },
+  {
+   "slug": "guojiaweixianfeiwuminglu-2",
+   "short": "国家危险废物名录（2021年版）",
+   "dept": "生态环境部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/guojiaweixianfeiwuminglu-2.html",
+   "effective": "2021-01-01"
+  },
+  {
+   "slug": "guojiaweixianfeiwuminglu",
+   "short": "国家危险废物名录（2025年版）",
+   "dept": "生态环境部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/guojiaweixianfeiwuminglu.html",
+   "effective": "2025-01-01"
+  },
+  {
+   "slug": "guojiajiziranbaohuqujiandujianchabanfa",
+   "short": "国家级自然保护区监督检查办法",
+   "dept": "生态环境部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/guojiajiziranbaohuqujiandujianchabanfa.html",
+   "effective": "2006-10-18"
+  },
+  {
+   "slug": "weikuangwuranhuanjingfangzhiguanlibanfa",
+   "short": "尾矿污染环境防治管理办法",
+   "dept": "生态环境部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/weikuangwuranhuanjingfangzhiguanlibanfa.html",
+   "effective": "2022-07-01"
+  },
+  {
+   "slug": "gongkuangyongdituranghuanjingguanlibanfa",
+   "short": "工矿用地土壤环境管理办法（试行）",
+   "dept": "生态环境部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/gongkuangyongdituranghuanjingguanlibanfa.html",
+   "effective": "2018-08-01"
+  },
+  {
+   "slug": "feiqidianqidianzichanpinchulizigexukeguanlibanfa",
+   "short": "废弃电器电子产品处理资格许可管理办法",
+   "dept": "生态环境部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/feiqidianqidianzichanpinchulizigexukeguanlibanfa.html",
+   "effective": "2011-01-01"
+  },
+  {
+   "slug": "jianshexiangmuhuanjingyingxianghoupingjiaguanlibanae575d",
+   "short": "建设项目环境影响后评价管理办法（试行）",
+   "dept": "生态环境部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/jianshexiangmuhuanjingyingxianghoupingjiaguanlibanae575d.html",
+   "effective": "2016-01-01"
+  },
+  {
+   "slug": "jianshexiangmuhuanjingyingxiangbaogaoshubianzhijiadb663e",
+   "short": "建设项目环境影响报告书（表）编制监督管理办法",
+   "dept": "生态环境部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/jianshexiangmuhuanjingyingxiangbaogaoshubianzhijiadb663e.html",
+   "effective": "2019-11-01"
+  },
+  {
+   "slug": "jianshexiangmuhuanjingyingxiangdengjibiaobeianguanca510c",
+   "short": "建设项目环境影响登记表备案管理办法",
+   "dept": "生态环境部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/jianshexiangmuhuanjingyingxiangdengjibiaobeianguanca510c.html",
+   "effective": "2017-01-01"
+  },
+  {
+   "slug": "jianshexiangmuhuanjingyingxiangpingjiafenleiguanli315d9d",
+   "short": "建设项目环境影响评价分类管理名录（2021年版）",
+   "dept": "生态环境部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/jianshexiangmuhuanjingyingxiangpingjiafenleiguanli315d9d.html",
+   "effective": "2021-01-01"
+  },
+  {
+   "slug": "jianshexiangmuhuanjingyingxiangpingjiawenjianfenjic56c30",
+   "short": "建设项目环境影响评价文件分级审批规定",
+   "dept": "生态环境部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/jianshexiangmuhuanjingyingxiangpingjiawenjianfenjic56c30.html",
+   "effective": "2009-03-01"
+  },
+  {
+   "slug": "jianshexiangmuhuanjingyingxiangpingjiaxingweizhunz335017",
+   "short": "建设项目环境影响评价行为准则与廉政规定",
+   "dept": "生态环境部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/jianshexiangmuhuanjingyingxiangpingjiaxingweizhunz335017.html",
+   "effective": "2005-11-23"
+  },
+  {
+   "slug": "paiwuxukeguanlibanfa",
+   "short": "排污许可管理办法",
+   "dept": "生态环境部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/paiwuxukeguanlibanfa.html",
+   "effective": "2024-07-01"
+  },
+  {
+   "slug": "fangshexingtongweisuyushexianzhuangzhianquanhefangc8b6ae",
+   "short": "放射性同位素与射线装置安全和防护管理办法",
+   "dept": "生态环境部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/fangshexingtongweisuyushexianzhuangzhianquanhefangc8b6ae.html",
+   "effective": "2011-05-01"
+  },
+  {
+   "slug": "fangshexingtongweisuyushexianzhuangzhianquanxukegu4b9f7e",
+   "short": "放射性同位素与射线装置安全许可管理办法",
+   "dept": "生态环境部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/fangshexingtongweisuyushexianzhuangzhianquanxukegu4b9f7e.html",
+   "effective": "2006-01-18"
+  },
+  {
+   "slug": "fangshexinggutifeiwuzhucunhechuzhixukeguanlibanfa",
+   "short": "放射性固体废物贮存和处置许可管理办法",
+   "dept": "生态环境部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/fangshexinggutifeiwuzhucunhechuzhixukeguanlibanfa.html",
+   "effective": "2013-12-30"
+  },
+  {
+   "slug": "fangshexingfeiwuanquanjianduguanliguiding",
+   "short": "放射性废物安全监督管理规定",
+   "dept": "生态环境部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/fangshexingfeiwuanquanjianduguanliguiding.html",
+   "effective": "1997-11-05"
+  },
+  {
+   "slug": "fangshexingwupinyunshuanquanjianduguanlibanfa",
+   "short": "放射性物品运输安全监督管理办法",
+   "dept": "生态环境部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/fangshexingwupinyunshuanquanjianduguanlibanfa.html",
+   "effective": ""
+  },
+  {
+   "slug": "fangshexingwupinyunshuanquanxukeguanlibanfa",
+   "short": "放射性物品运输安全许可管理办法",
+   "dept": "生态环境部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/fangshexingwupinyunshuanquanxukeguanlibanfa.html",
+   "effective": ""
+  },
+  {
+   "slug": "xinhuaxuewuzhihuanjingguanlidengjibanfa",
+   "short": "新化学物质环境管理登记办法",
+   "dept": "生态环境部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/xinhuaxuewuzhihuanjingguanlidengjibanfa.html",
+   "effective": "2021-01-01"
+  },
+  {
+   "slug": "heyufusheanquanjiandujiancharenyuanzhengjianguanli14e7e9",
+   "short": "核与辐射安全监督检查人员证件管理办法",
+   "dept": "生态环境部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/heyufusheanquanjiandujiancharenyuanzhengjianguanli14e7e9.html",
+   "effective": "2014-03-01"
+  },
+  {
+   "slug": "hedonglichangyanjiuduiheranliaoxunhuansheshianquande8e14",
+   "short": "核动力厂、研究堆、核燃料循环设施安全许可程序规定",
+   "dept": "生态环境部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/hedonglichangyanjiuduiheranliaoxunhuansheshianquande8e14.html",
+   "effective": "2019-10-01"
+  },
+  {
+   "slug": "hedonglichangguanlitixianquanguiding",
+   "short": "核动力厂管理体系安全规定",
+   "dept": "生态环境部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/hedonglichangguanlitixianquanguiding.html",
+   "effective": "2021-03-01"
+  },
+  {
+   "slug": "hedonglichangyingyundanweiheanquanbaogaoguiding",
+   "short": "核动力厂营运单位核安全报告规定",
+   "dept": "生态环境部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/hedonglichangyingyundanweiheanquanbaogaoguiding.html",
+   "effective": "2021-01-01"
+  },
+  {
+   "slug": "hecailiaoguanzhitiaolishishixize",
+   "short": "核材料管制条例实施细则",
+   "dept": "生态环境部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/hecailiaoguanzhitiaolishishixize.html",
+   "effective": "1990-09-25"
+  },
+  {
+   "slug": "heranliaoxunhuansheshidebaogaozhidu",
+   "short": "核燃料循环设施的报告制度",
+   "dept": "生态环境部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/heranliaoxunhuansheshidebaogaozhidu.html",
+   "effective": "1995-06-14"
+  },
+  {
+   "slug": "hedianchangchangzhixuanzeanquanguiding",
+   "short": "核电厂厂址选择安全规定",
+   "dept": "生态环境部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/hedianchangchangzhixuanzeanquanguiding.html",
+   "effective": "1991-07-27"
+  },
+  {
+   "slug": "hedianchangyingyundanweideyingjizhunbeiheyingjixia3ae597",
+   "short": "核电厂营运单位的应急准备和应急响应",
+   "dept": "生态环境部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/hedianchangyingyundanweideyingjizhunbeiheyingjixia3ae597.html",
+   "effective": "1998-05-12"
+  },
+  {
+   "slug": "hedianchangzhiliangbaozhenganquanguiding",
+   "short": "核电厂质量保证安全规定",
+   "dept": "生态环境部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/hedianchangzhiliangbaozhenganquanguiding.html",
+   "effective": "1991-07-27"
+  },
+  {
+   "slug": "hedianchangyunxinganquanguidingfujianyihedianchangec2653",
+   "short": "核电厂运行安全规定附件一核电厂换料、修改和事故停堆管理",
+   "dept": "生态环境部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/hedianchangyunxinganquanguidingfujianyihedianchangec2653.html",
+   "effective": "1994-03-02"
+  },
+  {
+   "slug": "hesheshideanquanjiandu",
+   "short": "核设施的安全监督",
+   "dept": "生态环境部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/hesheshideanquanjiandu.html",
+   "effective": "1995-10-01"
+  },
+  {
+   "slug": "minyongheanquanshebeiwusunjianyanrenyuanzigeguanlibbc1b9",
+   "short": "民用核安全设备无损检验人员资格管理规定",
+   "dept": "生态环境部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/minyongheanquanshebeiwusunjianyanrenyuanzigeguanlibbc1b9.html",
+   "effective": "2020-01-01"
+  },
+  {
+   "slug": "minyongheanquanshebeihanjierenyuanzigeguanliguidinf8d55c",
+   "short": "民用核安全设备焊接人员资格管理规定",
+   "dept": "生态环境部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/minyongheanquanshebeihanjierenyuanzigeguanliguidinf8d55c.html",
+   "effective": "2020-01-01"
+  },
+  {
+   "slug": "minyongheanquanshebeishejizhizaoanzhuanghewusunjia319e46",
+   "short": "民用核安全设备设计制造安装和无损检验监督管理规定（HAF601）",
+   "dept": "生态环境部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/minyongheanquanshebeishejizhizaoanzhuanghewusunjia319e46.html",
+   "effective": "2007-12-28"
+  },
+  {
+   "slug": "minyongheranliaoxunhuansheshianquanguiding",
+   "short": "民用核燃料循环设施安全规定",
+   "dept": "生态环境部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/minyongheranliaoxunhuansheshianquanguiding.html",
+   "effective": "1993-06-17"
+  },
+  {
+   "slug": "minyonghesheshicaozuorenyuanzigeguanliguiding",
+   "short": "民用核设施操作人员资格管理规定",
+   "dept": "生态环境部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/minyonghesheshicaozuorenyuanzigeguanliguiding.html",
+   "effective": "2021-07-01"
+  },
+  {
+   "slug": "wurandikuaituranghuanjingguanlibanfa",
+   "short": "污染地块土壤环境管理办法",
+   "dept": "生态环境部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/wurandikuaituranghuanjingguanlibanfa.html",
+   "effective": "2017-07-01"
+  },
+  {
+   "slug": "wuranyuanzidongjiankongguanlibanfa",
+   "short": "污染源自动监控管理办法",
+   "dept": "生态环境部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/wuranyuanzidongjiankongguanlibanfa.html",
+   "effective": "2005-11-01"
+  },
+  {
+   "slug": "wuranyuanzidongjiankongsheshixianchangjiandujianchc0b44e",
+   "short": "污染源自动监控设施现场监督检查办法",
+   "dept": "生态环境部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/wuranyuanzidongjiankongsheshixianchangjiandujianchc0b44e.html",
+   "effective": "2012-04-01"
+  },
+  {
+   "slug": "xiaohaochouyangcengwuzhijinchukouguanlibanfa",
+   "short": "消耗臭氧层物质进出口管理办法",
+   "dept": "生态环境部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/xiaohaochouyangcengwuzhijinchukouguanlibanfa.html",
+   "effective": "2025-05-01"
+  },
+  {
+   "slug": "wenshiqitiziyuanjianpaijiaoyiguanlibanfa",
+   "short": "温室气体自愿减排交易管理办法（试行）",
+   "dept": "生态环境部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/wenshiqitiziyuanjianpaijiaoyiguanlibanfa.html",
+   "effective": "2023-10-19"
+  },
+  {
+   "slug": "huanbaojubaorexiangongzuoguanlibanfa",
+   "short": "环保举报热线工作管理办法",
+   "dept": "生态环境部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/huanbaojubaorexiangongzuoguanlibanfa.html",
+   "effective": "2010-12-15"
+  },
+  {
+   "slug": "huanjingbaohuzhuguanbumenshishianrilianxuchufabanf874f8f",
+   "short": "环境保护主管部门实施按日连续处罚办法",
+   "dept": "生态环境部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/huanjingbaohuzhuguanbumenshishianrilianxuchufabanf874f8f.html",
+   "effective": "2015-01-01"
+  },
+  {
+   "slug": "huanjingbaohuzhuguanbumenshishichafengkouyabanfa",
+   "short": "环境保护主管部门实施查封、扣押办法",
+   "dept": "生态环境部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/huanjingbaohuzhuguanbumenshishichafengkouyabanfa.html",
+   "effective": "2015-01-01"
+  },
+  {
+   "slug": "huanjingbaohuzhuguanbumenshishixianzhishengchantin3134c9",
+   "short": "环境保护主管部门实施限制生产、停产整治办法",
+   "dept": "生态环境部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/huanjingbaohuzhuguanbumenshishixianzhishengchantin3134c9.html",
+   "effective": "2015-01-01"
+  },
+  {
+   "slug": "huanjingbaohugongzhongcanyubanfa",
+   "short": "环境保护公众参与办法",
+   "dept": "生态环境部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/huanjingbaohugongzhongcanyubanfa.html",
+   "effective": "2015-09-01"
+  },
+  {
+   "slug": "huanjingbaohudanganguanlibanfa",
+   "short": "环境保护档案管理办法",
+   "dept": "生态环境部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/huanjingbaohudanganguanlibanfa.html",
+   "effective": "2016-12-27"
+  },
+  {
+   "slug": "huanjingbaohufaguizhidingchengxubanfa",
+   "short": "环境保护法规制定程序办法",
+   "dept": "生态环境部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/huanjingbaohufaguizhidingchengxubanfa.html",
+   "effective": "2005-06-01"
+  },
+  {
+   "slug": "huanjingbaohuxingzhengxuketingzhengzanxingbanfa",
+   "short": "环境保护行政许可听证暂行办法",
+   "dept": "生态环境部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/huanjingbaohuxingzhengxuketingzhengzanxingbanfa.html",
+   "effective": "2004-07-01"
+  },
+  {
+   "slug": "huanjingyingxiangpingjiagongzhongcanyubanfa",
+   "short": "环境影响评价公众参与办法",
+   "dept": "生态环境部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/huanjingyingxiangpingjiagongzhongcanyubanfa.html",
+   "effective": "2019-01-01"
+  },
+  {
+   "slug": "huanjingjianchabanfa",
+   "short": "环境监察办法",
+   "dept": "生态环境部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/huanjingjianchabanfa.html",
+   "effective": "2012-09-01"
+  },
+  {
+   "slug": "huanjingjianchazhifazhengjianguanlibanfa",
+   "short": "环境监察执法证件管理办法",
+   "dept": "生态环境部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/huanjingjianchazhifazhengjianguanlibanfa.html",
+   "effective": "2014-03-01"
+  },
+  {
+   "slug": "huanjingjianceguanlibanfa",
+   "short": "环境监测管理办法",
+   "dept": "生态环境部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/huanjingjianceguanlibanfa.html",
+   "effective": "2007-09-01"
+  },
+  {
+   "slug": "huanjingjianguanzhongdiandanweimingluguanlibanfa",
+   "short": "环境监管重点单位名录管理办法",
+   "dept": "生态环境部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/huanjingjianguanzhongdiandanweimingluguanlibanfa.html",
+   "effective": "2023-01-01"
+  },
+  {
+   "slug": "shengtaihuanjingbiaozhunguanlibanfa",
+   "short": "生态环境标准管理办法",
+   "dept": "生态环境部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/shengtaihuanjingbiaozhunguanlibanfa.html",
+   "effective": "2021-02-01"
+  },
+  {
+   "slug": "shengtaihuanjingtongjiguanlibanfa",
+   "short": "生态环境统计管理办法",
+   "dept": "生态环境部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/shengtaihuanjingtongjiguanlibanfa.html",
+   "effective": "2023-01-18"
+  },
+  {
+   "slug": "shengtaihuanjingxingzhengchufabanfa",
+   "short": "生态环境行政处罚办法",
+   "dept": "生态环境部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/shengtaihuanjingxingzhengchufabanfa.html",
+   "effective": "2023-07-01"
+  },
+  {
+   "slug": "shengtaihuanjingbujianshexiangmuhuanjingyingxiangbaa2635",
+   "short": "生态环境部建设项目环境影响报告书（表）审批程序规定",
+   "dept": "生态环境部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/shengtaihuanjingbujianshexiangmuhuanjingyingxiangbaa2635.html",
+   "effective": "2021-01-01"
+  },
+  {
+   "slug": "shengtaihuanjingbuxingzhengfuyibanfa",
+   "short": "生态环境部行政复议办法",
+   "dept": "生态环境部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/shengtaihuanjingbuxingzhengfuyibanfa.html",
+   "effective": "2024-06-01"
+  },
+  {
+   "slug": "shenghuolajifenshaofadianchangzidongjianceshujuyin353606",
+   "short": "生活垃圾焚烧发电厂自动监测数据应用管理规定",
+   "dept": "生态环境部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/shenghuolajifenshaofadianchangzidongjianceshujuyin353606.html",
+   "effective": "2020-01-01"
+  },
+  {
+   "slug": "dianzifeiwuwuranhuanjingfangzhiguanlibanfa",
+   "short": "电子废物污染环境防治管理办法",
+   "dept": "生态环境部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/dianzifeiwuwuranhuanjingfangzhiguanlibanfa.html",
+   "effective": "2008-02-01"
+  },
+  {
+   "slug": "bingyuanweishengwushiyanshishengwuanquanhuanjinggu5fe5b6",
+   "short": "病原微生物实验室生物安全环境管理办法",
+   "dept": "生态环境部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/bingyuanweishengwushiyanshishengwuanquanhuanjinggu5fe5b6.html",
+   "effective": "2006-05-01"
+  },
+  {
+   "slug": "yanjiuduiyingyundanweiheanquanbaogaoguiding",
+   "short": "研究堆营运单位核安全报告规定",
+   "dept": "生态环境部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/yanjiuduiyingyundanweiheanquanbaogaoguiding.html",
+   "effective": "2024-09-01"
+  },
+  {
+   "slug": "yanjiuduishejianquanguiding",
+   "short": "研究堆设计安全规定",
+   "dept": "生态环境部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/yanjiuduishejianquanguiding.html",
+   "effective": "1995-06-06"
+  },
+  {
+   "slug": "yanjiuduiyunxinganquanguiding",
+   "short": "研究堆运行安全规定",
+   "dept": "生态环境部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/yanjiuduiyunxinganquanguiding.html",
+   "effective": "1995-06-06"
+  },
+  {
+   "slug": "tanpaifangquanjiaoyiguanlibanfa",
+   "short": "碳排放权交易管理办法（试行）",
+   "dept": "生态环境部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/tanpaifangquanjiaoyiguanlibanfa.html",
+   "effective": "2021-02-01"
+  },
+  {
+   "slug": "tufahuanjingshijianxinxibaogaobanfa",
+   "short": "突发环境事件信息报告办法",
+   "dept": "生态环境部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/tufahuanjingshijianxinxibaogaobanfa.html",
+   "effective": "2011-05-01"
+  },
+  {
+   "slug": "tufahuanjingshijianyingjiguanlibanfa",
+   "short": "突发环境事件应急管理办法",
+   "dept": "生态环境部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/tufahuanjingshijianyingjiguanlibanfa.html",
+   "effective": "2015-06-05"
+  },
+  {
+   "slug": "tufahuanjingshijiandiaochachulibanfa",
+   "short": "突发环境事件调查处理办法",
+   "dept": "生态环境部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/tufahuanjingshijiandiaochachulibanfa.html",
+   "effective": "2015-03-01"
+  },
+  {
+   "slug": "jinchukouhuanbaoyongweishengwujunjihuanjinganquang36c4f6",
+   "short": "进出口环保用微生物菌剂环境安全管理办法",
+   "dept": "生态环境部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/jinchukouhuanbaoyongweishengwujunjihuanjinganquang36c4f6.html",
+   "effective": "2010-05-01"
+  },
+  {
+   "slug": "jinkouminyongheanquanshebeijianduguanliguiding",
+   "short": "进口民用核安全设备监督管理规定（HAF604）",
+   "dept": "生态环境部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/jinkouminyongheanquanshebeijianduguanliguiding.html",
+   "effective": "2007-12-28"
+  },
+  {
+   "slug": "zhongdianguankongxinwuranwuqingdan",
+   "short": "重点管控新污染物清单（2023年版）",
+   "dept": "生态环境部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zhongdianguankongxinwuranwuqingdan.html",
+   "effective": "2023-03-01"
+  },
+  {
+   "slug": "zhuanyejishurenyuanjixujiaoyuguiding",
+   "short": "专业技术人员继续教育规定",
+   "dept": "人力资源社会保障部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zhuanyejishurenyuanjixujiaoyuguiding.html",
+   "effective": "2015-10-01"
+  },
+  {
+   "slug": "zhuanyejishurenyuanzigekaoshiweijiweiguixingweichu3feb77",
+   "short": "专业技术人员资格考试违纪违规行为处理规定",
+   "dept": "人力资源社会保障部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zhuanyejishurenyuanzigekaoshiweijiweiguixingweichu3feb77.html",
+   "effective": "2017-04-01"
+  },
+  {
+   "slug": "zhuanyejishuzigepingdingshixingbanfa",
+   "short": "专业技术资格评定试行办法",
+   "dept": "人力资源社会保障部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zhuanyejishuzigepingdingshixingbanfa.html",
+   "effective": "1994-10-31"
+  },
+  {
+   "slug": "zhonghuajinengdajianghequanguojishunengshoupingxua021b03",
+   "short": "中华技能大奖和全国技术能手评选表彰管理办法",
+   "dept": "人力资源社会保障部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zhonghuajinengdajianghequanguojishunengshoupingxua021b03.html",
+   "effective": "2000-08-29"
+  },
+  {
+   "slug": "zhongwaihezuozhiyejinengpeixunbanxueguanlibanfa",
+   "short": "中外合作职业技能培训办学管理办法",
+   "dept": "人力资源社会保障部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zhongwaihezuozhiyejinengpeixunbanxueguanlibanfa.html",
+   "effective": "2006-07-26"
+  },
+  {
+   "slug": "shiyedanweigongkaizhaopinrenyuanzanxingguiding",
+   "short": "事业单位公开招聘人员暂行规定",
+   "dept": "人力资源社会保障部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/shiyedanweigongkaizhaopinrenyuanzanxingguiding.html",
+   "effective": "2006-01-01"
+  },
+  {
+   "slug": "shiyedanweigongkaizhaopinweijiweiguixingweichuligu3d50f4",
+   "short": "事业单位公开招聘违纪违规行为处理规定",
+   "dept": "人力资源社会保障部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/shiyedanweigongkaizhaopinweijiweiguixingweichuligu3d50f4.html",
+   "effective": "2018-01-01"
+  },
+  {
+   "slug": "renshibuguanyugaijinguowuyuangebumencongbeijingwai4d8a14",
+   "short": "人事部关于改进国务院各部门从北京外调（迁）入有关人员审批办法的暂行规定",
+   "dept": "人力资源社会保障部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/renshibuguanyugaijinguowuyuangebumencongbeijingwai4d8a14.html",
+   "effective": "1994-03-25"
+  },
+  {
+   "slug": "renliziyuanfuwujigouguanliguiding",
+   "short": "人力资源服务机构管理规定",
+   "dept": "人力资源社会保障部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/renliziyuanfuwujigouguanliguiding.html",
+   "effective": "2023-08-01"
+  },
+  {
+   "slug": "rencaishichangguanliguiding-2",
+   "short": "人才市场管理规定（2001）",
+   "dept": "人力资源社会保障部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/rencaishichangguanliguiding-2.html",
+   "effective": "2001-09-11"
+  },
+  {
+   "slug": "rencaishichangguanliguiding",
+   "short": "人才市场管理规定（2001）",
+   "dept": "人力资源社会保障部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/rencaishichangguanliguiding.html",
+   "effective": "2001-10-01"
+  },
+  {
+   "slug": "qiyelaodongzhengyixieshangdiaojieguiding",
+   "short": "企业劳动争议协商调解规定",
+   "dept": "人力资源社会保障部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/qiyelaodongzhengyixieshangdiaojieguiding.html",
+   "effective": "2012-01-01"
+  },
+  {
+   "slug": "qiyenianjinbanfa",
+   "short": "企业年金办法",
+   "dept": "人力资源社会保障部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/qiyenianjinbanfa.html",
+   "effective": "2018-02-01"
+  },
+  {
+   "slug": "qiyenianjinjijinguanlibanfa",
+   "short": "企业年金基金管理办法",
+   "dept": "人力资源社会保障部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/qiyenianjinjijinguanlibanfa.html",
+   "effective": "2011-02-12"
+  },
+  {
+   "slug": "qiyenianjinjijinguanlijigouzigerendingzanxingbanfa",
+   "short": "企业年金基金管理机构资格认定暂行办法",
+   "dept": "人力资源社会保障部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/qiyenianjinjijinguanlijigouzigerendingzanxingbanfa.html",
+   "effective": "2004-12-31"
+  },
+  {
+   "slug": "qiyejingjixingcaijianrenyuanguiding",
+   "short": "企业经济性裁减人员规定",
+   "dept": "人力资源社会保障部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/qiyejingjixingcaijianrenyuanguiding.html",
+   "effective": "1995-01-01"
+  },
+  {
+   "slug": "qiyezhigongdaixinnianxiujiashishibanfa",
+   "short": "企业职工带薪年休假实施办法",
+   "dept": "人力资源社会保障部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/qiyezhigongdaixinnianxiujiashishibanfa.html",
+   "effective": "2008-09-18"
+  },
+  {
+   "slug": "qiyezhigonghuanbinghuofeiyingongfushangyiliaoqigui870f40",
+   "short": "企业职工患病或非因工负伤医疗期规定",
+   "dept": "人力资源社会保障部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/qiyezhigonghuanbinghuofeiyingongfushangyiliaoqigui870f40.html",
+   "effective": "1995-01-01"
+  },
+  {
+   "slug": "qishiyedanweipingpinzhuanyejishuzhiwuruoganwentiza6952a3",
+   "short": "企事业单位评聘专业技术职务若干问题暂行规定",
+   "dept": "人力资源社会保障部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/qishiyedanweipingpinzhuanyejishuzhiwuruoganwentiza6952a3.html",
+   "effective": "1990-11-10"
+  },
+  {
+   "slug": "quanminsuoyouzhijiguanshiyedanweizhigongrenshuhego0dc08b",
+   "short": "全民所有制机关、事业单位职工人数和工资总额计划管理暂行办法",
+   "dept": "人力资源社会保障部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/quanminsuoyouzhijiguanshiyedanweizhigongrenshuhego0dc08b.html",
+   "effective": "1990-08-14"
+  },
+  {
+   "slug": "guanyuzhongwaihezirencaizhongjiejigouguanlizanxingef9bff",
+   "short": "关于《中外合资人才中介机构管理暂行规定》的补充规定",
+   "dept": "人力资源社会保障部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/guanyuzhongwaihezirencaizhongjiejigouguanlizanxingef9bff.html",
+   "effective": "2008-01-01"
+  },
+  {
+   "slug": "guanyuqiyeshixingbudingshigongzuozhihezonghejisuan0f911d",
+   "short": "关于企业实行不定时工作制和综合计算工时工作制的审批办法",
+   "dept": "人力资源社会保障部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/guanyuqiyeshixingbudingshigongzuozhihezonghejisuan0f911d.html",
+   "effective": "1995-01-01"
+  },
+  {
+   "slug": "guanyushishilaodongbaozhangjianchatiaoliruoganguid320527",
+   "short": "关于实施《劳动保障监察条例》若干规定",
+   "dept": "人力资源社会保障部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/guanyushishilaodongbaozhangjianchatiaoliruoganguid320527.html",
+   "effective": "2005-02-01"
+  },
+  {
+   "slug": "guanyutiaozhengshiyongbudangbunengchongfenfahuizhu443299",
+   "short": "关于调整使用不当,不能充分发挥专长的留学回国人员工作的办法",
+   "dept": "人力资源社会保障部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/guanyutiaozhengshiyongbudangbunengchongfenfahuizhu443299.html",
+   "effective": "1990-04-14"
+  },
+  {
+   "slug": "laowupaiqianzanxingguiding",
+   "short": "劳务派遣暂行规定",
+   "dept": "人力资源社会保障部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/laowupaiqianzanxingguiding.html",
+   "effective": "2014-03-01"
+  },
+  {
+   "slug": "laowupaiqianxingzhengxukeshishibanfa",
+   "short": "劳务派遣行政许可实施办法",
+   "dept": "人力资源社会保障部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/laowupaiqianxingzhengxukeshishibanfa.html",
+   "effective": "2013-07-01"
+  },
+  {
+   "slug": "laodongrenshizhengyizhongcaibananguize",
+   "short": "劳动人事争议仲裁办案规则",
+   "dept": "人力资源社会保障部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/laodongrenshizhengyizhongcaibananguize.html",
+   "effective": "2017-07-01"
+  },
+  {
+   "slug": "laodongrenshizhengyizhongcaizuzhiguize",
+   "short": "劳动人事争议仲裁组织规则",
+   "dept": "人力资源社会保障部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/laodongrenshizhengyizhongcaizuzhiguize.html",
+   "effective": "2017-07-01"
+  },
+  {
+   "slug": "laodongjiuyefuwuqiyechanquanjiedingguiding",
+   "short": "劳动就业服务企业产权界定规定",
+   "dept": "人力资源社会保障部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/laodongjiuyefuwuqiyechanquanjiedingguiding.html",
+   "effective": "1997-05-27"
+  },
+  {
+   "slug": "laodongjianchayuanguanlibanfa",
+   "short": "劳动监察员管理办法",
+   "dept": "人力资源社会保障部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/laodongjianchayuanguanlibanfa.html",
+   "effective": "1994-11-14"
+  },
+  {
+   "slug": "laodongxingzhengchufatingzhengchengxuguiding",
+   "short": "劳动行政处罚听证程序规定",
+   "dept": "人力资源社会保障部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/laodongxingzhengchufatingzhengchengxuguiding.html",
+   "effective": "1996-09-27"
+  },
+  {
+   "slug": "yingongsiwangzhigonggongyangqinshufanweiguiding",
+   "short": "因工死亡职工供养亲属范围规定",
+   "dept": "人力资源社会保障部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/yingongsiwangzhigonggongyangqinshufanweiguiding.html",
+   "effective": "2004-01-01"
+  },
+  {
+   "slug": "guojiajiguanshiyedanweiguancheguowuyuanguanyuzhigo287225",
+   "short": "国家机关、事业单位贯彻《国务院关于职工工作时间的规定》的实施办法",
+   "dept": "人力资源社会保障部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/guojiajiguanshiyedanweiguancheguowuyuanguanyuzhigo287225.html",
+   "effective": "1995-05-01"
+  },
+  {
+   "slug": "guoyouqiyegongzizongetongjingjixiaoyiguagouguiding",
+   "short": "国有企业工资总额同经济效益挂钩规定",
+   "dept": "人力资源社会保障部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/guoyouqiyegongzizongetongjingjixiaoyiguagouguiding.html",
+   "effective": "1993-07-09"
+  },
+  {
+   "slug": "zaizhongguojingneijiuyedewaiguorenshenjiashehuibao8fae26",
+   "short": "在中国境内就业的外国人参加社会保险暂行办法",
+   "dept": "人力资源社会保障部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zaizhongguojingneijiuyedewaiguorenshenjiashehuibao8fae26.html",
+   "effective": "2011-10-15"
+  },
+  {
+   "slug": "chengzhenjitisuoyouzhiqiyegongzitongjingjixiaoyigu8ff0ad",
+   "short": "城镇集体所有制企业工资同经济效益挂钩办法",
+   "dept": "人力资源社会保障部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/chengzhenjitisuoyouzhiqiyegongzitongjingjixiaoyigu8ff0ad.html",
+   "effective": "1990-10-05"
+  },
+  {
+   "slug": "jingwaijiuyezhongjieguanliguiding",
+   "short": "境外就业中介管理规定",
+   "dept": "人力资源社会保障部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/jingwaijiuyezhongjieguanliguiding.html",
+   "effective": "2002-07-01"
+  },
+  {
+   "slug": "waishangtouzirencaizhongjiejigouguanlizanxingguidifbf8ac-2",
+   "short": "外商投资人才中介机构管理暂行规定（2003）",
+   "dept": "人力资源社会保障部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/waishangtouzirencaizhongjiejigouguanlizanxingguidifbf8ac-2.html",
+   "effective": "2003-09-04"
+  },
+  {
+   "slug": "waishangtouzirencaizhongjiejigouguanlizanxingguidifbf8ac",
+   "short": "外商投资人才中介机构管理暂行规定（2003）",
+   "dept": "人力资源社会保障部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/waishangtouzirencaizhongjiejigouguanlizanxingguidifbf8ac.html",
+   "effective": "2003-11-01"
+  },
+  {
+   "slug": "waishangtouzizhiyejieshaojigousheliguanlizanxinggu6e0478-2",
+   "short": "外商投资职业介绍机构设立管理暂行规定（2001）",
+   "dept": "人力资源社会保障部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/waishangtouzizhiyejieshaojigousheliguanlizanxinggu6e0478-2.html",
+   "effective": "2001-10-09"
+  },
+  {
+   "slug": "waishangtouzizhiyejieshaojigousheliguanlizanxinggu6e0478",
+   "short": "外商投资职业介绍机构设立管理暂行规定（2001）",
+   "dept": "人力资源社会保障部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/waishangtouzizhiyejieshaojigousheliguanlizanxinggu6e0478.html",
+   "effective": "2001-12-01"
+  },
+  {
+   "slug": "waiguorenzaizhongguojiuyeguanliguiding",
+   "short": "外国人在中国就业管理规定",
+   "dept": "人力资源社会保障部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/waiguorenzaizhongguojiuyeguanliguiding.html",
+   "effective": "1996-01-22"
+  },
+  {
+   "slug": "shiyebaoxianjinshenlingfafangbanfa",
+   "short": "失业保险金申领发放办法",
+   "dept": "人力资源社会保障部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/shiyebaoxianjinshenlingfafangbanfa.html",
+   "effective": "2000-10-26"
+  },
+  {
+   "slug": "shishishehuibaoxianfaruoganguiding",
+   "short": "实施《社会保险法》若干规定",
+   "dept": "人力资源社会保障部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/shishishehuibaoxianfaruoganguiding.html",
+   "effective": "2011-07-01"
+  },
+  {
+   "slug": "jiuyefuwuyujiuyeguanliguiding",
+   "short": "就业服务与就业管理规定",
+   "dept": "人力资源社会保障部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/jiuyefuwuyujiuyeguanliguiding.html",
+   "effective": "2007-11-05"
+  },
+  {
+   "slug": "gongshangbaoxianfuzhuqijupeizhiguanlibanfa",
+   "short": "工伤保险辅助器具配置管理办法（2016）",
+   "dept": "人力资源社会保障部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/gongshangbaoxianfuzhuqijupeizhiguanlibanfa.html",
+   "effective": "2016-02-16"
+  },
+  {
+   "slug": "gongshangzhigonglaodongnenglijiandingguanlibanfa",
+   "short": "工伤职工劳动能力鉴定管理办法",
+   "dept": "人力资源社会保障部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/gongshangzhigonglaodongnenglijiandingguanlibanfa.html",
+   "effective": "2014-02-20"
+  },
+  {
+   "slug": "gongshangrendingbanfa",
+   "short": "工伤认定办法",
+   "dept": "人力资源社会保障部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/gongshangrendingbanfa.html",
+   "effective": "2011-01-01"
+  },
+  {
+   "slug": "gongzizhifuzanxingguiding",
+   "short": "工资支付暂行规定",
+   "dept": "人力资源社会保障部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/gongzizhifuzanxingguiding.html",
+   "effective": "1995-01-01"
+  },
+  {
+   "slug": "gongzijitixieshangshixingbanfa",
+   "short": "工资集体协商试行办法",
+   "dept": "人力资源社会保障部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/gongzijitixieshangshixingbanfa.html",
+   "effective": "2000-11-08"
+  },
+  {
+   "slug": "ganbudiaopeigongzuoguiding",
+   "short": "干部调配工作规定",
+   "dept": "人力资源社会保障部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/ganbudiaopeigongzuoguiding.html",
+   "effective": "1991-02-04"
+  },
+  {
+   "slug": "jigongxuexiaogongzuoguiding",
+   "short": "技工学校工作规定",
+   "dept": "人力资源社会保障部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/jigongxuexiaogongzuoguiding.html",
+   "effective": "1986-11-11"
+  },
+  {
+   "slug": "jigongxuexiaojiaoyududaopingguzanxingguiding",
+   "short": "技工学校教育督导评估暂行规定",
+   "dept": "人力资源社会保障部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/jigongxuexiaojiaoyududaopingguzanxingguiding.html",
+   "effective": "1997-09-01"
+  },
+  {
+   "slug": "tuoqiannongmingonggongzishixinlianhechengjieduixia60def2",
+   "short": "拖欠农民工工资失信联合惩戒对象名单管理暂行办法",
+   "dept": "人力资源社会保障部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/tuoqiannongmingonggongzishixinlianhechengjieduixia60def2.html",
+   "effective": "2022-01-01"
+  },
+  {
+   "slug": "zuidigongziguiding",
+   "short": "最低工资规定",
+   "dept": "人力资源社会保障部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zuidigongziguiding.html",
+   "effective": "2004-03-01"
+  },
+  {
+   "slug": "weichengniangongteshubaohuguiding",
+   "short": "未成年工特殊保护规定",
+   "dept": "人力资源社会保障部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/weichengniangongteshubaohuguiding.html",
+   "effective": "1995-01-01"
+  },
+  {
+   "slug": "jiguanshiyedanweizengrenjihuakazanxingguanlibanfa",
+   "short": "机关、事业单位增人计划卡暂行管理办法",
+   "dept": "人力资源社会保障部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/jiguanshiyedanweizengrenjihuakazanxingguanlibanfa.html",
+   "effective": "1996-06-17"
+  },
+  {
+   "slug": "jiguanshiyedanweigongrenjishudengjigangweikaohezan4eec72",
+   "short": "机关、事业单位工人技术等级岗位考核暂行办法",
+   "dept": "人力资源社会保障部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/jiguanshiyedanweigongrenjishudengjigangweikaohezan4eec72.html",
+   "effective": "1994-12-22"
+  },
+  {
+   "slug": "jiguanshiyedanweigongzuorenyuandaixinnianxiujiashif930d3",
+   "short": "机关事业单位工作人员带薪年休假实施办法",
+   "dept": "人力资源社会保障部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/jiguanshiyedanweigongzuorenyuandaixinnianxiujiashif930d3.html",
+   "effective": "2008-02-15"
+  },
+  {
+   "slug": "shehuibaoxianyewudanganguanliguiding",
+   "short": "社会保险业务档案管理规定（试行）",
+   "dept": "人力资源社会保障部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/shehuibaoxianyewudanganguanliguiding.html",
+   "effective": "2009-09-01"
+  },
+  {
+   "slug": "shehuibaoxiangerenquanyijiluguanlibanfa",
+   "short": "社会保险个人权益记录管理办法",
+   "dept": "人力资源社会保障部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/shehuibaoxiangerenquanyijiluguanlibanfa.html",
+   "effective": "2011-07-01"
+  },
+  {
+   "slug": "shehuibaoxianjijinxianxingzhifuzanxingbanfa",
+   "short": "社会保险基金先行支付暂行办法",
+   "dept": "人力资源社会保障部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/shehuibaoxianjijinxianxingzhifuzanxingbanfa.html",
+   "effective": "2011-06-29"
+  },
+  {
+   "slug": "shehuibaoxianjijinjiandujubaogongzuoguanlibanfa",
+   "short": "社会保险基金监督举报工作管理办法",
+   "dept": "人力资源社会保障部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/shehuibaoxianjijinjiandujubaogongzuoguanlibanfa.html",
+   "effective": "2023-05-01"
+  },
+  {
+   "slug": "shehuibaoxianjijinxingzhengjiandubanfa",
+   "short": "社会保险基金行政监督办法",
+   "dept": "人力资源社会保障部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/shehuibaoxianjijinxingzhengjiandubanfa.html",
+   "effective": "2022-03-18"
+  },
+  {
+   "slug": "shehuibaoxianshenjizanxingguiding",
+   "short": "社会保险审计暂行规定",
+   "dept": "人力资源社会保障部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/shehuibaoxianshenjizanxingguiding.html",
+   "effective": "1995-10-01"
+  },
+  {
+   "slug": "shehuibaoxianjihebanfa",
+   "short": "社会保险稽核办法",
+   "dept": "人力资源社会保障部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/shehuibaoxianjihebanfa.html",
+   "effective": "2003-04-01"
+  },
+  {
+   "slug": "shehuibaoxianfeizhengjiaojiandujianchabanfa",
+   "short": "社会保险费征缴监督检查办法",
+   "dept": "人力资源社会保障部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/shehuibaoxianfeizhengjiaojiandujianchabanfa.html",
+   "effective": "1999-03-19"
+  },
+  {
+   "slug": "wangluozhaopinfuwuguanliguiding",
+   "short": "网络招聘服务管理规定",
+   "dept": "人力资源社会保障部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/wangluozhaopinfuwuguanliguiding.html",
+   "effective": "2021-03-01"
+  },
+  {
+   "slug": "zhiyejinengjiandingguiding",
+   "short": "职业技能鉴定规定",
+   "dept": "人力资源社会保障部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zhiyejinengjiandingguiding.html",
+   "effective": "1993-07-09"
+  },
+  {
+   "slug": "zhiyezigezhengshuzhiduzanxingbanfa",
+   "short": "职业资格证书制度暂行办法",
+   "dept": "人力资源社会保障部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zhiyezigezhengshuzhiduzanxingbanfa.html",
+   "effective": "1995-01-17"
+  },
+  {
+   "slug": "zhiyezigezhengshuguiding",
+   "short": "职业资格证书规定",
+   "dept": "人力资源社会保障部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zhiyezigezhengshuguiding.html",
+   "effective": "1994-02-22"
+  },
+  {
+   "slug": "zhichengpingshenguanlizanxingguiding",
+   "short": "职称评审管理暂行规定",
+   "dept": "人力资源社会保障部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zhichengpingshenguanlizanxingguiding.html",
+   "effective": "2019-09-01"
+  },
+  {
+   "slug": "weifanlaodongfayouguanlaodonghetongguidingdepeicha4de9b0",
+   "short": "违反《劳动法》有关劳动合同规定的赔偿办法",
+   "dept": "人力资源社会保障部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/weifanlaodongfayouguanlaodonghetongguidingdepeicha4de9b0.html",
+   "effective": "1995-05-10"
+  },
+  {
+   "slug": "bufenhangyeqiyegongshangbaoxianfeijiaonabanfa",
+   "short": "部分行业企业工伤保险费缴纳办法",
+   "dept": "人力资源社会保障部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/bufenhangyeqiyegongshangbaoxianfeijiaonabanfa.html",
+   "effective": "2011-01-01"
+  },
+  {
+   "slug": "zhongdalaodongbaozhangweifaxingweishehuigongbubanfac037c",
+   "short": "重大劳动保障违法行为社会公布办法",
+   "dept": "人力资源社会保障部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zhongdalaodongbaozhangweifaxingweishehuigongbubanfac037c.html",
+   "effective": "2017-01-01"
+  },
+  {
+   "slug": "jitihetongguiding",
+   "short": "集体合同规定",
+   "dept": "人力资源社会保障部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/jitihetongguiding.html",
+   "effective": "2004-05-01"
+  },
+  {
+   "slug": "feifayonggongdanweishangwangrenyuanyicixingpeichan67a8b6",
+   "short": "非法用工单位伤亡人员一次性赔偿办法",
+   "dept": "人力资源社会保障部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/feifayonggongdanweishangwangrenyuanyicixingpeichan67a8b6.html",
+   "effective": "2011-01-01"
+  },
+  {
+   "slug": "xianggangaomentaiwanjuminzaineidicanjiashehuibaoxif58c5e",
+   "short": "香港澳门台湾居民在内地（大陆）参加社会保险暂行办法",
+   "dept": "人力资源社会保障部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/xianggangaomentaiwanjuminzaineidicanjiashehuibaoxif58c5e.html",
+   "effective": "2020-01-01"
+  },
+  {
+   "slug": "zhongwaihezihezuoyiliaojigouguanlizanxingbanfadebudfdc0b",
+   "short": "《中外合资、合作医疗机构管理暂行办法》的补充规定",
+   "dept": "国家卫生健康委",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zhongwaihezihezuoyiliaojigouguanlizanxingbanfadebudfdc0b.html",
+   "effective": "2008-01-01"
+  },
+  {
+   "slug": "zhongwaihezihezuoyiliaojigouguanlizanxingbanfadebue89d82",
+   "short": "《中外合资、合作医疗机构管理暂行办法》的补充规定二",
+   "dept": "国家卫生健康委",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zhongwaihezihezuoyiliaojigouguanlizanxingbanfadebue89d82.html",
+   "effective": "2009-01-01"
+  },
+  {
+   "slug": "zhongyiyishuqueyouzhuanchangrenyuanyishizigekaohezfd7ab0",
+   "short": "中医医术确有专长人员医师资格考核注册管理暂行办法",
+   "dept": "国家卫生健康委",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zhongyiyishuqueyouzhuanchangrenyuanyishizigekaohezfd7ab0.html",
+   "effective": "2017-12-20"
+  },
+  {
+   "slug": "zhongyizhensuobeianguanlizanxingbanfa",
+   "short": "中医诊所备案管理暂行办法",
+   "dept": "国家卫生健康委",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zhongyizhensuobeianguanlizanxingbanfa.html",
+   "effective": "2017-12-01"
+  },
+  {
+   "slug": "zhongwaihezihezuoyiliaojigouguanlizanxingbanfa",
+   "short": "中外合资、合作医疗机构管理暂行办法",
+   "dept": "国家卫生健康委",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zhongwaihezihezuoyiliaojigouguanlizanxingbanfa.html",
+   "effective": "2000-07-01"
+  },
+  {
+   "slug": "chanqianzhenduanjishuguanlibanfa",
+   "short": "产前诊断技术管理办法",
+   "dept": "国家卫生健康委",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/chanqianzhenduanjishuguanlibanfa.html",
+   "effective": "2003-05-01"
+  },
+  {
+   "slug": "renleijingzikuguanlibanfa",
+   "short": "人类精子库管理办法",
+   "dept": "国家卫生健康委",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/renleijingzikuguanlibanfa.html",
+   "effective": "2001-08-01"
+  },
+  {
+   "slug": "renleifuzhushengzhijishuguanlibanfa",
+   "short": "人类辅助生殖技术管理办法",
+   "dept": "国家卫生健康委",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/renleifuzhushengzhijishuguanlibanfa.html",
+   "effective": "2001-08-01"
+  },
+  {
+   "slug": "renjianchuanrandebingyuanweishengwujunzhongbaocangb2eb21",
+   "short": "人间传染的病原微生物菌（毒）种保藏机构管理办法",
+   "dept": "国家卫生健康委",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/renjianchuanrandebingyuanweishengwujunzhongbaocangb2eb21.html",
+   "effective": "2009-10-01"
+  },
+  {
+   "slug": "renjianchuanrandegaozhibingxingbingyuanweishengwuscd3256",
+   "short": "人间传染的高致病性病原微生物实验室和实验活动生物安全审批管理办法",
+   "dept": "国家卫生健康委",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/renjianchuanrandegaozhibingxingbingyuanweishengwuscd3256.html",
+   "effective": "2006-08-15"
+  },
+  {
+   "slug": "chuanranxingfeidianxingfeiyanfangzhiguanlibanfa",
+   "short": "传染性非典型肺炎防治管理办法",
+   "dept": "国家卫生健康委",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/chuanranxingfeidianxingfeiyanfangzhiguanlibanfa.html",
+   "effective": "2003-05-12"
+  },
+  {
+   "slug": "chuanranbingbingrenhuoyisichuanranbingbingrenshitic63d2f",
+   "short": "传染病病人或疑似传染病病人尸体解剖查验规定",
+   "dept": "国家卫生健康委",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/chuanranbingbingrenhuoyisichuanranbingbingrenshitic63d2f.html",
+   "effective": "2005-09-01"
+  },
+  {
+   "slug": "chuantongyixueshichenghequeyouzhuanchangrenyuanyis8bc8fa",
+   "short": "传统医学师承和确有专长人员医师资格考核考试办法",
+   "dept": "国家卫生健康委",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/chuantongyixueshichenghequeyouzhuanchangrenyuanyis8bc8fa.html",
+   "effective": "2007-02-01"
+  },
+  {
+   "slug": "quanguoweishengtongjigongzuoguanlibanfa",
+   "short": "全国卫生统计工作管理办法",
+   "dept": "国家卫生健康委",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/quanguoweishengtongjigongzuoguanlibanfa.html",
+   "effective": "1999-02-25"
+  },
+  {
+   "slug": "gonggongchangsuoweishengguanlitiaolishishixize",
+   "short": "公共场所卫生管理条例实施细则",
+   "dept": "国家卫生健康委",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/gonggongchangsuoweishengguanlitiaolishishixize.html",
+   "effective": "2011-05-01"
+  },
+  {
+   "slug": "yishiwaichuhuizhenguanlizanxingguiding",
+   "short": "医师外出会诊管理暂行规定",
+   "dept": "国家卫生健康委",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/yishiwaichuhuizhenguanlizanxingguiding.html",
+   "effective": "2005-07-01"
+  },
+  {
+   "slug": "yishizhiyezhuceguanlibanfa",
+   "short": "医师执业注册管理办法",
+   "dept": "国家卫生健康委",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/yishizhiyezhuceguanlibanfa.html",
+   "effective": "2017-04-01"
+  },
+  {
+   "slug": "yishizigekaoshizanxingbanfa",
+   "short": "医师资格考试暂行办法",
+   "dept": "国家卫生健康委",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/yishizigekaoshizanxingbanfa.html",
+   "effective": "1999-07-16"
+  },
+  {
+   "slug": "yishizigekaoshiweijiweiguichuliguiding",
+   "short": "医师资格考试违纪违规处理规定",
+   "dept": "国家卫生健康委",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/yishizigekaoshiweijiweiguichuliguiding.html",
+   "effective": "2014-09-10"
+  },
+  {
+   "slug": "yiliaoshigujishujiandingzanxingbanfa",
+   "short": "医疗事故技术鉴定暂行办法",
+   "dept": "国家卫生健康委",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/yiliaoshigujishujiandingzanxingbanfa.html",
+   "effective": "2002-09-01"
+  },
+  {
+   "slug": "yiliaoweishengjigouyiliaofeiwuguanlibanfa",
+   "short": "医疗卫生机构医疗废物管理办法",
+   "dept": "国家卫生健康委",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/yiliaoweishengjigouyiliaofeiwuguanlibanfa.html",
+   "effective": "2003-10-15"
+  },
+  {
+   "slug": "yiliaoqixielinchuangshiyongguanlibanfa",
+   "short": "医疗器械临床使用管理办法",
+   "dept": "国家卫生健康委",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/yiliaoqixielinchuangshiyongguanlibanfa.html",
+   "effective": "2021-03-01"
+  },
+  {
+   "slug": "yiliaofeiwuguanlixingzhengchufabanfa",
+   "short": "医疗废物管理行政处罚办法",
+   "dept": "国家卫生健康委",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/yiliaofeiwuguanlixingzhengchufabanfa.html",
+   "effective": "2004-05-27"
+  },
+  {
+   "slug": "yiliaojishulinchuangyingyongguanlibanfa",
+   "short": "医疗技术临床应用管理办法",
+   "dept": "国家卫生健康委",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/yiliaojishulinchuangyingyongguanlibanfa.html",
+   "effective": "2018-11-01"
+  },
+  {
+   "slug": "yiliaojigoulinchuangyongxueguanlibanfa",
+   "short": "医疗机构临床用血管理办法",
+   "dept": "国家卫生健康委",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/yiliaojigoulinchuangyongxueguanlibanfa.html",
+   "effective": "2012-08-01"
+  },
+  {
+   "slug": "yiliaojigouchuanranbingyujianfenzhenguanlibanfa",
+   "short": "医疗机构传染病预检分诊管理办法",
+   "dept": "国家卫生健康委",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/yiliaojigouchuanranbingyujianfenzhenguanlibanfa.html",
+   "effective": "2005-02-28"
+  },
+  {
+   "slug": "yiliaojigoutousuguanlibanfa",
+   "short": "医疗机构投诉管理办法",
+   "dept": "国家卫生健康委",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/yiliaojigoutousuguanlibanfa.html",
+   "effective": "2019-04-10"
+  },
+  {
+   "slug": "yiliaojigouguanlitiaolishishixize",
+   "short": "医疗机构管理条例实施细则",
+   "dept": "国家卫生健康委",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/yiliaojigouguanlitiaolishishixize.html",
+   "effective": "1994-09-01"
+  },
+  {
+   "slug": "yiliaoqigongguanlizanxingguiding",
+   "short": "医疗气功管理暂行规定",
+   "dept": "国家卫生健康委",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/yiliaoqigongguanlizanxingguiding.html",
+   "effective": "2000-07-10"
+  },
+  {
+   "slug": "yiliaomeirongfuwuguanlibanfa",
+   "short": "医疗美容服务管理办法",
+   "dept": "国家卫生健康委",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/yiliaomeirongfuwuguanlibanfa.html",
+   "effective": "2002-05-01"
+  },
+  {
+   "slug": "yiliaozhiliangguanlibanfa",
+   "short": "医疗质量管理办法",
+   "dept": "国家卫生健康委",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/yiliaozhiliangguanlibanfa.html",
+   "effective": "2016-11-01"
+  },
+  {
+   "slug": "yiyuanganranguanlibanfa",
+   "short": "医院感染管理办法",
+   "dept": "国家卫生健康委",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/yiyuanganranguanlibanfa.html",
+   "effective": "2006-09-01"
+  },
+  {
+   "slug": "dancaixiejiangzhanguanlibanfa",
+   "short": "单采血浆站管理办法",
+   "dept": "国家卫生健康委",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/dancaixiejiangzhanguanlibanfa.html",
+   "effective": "2008-03-01"
+  },
+  {
+   "slug": "weishengxingzhengchufachengxu",
+   "short": "卫生行政处罚程序",
+   "dept": "国家卫生健康委",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/weishengxingzhengchufachengxu.html",
+   "effective": "1997-06-19"
+  },
+  {
+   "slug": "weishengxingzhengzhifawenshuguifan",
+   "short": "卫生行政执法文书规范",
+   "dept": "国家卫生健康委",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/weishengxingzhengzhifawenshuguifan.html",
+   "effective": "2012-12-01"
+  },
+  {
+   "slug": "weishengxingzhengxukeguanlibanfa",
+   "short": "卫生行政许可管理办法",
+   "dept": "国家卫生健康委",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/weishengxingzhengxukeguanlibanfa.html",
+   "effective": "2004-11-17"
+  },
+  {
+   "slug": "weishengjishengxitongneibushenjigongzuoguiding",
+   "short": "卫生计生系统内部审计工作规定",
+   "dept": "国家卫生健康委",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/weishengjishengxitongneibushenjigongzuoguiding.html",
+   "effective": "2018-01-01"
+  },
+  {
+   "slug": "weishengbuguanyuweishengjiandutixijianshederuoganga2cae4",
+   "short": "卫生部关于卫生监督体系建设的若干规定",
+   "dept": "国家卫生健康委",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/weishengbuguanyuweishengjiandutixijianshederuoganga2cae4.html",
+   "effective": "2005-01-05"
+  },
+  {
+   "slug": "keganranrenleidegaozhibingxingbingyuanweishengwujufbe2ce",
+   "short": "可感染人类的高致病性病原微生物菌（毒）种或样本运输管理规定",
+   "dept": "国家卫生健康委",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/keganranrenleidegaozhibingxingbingyuanweishengwujufbe2ce.html",
+   "effective": "2006-02-01"
+  },
+  {
+   "slug": "taiwandiquyishizaidaluduanqixingyiguanliguiding",
+   "short": "台湾地区医师在大陆短期行医管理规定",
+   "dept": "国家卫生健康委",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/taiwandiquyishizaidaluduanqixingyiguanliguiding.html",
+   "effective": "2009-03-01"
+  },
+  {
+   "slug": "guojiazhiyeweishengbiaozhunguanlibanfa",
+   "short": "国家职业卫生标准管理办法",
+   "dept": "国家卫生健康委",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/guojiazhiyeweishengbiaozhunguanlibanfa.html",
+   "effective": "2002-05-01"
+  },
+  {
+   "slug": "chufangguanlibanfa",
+   "short": "处方管理办法",
+   "dept": "国家卫生健康委",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/chufangguanlibanfa.html",
+   "effective": "2007-05-01"
+  },
+  {
+   "slug": "waiguoyishilaihuaduanqixingyizanxingguanlibanfa",
+   "short": "外国医师来华短期行医暂行管理办法",
+   "dept": "国家卫生健康委",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/waiguoyishilaihuaduanqixingyizanxingguanlibanfa.html",
+   "effective": "1993-01-01"
+  },
+  {
+   "slug": "shitichurujingheshitichulideguanliguiding-2",
+   "short": "尸体出入境和尸体处理的管理规定（2006）",
+   "dept": "国家卫生健康委",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/shitichurujingheshitichulideguanliguiding-2.html",
+   "effective": "2006-08-01"
+  },
+  {
+   "slug": "shitichurujingheshitichulideguanliguiding",
+   "short": "尸体出入境和尸体处理的管理规定（2006）",
+   "dept": "国家卫生健康委",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/shitichurujingheshitichulideguanliguiding.html",
+   "effective": "2006-08-01"
+  },
+  {
+   "slug": "gongzuochangsuozhiyeweishengguanliguiding",
+   "short": "工作场所职业卫生管理规定",
+   "dept": "国家卫生健康委",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/gongzuochangsuozhiyeweishengguanliguiding.html",
+   "effective": "2021-02-01"
+  },
+  {
+   "slug": "xingbingfangzhiguanlibanfa",
+   "short": "性病防治管理办法",
+   "dept": "国家卫生健康委",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/xingbingfangzhiguanlibanfa.html",
+   "effective": "2013-01-01"
+  },
+  {
+   "slug": "tuoersuoyoueryuanweishengbaojianguanlibanfa",
+   "short": "托儿所幼儿园卫生保健管理办法",
+   "dept": "国家卫生健康委",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/tuoersuoyoueryuanweishengbaojianguanlibanfa.html",
+   "effective": "2010-11-01"
+  },
+  {
+   "slug": "kangjunyaowulinchuangyingyongguanlibanfa",
+   "short": "抗菌药物临床应用管理办法",
+   "dept": "国家卫生健康委",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/kangjunyaowulinchuangyingyongguanlibanfa.html",
+   "effective": "2012-08-01"
+  },
+  {
+   "slug": "hushizhiyezhuceguanlibanfa",
+   "short": "护士执业注册管理办法",
+   "dept": "国家卫生健康委",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/hushizhiyezhuceguanlibanfa.html",
+   "effective": "2008-05-12"
+  },
+  {
+   "slug": "hushizhiyezigekaoshibanfa",
+   "short": "护士执业资格考试办法",
+   "dept": "国家卫生健康委",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/hushizhiyezigekaoshibanfa.html",
+   "effective": "2010-07-01"
+  },
+  {
+   "slug": "fangshegongzuorenyuanzhiyejiankangguanlibanfa",
+   "short": "放射工作人员职业健康管理办法",
+   "dept": "国家卫生健康委",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/fangshegongzuorenyuanzhiyejiankangguanlibanfa.html",
+   "effective": "2007-11-01"
+  },
+  {
+   "slug": "fangshezhenliaoguanliguiding",
+   "short": "放射诊疗管理规定",
+   "dept": "国家卫生健康委",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/fangshezhenliaoguanliguiding.html",
+   "effective": "2006-03-01"
+  },
+  {
+   "slug": "xinshengerjibingshaichaguanlibanfa",
+   "short": "新生儿疾病筛查管理办法",
+   "dept": "国家卫生健康委",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/xinshengerjibingshaichaguanlibanfa.html",
+   "effective": "2009-06-01"
+  },
+  {
+   "slug": "xinshipinyuanliaoanquanxingshenchaguanlibanfa",
+   "short": "新食品原料安全性审查管理办法",
+   "dept": "国家卫生健康委",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/xinshipinyuanliaoanquanxingshenchaguanlibanfa.html",
+   "effective": "2013-10-01"
+  },
+  {
+   "slug": "muyingbaojianzhuanxiangjishufuwuxukejirenyuanzigega83eee",
+   "short": "母婴保健专项技术服务许可及人员资格管理办法",
+   "dept": "国家卫生健康委",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/muyingbaojianzhuanxiangjishufuwuxukejirenyuanzigega83eee.html",
+   "effective": "1995-08-07"
+  },
+  {
+   "slug": "xiaoduguanlibanfa",
+   "short": "消毒管理办法",
+   "dept": "国家卫生健康委",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/xiaoduguanlibanfa.html",
+   "effective": "2002-07-01"
+  },
+  {
+   "slug": "shejirendeshengwuyixueyanjiulunlishenchabanfa",
+   "short": "涉及人的生物医学研究伦理审查办法",
+   "dept": "国家卫生健康委",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/shejirendeshengwuyixueyanjiulunlishenchabanfa.html",
+   "effective": "2016-12-01"
+  },
+  {
+   "slug": "zaihaishiguyiliaojiuyuangongzuoguanlibanfa",
+   "short": "灾害事故医疗救援工作管理办法",
+   "dept": "国家卫生健康委",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zaihaishiguyiliaojiuyuangongzuoguanlibanfa.html",
+   "effective": "1995-04-27"
+  },
+  {
+   "slug": "jinzhifeiyixuexuyaodetaierxingbiejiandinghexuanzexa67d89-2",
+   "short": "禁止非医学需要的胎儿性别鉴定和选择性别人工终止妊娠的规定（2016）",
+   "dept": "国家卫生健康委",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/jinzhifeiyixuexuyaodetaierxingbiejiandinghexuanzexa67d89-2.html",
+   "effective": "2016-05-01"
+  },
+  {
+   "slug": "tufagonggongweishengshijianyuchuanranbingyiqingjia66cca8",
+   "short": "突发公共卫生事件与传染病疫情监测信息报告管理办法",
+   "dept": "国家卫生健康委",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/tufagonggongweishengshijianyuchuanranbingyiqingjia66cca8.html",
+   "effective": "2003-11-07"
+  },
+  {
+   "slug": "jiehebingfangzhiguanlibanfa",
+   "short": "结核病防治管理办法",
+   "dept": "国家卫生健康委",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/jiehebingfangzhiguanlibanfa.html",
+   "effective": "2013-03-24"
+  },
+  {
+   "slug": "zhiyejiankangjianchaguanlibanfa",
+   "short": "职业健康检查管理办法",
+   "dept": "国家卫生健康委",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zhiyejiankangjianchaguanlibanfa.html",
+   "effective": "2015-05-01"
+  },
+  {
+   "slug": "zhiyeweishengjishufuwujigouguanlibanfa",
+   "short": "职业卫生技术服务机构管理办法",
+   "dept": "国家卫生健康委",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zhiyeweishengjishufuwujigouguanlibanfa.html",
+   "effective": "2021-02-01"
+  },
+  {
+   "slug": "zhiyebingzhenduanyujiandingguanlibanfa",
+   "short": "职业病诊断与鉴定管理办法",
+   "dept": "国家卫生健康委",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zhiyebingzhenduanyujiandingguanlibanfa.html",
+   "effective": "2021-01-04"
+  },
+  {
+   "slug": "yaopinbuliangfanyingbaogaohejianceguanlibanfa",
+   "short": "药品不良反应报告和监测管理办法",
+   "dept": "国家卫生健康委",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/yaopinbuliangfanyingbaogaohejianceguanlibanfa.html",
+   "effective": "2011-07-01"
+  },
+  {
+   "slug": "yaopinshengchanzhiliangguanliguifan",
+   "short": "药品生产质量管理规范",
+   "dept": "国家卫生健康委",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/yaopinshengchanzhiliangguanliguifan.html",
+   "effective": "2011-03-01"
+  },
+  {
+   "slug": "yaopinleiyizhiduhuaxuepinguanlibanfa",
+   "short": "药品类易制毒化学品管理办法",
+   "dept": "国家卫生健康委",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/yaopinleiyizhiduhuaxuepinguanlibanfa.html",
+   "effective": "2010-05-01"
+  },
+  {
+   "slug": "xuezhanguanlibanfa",
+   "short": "血站管理办法",
+   "dept": "国家卫生健康委",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/xuezhanguanlibanfa.html",
+   "effective": "2006-03-01"
+  },
+  {
+   "slug": "yuanqianyiliaojijiuguanlibanfa",
+   "short": "院前医疗急救管理办法",
+   "dept": "国家卫生健康委",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/yuanqianyiliaojijiuguanlibanfa.html",
+   "effective": "2014-02-01"
+  },
+  {
+   "slug": "yufangjiezhongyichangfanyingjiandingbanfa",
+   "short": "预防接种异常反应鉴定办法",
+   "dept": "国家卫生健康委",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/yufangjiezhongyichangfanyingjiandingbanfa.html",
+   "effective": "2008-12-01"
+  },
+  {
+   "slug": "shipintianjiajixinpinzhongguanlibanfa",
+   "short": "食品添加剂新品种管理办法",
+   "dept": "国家卫生健康委",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/shipintianjiajixinpinzhongguanlibanfa.html",
+   "effective": "2010-03-30"
+  },
+  {
+   "slug": "xianggangaomentebiexingzhengquyishizaineididuanqix3caa14",
+   "short": "香港、澳门特别行政区医师在内地短期行医管理规定",
+   "dept": "国家卫生健康委",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/xianggangaomentebiexingzhengquyishizaineididuanqix3caa14.html",
+   "effective": "2009-03-01"
+  },
+  {
+   "slug": "gerenzhufangdaikuanguanlibanfa",
+   "short": "个人住房贷款管理办法",
+   "dept": "中国人民银行",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/gerenzhufangdaikuanguanlibanfa.html",
+   "effective": "1998-05-09"
+  },
+  {
+   "slug": "gerenxinyongxinxijichushujukuguanlizanxingbanfa",
+   "short": "个人信用信息基础数据库管理暂行办法",
+   "dept": "中国人民银行",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/gerenxinyongxinxijichushujukuguanlizanxingbanfa.html",
+   "effective": "2005-10-01"
+  },
+  {
+   "slug": "gerenwaihuiguanlibanfa",
+   "short": "个人外汇管理办法",
+   "dept": "中国人民银行",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/gerenwaihuiguanlibanfa.html",
+   "effective": "2007-02-01"
+  },
+  {
+   "slug": "zhongguorenminyinhangyewulingyushujuanquanguanlibaf54f80",
+   "short": "中国人民银行业务领域数据安全管理办法",
+   "dept": "中国人民银行",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zhongguorenminyinhangyewulingyushujuanquanguanlibaf54f80.html",
+   "effective": "2025-06-30"
+  },
+  {
+   "slug": "zhongguorenminyinhangyewulingyuwangluoanquanshijia7f70f3",
+   "short": "中国人民银行业务领域网络安全事件报告管理办法",
+   "dept": "中国人民银行",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zhongguorenminyinhangyewulingyuwangluoanquanshijia7f70f3.html",
+   "effective": "2025-08-01"
+  },
+  {
+   "slug": "zhongguorenminyinhangling",
+   "short": "中国人民银行令（发布规章清理结果）",
+   "dept": "中国人民银行",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zhongguorenminyinhangling.html",
+   "effective": "2018-02-08"
+  },
+  {
+   "slug": "zhongguorenminyinhangguanyuquxiaoqiyeyinhangzhangh3f3423",
+   "short": "中国人民银行关于取消企业银行账户许可有关事宜的决定",
+   "dept": "中国人民银行",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zhongguorenminyinhangguanyuquxiaoqiyeyinhangzhangh3f3423.html",
+   "effective": "2019-02-02"
+  },
+  {
+   "slug": "zhongguorenminyinhangzhifajianchachengxuguiding",
+   "short": "中国人民银行执法检查程序规定",
+   "dept": "中国人民银行",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zhongguorenminyinhangzhifajianchachengxuguiding.html",
+   "effective": "2022-06-01"
+  },
+  {
+   "slug": "zhongguorenminyinhangcanquewusunrenminbiduihuanbanb47fb2-2",
+   "short": "中国人民银行残缺污损人民币兑换办法（2003）",
+   "dept": "中国人民银行",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zhongguorenminyinhangcanquewusunrenminbiduihuanbanb47fb2-2.html",
+   "effective": "2004-02-01"
+  },
+  {
+   "slug": "zhongguorenminyinhangcanquewusunrenminbiduihuanbanb47fb2",
+   "short": "中国人民银行残缺污损人民币兑换办法（2026）",
+   "dept": "中国人民银行",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zhongguorenminyinhangcanquewusunrenminbiduihuanbanb47fb2.html",
+   "effective": "2026-01-12"
+  },
+  {
+   "slug": "zhongguorenminyinhangjinjidaikuanguanlizanxingbanfb36c76",
+   "short": "中国人民银行紧急贷款管理暂行办法",
+   "dept": "中国人民银行",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zhongguorenminyinhangjinjidaikuanguanlizanxingbanfb36c76.html",
+   "effective": "1999-12-06"
+  },
+  {
+   "slug": "zhongguorenminyinhangxingzhengchufachengxuguiding",
+   "short": "中国人民银行行政处罚程序规定",
+   "dept": "中国人民银行",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zhongguorenminyinhangxingzhengchufachengxuguiding.html",
+   "effective": "2022-06-01"
+  },
+  {
+   "slug": "zhongguorenminyinhangxingzhengchufacailiangjizhuns263d00",
+   "short": "中国人民银行行政处罚裁量基准适用规定",
+   "dept": "中国人民银行",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zhongguorenminyinhangxingzhengchufacailiangjizhuns263d00.html",
+   "effective": "2025-01-01"
+  },
+  {
+   "slug": "zhongguorenminyinhangxingzhengfuyibanfa",
+   "short": "中国人民银行行政复议办法",
+   "dept": "中国人民银行",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zhongguorenminyinhangxingzhengfuyibanfa.html",
+   "effective": "2026-03-01"
+  },
+  {
+   "slug": "zhongguorenminyinhangxingzhengxukeshishibanfa",
+   "short": "中国人民银行行政许可实施办法",
+   "dept": "中国人民银行",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zhongguorenminyinhangxingzhengxukeshishibanfa.html",
+   "effective": "2020-06-01"
+  },
+  {
+   "slug": "zhongguorenminyinhangguizhangzhidingchengxuyuguanl2ca8a2",
+   "short": "中国人民银行规章制定程序与管理规定",
+   "dept": "中国人民银行",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zhongguorenminyinhangguizhangzhidingchengxuyuguanl2ca8a2.html",
+   "effective": "2018-11-11"
+  },
+  {
+   "slug": "zhongguorenminyinhanghuobijianbiejijiabishoujiaojied9ae0",
+   "short": "中国人民银行货币鉴别及假币收缴、鉴定管理办法",
+   "dept": "中国人民银行",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zhongguorenminyinhanghuobijianbiejijiabishoujiaojied9ae0.html",
+   "effective": "2020-04-01"
+  },
+  {
+   "slug": "zhongguorenminyinhangjinrongxiaofeizhequanyibaohus97115c",
+   "short": "中国人民银行金融消费者权益保护实施办法",
+   "dept": "中国人民银行",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zhongguorenminyinhangjinrongxiaofeizhequanyibaohus97115c.html",
+   "effective": "2020-11-01"
+  },
+  {
+   "slug": "renminbililvguanliguiding",
+   "short": "人民币利率管理规定",
+   "dept": "中国人民银行",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/renminbililvguanliguiding.html",
+   "effective": "1999-03-03"
+  },
+  {
+   "slug": "renminbidanweicunkuanguanlibanfa",
+   "short": "人民币单位存款管理办法",
+   "dept": "中国人民银行",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/renminbidanweicunkuanguanlibanfa.html",
+   "effective": "1997-11-21"
+  },
+  {
+   "slug": "renminbituyangshiyongguanlibanfa",
+   "short": "人民币图样使用管理办法",
+   "dept": "中国人民银行",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/renminbituyangshiyongguanlibanfa.html",
+   "effective": "2019-11-15"
+  },
+  {
+   "slug": "renminbiyinhangjiesuanzhanghuguanlibanfa",
+   "short": "人民币银行结算账户管理办法",
+   "dept": "中国人民银行",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/renminbiyinhangjiesuanzhanghuguanlibanfa.html",
+   "effective": "2003-09-01"
+  },
+  {
+   "slug": "xinyongpingjiyeguanlizanxingbanfa",
+   "short": "信用评级业管理暂行办法",
+   "dept": "中国人民银行",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/xinyongpingjiyeguanlizanxingbanfa.html",
+   "effective": "2019-12-26"
+  },
+  {
+   "slug": "quanguoyinhangjianzhaiquanshichangzhaiquanmaiduansf55cdd",
+   "short": "全国银行间债券市场债券买断式回购业务管理规定",
+   "dept": "中国人民银行",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/quanguoyinhangjianzhaiquanshichangzhaiquanmaiduansf55cdd.html",
+   "effective": "2004-05-20"
+  },
+  {
+   "slug": "quanguoyinhangjianzhaiquanshichangzhaiquanjiaoyigub3c744",
+   "short": "全国银行间债券市场债券交易管理办法",
+   "dept": "中国人民银行",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/quanguoyinhangjianzhaiquanshichangzhaiquanjiaoyigub3c744.html",
+   "effective": "2000-04-30"
+  },
+  {
+   "slug": "quanguoyinhangjianzhaiquanshichangjinrongzhaiquanf8c9969",
+   "short": "全国银行间债券市场金融债券发行管理办法",
+   "dept": "中国人民银行",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/quanguoyinhangjianzhaiquanshichangjinrongzhaiquanf8c9969.html",
+   "effective": "2005-06-01"
+  },
+  {
+   "slug": "quanqiuxitongzhongyaoxingyinhangzongsunshixishounee2056a",
+   "short": "全球系统重要性银行总损失吸收能力管理办法",
+   "dept": "中国人民银行",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/quanqiuxitongzhongyaoxingyinhangzongsunshixishounee2056a.html",
+   "effective": "2021-12-01"
+  },
+  {
+   "slug": "guanyuzhixingchuxuguanlitiaolideruoganguiding",
+   "short": "关于执行《储蓄管理条例》的若干规定",
+   "dept": "中国人民银行",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/guanyuzhixingchuxuguanlitiaolideruoganguiding.html",
+   "effective": "1993-01-14"
+  },
+  {
+   "slug": "neidiyuxianggangzhaiquanshichanghulianhutonghezuogfea799",
+   "short": "内地与香港债券市场互联互通合作管理暂行办法",
+   "dept": "中国人民银行",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/neidiyuxianggangzhaiquanshichanghulianhutonghezuogfea799.html",
+   "effective": "2017-06-21"
+  },
+  {
+   "slug": "dongchanhequanlidanbaotongyidengjibanfa",
+   "short": "动产和权利担保统一登记办法",
+   "dept": "中国人民银行",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/dongchanhequanlidanbaotongyidengjibanfa.html",
+   "effective": "2022-02-01"
+  },
+  {
+   "slug": "fanxiqiantebieyufangcuoshiguanlibanfa",
+   "short": "反洗钱特别预防措施管理办法",
+   "dept": "中国人民银行",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/fanxiqiantebieyufangcuoshiguanlibanfa.html",
+   "effective": "2026-02-16"
+  },
+  {
+   "slug": "shouyisuoyourenxinxiguanlibanfa",
+   "short": "受益所有人信息管理办法",
+   "dept": "中国人民银行",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/shouyisuoyourenxinxiguanlibanfa.html",
+   "effective": "2024-11-01"
+  },
+  {
+   "slug": "tongyechaijieguanlibanfa",
+   "short": "同业拆借管理办法",
+   "dept": "中国人民银行",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/tongyechaijieguanlibanfa.html",
+   "effective": "2007-08-06"
+  },
+  {
+   "slug": "shangyehuipiaochengduitiexianyuzaitiexianguanlibanf94769",
+   "short": "商业汇票承兑、贴现与再贴现管理办法",
+   "dept": "中国人民银行",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/shangyehuipiaochengduitiexianyuzaitiexianguanlibanf94769.html",
+   "effective": "2023-01-01"
+  },
+  {
+   "slug": "shangyehuipiaochengduitiexianyuzaitiexianguanlizan2a10ed",
+   "short": "商业汇票承兑、贴现与再贴现管理暂行办法",
+   "dept": "中国人民银行",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/shangyehuipiaochengduitiexianyuzaitiexianguanlizan2a10ed.html",
+   "effective": "1997-05-27"
+  },
+  {
+   "slug": "shangyeyinhangxinyongshedailiguokuyewuguanlibanfa",
+   "short": "商业银行、信用社代理国库业务管理办法",
+   "dept": "中国人民银行",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/shangyeyinhangxinyongshedailiguokuyewuguanlibanfa.html",
+   "effective": "2001-02-01"
+  },
+  {
+   "slug": "shangyeyinhangxinyongshedailizhikuyewushenpiguanli214325",
+   "short": "商业银行、信用社代理支库业务审批管理办法",
+   "dept": "中国人民银行",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/shangyeyinhangxinyongshedailizhikuyewushenpiguanli214325.html",
+   "effective": "2026-01-01"
+  },
+  {
+   "slug": "guokujizhongshoufudailiyinhangzigerendingguanliban17d870",
+   "short": "国库集中收付代理银行资格认定管理办法",
+   "dept": "中国人民银行",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/guokujizhongshoufudailiyinhangzigerendingguanliban17d870.html",
+   "effective": "2026-01-01"
+  },
+  {
+   "slug": "difangzhengfuxiangzhongyangzhuanxiangjiekuanguanlib961c3",
+   "short": "地方政府向中央专项借款管理规定",
+   "dept": "中国人民银行",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/difangzhengfuxiangzhongyangzhuanxiangjiekuanguanlib961c3.html",
+   "effective": "2000-05-16"
+  },
+  {
+   "slug": "jingneiwaihuizhanghuguanliguiding",
+   "short": "境内外汇帐户管理规定",
+   "dept": "中国人民银行",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/jingneiwaihuizhanghuguanliguiding.html",
+   "effective": "1997-10-15"
+  },
+  {
+   "slug": "jingwaiwaihuizhanghuguanliguiding",
+   "short": "境外外汇账户管理规定",
+   "dept": "中国人民银行",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/jingwaiwaihuizhanghuguanliguiding.html",
+   "effective": "1998-01-01"
+  },
+  {
+   "slug": "zhengxinyewuguanlibanfa",
+   "short": "征信业务管理办法",
+   "dept": "中国人民银行",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zhengxinyewuguanlibanfa.html",
+   "effective": "2022-01-01"
+  },
+  {
+   "slug": "zhengxinjigouguanlibanfa",
+   "short": "征信机构管理办法",
+   "dept": "中国人民银行",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zhengxinjigouguanlibanfa.html",
+   "effective": "2013-12-20"
+  },
+  {
+   "slug": "zhifujiesuanyewudailibanfa",
+   "short": "支付结算业务代理办法",
+   "dept": "中国人民银行",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zhifujiesuanyewudailibanfa.html",
+   "effective": "2000-07-01"
+  },
+  {
+   "slug": "zhifujiesuanbanfa",
+   "short": "支付结算办法",
+   "dept": "中国人民银行",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zhifujiesuanbanfa.html",
+   "effective": "1997-12-01"
+  },
+  {
+   "slug": "qichedaikuanguanlibanfa",
+   "short": "汽车贷款管理办法",
+   "dept": "中国人民银行",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/qichedaikuanguanlibanfa.html",
+   "effective": "2018-01-01"
+  },
+  {
+   "slug": "dianzishangyehuipiaoyewuguanlibanfa",
+   "short": "电子商业汇票业务管理办法",
+   "dept": "中国人民银行",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/dianzishangyehuipiaoyewuguanlibanfa.html",
+   "effective": "2009-10-16"
+  },
+  {
+   "slug": "lianyinhangyewuguanlibanfa",
+   "short": "离岸银行业务管理办法",
+   "dept": "中国人民银行",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/lianyinhangyewuguanlibanfa.html",
+   "effective": "1998-01-01"
+  },
+  {
+   "slug": "xitongzhongyaoxingyinhangfujiajianguanguiding",
+   "short": "系统重要性银行附加监管规定（试行）",
+   "dept": "中国人民银行",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/xitongzhongyaoxingyinhangfujiajianguanguiding.html",
+   "effective": "2021-12-01"
+  },
+  {
+   "slug": "tongzhicunkuanguanlibanfa",
+   "short": "通知存款管理办法",
+   "dept": "中国人民银行",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/tongzhicunkuanguanlibanfa.html",
+   "effective": "1999-01-03"
+  },
+  {
+   "slug": "jinrongjichusheshijianduguanlibanfa",
+   "short": "金融基础设施监督管理办法",
+   "dept": "中国人民银行",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/jinrongjichusheshijianduguanlibanfa.html",
+   "effective": "2025-10-01"
+  },
+  {
+   "slug": "jinrongkonggugongsiguanlianjiaoyiguanlibanfa",
+   "short": "金融控股公司关联交易管理办法",
+   "dept": "中国人民银行",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/jinrongkonggugongsiguanlianjiaoyiguanlibanfa.html",
+   "effective": "2023-03-01"
+  },
+  {
+   "slug": "jinrongkonggugongsijianduguanlishixingbanfa",
+   "short": "金融控股公司监督管理试行办法",
+   "dept": "中国人民银行",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/jinrongkonggugongsijianduguanlishixingbanfa.html",
+   "effective": "2020-11-01"
+  },
+  {
+   "slug": "jinrongkonggugongsidongshijianshigaojiguanlirenyua63dd31",
+   "short": "金融控股公司董事、监事、高级管理人员任职备案管理暂行规定",
+   "dept": "中国人民银行",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/jinrongkonggugongsidongshijianshigaojiguanlirenyua63dd31.html",
+   "effective": "2021-05-01"
+  },
+  {
+   "slug": "jinrongjigoufanxiqianhefankongburongzijianduguanli43f89a",
+   "short": "金融机构反洗钱和反恐怖融资监督管理办法",
+   "dept": "中国人民银行",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/jinrongjigoufanxiqianhefankongburongzijianduguanli43f89a.html",
+   "effective": "2021-08-01"
+  },
+  {
+   "slug": "jinrongjigoufanxiqianguiding",
+   "short": "金融机构反洗钱规定",
+   "dept": "中国人民银行",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/jinrongjigoufanxiqianguiding.html",
+   "effective": "2007-01-01"
+  },
+  {
+   "slug": "jinrongjigoudaejiaoyihekeyijiaoyibaogaoguanlibanfa",
+   "short": "金融机构大额交易和可疑交易报告管理办法",
+   "dept": "中国人民银行",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/jinrongjigoudaejiaoyihekeyijiaoyibaogaoguanlibanfa.html",
+   "effective": "2017-07-01"
+  },
+  {
+   "slug": "jinrongjigoukehushouyisuoyourenshibieguanlibanfa",
+   "short": "金融机构客户受益所有人识别管理办法",
+   "dept": "中国人民银行",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/jinrongjigoukehushouyisuoyourenshibieguanlibanfa.html",
+   "effective": "2026-01-20"
+  },
+  {
+   "slug": "jinrongjigoukehujinzhidiaochahekehushenfenziliaoji9cca63",
+   "short": "金融机构客户尽职调查和客户身份资料及交易记录保存管理办法",
+   "dept": "中国人民银行",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/jinrongjigoukehujinzhidiaochahekehushenfenziliaoji9cca63.html",
+   "effective": "2026-01-01"
+  },
+  {
+   "slug": "jinrongjigoukehushenfenshibiehekehushenfenziliaoji989f94",
+   "short": "金融机构客户身份识别和客户身份资料及交易记录保存管理办法",
+   "dept": "中国人民银行",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/jinrongjigoukehushenfenshibiehekehushenfenziliaoji989f94.html",
+   "effective": "2017-08-01"
+  },
+  {
+   "slug": "jinrongtongjiguanliguiding",
+   "short": "金融统计管理规定",
+   "dept": "中国人民银行",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/jinrongtongjiguanliguiding.html",
+   "effective": "2002-12-15"
+  },
+  {
+   "slug": "yinhangbanlijieshouhuiyewuguanlibanfa",
+   "short": "银行办理结售汇业务管理办法",
+   "dept": "中国人民银行",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/yinhangbanlijieshouhuiyewuguanlibanfa.html",
+   "effective": "2014-08-01"
+  },
+  {
+   "slug": "yinhangkaqingsuanjigouguanlibanfa",
+   "short": "银行卡清算机构管理办法",
+   "dept": "中国人民银行",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/yinhangkaqingsuanjigouguanlibanfa.html",
+   "effective": "2016-06-06"
+  },
+  {
+   "slug": "yinhangjianzhaiquanshichangzhaiquandengjituoguanji1efd98",
+   "short": "银行间债券市场债券登记托管结算管理办法",
+   "dept": "中国人民银行",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/yinhangjianzhaiquanshichangzhaiquandengjituoguanji1efd98.html",
+   "effective": "2009-05-04"
+  },
+  {
+   "slug": "yinhangjianzhaiquanshichangfeijinrongqiyezhaiwuron6465f4",
+   "short": "银行间债券市场非金融企业债务融资工具管理办法",
+   "dept": "中国人民银行",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/yinhangjianzhaiquanshichangfeijinrongqiyezhaiwuron6465f4.html",
+   "effective": "2008-04-15"
+  },
+  {
+   "slug": "yinhangjianwaihuishichangguanliguiding",
+   "short": "银行间外汇市场管理规定",
+   "dept": "中国人民银行",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/yinhangjianwaihuishichangguanliguiding.html",
+   "effective": "2026-02-01"
+  },
+  {
+   "slug": "feijinrongjigouzhifufuwuguanlibanfa",
+   "short": "非金融机构支付服务管理办法",
+   "dept": "中国人民银行",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/feijinrongjigouzhifufuwuguanlibanfa.html",
+   "effective": "2010-09-01"
+  },
+  {
+   "slug": "feiyinhangzhifujigoukehubeifujincunguanbanfa",
+   "short": "非银行支付机构客户备付金存管办法",
+   "dept": "中国人民银行",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/feiyinhangzhifujigoukehubeifujincunguanbanfa.html",
+   "effective": "2021-03-01"
+  },
+  {
+   "slug": "feiyinhangzhifujigoujianduguanlitiaolishishixize",
+   "short": "非银行支付机构监督管理条例实施细则",
+   "dept": "中国人民银行",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/feiyinhangzhifujigoujianduguanlitiaolishishixize.html",
+   "effective": "2024-07-09"
+  },
+  {
+   "slug": "huangjinjihuangjinzhipinjinchukouguanlibanfa",
+   "short": "黄金及黄金制品进出口管理办法",
+   "dept": "中国人民银行",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/huangjinjihuangjinzhipinjinchukouguanlibanfa.html",
+   "effective": "2015-04-01"
+  },
+  {
+   "slug": "linshijuminshenfenzhengguanlibanfa",
+   "short": "临时居民身份证管理办法",
+   "dept": "公安部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/linshijuminshenfenzhengguanlibanfa.html",
+   "effective": "2005-10-01"
+  },
+  {
+   "slug": "putonghuzhaohechurujingtongxingzhengqianfaguanliba4c9b49",
+   "short": "普通护照和出入境通行证签发管理办法",
+   "dept": "公安部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/putonghuzhaohechurujingtongxingzhengqianfaguanliba4c9b49.html",
+   "effective": "2007-10-25"
+  },
+  {
+   "slug": "bianjingguanliqutongxingzhengguanlibanfa",
+   "short": "边境管理区通行证管理办法",
+   "dept": "公安部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/bianjingguanliqutongxingzhengguanlibanfa.html",
+   "effective": "1999-09-04"
+  },
+  {
+   "slug": "linshirujingjidongchehejiashirenguanliguiding",
+   "short": "临时入境机动车和驾驶人管理规定",
+   "dept": "公安部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/linshirujingjidongchehejiashirenguanliguiding.html",
+   "effective": "2007-01-01"
+  },
+  {
+   "slug": "hulianwanganquanbaohujishucuoshiguiding",
+   "short": "互联网安全保护技术措施规定",
+   "dept": "公安部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/hulianwanganquanbaohujishucuoshiguiding.html",
+   "effective": "2006-03-01"
+  },
+  {
+   "slug": "renminjingchazhishifuzhuangjiqibiaozhiguanliguidin13b08b",
+   "short": "人民警察制式服装及其标志管理规定",
+   "dept": "公安部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/renminjingchazhishifuzhuangjiqibiaozhiguanliguidin13b08b.html",
+   "effective": "2001-03-16"
+  },
+  {
+   "slug": "renminjingchajinghuishiyongguanliguiding",
+   "short": "人民警察警徽使用管理规定",
+   "dept": "公安部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/renminjingchajinghuishiyongguanliguiding.html",
+   "effective": "2000-03-27"
+  },
+  {
+   "slug": "cangkufanghuoanquanguanliguize",
+   "short": "仓库防火安全管理规则",
+   "dept": "公安部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/cangkufanghuoanquanguanliguize.html",
+   "effective": "1990-04-10"
+  },
+  {
+   "slug": "baoanpeixunjigouguanlibanfa",
+   "short": "保安培训机构管理办法",
+   "dept": "公安部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/baoanpeixunjigouguanlibanfa.html",
+   "effective": "2005-12-31"
+  },
+  {
+   "slug": "gonggongyulechangsuoxiaofanganquanguanliguiding",
+   "short": "公共娱乐场所消防安全管理规定",
+   "dept": "公安部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/gonggongyulechangsuoxiaofanganquanguanliguiding.html",
+   "effective": "1995-05-25"
+  },
+  {
+   "slug": "gonganjiguanhulianwanganquanjiandujianchaguiding",
+   "short": "公安机关互联网安全监督检查规定",
+   "dept": "公安部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/gonganjiguanhulianwanganquanjiandujianchaguiding.html",
+   "effective": "2018-11-01"
+  },
+  {
+   "slug": "gonganjiguanrenminjingchaneiwutiaoling",
+   "short": "公安机关人民警察内务条令",
+   "dept": "公安部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/gonganjiguanrenminjingchaneiwutiaoling.html",
+   "effective": "2021-10-28"
+  },
+  {
+   "slug": "gonganjiguanrenminjingchajianglitiaoling",
+   "short": "公安机关人民警察奖励条令",
+   "dept": "公安部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/gonganjiguanrenminjingchajianglitiaoling.html",
+   "effective": "2016-01-01"
+  },
+  {
+   "slug": "gonganjiguanrenminjingchazhifaguocuozerenzhuijiugu8c19be",
+   "short": "公安机关人民警察执法过错责任追究规定",
+   "dept": "公安部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/gonganjiguanrenminjingchazhifaguocuozerenzhuijiugu8c19be.html",
+   "effective": "2016-03-01"
+  },
+  {
+   "slug": "gonganjiguanrenminjingchaxunliantiaoling",
+   "short": "公安机关人民警察训练条令",
+   "dept": "公安部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/gonganjiguanrenminjingchaxunliantiaoling.html",
+   "effective": "2015-01-01"
+  },
+  {
+   "slug": "gonganjiguanrenminjingchazhengshiyongguanliguiding",
+   "short": "公安机关人民警察证使用管理规定",
+   "dept": "公安部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/gonganjiguanrenminjingchazhengshiyongguanliguiding.html",
+   "effective": "2008-02-28"
+  },
+  {
+   "slug": "gonganjiguanneibuzhifajiandugongzuoguiding",
+   "short": "公安机关内部执法监督工作规定",
+   "dept": "公安部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/gonganjiguanneibuzhifajiandugongzuoguiding.html",
+   "effective": "1999-06-11"
+  },
+  {
+   "slug": "gonganjiguanbanlixingshifuyifuheanjianchengxuguidi55f9e3",
+   "short": "公安机关办理刑事复议复核案件程序规定",
+   "dept": "公安部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/gonganjiguanbanlixingshifuyifuheanjianchengxuguidi55f9e3.html",
+   "effective": "2014-11-01"
+  },
+  {
+   "slug": "gonganjiguanbanlixingshianjianchengxuguiding",
+   "short": "公安机关办理刑事案件程序规定",
+   "dept": "公安部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/gonganjiguanbanlixingshianjianchengxuguiding.html",
+   "effective": "2012-12-13"
+  },
+  {
+   "slug": "gonganjiguanbanliguojiapeichanganjianchengxuguidinb83652",
+   "short": "公安机关办理国家赔偿案件程序规定",
+   "dept": "公安部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/gonganjiguanbanliguojiapeichanganjianchengxuguidinb83652.html",
+   "effective": "2018-10-01"
+  },
+  {
+   "slug": "gonganjiguanbanlixingzhenganjianchengxuguiding",
+   "short": "公安机关办理行政案件程序规定",
+   "dept": "公安部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/gonganjiguanbanlixingzhenganjianchengxuguiding.html",
+   "effective": "2012-12-19"
+  },
+  {
+   "slug": "gonganjiguanfanyouzuzhifanzuigongzuoguiding",
+   "short": "公安机关反有组织犯罪工作规定",
+   "dept": "公安部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/gonganjiguanfanyouzuzhifanzuigongzuoguiding.html",
+   "effective": "2022-10-01"
+  },
+  {
+   "slug": "gonganjiguanshishibaoanfuwuguanlitiaolibanfa",
+   "short": "公安机关实施保安服务管理条例办法",
+   "dept": "公安部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/gonganjiguanshishibaoanfuwuguanlitiaolibanfa.html",
+   "effective": "2010-02-03"
+  },
+  {
+   "slug": "gonganjiguanqiangzhigelijiedusuoguanlibanfa",
+   "short": "公安机关强制隔离戒毒所管理办法",
+   "dept": "公安部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/gonganjiguanqiangzhigelijiedusuoguanlibanfa.html",
+   "effective": "2011-09-28"
+  },
+  {
+   "slug": "gonganjiguanzhifazhiliangkaohepingyiguiding",
+   "short": "公安机关执法质量考核评议规定",
+   "dept": "公安部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/gonganjiguanzhifazhiliangkaohepingyiguiding.html",
+   "effective": "2016-03-01"
+  },
+  {
+   "slug": "gonganjiguanjiandujianchaqiyeshiyedanweineibuzhiand22b55",
+   "short": "公安机关监督检查企业事业单位内部治安保卫工作规定",
+   "dept": "公安部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/gonganjiguanjiandujianchaqiyeshiyedanweineibuzhiand22b55.html",
+   "effective": "2007-10-01"
+  },
+  {
+   "slug": "gonganjiguanduchatiaolishishibanfa",
+   "short": "公安机关督察条例实施办法",
+   "dept": "公安部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/gonganjiguanduchatiaolishishibanfa.html",
+   "effective": "2001-01-02"
+  },
+  {
+   "slug": "gonganjiguanweihuminjingzhifaquanweigongzuoguiding",
+   "short": "公安机关维护民警执法权威工作规定",
+   "dept": "公安部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/gonganjiguanweihuminjingzhifaquanweigongzuoguiding.html",
+   "effective": "2019-02-01"
+  },
+  {
+   "slug": "gonganjiguanxingzhengxukegongzuoguiding",
+   "short": "公安机关行政许可工作规定",
+   "dept": "公安部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/gonganjiguanxingzhengxukegongzuoguiding.html",
+   "effective": "2005-12-01"
+  },
+  {
+   "slug": "gonganjiguanjingwuduchaduigongzuoguiding",
+   "short": "公安机关警务督察队工作规定",
+   "dept": "公安部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/gonganjiguanjingwuduchaduigongzuoguiding.html",
+   "effective": "1997-09-10"
+  },
+  {
+   "slug": "gonganjiguanjingjiedaishiyongguanlibanfa",
+   "short": "公安机关警戒带使用管理办法",
+   "dept": "公安部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/gonganjiguanjingjiedaishiyongguanlibanfa.html",
+   "effective": "1998-03-11"
+  },
+  {
+   "slug": "gonganjiguanshiyongjixupanwenguiding",
+   "short": "公安机关适用继续盘问规定",
+   "dept": "公安部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/gonganjiguanshiyongjixupanwenguiding.html",
+   "effective": "2004-07-12"
+  },
+  {
+   "slug": "gonganjiguanjiandingrendengjiguanlibanfa",
+   "short": "公安机关鉴定人登记管理办法",
+   "dept": "公安部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/gonganjiguanjiandingrendengjiguanlibanfa.html",
+   "effective": "2020-05-01"
+  },
+  {
+   "slug": "gonganjiguanjiandingjigoudengjiguanlibanfa",
+   "short": "公安机关鉴定机构登记管理办法",
+   "dept": "公安部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/gonganjiguanjiandingjigoudengjiguanlibanfa.html",
+   "effective": "2020-05-01"
+  },
+  {
+   "slug": "gongluxunluominjingduijingwugongzuoguifan",
+   "short": "公路巡逻民警队警务工作规范",
+   "dept": "公安部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/gongluxunluominjingduijingwugongzuoguifan.html",
+   "effective": "2011-07-01"
+  },
+  {
+   "slug": "chujingrujinghangkongqizaiyunrenyuanxinxiyubaoyujia3ca9a",
+   "short": "出境入境航空器载运人员信息预报预检实施办法",
+   "dept": "公安部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/chujingrujinghangkongqizaiyunrenyuanxinxiyubaoyujia3ca9a.html",
+   "effective": "2018-08-01"
+  },
+  {
+   "slug": "juduhuaxuepingoumaihegongluyunshuxukezhengjianguan19763e",
+   "short": "剧毒化学品购买和公路运输许可证件管理办法",
+   "dept": "公安部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/juduhuaxuepingoumaihegongluyunshuxukezhengjianguan19763e.html",
+   "effective": "2005-08-01"
+  },
+  {
+   "slug": "taiwanyuchuantingbodianbianfangzhianguanlibanfa",
+   "short": "台湾渔船停泊点边防治安管理办法",
+   "dept": "公安部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/taiwanyuchuantingbodianbianfangzhianguanlibanfa.html",
+   "effective": "2002-03-01"
+  },
+  {
+   "slug": "xiduchengyinrendingbanfa",
+   "short": "吸毒成瘾认定办法",
+   "dept": "公安部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/xiduchengyinrendingbanfa.html",
+   "effective": "2011-01-30"
+  },
+  {
+   "slug": "xidujiancechengxuguiding",
+   "short": "吸毒检测程序规定",
+   "dept": "公安部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/xidujiancechengxuguiding.html",
+   "effective": "2009-09-27"
+  },
+  {
+   "slug": "chengshirenminjingchaxunluoguiding",
+   "short": "城市人民警察巡逻规定",
+   "dept": "公安部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/chengshirenminjingchaxunluoguiding.html",
+   "effective": "1994-02-24"
+  },
+  {
+   "slug": "waiguorenzaizhongguoyongjiujuliushenpiguanlibanfa",
+   "short": "外国人在中国永久居留审批管理办法",
+   "dept": "公安部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/waiguorenzaizhongguoyongjiujuliushenpiguanlibanfa.html",
+   "effective": "2004-08-15"
+  },
+  {
+   "slug": "yulechangsuozhianguanlibanfa",
+   "short": "娱乐场所治安管理办法",
+   "dept": "公安部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/yulechangsuozhianguanlibanfa.html",
+   "effective": "2008-10-01"
+  },
+  {
+   "slug": "juliusuotiaolishishibanfa",
+   "short": "拘留所条例实施办法",
+   "dept": "公安部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/juliusuotiaolishishibanfa.html",
+   "effective": "2012-12-14"
+  },
+  {
+   "slug": "yizhiduhuaxuepingouxiaoheyunshuguanlibanfa",
+   "short": "易制毒化学品购销和运输管理办法",
+   "dept": "公安部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/yizhiduhuaxuepingouxiaoheyunshuguanlibanfa.html",
+   "effective": "2006-10-01"
+  },
+  {
+   "slug": "yizhibaoweixianhuaxuepinzhianguanlibanfa",
+   "short": "易制爆危险化学品治安管理办法",
+   "dept": "公安部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/yizhibaoweixianhuaxuepinzhianguanlibanfa.html",
+   "effective": "2019-08-10"
+  },
+  {
+   "slug": "jiguantuantiqiyeshiyedanweixiaofanganquanguanliguic172e1",
+   "short": "机关、团体、企业、事业单位消防安全管理规定",
+   "dept": "公安部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/jiguantuantiqiyeshiyedanweixiaofanganquanguanliguic172e1.html",
+   "effective": "2002-05-01"
+  },
+  {
+   "slug": "jidongchexiuliyebaofeijidongchehuishouyezhianguanlce00e2",
+   "short": "机动车修理业、报废机动车回收业治安管理办法",
+   "dept": "公安部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/jidongchexiuliyebaofeijidongchehuishouyezhianguanlce00e2.html",
+   "effective": "1999-03-25"
+  },
+  {
+   "slug": "jidongchedengjiguiding",
+   "short": "机动车登记规定",
+   "dept": "公安部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/jidongchedengjiguiding.html",
+   "effective": "2022-05-01"
+  },
+  {
+   "slug": "jidongchejiashizhengshenlingheshiyongguiding",
+   "short": "机动车驾驶证申领和使用规定",
+   "dept": "公安部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/jidongchejiashizhengshenlingheshiyongguiding.html",
+   "effective": "2022-04-01"
+  },
+  {
+   "slug": "yanhaichuanbobianfangzhianguanliguiding",
+   "short": "沿海船舶边防治安管理规定",
+   "dept": "公安部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/yanhaichuanbobianfangzhianguanliguiding.html",
+   "effective": "2000-05-01"
+  },
+  {
+   "slug": "zhucexiaofanggongchengshiguanliguiding",
+   "short": "注册消防工程师管理规定",
+   "dept": "公安部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zhucexiaofanggongchengshiguanliguiding.html",
+   "effective": "2017-10-01"
+  },
+  {
+   "slug": "xiaofangchanpinjianduguanliguiding-2",
+   "short": "消防产品监督管理规定（2012）",
+   "dept": "公安部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/xiaofangchanpinjianduguanliguiding-2.html",
+   "effective": "2013-01-01"
+  },
+  {
+   "slug": "xiaofangchanpinjianduguanliguiding",
+   "short": "消防产品监督管理规定（2012）",
+   "dept": "公安部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/xiaofangchanpinjianduguanliguiding.html",
+   "effective": "2013-01-01"
+  },
+  {
+   "slug": "xiaofangjiandujianchaguiding",
+   "short": "消防监督检查规定",
+   "dept": "公安部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/xiaofangjiandujianchaguiding.html",
+   "effective": "2012-11-01"
+  },
+  {
+   "slug": "kanshousuoliusuozhixingxingfazuifanguanlibanfa",
+   "short": "看守所留所执行刑罚罪犯管理办法",
+   "dept": "公安部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/kanshousuoliusuozhixingxingfazuifanguanlibanfa.html",
+   "effective": "2013-11-23"
+  },
+  {
+   "slug": "shehuixiaofanganquanjiaoyupeixunguiding-2",
+   "short": "社会消防安全教育培训规定（2009）",
+   "dept": "公安部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/shehuixiaofanganquanjiaoyupeixunguiding-2.html",
+   "effective": "2009-06-01"
+  },
+  {
+   "slug": "zulinfangwuzhianguanliguiding",
+   "short": "租赁房屋治安管理规定",
+   "dept": "公安部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zulinfangwuzhianguanliguiding.html",
+   "effective": "1995-03-06"
+  },
+  {
+   "slug": "jingcheguanliguiding",
+   "short": "警车管理规定",
+   "dept": "公安部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/jingcheguanliguiding.html",
+   "effective": "2006-11-29"
+  },
+  {
+   "slug": "jisuanjibingdufangzhiguanlibanfa",
+   "short": "计算机病毒防治管理办法",
+   "dept": "公安部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/jisuanjibingdufangzhiguanlibanfa.html",
+   "effective": "2000-04-26"
+  },
+  {
+   "slug": "daolujiaotongshiguchulichengxuguiding",
+   "short": "道路交通事故处理程序规定",
+   "dept": "公安部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/daolujiaotongshiguchulichengxuguiding.html",
+   "effective": "2018-05-01"
+  },
+  {
+   "slug": "daolujiaotonganquanweifaxingweichulichengxuguiding",
+   "short": "道路交通安全违法行为处理程序规定",
+   "dept": "公安部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/daolujiaotonganquanweifaxingweichulichengxuguiding.html",
+   "effective": "2008-12-20"
+  },
+  {
+   "slug": "daolujiaotonganquanweifaxingweijifenguanlibanfa",
+   "short": "道路交通安全违法行为记分管理办法",
+   "dept": "公安部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/daolujiaotonganquanweifaxingweijifenguanlibanfa.html",
+   "effective": "2022-04-01"
+  },
+  {
+   "slug": "jinrongjigouyingyechangsuohejinkuanquanfangfanshes0def9d",
+   "short": "金融机构营业场所和金库安全防范设施建设许可实施办法",
+   "dept": "公安部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/jinrongjigouyingyechangsuohejinkuanquanfangfanshes0def9d.html",
+   "effective": "2006-02-01"
+  },
+  {
+   "slug": "zhuanlidailirendaimabiaozhun-2",
+   "short": "专利代理人代码标准（2001）",
+   "dept": "国家知识产权局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zhuanlidailirendaimabiaozhun-2.html",
+   "effective": "2002-06-01"
+  },
+  {
+   "slug": "zhuanlidailirendaimabiaozhun",
+   "short": "专利代理人代码标准（2001）",
+   "dept": "国家知识产权局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zhuanlidailirendaimabiaozhun.html",
+   "effective": "2002-06-01"
+  },
+  {
+   "slug": "zhuanlidailishizigekaoshibanfa-2",
+   "short": "专利代理师资格考试办法（2019）",
+   "dept": "国家知识产权局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zhuanlidailishizigekaoshibanfa-2.html",
+   "effective": "2019-06-01"
+  },
+  {
+   "slug": "zhuanlidailiguanlibanfa-2",
+   "short": "专利代理管理办法（2019）",
+   "dept": "国家知识产权局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zhuanlidailiguanlibanfa-2.html",
+   "effective": "2019-05-01"
+  },
+  {
+   "slug": "zhuanliyouxianshenchaguanlibanfa-2",
+   "short": "专利优先审查管理办法（2017）",
+   "dept": "国家知识产权局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zhuanliyouxianshenchaguanlibanfa-2.html",
+   "effective": "2017-08-01"
+  },
+  {
+   "slug": "zhuanliyouxianshenchaguanlibanfa",
+   "short": "专利优先审查管理办法（2017）",
+   "dept": "国家知识产权局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zhuanliyouxianshenchaguanlibanfa.html",
+   "effective": "2017-08-01"
+  },
+  {
+   "slug": "zhuanlishishiqiangzhixukebanfa-2",
+   "short": "专利实施强制许可办法（2012）",
+   "dept": "国家知识产权局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zhuanlishishiqiangzhixukebanfa-2.html",
+   "effective": "2012-05-01"
+  },
+  {
+   "slug": "zhuanlishishiqiangzhixukebanfa",
+   "short": "专利实施强制许可办法（2012）",
+   "dept": "国家知识产权局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zhuanlishishiqiangzhixukebanfa.html",
+   "effective": "2012-05-01"
+  },
+  {
+   "slug": "zhuanlishishixukehetongbeianbanfa-2",
+   "short": "专利实施许可合同备案办法（2011）",
+   "dept": "国家知识产权局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zhuanlishishixukehetongbeianbanfa-2.html",
+   "effective": "2011-08-01"
+  },
+  {
+   "slug": "zhuanlishishixukehetongbeianbanfa",
+   "short": "专利实施许可合同备案办法（2011）",
+   "dept": "国家知识产权局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zhuanlishishixukehetongbeianbanfa.html",
+   "effective": "2011-08-01"
+  },
+  {
+   "slug": "zhuanlishenchazhinan",
+   "short": "专利审查指南（2010）",
+   "dept": "国家知识产权局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zhuanlishenchazhinan.html",
+   "effective": "2010-02-01"
+  },
+  {
+   "slug": "zhuanlishujuyuansubiaozhundi1bufenguanyuyongxmlchu017387",
+   "short": "专利数据元素标准第1部分:关于用XML处理复审请求审查决定、无效请求审查决定和司法判决文件的暂行办法",
+   "dept": "国家知识产权局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zhuanlishujuyuansubiaozhundi1bufenguanyuyongxmlchu017387.html",
+   "effective": "2007-01-01"
+  },
+  {
+   "slug": "zhuanlishujuyuansubiaozhundi2bufenguanyuyongxmlchub20900",
+   "short": "专利数据元素标准第2部分:关于用XML处理中国发明、实用新型专利文献数据的暂行办法",
+   "dept": "国家知识产权局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zhuanlishujuyuansubiaozhundi2bufenguanyuyongxmlchub20900.html",
+   "effective": "2007-01-01"
+  },
+  {
+   "slug": "zhuanliquanzhiyadengjibanfa",
+   "short": "专利权质押登记办法",
+   "dept": "国家知识产权局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zhuanliquanzhiyadengjibanfa.html",
+   "effective": "2010-10-01"
+  },
+  {
+   "slug": "zhuanlibiaoshibiaozhubanfa-2",
+   "short": "专利标识标注办法（2012）",
+   "dept": "国家知识产权局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zhuanlibiaoshibiaozhubanfa-2.html",
+   "effective": "2012-05-01"
+  },
+  {
+   "slug": "zhuanlibiaoshibiaozhubanfa",
+   "short": "专利标识标注办法（2012）",
+   "dept": "国家知识产权局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zhuanlibiaoshibiaozhubanfa.html",
+   "effective": "2012-05-01"
+  },
+  {
+   "slug": "zhuanlishenqingrenhezhuanliquanrendaimabiaozhun",
+   "short": "专利申请人和专利权人（单位）代码标准",
+   "dept": "国家知识产权局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zhuanlishenqingrenhezhuanliquanrendaimabiaozhun.html",
+   "effective": "2002-01-01"
+  },
+  {
+   "slug": "zhuanlishenqinghaobiaozhun-2",
+   "short": "专利申请号标准（2003）",
+   "dept": "国家知识产权局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zhuanlishenqinghaobiaozhun-2.html",
+   "effective": "2003-10-01"
+  },
+  {
+   "slug": "zhuanlishenqinghaobiaozhun",
+   "short": "专利申请号标准（2003）",
+   "dept": "国家知识产权局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zhuanlishenqinghaobiaozhun.html",
+   "effective": "2003-10-01"
+  },
+  {
+   "slug": "zhuanlixingzhengzhifabanfa-2",
+   "short": "专利行政执法办法（2010）",
+   "dept": "国家知识产权局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zhuanlixingzhengzhifabanfa-2.html",
+   "effective": "2011-02-01"
+  },
+  {
+   "slug": "zhuanlixingzhengzhifabanfa",
+   "short": "专利行政执法办法（2010）",
+   "dept": "国家知识产权局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zhuanlixingzhengzhifabanfa.html",
+   "effective": "2011-02-01"
+  },
+  {
+   "slug": "zhuanlifeiyongjibenxinxidaimaguifan",
+   "short": "专利费用基本信息代码规范(试行)",
+   "dept": "国家知识产权局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zhuanlifeiyongjibenxinxidaimaguifan.html",
+   "effective": "2007-01-01"
+  },
+  {
+   "slug": "zhuanlifeiyongjibenxinxidaimaguifan-2",
+   "short": "专利费用基本信息代码规范（试行）",
+   "dept": "国家知识产权局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zhuanlifeiyongjibenxinxidaimaguifan-2.html",
+   "effective": "2007-01-01"
+  },
+  {
+   "slug": "zhishichanquanhangyebiaozhunbiaogegeshihedaimabiaobfae64",
+   "short": "知识产权行业标准——表格格式和代码标准",
+   "dept": "国家知识产权局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zhishichanquanhangyebiaozhunbiaogegeshihedaimabiaobfae64.html",
+   "effective": "2002-04-01"
+  },
+  {
+   "slug": "zhishichanquanhangyebiaozhunbiaogegeshiguize",
+   "short": "知识产权行业标准——表格格式规则(第2部分第1分部)",
+   "dept": "国家知识产权局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zhishichanquanhangyebiaozhunbiaogegeshiguize.html",
+   "effective": "2003-01-30"
+  },
+  {
+   "slug": "guanyuzhuanlidianzishenqingdeguiding-2",
+   "short": "关于专利电子申请的规定（2010）",
+   "dept": "国家知识产权局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/guanyuzhuanlidianzishenqingdeguiding-2.html",
+   "effective": "2010-10-01"
+  },
+  {
+   "slug": "guanyuzhuanlidianzishenqingdeguiding",
+   "short": "关于专利电子申请的规定（2010）",
+   "dept": "国家知识产权局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/guanyuzhuanlidianzishenqingdeguiding.html",
+   "effective": "2010-10-01"
+  },
+  {
+   "slug": "guanyutaiwantongbaozhuanlishenqingderuoganguiding-2",
+   "short": "关于台湾同胞专利申请的若干规定（2010）",
+   "dept": "国家知识产权局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/guanyutaiwantongbaozhuanlishenqingderuoganguiding-2.html",
+   "effective": "2010-11-22"
+  },
+  {
+   "slug": "guanyutaiwantongbaozhuanlishenqingderuoganguiding",
+   "short": "关于台湾同胞专利申请的若干规定（2010）",
+   "dept": "国家知识产权局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/guanyutaiwantongbaozhuanlishenqingderuoganguiding.html",
+   "effective": "2010-11-22"
+  },
+  {
+   "slug": "guanyuzaixianggangtebiexingzhengquzhishichanquanshbc2567-2",
+   "short": "关于在香港特别行政区知识产权署提出的首次申请的优先权的规定（1999）",
+   "dept": "国家知识产权局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/guanyuzaixianggangtebiexingzhengquzhishichanquanshbc2567-2.html",
+   "effective": "1999-12-15"
+  },
+  {
+   "slug": "guanyuzaixianggangtebiexingzhengquzhishichanquanshbc2567",
+   "short": "关于在香港特别行政区知识产权署提出的首次申请的优先权的规定（1999）",
+   "dept": "国家知识产权局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/guanyuzaixianggangtebiexingzhengquzhishichanquanshbc2567.html",
+   "effective": "1999-12-15"
+  },
+  {
+   "slug": "guanyuguifanzhuanlishenqingxingweideruoganguiding",
+   "short": "关于规范专利申请行为的若干规定",
+   "dept": "国家知识产权局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/guanyuguifanzhuanlishenqingxingweideruoganguiding.html",
+   "effective": "2007-10-01"
+  },
+  {
+   "slug": "shangbiaoyinzhiguanlibanfa-2",
+   "short": "商标印制管理办法（2004）",
+   "dept": "国家知识产权局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/shangbiaoyinzhiguanlibanfa-2.html",
+   "effective": "2004-09-01"
+  },
+  {
+   "slug": "shangbiaopingshenguize-2",
+   "short": "商标评审规则（2014）",
+   "dept": "国家知识产权局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/shangbiaopingshenguize-2.html",
+   "effective": "2014-06-01"
+  },
+  {
+   "slug": "guojiazhishichanquanjuxingzhengfuyiguicheng-2",
+   "short": "国家知识产权局行政复议规程（2012）",
+   "dept": "国家知识产权局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/guojiazhishichanquanjuxingzhengfuyiguicheng-2.html",
+   "effective": "2012-09-01"
+  },
+  {
+   "slug": "guojiazhishichanquanjuxingzhengfuyiguicheng",
+   "short": "国家知识产权局行政复议规程（2012）",
+   "dept": "国家知识产权局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/guojiazhishichanquanjuxingzhengfuyiguicheng.html",
+   "effective": "2012-09-01"
+  },
+  {
+   "slug": "guojiazhishichanquanjuguifanxingwenjianzhidinghegu109618-2",
+   "short": "国家知识产权局规范性文件制定和管理办法（2016）",
+   "dept": "国家知识产权局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/guojiazhishichanquanjuguifanxingwenjianzhidinghegu109618-2.html",
+   "effective": "2017-02-01"
+  },
+  {
+   "slug": "guojiazhishichanquanjuguifanxingwenjianzhidinghegu109618",
+   "short": "国家知识产权局规范性文件制定和管理办法（2016）",
+   "dept": "国家知识产权局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/guojiazhishichanquanjuguifanxingwenjianzhidinghegu109618.html",
+   "effective": "2017-02-01"
+  },
+  {
+   "slug": "dilibiaozhichanpinbaohuguiding-2",
+   "short": "地理标志产品保护规定（2005）",
+   "dept": "国家知识产权局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/dilibiaozhichanpinbaohuguiding-2.html",
+   "effective": "2005-07-15"
+  },
+  {
+   "slug": "zhanhuizhishichanquanbaohubanfa-2",
+   "short": "展会知识产权保护办法（2006）",
+   "dept": "国家知识产权局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zhanhuizhishichanquanbaohubanfa-2.html",
+   "effective": "2006-03-01"
+  },
+  {
+   "slug": "shixingxiugaihoudezhuanlifashishixizedeguodubanfa-2",
+   "short": "施行修改后的专利法实施细则的过渡办法（2010）",
+   "dept": "国家知识产权局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/shixingxiugaihoudezhuanlifashishixizedeguodubanfa-2.html",
+   "effective": "2010-02-01"
+  },
+  {
+   "slug": "shixingxiugaihoudezhuanlifashishixizedeguodubanfa",
+   "short": "施行修改后的专利法实施细则的过渡办法（2001）",
+   "dept": "国家知识产权局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/shixingxiugaihoudezhuanlifashishixizedeguodubanfa.html",
+   "effective": "2010-02-01"
+  },
+  {
+   "slug": "shixingxiugaihoudezhuanlifadeguodubanfa-2",
+   "short": "施行修改后的专利法的过渡办法（2009）",
+   "dept": "国家知识产权局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/shixingxiugaihoudezhuanlifadeguodubanfa-2.html",
+   "effective": "2009-10-01"
+  },
+  {
+   "slug": "shixingxiugaihoudezhuanlifadeguodubanfa",
+   "short": "施行修改后的专利法的过渡办法（2009）",
+   "dept": "国家知识产权局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/shixingxiugaihoudezhuanlifadeguodubanfa.html",
+   "effective": "2009-10-01"
+  },
+  {
+   "slug": "hegansuanhehuoanjisuanxuliebiaohexuliebiaodianziwe75c00b",
+   "short": "核苷酸和/或氨基酸序列表和序列表电子文件标准",
+   "dept": "国家知识产权局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/hegansuanhehuoanjisuanxuliebiaohexuliebiaodianziwe75c00b.html",
+   "effective": "2001-11-01"
+  },
+  {
+   "slug": "yongyuzhuanlichengxudeshengwucailiaobaocangbanfa-2",
+   "short": "用于专利程序的生物材料保藏办法（2015）",
+   "dept": "国家知识产权局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/yongyuzhuanlichengxudeshengwucailiaobaocangbanfa-2.html",
+   "effective": "2015-03-01"
+  },
+  {
+   "slug": "yongyuzhuanlichengxudeshengwucailiaobaocangbanfa",
+   "short": "用于专利程序的生物材料保藏办法（2015）",
+   "dept": "国家知识产权局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/yongyuzhuanlichengxudeshengwucailiaobaocangbanfa.html",
+   "effective": "2015-03-01"
+  },
+  {
+   "slug": "biaogegeshihedaimabiaozhundi1bufen",
+   "short": "表格格式和代码标准第1部分",
+   "dept": "国家知识产权局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/biaogegeshihedaimabiaozhundi1bufen.html",
+   "effective": "2002-04-01"
+  },
+  {
+   "slug": "biaogegeshihedaimabiaozhun",
+   "short": "表格格式和代码标准（第2部分第1分部）",
+   "dept": "国家知识产权局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/biaogegeshihedaimabiaozhun.html",
+   "effective": "2003-01-30"
+  },
+  {
+   "slug": "guifanshangbiaoshenqingzhucexingweiruoganguiding-2",
+   "short": "规范商标申请注册行为若干规定（2019）",
+   "dept": "国家知识产权局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/guifanshangbiaoshenqingzhucexingweiruoganguiding-2.html",
+   "effective": "2019-12-01"
+  },
+  {
+   "slug": "caiyonggonglibiaoshiriqideguifan",
+   "short": "采用公历标示日期的规范(试行)",
+   "dept": "国家知识产权局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/caiyonggonglibiaoshiriqideguifan.html",
+   "effective": "2007-01-01"
+  },
+  {
+   "slug": "caiyonggonglibiaoshiriqideguifan-2",
+   "short": "采用公历标示日期的规范（试行）",
+   "dept": "国家知识产权局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/caiyonggonglibiaoshiriqideguifan-2.html",
+   "effective": "2007-01-01"
+  },
+  {
+   "slug": "jitishangbiaozhengmingshangbiaozhuceheguanlibanfa-2",
+   "short": "集体商标、证明商标注册和管理办法（2003）",
+   "dept": "国家知识产权局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/jitishangbiaozhengmingshangbiaozhuceheguanlibanfa-2.html",
+   "effective": "2003-04-17"
+  },
+  {
+   "slug": "jichengdianlubutushejibaohutiaolishishixize-2",
+   "short": "集成电路布图设计保护条例实施细则（2001）",
+   "dept": "国家知识产权局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/jichengdianlubutushejibaohutiaolishishixize-2.html",
+   "effective": "2001-10-01"
+  },
+  {
+   "slug": "jichengdianlubutushejibaohutiaolishishixize",
+   "short": "集成电路布图设计保护条例实施细则（2001）",
+   "dept": "国家知识产权局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/jichengdianlubutushejibaohutiaolishishixize.html",
+   "effective": "2001-10-01"
+  },
+  {
+   "slug": "jichengdianlubutushejixingzhengzhifabanfa-2",
+   "short": "集成电路布图设计行政执法办法（2001）",
+   "dept": "国家知识产权局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/jichengdianlubutushejixingzhengzhifabanfa-2.html",
+   "effective": "2001-11-28"
+  },
+  {
+   "slug": "jichengdianlubutushejixingzhengzhifabanfa",
+   "short": "集成电路布图设计行政执法办法（2001）",
+   "dept": "国家知识产权局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/jichengdianlubutushejixingzhengzhifabanfa.html",
+   "effective": "2001-11-28"
+  },
+  {
+   "slug": "chimingshangbiaorendinghebaohuguiding-2",
+   "short": "驰名商标认定和保护规定（2014）",
+   "dept": "国家知识产权局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/chimingshangbiaorendinghebaohuguiding-2.html",
+   "effective": "2014-07-03"
+  },
+  {
+   "slug": "zhongguoweituogongzhengrenguanlibanfa",
+   "short": "中国委托公证人(香港)管理办法",
+   "dept": "司法部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zhongguoweituogongzhengrenguanlibanfa.html",
+   "effective": "2002-04-01"
+  },
+  {
+   "slug": "xiangzhenfalvfuwuyewugongzuoxize",
+   "short": "乡镇法律服务业务工作细则",
+   "dept": "司法部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/xiangzhenfalvfuwuyewugongzuoxize.html",
+   "effective": "1991-09-20"
+  },
+  {
+   "slug": "gongzhengyuanzhiyeguanlibanfa",
+   "short": "公证员执业管理办法",
+   "dept": "司法部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/gongzhengyuanzhiyeguanlibanfa.html",
+   "effective": "2006-03-14"
+  },
+  {
+   "slug": "gongzhengzhiyehuodongtousuchulibanfa",
+   "short": "公证执业活动投诉处理办法",
+   "dept": "司法部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/gongzhengzhiyehuodongtousuchulibanfa.html",
+   "effective": "2022-01-01"
+  },
+  {
+   "slug": "gongzhengjigoubanlidiyadengjibanfa",
+   "short": "公证机构办理抵押登记办法",
+   "dept": "司法部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/gongzhengjigoubanlidiyadengjibanfa.html",
+   "effective": "2002-02-20"
+  },
+  {
+   "slug": "gongzhengjigouzhiyeguanlibanfa",
+   "short": "公证机构执业管理办法",
+   "dept": "司法部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/gongzhengjigouzhiyeguanlibanfa.html",
+   "effective": "2006-03-01"
+  },
+  {
+   "slug": "gongzhengchengxuguize",
+   "short": "公证程序规则",
+   "dept": "司法部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/gongzhengchengxuguize.html",
+   "effective": "2006-05-18"
+  },
+  {
+   "slug": "guanyufanduilvshihangyebuzhengdangjingzhengxingweife57f1",
+   "short": "关于反对律师行业不正当竞争行为的若干规定",
+   "dept": "司法部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/guanyufanduilvshihangyebuzhengdangjingzhengxingweife57f1.html",
+   "effective": "1995-02-20"
+  },
+  {
+   "slug": "guanyuqicaosifaxingzhengfaguihezhidingbubanguizhanc970a5",
+   "short": "关于起草司法行政法规(草案)和制定部颁规章的规定",
+   "dept": "司法部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/guanyuqicaosifaxingzhengfaguihezhidingbubanguizhanc970a5.html",
+   "effective": "2000-03-24"
+  },
+  {
+   "slug": "banlifalvyuanzhuanjianchengxuguiding",
+   "short": "办理法律援助案件程序规定",
+   "dept": "司法部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/banlifalvyuanzhuanjianchengxuguiding.html",
+   "effective": "2012-04-09"
+  },
+  {
+   "slug": "qudeneidifalvzhiyezigedexianggangtebiexingzhengquh1c428d",
+   "short": "取得内地法律职业资格的香港特别行政区和澳门特别行政区居民在内地从事律师职业管理办法（修正）",
+   "dept": "司法部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/qudeneidifalvzhiyezigedexianggangtebiexingzhengquh1c428d.html",
+   "effective": ""
+  },
+  {
+   "slug": "qudeguojiafalvzhiyezigedetaiwanjuminzaidalucongshie70d9e",
+   "short": "取得国家法律职业资格的台湾居民在大陆从事律师职业管理办法",
+   "dept": "司法部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/qudeguojiafalvzhiyezigedetaiwanjuminzaidalucongshie70d9e.html",
+   "effective": "2008-12-21"
+  },
+  {
+   "slug": "taiwanjumincanjiaguojiasifakaoshiruoganguiding",
+   "short": "台湾居民参加国家司法考试若干规定",
+   "dept": "司法部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/taiwanjumincanjiaguojiasifakaoshiruoganguiding.html",
+   "effective": "2008-06-04"
+  },
+  {
+   "slug": "sifaxingzhengjiguanxinfanggongzuobanfa",
+   "short": "司法行政机关信访工作办法",
+   "dept": "司法部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/sifaxingzhengjiguanxinfanggongzuobanfa.html",
+   "effective": "2018-04-01"
+  },
+  {
+   "slug": "sifaxingzhengjiguanqiangzhigelijiedugongzuoguiding",
+   "short": "司法行政机关强制隔离戒毒工作规定",
+   "dept": "司法部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/sifaxingzhengjiguanqiangzhigelijiedugongzuoguiding.html",
+   "effective": "2013-06-01"
+  },
+  {
+   "slug": "sifaxingzhengjiguanxingzhengchufatingzhengchengxugbd6bd2",
+   "short": "司法行政机关行政处罚听证程序规定",
+   "dept": "司法部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/sifaxingzhengjiguanxingzhengchufatingzhengchengxugbd6bd2.html",
+   "effective": "1998-02-11"
+  },
+  {
+   "slug": "sifaxingzhengjiguanxingzhengchufachengxuguiding",
+   "short": "司法行政机关行政处罚程序规定",
+   "dept": "司法部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/sifaxingzhengjiguanxingzhengchufachengxuguiding.html",
+   "effective": "1997-02-13"
+  },
+  {
+   "slug": "sifaxingzhengjiguanxingzhengxukeshishiyujiandugongb47fa7",
+   "short": "司法行政机关行政许可实施与监督工作规则(试行)",
+   "dept": "司法部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/sifaxingzhengjiguanxingzhengxukeshishiyujiandugongb47fa7.html",
+   "effective": "2004-07-06"
+  },
+  {
+   "slug": "sifabuguanyulvshidanrenqiyefalvguwenderuoganguidinb4b59a",
+   "short": "司法部关于律师担任企业法律顾问的若干规定",
+   "dept": "司法部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/sifabuguanyulvshidanrenqiyefalvguwenderuoganguidinb4b59a.html",
+   "effective": "1992-06-15"
+  },
+  {
+   "slug": "sifabuguanyulvshidanrenzhengfufalvguwenderuoganguie82334",
+   "short": "司法部关于律师担任政府法律顾问的若干规定",
+   "dept": "司法部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/sifabuguanyulvshidanrenzhengfufalvguwenderuoganguie82334.html",
+   "effective": "1989-12-23"
+  },
+  {
+   "slug": "sifabuguanyuzhixingwaiguolvshishiwusuozhuhuadaibia1453a5",
+   "short": "司法部关于执行《外国律师事务所驻华代表机构管理条例》的规定",
+   "dept": "司法部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/sifabuguanyuzhixingwaiguolvshishiwusuozhuhuadaibia1453a5.html",
+   "effective": "2002-07-04"
+  },
+  {
+   "slug": "sifajiandingrendengjiguanlibanfa",
+   "short": "司法鉴定人登记管理办法",
+   "dept": "司法部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/sifajiandingrendengjiguanlibanfa.html",
+   "effective": "2005-09-30"
+  },
+  {
+   "slug": "sifajiandingzhiyehuodongtousuchulibanfa",
+   "short": "司法鉴定执业活动投诉处理办法",
+   "dept": "司法部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/sifajiandingzhiyehuodongtousuchulibanfa.html",
+   "effective": "2019-06-01"
+  },
+  {
+   "slug": "sifajiandingjigoudengjiguanlibanfa",
+   "short": "司法鉴定机构登记管理办法",
+   "dept": "司法部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/sifajiandingjigoudengjiguanlibanfa.html",
+   "effective": "2005-09-30"
+  },
+  {
+   "slug": "sifajiandingchengxutongze",
+   "short": "司法鉴定程序通则",
+   "dept": "司法部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/sifajiandingchengxutongze.html",
+   "effective": "2016-05-01"
+  },
+  {
+   "slug": "shangshitiaojiezuzhiguanlibanfa",
+   "short": "商事调解组织管理办法",
+   "dept": "司法部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/shangshitiaojiezuzhiguanlibanfa.html",
+   "effective": "2026-07-10"
+  },
+  {
+   "slug": "guojiasifakaoshiweijixingweichulibanfa",
+   "short": "国家司法考试违纪行为处理办法",
+   "dept": "司法部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/guojiasifakaoshiweijixingweichulibanfa.html",
+   "effective": "2008-09-16"
+  },
+  {
+   "slug": "guojiatongyifalvzhiyezigekaoshishishibanfa",
+   "short": "国家统一法律职业资格考试实施办法",
+   "dept": "司法部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/guojiatongyifalvzhiyezigekaoshishishibanfa.html",
+   "effective": "2018-04-28"
+  },
+  {
+   "slug": "guojiatongyifalvzhiyezigekaoshiweijixingweichuliba641fcc",
+   "short": "国家统一法律职业资格考试违纪行为处理办法",
+   "dept": "司法部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/guojiatongyifalvzhiyezigekaoshiweijixingweichuliba641fcc.html",
+   "effective": "2018-09-13"
+  },
+  {
+   "slug": "jicengfalvfuwugongzuozheguanlibanfa",
+   "short": "基层法律服务工作者管理办法",
+   "dept": "司法部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/jicengfalvfuwugongzuozheguanlibanfa.html",
+   "effective": "2000-03-31"
+  },
+  {
+   "slug": "jicengfalvfuwusuoguanlibanfa",
+   "short": "基层法律服务所管理办法",
+   "dept": "司法部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/jicengfalvfuwusuoguanlibanfa.html",
+   "effective": "2000-03-31"
+  },
+  {
+   "slug": "waiguojizuifanhuijiantongxunguiding",
+   "short": "外国籍罪犯会见通讯规定",
+   "dept": "司法部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/waiguojizuifanhuijiantongxunguiding.html",
+   "effective": "2003-01-01"
+  },
+  {
+   "slug": "lvshishiwusuocongshizhengquanfalvyewuguanlibanfa",
+   "short": "律师事务所从事证券法律业务管理办法",
+   "dept": "司法部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/lvshishiwusuocongshizhengquanfalvyewuguanlibanfa.html",
+   "effective": ""
+  },
+  {
+   "slug": "lvshishiwusuomingchengguanlibanfa",
+   "short": "律师事务所名称管理办法",
+   "dept": "司法部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/lvshishiwusuomingchengguanlibanfa.html",
+   "effective": "2010-03-01"
+  },
+  {
+   "slug": "lvshishiwusuoniandujianchakaohebanfa",
+   "short": "律师事务所年度检查考核办法",
+   "dept": "司法部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/lvshishiwusuoniandujianchakaohebanfa.html",
+   "effective": "2010-04-08"
+  },
+  {
+   "slug": "lvshishiwusuoshoufeichengxuguize",
+   "short": "律师事务所收费程序规则",
+   "dept": "司法部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/lvshishiwusuoshoufeichengxuguize.html",
+   "effective": "2004-05-01"
+  },
+  {
+   "slug": "lvshishiwusuoguanlibanfa",
+   "short": "律师事务所管理办法",
+   "dept": "司法部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/lvshishiwusuoguanlibanfa.html",
+   "effective": "2008-07-18"
+  },
+  {
+   "slug": "lvshihelvshishiwusuozhiyezhengshuguanlibanfa",
+   "short": "律师和律师事务所执业证书管理办法",
+   "dept": "司法部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/lvshihelvshishiwusuozhiyezhengshuguanlibanfa.html",
+   "effective": "2009-09-21"
+  },
+  {
+   "slug": "lvshihelvshishiwusuoweifaxingweichufabanfa",
+   "short": "律师和律师事务所违法行为处罚办法",
+   "dept": "司法部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/lvshihelvshishiwusuoweifaxingweichufabanfa.html",
+   "effective": "2010-06-01"
+  },
+  {
+   "slug": "lvshizhiyeguanlibanfa",
+   "short": "律师执业管理办法",
+   "dept": "司法部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/lvshizhiyeguanlibanfa.html",
+   "effective": "2008-07-18"
+  },
+  {
+   "slug": "fangwuchaiqianzhengjubaoquangongzhengxize",
+   "short": "房屋拆迁证据保全公证细则",
+   "dept": "司法部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/fangwuchaiqianzhengjubaoquangongzhengxize.html",
+   "effective": "1993-12-01"
+  },
+  {
+   "slug": "ticungongzhengguize",
+   "short": "提存公证规则",
+   "dept": "司法部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/ticungongzhengguize.html",
+   "effective": "1995-06-02"
+  },
+  {
+   "slug": "weichengnianfanguanjiaosuoguanliguiding",
+   "short": "未成年犯管教所管理规定",
+   "dept": "司法部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/weichengnianfanguanjiaosuoguanliguiding.html",
+   "effective": "1999-12-18"
+  },
+  {
+   "slug": "falvyuanzhutousuchulibanfa",
+   "short": "法律援助投诉处理办法",
+   "dept": "司法部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/falvyuanzhutousuchulibanfa.html",
+   "effective": "2025-05-13"
+  },
+  {
+   "slug": "falvzhiyezigeguanlibanfa",
+   "short": "法律职业资格管理办法",
+   "dept": "司法部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/falvzhiyezigeguanlibanfa.html",
+   "effective": "2021-01-01"
+  },
+  {
+   "slug": "yuneixingshianjianlianbiaozhun",
+   "short": "狱内刑事案件立案标准",
+   "dept": "司法部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/yuneixingshianjianlianbiaozhun.html",
+   "effective": "2001-03-09"
+  },
+  {
+   "slug": "jianyutiqingjianxingjiashigongzuochengxuguiding",
+   "short": "监狱提请减刑假释工作程序规定",
+   "dept": "司法部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/jianyutiqingjianxingjiashigongzuochengxuguiding.html",
+   "effective": "2003-04-02"
+  },
+  {
+   "slug": "jianyujiaoyugaizaogongzuoguiding",
+   "short": "监狱教育改造工作规定",
+   "dept": "司法部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/jianyujiaoyugaizaogongzuoguiding.html",
+   "effective": "2003-08-01"
+  },
+  {
+   "slug": "jianyufuxingrenyuanxingweiguifan",
+   "short": "监狱服刑人员行为规范",
+   "dept": "司法部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/jianyufuxingrenyuanxingweiguifan.html",
+   "effective": "2004-05-01"
+  },
+  {
+   "slug": "yizhugongzhengxize",
+   "short": "遗嘱公证细则",
+   "dept": "司法部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/yizhugongzhengxize.html",
+   "effective": "2000-03-24"
+  },
+  {
+   "slug": "xianggangaomentebiexingzhengqulvshishiwusuozhuneid6bc106",
+   "short": "香港、澳门特别行政区律师事务所驻内地代表机构管理办法",
+   "dept": "司法部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/xianggangaomentebiexingzhengqulvshishiwusuozhuneid6bc106.html",
+   "effective": "2002-03-13"
+  },
+  {
+   "slug": "xianggangfalvzhiyezheheaomenzhiyelvshishoupinyunei822853",
+   "short": "香港法律执业者和澳门执业律师受聘于内地律师事务所担任法律顾问管理办法",
+   "dept": "司法部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/xianggangfalvzhiyezheheaomenzhiyelvshishoupinyunei822853.html",
+   "effective": "2004-01-01"
+  },
+  {
+   "slug": "xianggangtebiexingzhengquheaomentebiexingzhengquju6f4aba",
+   "short": "香港特别行政区和澳门特别行政区居民参加国家司法考试若干规定",
+   "dept": "司法部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/xianggangtebiexingzhengquheaomentebiexingzhengquju6f4aba.html",
+   "effective": "2005-05-24"
+  },
+  {
+   "slug": "xianggangtebiexingzhengquheaomentebiexingzhengqulv543097",
+   "short": "香港特别行政区和澳门特别行政区律师事务所与内地律师事务所联营管理办法",
+   "dept": "司法部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/xianggangtebiexingzhengquheaomentebiexingzhengqulv543097.html",
+   "effective": "2003-11-30"
+  },
+  {
+   "slug": "guoyouzichanpingguweifaxingweichufabanfa",
+   "short": "《国有资产评估违法行为处罚办法》",
+   "dept": "财政部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/guoyouzichanpingguweifaxingweichufabanfa.html",
+   "effective": ""
+  },
+  {
+   "slug": "zhongguoqingjiefazhanjizhijijinguanlibanfa",
+   "short": "中国清洁发展机制基金管理办法",
+   "dept": "财政部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zhongguoqingjiefazhanjizhijijinguanlibanfa.html",
+   "effective": ""
+  },
+  {
+   "slug": "zhongwaihezuojingyingqiyewaiguohezuozhexianxinghui8fdb61",
+   "short": "中外合作经营企业外国合作者先行回收投资审批办法",
+   "dept": "财政部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zhongwaihezuojingyingqiyewaiguohezuozhexianxinghui8fdb61.html",
+   "effective": ""
+  },
+  {
+   "slug": "shiyedanweikuaijizhunze",
+   "short": "事业单位会计准则",
+   "dept": "财政部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/shiyedanweikuaijizhunze.html",
+   "effective": "2012-12-06"
+  },
+  {
+   "slug": "shiyedanweiguoyouzichanguanlizanxingbanfa",
+   "short": "事业单位国有资产管理暂行办法",
+   "dept": "财政部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/shiyedanweiguoyouzichanguanlizanxingbanfa.html",
+   "effective": ""
+  },
+  {
+   "slug": "shiyedanweicaiwuguize-2",
+   "short": "事业单位财务规则",
+   "dept": "财政部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/shiyedanweicaiwuguize-2.html",
+   "effective": ""
+  },
+  {
+   "slug": "shiyedanweicaiwuguize",
+   "short": "事业单位财务规则",
+   "dept": "财政部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/shiyedanweicaiwuguize.html",
+   "effective": ""
+  },
+  {
+   "slug": "dailijizhangguanlibanfa-2",
+   "short": "代理记账管理办法",
+   "dept": "财政部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/dailijizhangguanlibanfa-2.html",
+   "effective": ""
+  },
+  {
+   "slug": "dailijizhangguanlibanfa",
+   "short": "代理记账管理办法",
+   "dept": "财政部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/dailijizhangguanlibanfa.html",
+   "effective": ""
+  },
+  {
+   "slug": "qiyekuaijizhunzejibenzhunze",
+   "short": "企业会计准则---基本准则",
+   "dept": "财政部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/qiyekuaijizhunzejibenzhunze.html",
+   "effective": ""
+  },
+  {
+   "slug": "qiyecaiwutongze",
+   "short": "企业财务通则",
+   "dept": "财政部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/qiyecaiwutongze.html",
+   "effective": "2006-12-04"
+  },
+  {
+   "slug": "kuaijicongyezigeguanlibanfa-2",
+   "short": "会计从业资格管理办法",
+   "dept": "财政部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/kuaijicongyezigeguanlibanfa-2.html",
+   "effective": ""
+  },
+  {
+   "slug": "kuaijicongyezigeguanlibanfa",
+   "short": "会计从业资格管理办法",
+   "dept": "财政部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/kuaijicongyezigeguanlibanfa.html",
+   "effective": ""
+  },
+  {
+   "slug": "kuaijishishiwusuoshenpihejianduzanxingbanfa",
+   "short": "会计师事务所审批和监督暂行办法",
+   "dept": "财政部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/kuaijishishiwusuoshenpihejianduzanxingbanfa.html",
+   "effective": ""
+  },
+  {
+   "slug": "kuaijishishiwusuozhiyexukehejianduguanlibanfa",
+   "short": "会计师事务所执业许可和监督管理办法",
+   "dept": "财政部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/kuaijishishiwusuozhiyexukehejianduguanlibanfa.html",
+   "effective": ""
+  },
+  {
+   "slug": "kuaijidanganguanlibanfa",
+   "short": "会计档案管理办法",
+   "dept": "财政部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/kuaijidanganguanlibanfa.html",
+   "effective": ""
+  },
+  {
+   "slug": "guojiaxuzhihongquyunyongcaizhengbuchangzijinguanlidc6c06-2",
+   "short": "国家蓄滞洪区运用财政补偿资金管理规定",
+   "dept": "财政部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/guojiaxuzhihongquyunyongcaizhengbuchangzijinguanlidc6c06-2.html",
+   "effective": ""
+  },
+  {
+   "slug": "guojiaxuzhihongquyunyongcaizhengbuchangzijinguanlidc6c06",
+   "short": "国家蓄滞洪区运用财政补偿资金管理规定",
+   "dept": "财政部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/guojiaxuzhihongquyunyongcaizhengbuchangzijinguanlidc6c06.html",
+   "effective": ""
+  },
+  {
+   "slug": "guojijinrongzuzhihewaiguozhengfudaikuanzengkuanguae90365-2",
+   "short": "国际金融组织和外国政府贷款赠款管理办法",
+   "dept": "财政部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/guojijinrongzuzhihewaiguozhengfudaikuanzengkuanguae90365-2.html",
+   "effective": ""
+  },
+  {
+   "slug": "guojijinrongzuzhihewaiguozhengfudaikuanzengkuanguae90365",
+   "short": "国际金融组织和外国政府贷款赠款管理办法",
+   "dept": "财政部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/guojijinrongzuzhihewaiguozhengfudaikuanzengkuanguae90365.html",
+   "effective": ""
+  },
+  {
+   "slug": "jibenjianshecaiwuguize",
+   "short": "基本建设财务规则",
+   "dept": "财政部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/jibenjianshecaiwuguize.html",
+   "effective": ""
+  },
+  {
+   "slug": "zhengfukuaijizhunzejibenzhunze",
+   "short": "政府会计准则--基本准则",
+   "dept": "财政部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zhengfukuaijizhunzejibenzhunze.html",
+   "effective": ""
+  },
+  {
+   "slug": "zhengfugoumaifuwuguanlibanfa",
+   "short": "政府购买服务管理办法",
+   "dept": "财政部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zhengfugoumaifuwuguanlibanfa.html",
+   "effective": ""
+  },
+  {
+   "slug": "zhengfucaigouxinxigonggaoguanlibanfa",
+   "short": "政府采购信息公告管理办法",
+   "dept": "财政部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zhengfucaigouxinxigonggaoguanlibanfa.html",
+   "effective": ""
+  },
+  {
+   "slug": "zhengfucaigouxinxifabuguanlibanfa",
+   "short": "政府采购信息发布管理办法",
+   "dept": "财政部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zhengfucaigouxinxifabuguanlibanfa.html",
+   "effective": ""
+  },
+  {
+   "slug": "zhengfucaigoukuangjiaxieyicaigoufangshiguanlizanxia9b8e1",
+   "short": "政府采购框架协议采购方式管理暂行办法",
+   "dept": "财政部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zhengfucaigoukuangjiaxieyicaigoufangshiguanlizanxia9b8e1.html",
+   "effective": ""
+  },
+  {
+   "slug": "zhengfucaigouhuowuhefuwuzhaobiaotoubiaoguanlibanfa-2",
+   "short": "政府采购货物和服务招标投标管理办法",
+   "dept": "财政部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zhengfucaigouhuowuhefuwuzhaobiaotoubiaoguanlibanfa-2.html",
+   "effective": ""
+  },
+  {
+   "slug": "zhengfucaigouhuowuhefuwuzhaobiaotoubiaoguanlibanfa",
+   "short": "政府采购货物和服务招标投标管理办法",
+   "dept": "财政部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zhengfucaigouhuowuhefuwuzhaobiaotoubiaoguanlibanfa.html",
+   "effective": ""
+  },
+  {
+   "slug": "zhengfucaigouzhiyihetousubanfa",
+   "short": "政府采购质疑和投诉办法",
+   "dept": "财政部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zhengfucaigouzhiyihetousubanfa.html",
+   "effective": ""
+  },
+  {
+   "slug": "zhengfucaigoufeizhaobiaocaigoufangshiguanlibanfa",
+   "short": "政府采购非招标采购方式管理办法",
+   "dept": "财政部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zhengfucaigoufeizhaobiaocaigoufangshiguanlibanfa.html",
+   "effective": ""
+  },
+  {
+   "slug": "zhucekuaijishiquanguotongyikaoshibanfa",
+   "short": "注册会计师全国统一考试办法",
+   "dept": "财政部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zhucekuaijishiquanguotongyikaoshibanfa.html",
+   "effective": ""
+  },
+  {
+   "slug": "zhucekuaijishiquanguotongyikaoshiweiguixingweichulc32882",
+   "short": "注册会计师全国统一考试违规行为处理办法",
+   "dept": "财政部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zhucekuaijishiquanguotongyikaoshiweiguixingweichulc32882.html",
+   "effective": "2010-03-01"
+  },
+  {
+   "slug": "zhucekuaijishizhucebanfa",
+   "short": "注册会计师注册办法",
+   "dept": "财政部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zhucekuaijishizhucebanfa.html",
+   "effective": ""
+  },
+  {
+   "slug": "xingzhengdanweiguoyouzichanguanlizanxingbanfa",
+   "short": "行政单位国有资产管理暂行办法",
+   "dept": "财政部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/xingzhengdanweiguoyouzichanguanlizanxingbanfa.html",
+   "effective": ""
+  },
+  {
+   "slug": "xingzhengdanweicaiwuguize-2",
+   "short": "行政单位财务规则",
+   "dept": "财政部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/xingzhengdanweicaiwuguize-2.html",
+   "effective": ""
+  },
+  {
+   "slug": "xingzhengdanweicaiwuguize",
+   "short": "行政单位财务规则",
+   "dept": "财政部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/xingzhengdanweicaiwuguize.html",
+   "effective": ""
+  },
+  {
+   "slug": "caizhengjiguanshishixingzhengxuketingzhengbanfa",
+   "short": "财政机关实施行政许可听证办法",
+   "dept": "财政部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/caizhengjiguanshishixingzhengxuketingzhengbanfa.html",
+   "effective": ""
+  },
+  {
+   "slug": "caizhengjiguanxingzhengchufatingzhengshishibanfa",
+   "short": "财政机关行政处罚听证实施办法",
+   "dept": "财政部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/caizhengjiguanxingzhengchufatingzhengshishibanfa.html",
+   "effective": ""
+  },
+  {
+   "slug": "caizhengjianchagongzuobanfa",
+   "short": "财政检查工作办法",
+   "dept": "财政部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/caizhengjianchagongzuobanfa.html",
+   "effective": ""
+  },
+  {
+   "slug": "caizhengjiandujianchaanjianyisongbanfa",
+   "short": "财政监督检查案件移送办法",
+   "dept": "财政部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/caizhengjiandujianchaanjianyisongbanfa.html",
+   "effective": ""
+  },
+  {
+   "slug": "caizhengpiaojuguanlibanfa",
+   "short": "财政票据管理办法",
+   "dept": "财政部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/caizhengpiaojuguanlibanfa.html",
+   "effective": ""
+  },
+  {
+   "slug": "caizhengxingzhengchufatingzhengshishibanfa",
+   "short": "财政行政处罚听证实施办法",
+   "dept": "财政部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/caizhengxingzhengchufatingzhengshishibanfa.html",
+   "effective": ""
+  },
+  {
+   "slug": "caizhengbuxinfanggongzuobanfa",
+   "short": "财政部信访工作办法",
+   "dept": "财政部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/caizhengbuxinfanggongzuobanfa.html",
+   "effective": ""
+  },
+  {
+   "slug": "caizhengbumenneibujiandujianchabanfa",
+   "short": "财政部门内部监督检查办法",
+   "dept": "财政部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/caizhengbumenneibujiandujianchabanfa.html",
+   "effective": "2010-03-01"
+  },
+  {
+   "slug": "caizhengbumenshishikuaijijiandubanfa",
+   "short": "财政部门实施会计监督办法",
+   "dept": "财政部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/caizhengbumenshishikuaijijiandubanfa.html",
+   "effective": "2001-02-20"
+  },
+  {
+   "slug": "caizhengbumenjiandubanfa",
+   "short": "财政部门监督办法",
+   "dept": "财政部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/caizhengbumenjiandubanfa.html",
+   "effective": ""
+  },
+  {
+   "slug": "zichanpingguhangyecaizhengjianduguanlibanfa",
+   "short": "资产评估行业财政监督管理办法",
+   "dept": "财政部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zichanpingguhangyecaizhengjianduguanlibanfa.html",
+   "effective": ""
+  },
+  {
+   "slug": "daolujiaotongshigushehuijiuzhujijinguanlibanfa",
+   "short": "道路交通事故社会救助基金管理办法",
+   "dept": "财政部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/daolujiaotongshigushehuijiuzhujijinguanlibanfa.html",
+   "effective": ""
+  },
+  {
+   "slug": "daolujiaotongshigushehuijiuzhujijinguanlishixingba1f620f",
+   "short": "道路交通事故社会救助基金管理试行办法",
+   "dept": "财政部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/daolujiaotongshigushehuijiuzhujijinguanlishixingba1f620f.html",
+   "effective": ""
+  },
+  {
+   "slug": "jinrongqiyeguoyouzichanpinggujianduguanlizanxingbaf0f214",
+   "short": "金融企业国有资产评估监督管理暂行办法",
+   "dept": "财政部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/jinrongqiyeguoyouzichanpinggujianduguanlizanxingbaf0f214.html",
+   "effective": ""
+  },
+  {
+   "slug": "jinrongqiyeguoyouzichanzhuanrangguanlibanfa",
+   "short": "金融企业国有资产转让管理办法",
+   "dept": "财政部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/jinrongqiyeguoyouzichanzhuanrangguanlibanfa.html",
+   "effective": ""
+  },
+  {
+   "slug": "jinrongqiyeguoyouzibenbaozhizengzhijieguoquerenzan992325",
+   "short": "金融企业国有资本保值增值结果确认暂行办法",
+   "dept": "财政部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/jinrongqiyeguoyouzibenbaozhizengzhijieguoquerenzan992325.html",
+   "effective": ""
+  },
+  {
+   "slug": "jinrongqiyecaiwuguize",
+   "short": "金融企业财务规则",
+   "dept": "财政部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/jinrongqiyecaiwuguize.html",
+   "effective": ""
+  },
+  {
+   "slug": "yejinqiyeheyousejinshuqiyeanquanshengchanguiding",
+   "short": "冶金企业和有色金属企业安全生产规定",
+   "dept": "应急管理部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/yejinqiyeheyousejinshuqiyeanquanshengchanguiding.html",
+   "effective": "2018-03-01"
+  },
+  {
+   "slug": "huaxuepinwuliweixianxingjiandingyufenleiguanlibanfc54707",
+   "short": "化学品物理危险性鉴定与分类管理办法",
+   "dept": "应急管理部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/huaxuepinwuliweixianxingjiandingyufenleiguanlibanfc54707.html",
+   "effective": "2013-09-01"
+  },
+  {
+   "slug": "weixianhuaxuepinanquanshiyongxukezhengshishibanfa",
+   "short": "危险化学品安全使用许可证实施办法",
+   "dept": "应急管理部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/weixianhuaxuepinanquanshiyongxukezhengshishibanfa.html",
+   "effective": "2013-05-01"
+  },
+  {
+   "slug": "weixianhuaxuepinjianshexiangmuanquanjianduguanliba170002",
+   "short": "危险化学品建设项目安全监督管理办法",
+   "dept": "应急管理部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/weixianhuaxuepinjianshexiangmuanquanjianduguanliba170002.html",
+   "effective": "2012-04-01"
+  },
+  {
+   "slug": "weixianhuaxuepinshengchanqiyeanquanshengchanxukezh246dde",
+   "short": "危险化学品生产企业安全生产许可证实施办法",
+   "dept": "应急管理部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/weixianhuaxuepinshengchanqiyeanquanshengchanxukezh246dde.html",
+   "effective": "2011-12-01"
+  },
+  {
+   "slug": "weixianhuaxuepindengjiguanlibanfa",
+   "short": "危险化学品登记管理办法",
+   "dept": "应急管理部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/weixianhuaxuepindengjiguanlibanfa.html",
+   "effective": "2012-08-01"
+  },
+  {
+   "slug": "weixianhuaxuepinjingyingxukezhengguanlibanfa",
+   "short": "危险化学品经营许可证管理办法",
+   "dept": "应急管理部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/weixianhuaxuepinjingyingxukezhengguanlibanfa.html",
+   "effective": "2012-09-01"
+  },
+  {
+   "slug": "weixianhuaxuepinshusongguandaoanquanguanliguiding",
+   "short": "危险化学品输送管道安全管理规定",
+   "dept": "应急管理部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/weixianhuaxuepinshusongguandaoanquanguanliguiding.html",
+   "effective": "2012-03-01"
+  },
+  {
+   "slug": "weixianhuaxuepinzhongdaweixianyuanjianduguanlizanx5cb4f3",
+   "short": "危险化学品重大危险源监督管理暂行规定",
+   "dept": "应急管理部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/weixianhuaxuepinzhongdaweixianyuanjianduguanlizanx5cb4f3.html",
+   "effective": "2011-12-01"
+  },
+  {
+   "slug": "anquanshengchanshiguyinhuanpaichazhilizanxingguidi9ce7f1",
+   "short": "安全生产事故隐患排查治理暂行规定",
+   "dept": "应急管理部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/anquanshengchanshiguyinhuanpaichazhilizanxingguidi9ce7f1.html",
+   "effective": "2008-02-01"
+  },
+  {
+   "slug": "anquanshengchanpeixunguanlibanfa",
+   "short": "安全生产培训管理办法",
+   "dept": "应急管理部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/anquanshengchanpeixunguanlibanfa.html",
+   "effective": "2012-03-01"
+  },
+  {
+   "slug": "anquanshengchanjianguanjianchazhizehexingzhengzhifead612",
+   "short": "安全生产监管监察职责和行政执法责任追究的规定",
+   "dept": "应急管理部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/anquanshengchanjianguanjianchazhizehexingzhengzhifead612.html",
+   "effective": "2009-10-01"
+  },
+  {
+   "slug": "anquanshengchanjianguanjianchabumenxinxigongkaiban89b4a4",
+   "short": "安全生产监管监察部门信息公开办法",
+   "dept": "应急管理部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/anquanshengchanjianguanjianchabumenxinxigongkaiban89b4a4.html",
+   "effective": "2012-11-01"
+  },
+  {
+   "slug": "anquanshengchanxingzhengchufaziyoucailiangshiyongg886d2c",
+   "short": "安全生产行政处罚自由裁量适用规则（试行）",
+   "dept": "应急管理部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/anquanshengchanxingzhengchufaziyoucailiangshiyongg886d2c.html",
+   "effective": "2010-10-01"
+  },
+  {
+   "slug": "anquanshengchanxingzhengfuyiguiding",
+   "short": "安全生产行政复议规定",
+   "dept": "应急管理部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/anquanshengchanxingzhengfuyiguiding.html",
+   "effective": "2007-11-01"
+  },
+  {
+   "slug": "anquanshengchanweifaxingweixingzhengchufabanfa",
+   "short": "安全生产违法行为行政处罚办法",
+   "dept": "应急管理部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/anquanshengchanweifaxingweixingzhengchufabanfa.html",
+   "effective": "2008-01-01"
+  },
+  {
+   "slug": "anquanpingjiajiancejianyanjigouguanlibanfa",
+   "short": "安全评价检测检验机构管理办法",
+   "dept": "应急管理部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/anquanpingjiajiancejianyanjigouguanlibanfa.html",
+   "effective": "2019-05-01"
+  },
+  {
+   "slug": "xiaoxinglutiancaishichanganquanguanliyujiandujianc010803",
+   "short": "小型露天采石场安全管理与监督检查规定",
+   "dept": "应急管理部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/xiaoxinglutiancaishichanganquanguanliyujiandujianc010803.html",
+   "effective": "2011-07-01"
+  },
+  {
+   "slug": "weikuangkuanquanjianduguanliguiding",
+   "short": "尾矿库安全监督管理规定",
+   "dept": "应急管理部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/weikuangkuanquanjianduguanliguiding.html",
+   "effective": "2011-07-01"
+  },
+  {
+   "slug": "gongmaoqiyeyouxiankongjianzuoyeanquanguanliyujiand481743",
+   "short": "工贸企业有限空间作业安全管理与监督暂行规定",
+   "dept": "应急管理部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/gongmaoqiyeyouxiankongjianzuoyeanquanguanliyujiand481743.html",
+   "effective": "2013-07-01"
+  },
+  {
+   "slug": "gongmaoqiyefenchenfangbaoanquanguiding",
+   "short": "工贸企业粉尘防爆安全规定",
+   "dept": "应急管理部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/gongmaoqiyefenchenfangbaoanquanguiding.html",
+   "effective": "2021-09-01"
+  },
+  {
+   "slug": "jianshexiangmuanquansheshisantongshijianduguanliba2c9a62",
+   "short": "建设项目安全设施“三同时”监督管理办法",
+   "dept": "应急管理部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/jianshexiangmuanquansheshisantongshijianduguanliba2c9a62.html",
+   "effective": "2011-02-01"
+  },
+  {
+   "slug": "zhuceanquangongchengshiguanliguiding",
+   "short": "注册安全工程师管理规定",
+   "dept": "应急管理部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zhuceanquangongchengshiguanliguiding.html",
+   "effective": "2007-03-01"
+  },
+  {
+   "slug": "haiyangshiyouanquanshengchanguiding",
+   "short": "海洋石油安全生产规定",
+   "dept": "应急管理部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/haiyangshiyouanquanshengchanguiding.html",
+   "effective": "2006-05-01"
+  },
+  {
+   "slug": "haiyangshiyouanquanguanlixize",
+   "short": "海洋石油安全管理细则",
+   "dept": "应急管理部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/haiyangshiyouanquanguanlixize.html",
+   "effective": "2009-12-01"
+  },
+  {
+   "slug": "huozaishigudiaochaguiding",
+   "short": "火灾事故调查规定",
+   "dept": "应急管理部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/huozaishigudiaochaguiding.html",
+   "effective": "2012-11-01"
+  },
+  {
+   "slug": "yanhuabaozhushengchanqiyeanquanshengchanxukezhengsa6d7d4",
+   "short": "烟花爆竹生产企业安全生产许可证实施办法",
+   "dept": "应急管理部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/yanhuabaozhushengchanqiyeanquanshengchanxukezhengsa6d7d4.html",
+   "effective": "2012-08-01"
+  },
+  {
+   "slug": "yanhuabaozhushengchanjingyinganquanguiding",
+   "short": "烟花爆竹生产经营安全规定",
+   "dept": "应急管理部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/yanhuabaozhushengchanjingyinganquanguiding.html",
+   "effective": "2018-03-01"
+  },
+  {
+   "slug": "yanhuabaozhujingyingxukeshishibanfa",
+   "short": "烟花爆竹经营许可实施办法",
+   "dept": "应急管理部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/yanhuabaozhujingyingxukeshishibanfa.html",
+   "effective": "2013-12-01"
+  },
+  {
+   "slug": "meicengqidimiankaicaianquanguicheng",
+   "short": "煤层气地面开采安全规程（试行）",
+   "dept": "应急管理部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/meicengqidimiankaicaianquanguicheng.html",
+   "effective": "2012-04-01"
+  },
+  {
+   "slug": "meikuangqiyeanquanshengchanxukezhengshishibanfa",
+   "short": "煤矿企业安全生产许可证实施办法",
+   "dept": "应急管理部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/meikuangqiyeanquanshengchanxukezhengshishibanfa.html",
+   "effective": "2016-04-01"
+  },
+  {
+   "slug": "meikuanganquanpeixunguiding",
+   "short": "煤矿安全培训规定",
+   "dept": "应急管理部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/meikuanganquanpeixunguiding.html",
+   "effective": "2018-03-01"
+  },
+  {
+   "slug": "meikuanganquanjianchayuanguanlibanfa",
+   "short": "煤矿安全监察员管理办法",
+   "dept": "应急管理部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/meikuanganquanjianchayuanguanlibanfa.html",
+   "effective": "2003-08-01"
+  },
+  {
+   "slug": "meikuanganquanjianchafakuanguanlibanfa",
+   "short": "煤矿安全监察罚款管理办法",
+   "dept": "应急管理部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/meikuanganquanjianchafakuanguanlibanfa.html",
+   "effective": "2003-08-01"
+  },
+  {
+   "slug": "meikuanganquanjianchaxingzhengchufabanfa",
+   "short": "煤矿安全监察行政处罚办法",
+   "dept": "应急管理部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/meikuanganquanjianchaxingzhengchufabanfa.html",
+   "effective": "2003-08-15"
+  },
+  {
+   "slug": "meikuanganquanguicheng",
+   "short": "煤矿安全规程",
+   "dept": "应急管理部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/meikuanganquanguicheng.html",
+   "effective": "2016-10-01"
+  },
+  {
+   "slug": "meikuangjianshexiangmuanquansheshijianchaguiding",
+   "short": "煤矿建设项目安全设施监察规定",
+   "dept": "应急管理部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/meikuangjianshexiangmuanquansheshijianchaguiding.html",
+   "effective": "2003-08-15"
+  },
+  {
+   "slug": "meikuangzhongdashiguyinhuanpandingbiaozhun",
+   "short": "煤矿重大事故隐患判定标准",
+   "dept": "应急管理部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/meikuangzhongdashiguyinhuanpandingbiaozhun.html",
+   "effective": "2021-01-01"
+  },
+  {
+   "slug": "meikuanglingdaodaibanxiajingjianquanjiandujianchag5fe200",
+   "short": "煤矿领导带班下井及安全监督检查规定",
+   "dept": "应急管理部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/meikuanglingdaodaibanxiajingjianquanjiandujianchag5fe200.html",
+   "effective": "2010-10-07"
+  },
+  {
+   "slug": "tezhongzuoyerenyuananquanjishupeixunkaoheguanligui416569",
+   "short": "特种作业人员安全技术培训考核管理规定",
+   "dept": "应急管理部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/tezhongzuoyerenyuananquanjishupeixunkaoheguanligui416569.html",
+   "effective": "2010-07-01"
+  },
+  {
+   "slug": "shengchananquanshiguxinxibaogaohechuzhibanfa",
+   "short": "生产安全事故信息报告和处置办法",
+   "dept": "应急管理部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/shengchananquanshiguxinxibaogaohechuzhibanfa.html",
+   "effective": "2009-07-01"
+  },
+  {
+   "slug": "shengchananquanshiguyingjiyuanguanlibanfa",
+   "short": "生产安全事故应急预案管理办法",
+   "dept": "应急管理部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/shengchananquanshiguyingjiyuanguanlibanfa.html",
+   "effective": "2016-07-01"
+  },
+  {
+   "slug": "shengchananquanshigufakuanchufaguiding",
+   "short": "生产安全事故罚款处罚规定（试行）",
+   "dept": "应急管理部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/shengchananquanshigufakuanchufaguiding.html",
+   "effective": "2007-07-12"
+  },
+  {
+   "slug": "shengchanjingyingdanweianquanpeixunguiding",
+   "short": "生产经营单位安全培训规定",
+   "dept": "应急管理部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/shengchanjingyingdanweianquanpeixunguiding.html",
+   "effective": "2006-03-01"
+  },
+  {
+   "slug": "shehuixiaofangjishufuwuguanliguiding",
+   "short": "社会消防技术服务管理规定",
+   "dept": "应急管理部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/shehuixiaofangjishufuwuguanliguiding.html",
+   "effective": "2021-11-09"
+  },
+  {
+   "slug": "jinshuyufeijinshukuangchanziyuandizhikantananquans21b581",
+   "short": "金属与非金属矿产资源地质勘探安全生产监督管理暂行规定",
+   "dept": "应急管理部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/jinshuyufeijinshukuangchanziyuandizhikantananquans21b581.html",
+   "effective": "2011-01-01"
+  },
+  {
+   "slug": "jinshufeijinshudixiakuangshanqiyelingdaodaibanxiaja02a59",
+   "short": "金属非金属地下矿山企业领导带班下井及监督检查暂行规定",
+   "dept": "应急管理部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/jinshufeijinshudixiakuangshanqiyelingdaodaibanxiaja02a59.html",
+   "effective": "2010-11-15"
+  },
+  {
+   "slug": "jinshufeijinshukuangshanjianshexiangmuanquansheshie9ea18",
+   "short": "金属非金属矿山建设项目安全设施目录（试行）",
+   "dept": "应急管理部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/jinshufeijinshukuangshanjianshexiangmuanquansheshie9ea18.html",
+   "effective": "2015-03-16"
+  },
+  {
+   "slug": "feimeikuangshanwaibaogongchenganquanguanlizanxingbf1b284",
+   "short": "非煤矿山外包工程安全管理暂行办法",
+   "dept": "应急管理部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/feimeikuangshanwaibaogongchenganquanguanlizanxingbf1b284.html",
+   "effective": "2013-10-01"
+  },
+  {
+   "slug": "feimeikuangkuangshanqiyeanquanshengchanxukezhengshf85212",
+   "short": "非煤矿矿山企业安全生产许可证实施办法",
+   "dept": "应急管理部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/feimeikuangkuangshanqiyeanquanshengchanxukezhengshf85212.html",
+   "effective": "2009-06-08"
+  },
+  {
+   "slug": "feiyaopinleiyizhiduhuaxuepinshengchanjingyingxukebbdae66",
+   "short": "非药品类易制毒化学品生产、经营许可办法",
+   "dept": "应急管理部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/feiyaopinleiyizhiduhuaxuepinshengchanjingyingxukebbdae66.html",
+   "effective": "2006-04-15"
+  },
+  {
+   "slug": "shipinshengchanqiyeanquanshengchanjianduguanlizanx517538",
+   "short": "食品生产企业安全生产监督管理暂行规定",
+   "dept": "应急管理部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/shipinshengchanqiyeanquanshengchanjianduguanlizanx517538.html",
+   "effective": "2014-03-01"
+  },
+  {
+   "slug": "gaocengminyongjianzhuxiaofanganquanguanliguiding",
+   "short": "高层民用建筑消防安全管理规定",
+   "dept": "应急管理部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/gaocengminyongjianzhuxiaofanganquanguanliguiding.html",
+   "effective": "2021-08-01"
+  },
+  {
+   "slug": "zhongguobianminyupilinguobianminhunyindengjibanfa",
+   "short": "中国边民与毗邻国边民婚姻登记办法",
+   "dept": "民政部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zhongguobianminyupilinguobianminhunyindengjibanfa.html",
+   "effective": "2012-10-01"
+  },
+  {
+   "slug": "tiyuleiminbanfeiqiyedanweidengjishenchayuguanlizanc1e785-2",
+   "short": "体育类民办非企业单位登记审查与管理暂行办法（2000）",
+   "dept": "民政部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/tiyuleiminbanfeiqiyedanweidengjishenchayuguanlizanc1e785-2.html",
+   "effective": "2000-11-10"
+  },
+  {
+   "slug": "ertongfulijigouguanlibanfa",
+   "short": "儿童福利机构管理办法",
+   "dept": "民政部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/ertongfulijigouguanlibanfa.html",
+   "effective": "2019-01-01"
+  },
+  {
+   "slug": "gongmuguanlizanxingbanfa",
+   "short": "公墓管理暂行办法",
+   "dept": "民政部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/gongmuguanlizanxingbanfa.html",
+   "effective": "1999-12-28"
+  },
+  {
+   "slug": "yanglaojigouguanlibanfa",
+   "short": "养老机构管理办法",
+   "dept": "民政部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/yanglaojigouguanlibanfa.html",
+   "effective": "2020-11-01"
+  },
+  {
+   "slug": "junduiwujunjituixiutuizhizhigongfuwuguanlibanfa",
+   "short": "军队无军籍退休退职职工服务管理办法",
+   "dept": "民政部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/junduiwujunjituixiutuizhizhigongfuwuguanlibanfa.html",
+   "effective": "2016-02-01"
+  },
+  {
+   "slug": "nongcunwubaogongyangfuwujigouguanlibanfa",
+   "short": "农村五保供养服务机构管理办法",
+   "dept": "民政部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/nongcunwubaogongyangfuwujigouguanlibanfa.html",
+   "effective": "2011-01-01"
+  },
+  {
+   "slug": "huaqiaoyijijuzhuzaigangaotaidiqudezhongguogongminbae8233",
+   "short": "华侨以及居住在港澳台地区的中国公民办理收养登记的管辖以及所需出具证明材料的规定",
+   "dept": "民政部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/huaqiaoyijijuzhuzaigangaotaidiqudezhongguogongminbae8233.html",
+   "effective": "1999-05-25"
+  },
+  {
+   "slug": "qudifeifaminjianzuzhizanxingbanfa",
+   "short": "取缔非法民间组织暂行办法",
+   "dept": "民政部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/qudifeifaminjianzuzhizanxingbanfa.html",
+   "effective": "2000-04-06"
+  },
+  {
+   "slug": "dimingguanlitiaolishishibanfa",
+   "short": "地名管理条例实施办法",
+   "dept": "民政部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/dimingguanlitiaolishishibanfa.html",
+   "effective": "2024-05-01"
+  },
+  {
+   "slug": "dimingguanlitiaolishishixize",
+   "short": "地名管理条例实施细则",
+   "dept": "民政部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/dimingguanlitiaolishishixize.html",
+   "effective": "1996-06-18"
+  },
+  {
+   "slug": "chengshishenghuowuzhuodeliulangqitaorenyuanjiuzhug8f44d6",
+   "short": "城市生活无着的流浪乞讨人员救助管理办法实施细则",
+   "dept": "民政部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/chengshishenghuowuzhuodeliulangqitaorenyuanjiuzhug8f44d6.html",
+   "effective": "2003-08-01"
+  },
+  {
+   "slug": "chengshishequdanganguanlibanfa-2",
+   "short": "城市社区档案管理办法（2015）",
+   "dept": "民政部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/chengshishequdanganguanlibanfa-2.html",
+   "effective": "2016-01-01"
+  },
+  {
+   "slug": "jijinhuixinxigongbubanfa",
+   "short": "基金会信息公布办法",
+   "dept": "民政部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/jijinhuixinxigongbubanfa.html",
+   "effective": "2006-01-12"
+  },
+  {
+   "slug": "jijinhuimingchengguanliguiding",
+   "short": "基金会名称管理规定",
+   "dept": "民政部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/jijinhuimingchengguanliguiding.html",
+   "effective": "2004-06-07"
+  },
+  {
+   "slug": "jijinhuiniandujianchabanfa",
+   "short": "基金会年度检查办法",
+   "dept": "民政部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/jijinhuiniandujianchabanfa.html",
+   "effective": "2006-01-12"
+  },
+  {
+   "slug": "hunyindengjidanganguanlibanfa",
+   "short": "婚姻登记档案管理办法",
+   "dept": "民政部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/hunyindengjidanganguanlibanfa.html",
+   "effective": "2006-01-23"
+  },
+  {
+   "slug": "jiatingjiyangguanlibanfa",
+   "short": "家庭寄养管理办法",
+   "dept": "民政部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/jiatingjiyangguanlibanfa.html",
+   "effective": "2014-12-01"
+  },
+  {
+   "slug": "shitichurujingheshitichulideguanliguiding-3",
+   "short": "尸体出入境和尸体处理的管理规定（2006）",
+   "dept": "民政部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/shitichurujingheshitichulideguanliguiding-3.html",
+   "effective": "2006-08-01"
+  },
+  {
+   "slug": "gongshangbaoxianfuzhuqijupeizhiguanlibanfa-2",
+   "short": "工伤保险辅助器具配置管理办法（2015）",
+   "dept": "民政部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/gongshangbaoxianfuzhuqijupeizhiguanlibanfa-2.html",
+   "effective": "2016-04-01"
+  },
+  {
+   "slug": "caipiaoguanlitiaolishishixize",
+   "short": "彩票管理条例实施细则（2012）",
+   "dept": "民政部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/caipiaoguanlitiaolishishixize.html",
+   "effective": "2012-03-01"
+  },
+  {
+   "slug": "zhiyuanfuwujiluyuzhengmingchujubanfa",
+   "short": "志愿服务记录与证明出具办法（试行）",
+   "dept": "民政部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zhiyuanfuwujiluyuzhengmingchujubanfa.html",
+   "effective": "2021-02-01"
+  },
+  {
+   "slug": "cishanzuzhibaozhizengzhitouzihuodongguanlizanxingbe01dba",
+   "short": "慈善组织保值增值投资活动管理暂行办法",
+   "dept": "民政部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/cishanzuzhibaozhizengzhitouzihuodongguanlizanxingbe01dba.html",
+   "effective": "2019-01-01"
+  },
+  {
+   "slug": "cishanzuzhixinxigongkaibanfa",
+   "short": "慈善组织信息公开办法",
+   "dept": "民政部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/cishanzuzhixinxigongkaibanfa.html",
+   "effective": "2018-09-01"
+  },
+  {
+   "slug": "cishanzuzhigongkaimujuanguanlibanfa",
+   "short": "慈善组织公开募捐管理办法",
+   "dept": "民政部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/cishanzuzhigongkaimujuanguanlibanfa.html",
+   "effective": "2016-09-01"
+  },
+  {
+   "slug": "cishanzuzhirendingbanfa",
+   "short": "慈善组织认定办法",
+   "dept": "民政部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/cishanzuzhirendingbanfa.html",
+   "effective": "2016-09-01"
+  },
+  {
+   "slug": "cunjidanganguanlibanfa-2",
+   "short": "村级档案管理办法（2017）",
+   "dept": "民政部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/cunjidanganguanlibanfa-2.html",
+   "effective": "2018-01-01"
+  },
+  {
+   "slug": "minbanfeiqiyedanweiyinzhangguanliguiding",
+   "short": "民办非企业单位印章管理规定",
+   "dept": "民政部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/minbanfeiqiyedanweiyinzhangguanliguiding.html",
+   "effective": "2000-01-19"
+  },
+  {
+   "slug": "minbanfeiqiyedanweimingchengguanlizanxingguiding",
+   "short": "民办非企业单位名称管理暂行规定",
+   "dept": "民政部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/minbanfeiqiyedanweimingchengguanlizanxingguiding.html",
+   "effective": "1999-12-28"
+  },
+  {
+   "slug": "minbanfeiqiyedanweiniandujianchabanfa",
+   "short": "民办非企业单位年度检查办法",
+   "dept": "民政部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/minbanfeiqiyedanweiniandujianchabanfa.html",
+   "effective": "2005-06-01"
+  },
+  {
+   "slug": "minbanfeiqiyedanweidengjizanxingbanfa",
+   "short": "民办非企业单位登记暂行办法",
+   "dept": "民政部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/minbanfeiqiyedanweidengjizanxingbanfa.html",
+   "effective": "1999-12-28"
+  },
+  {
+   "slug": "minzhengxinfanggongzuobanfa",
+   "short": "民政信访工作办法",
+   "dept": "民政部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/minzhengxinfanggongzuobanfa.html",
+   "effective": "2011-09-01"
+  },
+  {
+   "slug": "minzhengbugonganbuwaijiaobutiedaobujiaotongbuweish263ca2",
+   "short": "民政部公安部外交部铁道部交通部卫生部海关总署民航局关于尸体运输管理的若干规定",
+   "dept": "民政部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/minzhengbugonganbuwaijiaobutiedaobujiaotongbuweish263ca2.html",
+   "effective": "1993-03-30"
+  },
+  {
+   "slug": "minzhengbulifagongzuoguiding",
+   "short": "民政部立法工作规定",
+   "dept": "民政部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/minzhengbulifagongzuoguiding.html",
+   "effective": "2014-03-01"
+  },
+  {
+   "slug": "minzhengbuxingzhengfuyiyuxingzhengyingsubanfa",
+   "short": "民政部行政复议与行政应诉办法",
+   "dept": "民政部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/minzhengbuxingzhengfuyiyuxingzhengyingsubanfa.html",
+   "effective": "1999-12-23"
+  },
+  {
+   "slug": "minzhengbuguifanxingwenjianzhidingyushenchabanfa",
+   "short": "民政部规范性文件制定与审查办法",
+   "dept": "民政部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/minzhengbuguifanxingwenjianzhidingyushenchabanfa.html",
+   "effective": "2011-08-01"
+  },
+  {
+   "slug": "minzhengbumenshishixingzhengxukebanfa",
+   "short": "民政部门实施行政许可办法",
+   "dept": "民政部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/minzhengbumenshishixingzhengxukebanfa.html",
+   "effective": "2004-07-01"
+  },
+  {
+   "slug": "shengjixingzhengquyujiexianlianhejianchashishibanfc16676",
+   "short": "省级行政区域界线联合检查实施办法",
+   "dept": "民政部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/shengjixingzhengquyujiexianlianhejianchashishibanfc16676.html",
+   "effective": "2005-06-28"
+  },
+  {
+   "slug": "shehuituantifenzhijigoudaibiaojigoudengjibanfa",
+   "short": "社会团体分支机构、代表机构登记办法",
+   "dept": "民政部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/shehuituantifenzhijigoudaibiaojigoudengjibanfa.html",
+   "effective": "2001-07-30"
+  },
+  {
+   "slug": "shehuituantiyinzhangguanliguiding",
+   "short": "社会团体印章管理规定",
+   "dept": "民政部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/shehuituantiyinzhangguanliguiding.html",
+   "effective": "1993-10-18"
+  },
+  {
+   "slug": "shehuixiaofanganquanjiaoyupeixunguiding",
+   "short": "社会消防安全教育培训规定（2009）",
+   "dept": "民政部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/shehuixiaofanganquanjiaoyupeixunguiding.html",
+   "effective": "2009-06-01"
+  },
+  {
+   "slug": "shehuizuzhixinyongxinxiguanlibanfa",
+   "short": "社会组织信用信息管理办法",
+   "dept": "民政部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/shehuizuzhixinyongxinxiguanlibanfa.html",
+   "effective": "2018-01-24"
+  },
+  {
+   "slug": "shehuizuzhimingchengguanlibanfa",
+   "short": "社会组织名称管理办法",
+   "dept": "民政部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/shehuizuzhimingchengguanlibanfa.html",
+   "effective": "2024-05-01"
+  },
+  {
+   "slug": "shehuizuzhidengjiguanlijiguanxingzhengchufachengxu4c2072",
+   "short": "社会组织登记管理机关行政处罚程序规定",
+   "dept": "民政部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/shehuizuzhidengjiguanlijiguanxingzhengchufachengxu4c2072.html",
+   "effective": "2021-10-15"
+  },
+  {
+   "slug": "shehuizuzhipingguguanlibanfa",
+   "short": "社会组织评估管理办法",
+   "dept": "民政部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/shehuizuzhipingguguanlibanfa.html",
+   "effective": "2011-03-01"
+  },
+  {
+   "slug": "xingzhengquhuaguanlitiaolishishibanfa",
+   "short": "行政区划管理条例实施办法",
+   "dept": "民政部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/xingzhengquhuaguanlitiaolishishibanfa.html",
+   "effective": "2020-01-01"
+  },
+  {
+   "slug": "xingzhengquyujiexianjiezhuangguanlibanfa",
+   "short": "行政区域界线界桩管理办法",
+   "dept": "民政部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/xingzhengquyujiexianjiezhuangguanlibanfa.html",
+   "effective": "2008-09-01"
+  },
+  {
+   "slug": "yibanfanbishuiguanlibanfa",
+   "short": "一般反避税管理办法（试行）",
+   "dept": "国家税务总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/yibanfanbishuiguanlibanfa.html",
+   "effective": "2015-02-01"
+  },
+  {
+   "slug": "gerensuodeshuizonghesuodehuisuanqingjiaoguanlibanf6e7164",
+   "short": "个人所得税综合所得汇算清缴管理办法",
+   "dept": "国家税务总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/gerensuodeshuizonghesuodehuisuanqingjiaoguanlibanf6e7164.html",
+   "effective": "2025-02-26"
+  },
+  {
+   "slug": "getigongshanghugerensuodeshuijishuibanfa",
+   "short": "个体工商户个人所得税计税办法",
+   "dept": "国家税务总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/getigongshanghugerensuodeshuijishuibanfa.html",
+   "effective": "2015-01-01"
+  },
+  {
+   "slug": "getigongshanghujianzhangguanlizanxingbanfa",
+   "short": "个体工商户建账管理暂行办法",
+   "dept": "国家税务总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/getigongshanghujianzhangguanlizanxingbanfa.html",
+   "effective": "2007-01-01"
+  },
+  {
+   "slug": "getigongshanghushuishoudingqidingezhengshouguanliba77054",
+   "short": "个体工商户税收定期定额征收管理办法",
+   "dept": "国家税务总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/getigongshanghushuishoudingqidingezhengshouguanliba77054.html",
+   "effective": "2007-01-01"
+  },
+  {
+   "slug": "fapiaoguanlibanfashishixize",
+   "short": "发票管理办法实施细则",
+   "dept": "国家税务总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/fapiaoguanlibanfashishixize.html",
+   "effective": "2011-02-14"
+  },
+  {
+   "slug": "chuxucunkuanlixisuodegerensuodeshuizhengshouguanliea9af9",
+   "short": "储蓄存款利息所得个人所得税征收管理办法",
+   "dept": "国家税务总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/chuxucunkuanlixisuodegerensuodeshuizhengshouguanliea9af9.html",
+   "effective": "1999-10-08"
+  },
+  {
+   "slug": "juanyanxiaofeishuijishuijiagexinxicaijihehedingguab81bf1",
+   "short": "卷烟消费税计税价格信息采集和核定管理办法",
+   "dept": "国家税务总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/juanyanxiaofeishuijishuijiagexinxicaijihehedingguab81bf1.html",
+   "effective": "2012-01-01"
+  },
+  {
+   "slug": "zengzhishuiyibannashuirendengjiguanlibanfa",
+   "short": "增值税一般纳税人登记管理办法",
+   "dept": "国家税务总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zengzhishuiyibannashuirendengjiguanlibanfa.html",
+   "effective": "2018-02-01"
+  },
+  {
+   "slug": "zengzhishuirichangjichabanfa",
+   "short": "增值税日常稽查办法",
+   "dept": "国家税务总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zengzhishuirichangjichabanfa.html",
+   "effective": "1998-01-01"
+  },
+  {
+   "slug": "zengzhishuiruoganjutiwentideguiding",
+   "short": "增值税若干具体问题的规定",
+   "dept": "国家税务总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zengzhishuiruoganjutiwentideguiding.html",
+   "effective": "1993-12-28"
+  },
+  {
+   "slug": "zengzhishuifangweishuikongxitongguanlibanfa",
+   "short": "增值税防伪税控系统管理办法",
+   "dept": "国家税务总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zengzhishuifangweishuikongxitongguanlibanfa.html",
+   "effective": "2000-01-01"
+  },
+  {
+   "slug": "guanggaoshichanggerensuodeshuizhengshouguanlizanxieb470e",
+   "short": "广告市场个人所得税征收管理暂行办法",
+   "dept": "国家税务总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/guanggaoshichanggerensuodeshuizhengshouguanlizanxieb470e.html",
+   "effective": "1996-09-01"
+  },
+  {
+   "slug": "jianzhuanzhuangyegerensuodeshuizhengshouguanlizanxf75c55",
+   "short": "建筑安装业个人所得税征收管理暂行办法",
+   "dept": "国家税务总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/jianzhuanzhuangyegerensuodeshuizhengshouguanlizanxf75c55.html",
+   "effective": "1996-07-22"
+  },
+  {
+   "slug": "zhengshougerensuodeshuiruoganwentideguiding",
+   "short": "征收个人所得税若干问题的规定",
+   "dept": "国家税务总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zhengshougerensuodeshuiruoganwentideguiding.html",
+   "effective": "1994-01-01"
+  },
+  {
+   "slug": "chengpinyoulingshoujiayouzhanzengzhishuizhengshouga6ffa7",
+   "short": "成品油零售加油站增值税征收管理办法",
+   "dept": "国家税务总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/chengpinyoulingshoujiayouzhanzengzhishuizhengshouga6ffa7.html",
+   "effective": "2002-05-01"
+  },
+  {
+   "slug": "dishuicaiwupaimaibianmaishixingbanfa",
+   "short": "抵税财物拍卖、变卖试行办法",
+   "dept": "国家税务总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/dishuicaiwupaimaibianmaishixingbanfa.html",
+   "effective": "2005-07-01"
+  },
+  {
+   "slug": "jidongchuzuchejiashiyuangerensuodeshuizhengshougua169b14",
+   "short": "机动出租车驾驶员个人所得税征收管理暂行办法",
+   "dept": "国家税务总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/jidongchuzuchejiashiyuangerensuodeshuizhengshougua169b14.html",
+   "effective": "1995-03-14"
+  },
+  {
+   "slug": "jianjunashuirenshuishouweifaxingweijianglizanxingb85d562",
+   "short": "检举纳税人税收违法行为奖励暂行办法",
+   "dept": "国家税务总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/jianjunashuirenshuishouweifaxingweijianglizanxingb85d562.html",
+   "effective": "2007-03-01"
+  },
+  {
+   "slug": "qianshuigonggaobanfa",
+   "short": "欠税公告办法",
+   "dept": "国家税务总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/qianshuigonggaobanfa.html",
+   "effective": "2026-03-01"
+  },
+  {
+   "slug": "qianshuigonggaobanfa-2",
+   "short": "欠税公告办法（试行）",
+   "dept": "国家税务总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/qianshuigonggaobanfa-2.html",
+   "effective": "2004-10-10"
+  },
+  {
+   "slug": "xiaofeishuiruoganjutiwentideguiding",
+   "short": "消费税若干具体问题的规定",
+   "dept": "国家税务总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/xiaofeishuiruoganjutiwentideguiding.html",
+   "effective": "1993-12-28"
+  },
+  {
+   "slug": "sheshuizhuanyefuwuguanlibanfa",
+   "short": "涉税专业服务管理办法（试行）",
+   "dept": "国家税务总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/sheshuizhuanyefuwuguanlibanfa.html",
+   "effective": "2025-05-01"
+  },
+  {
+   "slug": "yanchushichanggerensuodeshuizhengshouguanlizanxing4eb128",
+   "short": "演出市场个人所得税征收管理暂行办法",
+   "dept": "国家税务总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/yanchushichanggerensuodeshuizhengshouguanlizanxing4eb128.html",
+   "effective": "1995-11-18"
+  },
+  {
+   "slug": "dianlichanpinzengzhishuizhengshouguanlibanfa",
+   "short": "电力产品增值税征收管理办法",
+   "dept": "国家税务总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/dianlichanpinzengzhishuizhengshouguanlibanfa.html",
+   "effective": "2005-02-01"
+  },
+  {
+   "slug": "shuiwurenyuanshuishouyewuweifaxingweichufenguiding",
+   "short": "税务人员税收业务违法行为处分规定",
+   "dept": "国家税务总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/shuiwurenyuanshuishouyewuweifaxingweichufenguiding.html",
+   "effective": "2026-01-01"
+  },
+  {
+   "slug": "shuiwudengjiguanlibanfa",
+   "short": "税务登记管理办法",
+   "dept": "国家税务总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/shuiwudengjiguanlibanfa.html",
+   "effective": "2004-02-01"
+  },
+  {
+   "slug": "shuiwujichaanjianbanlichengxuguiding",
+   "short": "税务稽查案件办理程序规定",
+   "dept": "国家税务总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/shuiwujichaanjianbanlichengxuguiding.html",
+   "effective": "2021-08-11"
+  },
+  {
+   "slug": "shuiwuxingzhengfuyiguize",
+   "short": "税务行政复议规则",
+   "dept": "国家税务总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/shuiwuxingzhengfuyiguize.html",
+   "effective": "2010-04-01"
+  },
+  {
+   "slug": "shuiwuguifanxingwenjianzhidingguanlibanfa",
+   "short": "税务规范性文件制定管理办法",
+   "dept": "国家税务总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/shuiwuguifanxingwenjianzhidingguanlibanfa.html",
+   "effective": "2017-05-16"
+  },
+  {
+   "slug": "shuiwubumenguizhangzhidingshishibanfa",
+   "short": "税务部门规章制定实施办法",
+   "dept": "国家税务总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/shuiwubumenguizhangzhidingshishibanfa.html",
+   "effective": "2002-03-01"
+  },
+  {
+   "slug": "shuishoukuaijizhidu",
+   "short": "税收会计制度",
+   "dept": "国家税务总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/shuishoukuaijizhidu.html",
+   "effective": "2005-02-01"
+  },
+  {
+   "slug": "shuishouzhifaduchaguize",
+   "short": "税收执法督察规则",
+   "dept": "国家税务总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/shuishouzhifaduchaguize.html",
+   "effective": "2013-02-25"
+  },
+  {
+   "slug": "shuishoupiaozhengguanlibanfa",
+   "short": "税收票证管理办法",
+   "dept": "国家税务总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/shuishoupiaozhengguanlibanfa.html",
+   "effective": "2014-04-01"
+  },
+  {
+   "slug": "shuishouweifaxingweijianjuguanlibanfa",
+   "short": "税收违法行为检举管理办法",
+   "dept": "国家税务总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/shuishouweifaxingweijianjuguanlibanfa.html",
+   "effective": "2020-01-01"
+  },
+  {
+   "slug": "shuikuanjiaokutuikugongzuoguicheng",
+   "short": "税款缴库退库工作规程",
+   "dept": "国家税务总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/shuikuanjiaokutuikugongzuoguicheng.html",
+   "effective": "2014-09-01"
+  },
+  {
+   "slug": "nashuidanbaoshixingbanfa",
+   "short": "纳税担保试行办法",
+   "dept": "国家税务总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/nashuidanbaoshixingbanfa.html",
+   "effective": "2005-07-01"
+  },
+  {
+   "slug": "wangluofapiaoguanlibanfa",
+   "short": "网络发票管理办法",
+   "dept": "国家税务总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/wangluofapiaoguanlibanfa.html",
+   "effective": "2013-04-01"
+  },
+  {
+   "slug": "gufenzhishidianqiyeyouguanshuishouwentidezanxinggue72b33",
+   "short": "股份制试点企业有关税收问题的暂行规定",
+   "dept": "国家税务总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/gufenzhishidianqiyeyouguanshuishouwentidezanxinggue72b33.html",
+   "effective": "1992-06-12"
+  },
+  {
+   "slug": "huowuqihuozhengshouzengzhishuijutibanfa",
+   "short": "货物期货征收增值税具体办法",
+   "dept": "国家税务总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/huowuqihuozhengshouzengzhishuijutibanfa.html",
+   "effective": "1994-11-09"
+  },
+  {
+   "slug": "youjinashuishenbaobanfa",
+   "short": "邮寄纳税申报办法",
+   "dept": "国家税务总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/youjinashuishenbaobanfa.html",
+   "effective": "1997-09-26"
+  },
+  {
+   "slug": "zhongdashuiwuanjianshenlibanfa",
+   "short": "重大税务案件审理办法",
+   "dept": "国家税务总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zhongdashuiwuanjianshenlibanfa.html",
+   "effective": "2014-12-02"
+  },
+  {
+   "slug": "zhongdashuishouweifashixinzhutixinxigongbuguanliba64d507",
+   "short": "重大税收违法失信主体信息公布管理办法",
+   "dept": "国家税务总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zhongdashuishouweifashixinzhutixinxigongbuguanliba64d507.html",
+   "effective": "2022-02-01"
+  },
+  {
+   "slug": "jinyinshoushixiaofeishuizhengshouguanlibanfa",
+   "short": "金银首饰消费税征收管理办法",
+   "dept": "国家税务总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/jinyinshoushixiaofeishuizhengshouguanlibanfa.html",
+   "effective": "1995-01-01"
+  },
+  {
+   "slug": "feijuminchengbaogongchengzuoyehetigonglaowushuisho390bdb",
+   "short": "非居民承包工程作业和提供劳务税收管理暂行办法",
+   "dept": "国家税务总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/feijuminchengbaogongchengzuoyehetigonglaowushuisho390bdb.html",
+   "effective": "2009-03-01"
+  },
+  {
+   "slug": "jiaoshizigetiaolishishibanfa",
+   "short": "《教师资格条例》实施办法",
+   "dept": "教育部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/jiaoshizigetiaolishishibanfa.html",
+   "effective": "2000-09-23"
+  },
+  {
+   "slug": "zhongwaihezuobanxuetiaolishishibanfa",
+   "short": "中外合作办学条例实施办法",
+   "dept": "教育部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zhongwaihezuobanxuetiaolishishibanfa.html",
+   "effective": "2004-07-01"
+  },
+  {
+   "slug": "jiaoyubuzhongguoyuyanwenhuayouyijiangshezhiguiding",
+   "short": "教育部“中国语言文化友谊奖”设置规定",
+   "dept": "教育部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/jiaoyubuzhongguoyuyanwenhuayouyijiangshezhiguiding.html",
+   "effective": "1999-03-15"
+  },
+  {
+   "slug": "zhongguohanyushuipingkaoshibanfa",
+   "short": "中国汉语水平考试（HSK）办法",
+   "dept": "教育部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zhongguohanyushuipingkaoshibanfa.html",
+   "effective": "1992-09-02"
+  },
+  {
+   "slug": "zhongxiaoxueyoueryuananquanguanlibanfa-2",
+   "short": "中小学幼儿园安全管理办法（2006）",
+   "dept": "教育部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zhongxiaoxueyoueryuananquanguanlibanfa-2.html",
+   "effective": "2006-09-01"
+  },
+  {
+   "slug": "zhongxiaoxueyoueryuananquanguanlibanfa",
+   "short": "中小学幼儿园安全管理办法（2006）",
+   "dept": "教育部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zhongxiaoxueyoueryuananquanguanlibanfa.html",
+   "effective": "2006-09-01"
+  },
+  {
+   "slug": "zhongxiaoxuejiaoshijixujiaoyuguiding",
+   "short": "中小学教师继续教育规定",
+   "dept": "教育部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zhongxiaoxuejiaoshijixujiaoyuguiding.html",
+   "effective": "1999-09-13"
+  },
+  {
+   "slug": "zhongxiaoxuejiaoyuchengjieguize",
+   "short": "中小学教育惩戒规则（试行）",
+   "dept": "教育部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zhongxiaoxuejiaoyuchengjieguize.html",
+   "effective": "2021-03-01"
+  },
+  {
+   "slug": "zhongxiaoxuexiaozhangpeixunguiding",
+   "short": "中小学校长培训规定",
+   "dept": "教育部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zhongxiaoxuexiaozhangpeixunguiding.html",
+   "effective": "1999-12-30"
+  },
+  {
+   "slug": "zhongxiaoxuefazhifuxiaozhangpinrenyuguanlibanfa",
+   "short": "中小学法治副校长聘任与管理办法",
+   "dept": "教育部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zhongxiaoxuefazhifuxiaozhangpinrenyuguanlibanfa.html",
+   "effective": "2022-05-01"
+  },
+  {
+   "slug": "xinxijishuchanpinguojiatongyongyuyanwenzishiyonggu3794d9",
+   "short": "信息技术产品国家通用语言文字使用管理规定",
+   "dept": "教育部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/xinxijishuchanpinguojiatongyongyuyanwenzishiyonggu3794d9.html",
+   "effective": "2023-03-01"
+  },
+  {
+   "slug": "guojiajiaoyukaoshiweiguichulibanfa",
+   "short": "国家教育考试违规处理办法",
+   "dept": "教育部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/guojiajiaoyukaoshiweiguichulibanfa.html",
+   "effective": "2004-05-19"
+  },
+  {
+   "slug": "xueweilunwenzuojiaxingweichulibanfa",
+   "short": "学位论文作假行为处理办法",
+   "dept": "教育部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/xueweilunwenzuojiaxingweichulibanfa.html",
+   "effective": "2013-01-01"
+  },
+  {
+   "slug": "xuexiaozhaoshouhepeiyangguojixueshengguanlibanfa",
+   "short": "学校招收和培养国际学生管理办法",
+   "dept": "教育部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/xuexiaozhaoshouhepeiyangguojixueshengguanlibanfa.html",
+   "effective": "2017-07-01"
+  },
+  {
+   "slug": "xuexiaojiaozhigongdaibiaodahuiguiding",
+   "short": "学校教职工代表大会规定",
+   "dept": "教育部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/xuexiaojiaozhigongdaibiaodahuiguiding.html",
+   "effective": "2012-01-01"
+  },
+  {
+   "slug": "xuexiaoyishujiaoyugongzuoguicheng",
+   "short": "学校艺术教育工作规程",
+   "dept": "教育部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/xuexiaoyishujiaoyugongzuoguicheng.html",
+   "effective": "2002-08-25"
+  },
+  {
+   "slug": "xuexiaoshipinanquanyuyingyangjiankangguanliguiding-2",
+   "short": "学校食品安全与营养健康管理规定（2019）",
+   "dept": "教育部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/xuexiaoshipinanquanyuyingyangjiankangguanliguiding-2.html",
+   "effective": "2019-04-01"
+  },
+  {
+   "slug": "xuexiaoshipinanquanyuyingyangjiankangguanliguiding",
+   "short": "学校食品安全与营养健康管理规定（2019）",
+   "dept": "教育部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/xuexiaoshipinanquanyuyingyangjiankangguanliguiding.html",
+   "effective": "2019-04-01"
+  },
+  {
+   "slug": "xueshengshanghaishiguchulibanfa",
+   "short": "学生伤害事故处理办法",
+   "dept": "教育部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/xueshengshanghaishiguchulibanfa.html",
+   "effective": "2002-06-25"
+  },
+  {
+   "slug": "youeryuangongzuoguicheng",
+   "short": "幼儿园工作规程",
+   "dept": "教育部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/youeryuangongzuoguicheng.html",
+   "effective": "2016-03-01"
+  },
+  {
+   "slug": "jiaoyuxitongneibushenjigongzuoguiding",
+   "short": "教育系统内部审计工作规定",
+   "dept": "教育部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/jiaoyuxitongneibushenjigongzuoguiding.html",
+   "effective": "2020-05-01"
+  },
+  {
+   "slug": "jiaoyutongjiguanliguiding",
+   "short": "教育统计管理规定",
+   "dept": "教育部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/jiaoyutongjiguanliguiding.html",
+   "effective": "2018-08-01"
+  },
+  {
+   "slug": "xinshidaigaodengxuexiaosixiangzhengzhililunkejiaosda3d57",
+   "short": "新时代高等学校思想政治理论课教师队伍建设规定",
+   "dept": "教育部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/xinshidaigaodengxuexiaosixiangzhengzhililunkejiaosda3d57.html",
+   "effective": "2020-03-01"
+  },
+  {
+   "slug": "putonghuashuipingceshiguanliguiding",
+   "short": "普通话水平测试管理规定",
+   "dept": "教育部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/putonghuashuipingceshiguanliguiding.html",
+   "effective": "2022-01-01"
+  },
+  {
+   "slug": "putonggaodengxuexiaoxueshengguanliguiding",
+   "short": "普通高等学校学生管理规定",
+   "dept": "教育部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/putonggaodengxuexiaoxueshengguanliguiding.html",
+   "effective": "2017-09-01"
+  },
+  {
+   "slug": "putonggaodengxuexiaozhaoshengweiguixingweichulizanad7e14",
+   "short": "普通高等学校招生违规行为处理暂行办法",
+   "dept": "教育部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/putonggaodengxuexiaozhaoshengweiguixingweichulizanad7e14.html",
+   "effective": "2014-07-08"
+  },
+  {
+   "slug": "putonggaodengxuexiaojiaoyupingguzanxingguiding",
+   "short": "普通高等学校教育评估暂行规定",
+   "dept": "教育部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/putonggaodengxuexiaojiaoyupingguzanxingguiding.html",
+   "effective": "1990-10-31"
+  },
+  {
+   "slug": "putonggaodengxuexiaolishihuiguicheng",
+   "short": "普通高等学校理事会规程（试行）",
+   "dept": "教育部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/putonggaodengxuexiaolishihuiguicheng.html",
+   "effective": "2014-09-01"
+  },
+  {
+   "slug": "putonggaodengxuexiaofudaoyuanduiwujiansheguiding",
+   "short": "普通高等学校辅导员队伍建设规定",
+   "dept": "教育部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/putonggaodengxuexiaofudaoyuanduiwujiansheguiding.html",
+   "effective": "2017-10-01"
+  },
+  {
+   "slug": "weichengnianrenxuexiaobaohuguiding",
+   "short": "未成年人学校保护规定",
+   "dept": "教育部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/weichengnianrenxuexiaobaohuguiding.html",
+   "effective": "2021-09-01"
+  },
+  {
+   "slug": "xiaowaipeixunxingzhengchufazanxingbanfa",
+   "short": "校外培训行政处罚暂行办法",
+   "dept": "教育部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/xiaowaipeixunxingzhengchufazanxingbanfa.html",
+   "effective": "2023-10-15"
+  },
+  {
+   "slug": "minbangaodengxuexiaobanxueguanliruoganguiding",
+   "short": "民办高等学校办学管理若干规定",
+   "dept": "教育部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/minbangaodengxuexiaobanxueguanliruoganguiding.html",
+   "effective": "2007-02-03"
+  },
+  {
+   "slug": "hanyuzuoweiwaiyujiaoxuenenglirendingbanfa",
+   "short": "汉语作为外语教学能力认定办法",
+   "dept": "教育部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/hanyuzuoweiwaiyujiaoxuenenglirendingbanfa.html",
+   "effective": "2004-10-01"
+  },
+  {
+   "slug": "teshujiaoyuxuexiaozanxingguicheng",
+   "short": "特殊教育学校暂行规程",
+   "dept": "教育部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/teshujiaoyuxuexiaozanxingguicheng.html",
+   "effective": "1998-12-02"
+  },
+  {
+   "slug": "dulixueyuanshezhiyuguanlibanfa",
+   "short": "独立学院设置与管理办法",
+   "dept": "教育部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/dulixueyuanshezhiyuguanlibanfa.html",
+   "effective": "2008-02-22"
+  },
+  {
+   "slug": "gaodengxuexiaoxinxigongkaibanfa",
+   "short": "高等学校信息公开办法",
+   "dept": "教育部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/gaodengxuexiaoxinxigongkaibanfa.html",
+   "effective": "2010-09-01"
+  },
+  {
+   "slug": "gaodengxuexiaoxueshuweiyuanhuiguicheng",
+   "short": "高等学校学术委员会规程",
+   "dept": "教育部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/gaodengxuexiaoxueshuweiyuanhuiguicheng.html",
+   "effective": "2014-03-01"
+  },
+  {
+   "slug": "gaodengxuexiaoshiyanshigongzuoguicheng",
+   "short": "高等学校实验室工作规程",
+   "dept": "教育部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/gaodengxuexiaoshiyanshigongzuoguicheng.html",
+   "effective": "1992-06-27"
+  },
+  {
+   "slug": "gaodengxuexiaodanganguanlibanfa",
+   "short": "高等学校档案管理办法",
+   "dept": "教育部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/gaodengxuexiaodanganguanlibanfa.html",
+   "effective": "2008-09-01"
+  },
+  {
+   "slug": "gaodengxuexiaoxiaofanganquanguanliguiding",
+   "short": "高等学校消防安全管理规定",
+   "dept": "教育部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/gaodengxuexiaoxiaofanganquanguanliguiding.html",
+   "effective": "2010-01-01"
+  },
+  {
+   "slug": "gaodengxuexiaozhishichanquanbaohuguanliguiding",
+   "short": "高等学校知识产权保护管理规定",
+   "dept": "教育部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/gaodengxuexiaozhishichanquanbaohuguanliguiding.html",
+   "effective": "1999-04-08"
+  },
+  {
+   "slug": "gaodengxuexiaozhangchengzhidingzanxingbanfa",
+   "short": "高等学校章程制定暂行办法",
+   "dept": "教育部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/gaodengxuexiaozhangchengzhidingzanxingbanfa.html",
+   "effective": "2012-01-01"
+  },
+  {
+   "slug": "gaodengxuexiaoyufangyuchulixueshubuduanxingweibanf5a4d90",
+   "short": "高等学校预防与处理学术不端行为办法",
+   "dept": "教育部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/gaodengxuexiaoyufangyuchulixueshubuduanxingweibanf5a4d90.html",
+   "effective": "2016-09-01"
+  },
+  {
+   "slug": "gaodengjiaoyuzixuekaoshimingtigongzuoguiding",
+   "short": "高等教育自学考试命题工作规定",
+   "dept": "教育部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/gaodengjiaoyuzixuekaoshimingtigongzuoguiding.html",
+   "effective": "1992-10-26"
+  },
+  {
+   "slug": "sanxiashuikudiaoduhekuqushuiziyuanyuhedaoguanliban0d8807",
+   "short": "三峡水库调度和库区水资源与河道管理办法",
+   "dept": "水利部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/sanxiashuikudiaoduhekuqushuiziyuanyuhedaoguanliban0d8807.html",
+   "effective": "2008-11-03"
+  },
+  {
+   "slug": "ruhepaiwukoujianduguanlibanfa-2",
+   "short": "入河排污口监督管理办法（2004）",
+   "dept": "水利部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/ruhepaiwukoujianduguanlibanfa-2.html",
+   "effective": "2005-01-01"
+  },
+  {
+   "slug": "zhanyongnongyeguangaishuiyuanguanpaigongchengsheshaf8710",
+   "short": "占用农业灌溉水源、灌排工程设施补偿办法",
+   "dept": "水利部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zhanyongnongyeguangaishuiyuanguanpaigongchengsheshaf8710.html",
+   "effective": "1995-11-13"
+  },
+  {
+   "slug": "qushuixukeguanlibanfa",
+   "short": "取水许可管理办法",
+   "dept": "水利部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/qushuixukeguanlibanfa.html",
+   "effective": "2008-04-09"
+  },
+  {
+   "slug": "jianshexiangmushuiziyuanlunzhengguanlibanfa",
+   "short": "建设项目水资源论证管理办法",
+   "dept": "水利部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/jianshexiangmushuiziyuanlunzhengguanlibanfa.html",
+   "effective": "2002-05-01"
+  },
+  {
+   "slug": "shuilijibenjianshexiangmujichazanxingbanfa",
+   "short": "水利基本建设项目稽察暂行办法",
+   "dept": "水利部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/shuilijibenjianshexiangmujichazanxingbanfa.html",
+   "effective": "1999-12-07"
+  },
+  {
+   "slug": "shuiligongchengjiansheanquanshengchanguanliguiding",
+   "short": "水利工程建设安全生产管理规定",
+   "dept": "水利部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/shuiligongchengjiansheanquanshengchanguanliguiding.html",
+   "effective": "2005-09-01"
+  },
+  {
+   "slug": "shuiligongchengjianshejianlidanweizizhiguanlibanfa",
+   "short": "水利工程建设监理单位资质管理办法",
+   "dept": "水利部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/shuiligongchengjianshejianlidanweizizhiguanlibanfa.html",
+   "effective": "2007-02-01"
+  },
+  {
+   "slug": "shuiligongchengjianshejianliguiding",
+   "short": "水利工程建设监理规定",
+   "dept": "水利部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/shuiligongchengjianshejianliguiding.html",
+   "effective": "2026-02-01"
+  },
+  {
+   "slug": "shuiligongchengjianshechengxuguanlizanxingguiding",
+   "short": "水利工程建设程序管理暂行规定",
+   "dept": "水利部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/shuiligongchengjianshechengxuguanlizanxingguiding.html",
+   "effective": "1998-01-07"
+  },
+  {
+   "slug": "shuiligongchengjianshexiangmuzhaobiaotoubiaoguanli133d91",
+   "short": "水利工程建设项目招标投标管理规定",
+   "dept": "水利部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/shuiligongchengjianshexiangmuzhaobiaotoubiaoguanli133d91.html",
+   "effective": "2002-01-01"
+  },
+  {
+   "slug": "shuiligongchengjianshexiangmuguanliguiding",
+   "short": "水利工程建设项目管理规定（试行）",
+   "dept": "水利部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/shuiligongchengjianshexiangmuguanliguiding.html",
+   "effective": "1995-04-21"
+  },
+  {
+   "slug": "shuiligongchengjianshexiangmuyanshouguanliguiding",
+   "short": "水利工程建设项目验收管理规定",
+   "dept": "水利部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/shuiligongchengjianshexiangmuyanshouguanliguiding.html",
+   "effective": "2007-04-01"
+  },
+  {
+   "slug": "shuiligongchengzhiliangshiguchuliguiding",
+   "short": "水利工程质量事故处理规定",
+   "dept": "水利部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/shuiligongchengzhiliangshiguchuliguiding.html",
+   "effective": "2025-01-01"
+  },
+  {
+   "slug": "shuiligongchengzhiliangjianceguanliguiding",
+   "short": "水利工程质量检测管理规定",
+   "dept": "水利部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/shuiligongchengzhiliangjianceguanliguiding.html",
+   "effective": "2009-01-01"
+  },
+  {
+   "slug": "shuiligongchengzhiliangjianduguanliguiding",
+   "short": "水利工程质量监督管理规定",
+   "dept": "水利部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/shuiligongchengzhiliangjianduguanliguiding.html",
+   "effective": "1997-08-25"
+  },
+  {
+   "slug": "shuiligongchengzhiliangguanliguiding",
+   "short": "水利工程质量管理规定",
+   "dept": "水利部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/shuiligongchengzhiliangguanliguiding.html",
+   "effective": "2023-03-01"
+  },
+  {
+   "slug": "shuilishuidianjianshegongchengxushuianquanjianding91033e",
+   "short": "水利水电建设工程蓄水安全鉴定暂行办法",
+   "dept": "水利部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/shuilishuidianjianshegongchengxushuianquanjianding91033e.html",
+   "effective": "1999-04-16"
+  },
+  {
+   "slug": "shuilibuxingzhengfuyigongzuozanxingguiding",
+   "short": "水利部行政复议工作暂行规定",
+   "dept": "水利部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/shuilibuxingzhengfuyigongzuozanxingguiding.html",
+   "effective": "1999-10-18"
+  },
+  {
+   "slug": "shuitubaochishengtaihuanjingjiancewangluoguanliban65f343",
+   "short": "水土保持生态环境监测网络管理办法",
+   "dept": "水利部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/shuitubaochishengtaihuanjingjiancewangluoguanliban65f343.html",
+   "effective": "2000-01-31"
+  },
+  {
+   "slug": "shuigongchengjiansheguihuatongyishuzhiduguanlibanfdf1688",
+   "short": "水工程建设规划同意书制度管理办法（试行）",
+   "dept": "水利部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/shuigongchengjiansheguihuatongyishuzhiduguanlibanfdf1688.html",
+   "effective": "2007-11-29"
+  },
+  {
+   "slug": "shuikudabazhucedengjibanfa",
+   "short": "水库大坝注册登记办法",
+   "dept": "水利部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/shuikudabazhucedengjibanfa.html",
+   "effective": "1996-01-01"
+  },
+  {
+   "slug": "shuikujiangdengyubaofeiguanlibanfa",
+   "short": "水库降等与报废管理办法",
+   "dept": "水利部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/shuikujiangdengyubaofeiguanlibanfa.html",
+   "effective": "2025-12-01"
+  },
+  {
+   "slug": "shuikujiangdengyubaofeiguanlibanfa-2",
+   "short": "水库降等与报废管理办法（试行）",
+   "dept": "水利部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/shuikujiangdengyubaofeiguanlibanfa-2.html",
+   "effective": "2003-07-01"
+  },
+  {
+   "slug": "shuizhengjianchagongzuozhangcheng",
+   "short": "水政监察工作章程",
+   "dept": "水利部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/shuizhengjianchagongzuozhangcheng.html",
+   "effective": "2000-05-15"
+  },
+  {
+   "slug": "shuiwenzhuanyeyouchangfuwushoufeiguanlishixingbanfae88a0",
+   "short": "水文专业有偿服务收费管理试行办法",
+   "dept": "水利部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/shuiwenzhuanyeyouchangfuwushoufeiguanlishixingbanfae88a0.html",
+   "effective": "1994-06-27"
+  },
+  {
+   "slug": "shuiwenjiancehuanjinghesheshibaohubanfa",
+   "short": "水文监测环境和设施保护办法",
+   "dept": "水利部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/shuiwenjiancehuanjinghesheshibaohubanfa.html",
+   "effective": "2011-04-01"
+  },
+  {
+   "slug": "shuiwenjianceziliaohuijiaoguanlibanfa",
+   "short": "水文监测资料汇交管理办法",
+   "dept": "水利部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/shuiwenjianceziliaohuijiaoguanlibanfa.html",
+   "effective": "2020-12-01"
+  },
+  {
+   "slug": "shuiwenzhanwangguanlibanfa",
+   "short": "水文站网管理办法",
+   "dept": "水利部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/shuiwenzhanwangguanlibanfa.html",
+   "effective": "2012-02-01"
+  },
+  {
+   "slug": "shuixingzhengchufashishibanfa",
+   "short": "水行政处罚实施办法",
+   "dept": "水利部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/shuixingzhengchufashishibanfa.html",
+   "effective": "2023-05-01"
+  },
+  {
+   "slug": "shuixingzhengxuketingzhengguiding",
+   "short": "水行政许可听证规定",
+   "dept": "水利部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/shuixingzhengxuketingzhengguiding.html",
+   "effective": "2006-05-24"
+  },
+  {
+   "slug": "shuixingzhengxukeshishibanfa",
+   "short": "水行政许可实施办法",
+   "dept": "水利部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/shuixingzhengxukeshishibanfa.html",
+   "effective": "2005-07-08"
+  },
+  {
+   "slug": "shuiliangfenpeizanxingbanfa",
+   "short": "水量分配暂行办法",
+   "dept": "水利部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/shuiliangfenpeizanxingbanfa.html",
+   "effective": "2008-02-01"
+  },
+  {
+   "slug": "hedaoguanlifanweineijianshexiangmuguanlideyouguang7c5f8e",
+   "short": "河道管理范围内建设项目管理的有关规定",
+   "dept": "水利部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/hedaoguanlifanweineijianshexiangmuguanlideyouguang7c5f8e.html",
+   "effective": "1992-04-03"
+  },
+  {
+   "slug": "hedaocaishashoufeiguanlibanfa",
+   "short": "河道采砂收费管理办法",
+   "dept": "水利部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/hedaocaishashoufeiguanlibanfa.html",
+   "effective": "1990-06-20"
+  },
+  {
+   "slug": "haiheduliujianheyongdingxinhehekouguanlibanfa",
+   "short": "海河独流减河永定新河河口管理办法",
+   "dept": "水利部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/haiheduliujianheyongdingxinhehekouguanlibanfa.html",
+   "effective": "2009-07-01"
+  },
+  {
+   "slug": "zhujianghekouguanlibanfa",
+   "short": "珠江河口管理办法",
+   "dept": "水利部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zhujianghekouguanlibanfa.html",
+   "effective": "1999-09-24"
+  },
+  {
+   "slug": "shengchanjianshexiangmushuitubaochifanganguanlibana75e69",
+   "short": "生产建设项目水土保持方案管理办法",
+   "dept": "水利部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/shengchanjianshexiangmushuitubaochifanganguanlibana75e69.html",
+   "effective": "2023-03-01"
+  },
+  {
+   "slug": "changjianghedaocaishaguanlitiaolishishibanfa",
+   "short": "长江河道采砂管理条例实施办法",
+   "dept": "水利部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/changjianghedaocaishaguanlitiaolishishibanfa.html",
+   "effective": "2025-01-01"
+  },
+  {
+   "slug": "changjiangliuyukongzhixingshuigongchenglianhediaodb28160",
+   "short": "长江流域控制性水工程联合调度管理办法（试行）",
+   "dept": "水利部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/changjiangliuyukongzhixingshuigongchenglianhediaodb28160.html",
+   "effective": "2023-03-01"
+  },
+  {
+   "slug": "huanghexiayoufuqiaojiansheguanlibanfa",
+   "short": "黄河下游浮桥建设管理办法",
+   "dept": "水利部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/huanghexiayoufuqiaojiansheguanlibanfa.html",
+   "effective": "1990-08-31"
+  },
+  {
+   "slug": "huanghehekouguanlibanfa",
+   "short": "黄河河口管理办法",
+   "dept": "水利部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/huanghehekouguanlibanfa.html",
+   "effective": "2005-01-01"
+  },
+  {
+   "slug": "heiheganliushuiliangdiaoduguanlibanfa",
+   "short": "黑河干流水量调度管理办法",
+   "dept": "水利部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/heiheganliushuiliangdiaoduguanlibanfa.html",
+   "effective": "2009-05-13"
+  },
+  {
+   "slug": "zhuyaolinmumulu-2",
+   "short": "主要林木目录（第一批）",
+   "dept": "国家林草局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zhuyaolinmumulu-2.html",
+   "effective": "2001-05-22"
+  },
+  {
+   "slug": "zhuyaolinmumulu",
+   "short": "主要林木目录（第二批）",
+   "dept": "国家林草局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zhuyaolinmumulu.html",
+   "effective": "2016-09-20"
+  },
+  {
+   "slug": "zhiwuxinpinzhongbaohuminglu-4",
+   "short": "植物新品种保护名录（林业部分）（第三批）",
+   "dept": "国家林草局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zhiwuxinpinzhongbaohuminglu-4.html",
+   "effective": "2003-01-01"
+  },
+  {
+   "slug": "zhiwuxinpinzhongbaohuminglu-5",
+   "short": "植物新品种保护名录（林业部分）（第二批）",
+   "dept": "国家林草局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zhiwuxinpinzhongbaohuminglu-5.html",
+   "effective": "2000-02-02"
+  },
+  {
+   "slug": "zhiwuxinpinzhongbaohuminglu-2",
+   "short": "植物新品种保护名录（林业部分）（第五批）",
+   "dept": "国家林草局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zhiwuxinpinzhongbaohuminglu-2.html",
+   "effective": "2013-04-01"
+  },
+  {
+   "slug": "zhiwuxinpinzhongbaohuminglu",
+   "short": "植物新品种保护名录（林业部分）（第六批）",
+   "dept": "国家林草局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zhiwuxinpinzhongbaohuminglu.html",
+   "effective": "2016-11-30"
+  },
+  {
+   "slug": "zhiwuxinpinzhongbaohuminglu-3",
+   "short": "植物新品种保护名录（林业部分）（第四批）",
+   "dept": "国家林草局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zhiwuxinpinzhongbaohuminglu-3.html",
+   "effective": "2004-11-01"
+  },
+  {
+   "slug": "zhiwuxinpinzhongbaohutiaolishishixize",
+   "short": "植物新品种保护条例实施细则（林业部分）",
+   "dept": "国家林草局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zhiwuxinpinzhongbaohutiaolishishixize.html",
+   "effective": "1999-08-10"
+  },
+  {
+   "slug": "zhuyaolinmupinzhongshendingbanfa",
+   "short": "主要林木品种审定办法",
+   "dept": "国家林草局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zhuyaolinmupinzhongshendingbanfa.html",
+   "effective": ""
+  },
+  {
+   "slug": "guojiabaohudeyouyidehuozheyouzhongyaojingjikexueya9f09e3",
+   "short": "国家保护的有益的或者有重要经济、科学研究价值的陆生野生动物名录",
+   "dept": "国家林草局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/guojiabaohudeyouyidehuozheyouzhongyaojingjikexueya9f09e3.html",
+   "effective": "2000-08-01"
+  },
+  {
+   "slug": "guojialinyejuweituoshishilinyexingzhengxukeshixian69e888",
+   "short": "国家林业局委托实施林业行政许可事项管理办法",
+   "dept": "国家林草局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/guojialinyejuweituoshishilinyexingzhengxukeshixian69e888.html",
+   "effective": "2017-10-25"
+  },
+  {
+   "slug": "guojiazhongdianbaohuyeshengdongwuminglu",
+   "short": "国家重点保护野生动物名录",
+   "dept": "国家林草局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/guojiazhongdianbaohuyeshengdongwuminglu.html",
+   "effective": ""
+  },
+  {
+   "slug": "guojiazhongdianbaohuyeshengdongwuxunyangfanzhixukeb76c7c",
+   "short": "国家重点保护野生动物驯养繁殖许可证管理办法",
+   "dept": "国家林草局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/guojiazhongdianbaohuyeshengdongwuxunyangfanzhixukeb76c7c.html",
+   "effective": "1991-01-09"
+  },
+  {
+   "slug": "guojiazhongdianbaohuyeshengzhiwuminglu",
+   "short": "国家重点保护野生植物名录",
+   "dept": "国家林草局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/guojiazhongdianbaohuyeshengzhiwuminglu.html",
+   "effective": "2021-09-07"
+  },
+  {
+   "slug": "zaiguojiajiziranbaohuquxiuzhusheshishenpiguanlizan663dae",
+   "short": "在国家级自然保护区修筑设施审批管理暂行办法",
+   "dept": "国家林草局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zaiguojiajiziranbaohuquxiuzhusheshishenpiguanlizan663dae.html",
+   "effective": ""
+  },
+  {
+   "slug": "daxiongmaoguoneijiezhanguanliguiding",
+   "short": "大熊猫国内借展管理规定",
+   "dept": "国家林草局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/daxiongmaoguoneijiezhanguanliguiding.html",
+   "effective": "2011-07-25"
+  },
+  {
+   "slug": "jianshexiangmushiyonglindishenheshenpiguanlibanfa",
+   "short": "建设项目使用林地审核审批管理办法",
+   "dept": "国家林草局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/jianshexiangmushiyonglindishenheshenpiguanlibanfa.html",
+   "effective": "2015-03-30"
+  },
+  {
+   "slug": "kaizhanlinmuzhuanjiyingongchenghuodongshenpiguanli2dc4ef",
+   "short": "开展林木转基因工程活动审批管理办法",
+   "dept": "国家林草局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/kaizhanlinmuzhuanjiyingongchenghuodongshenpiguanli2dc4ef.html",
+   "effective": ""
+  },
+  {
+   "slug": "yinjinlushengyeshengdongwuwailaiwuzhongzhongleijis78aa4c",
+   "short": "引进陆生野生动物外来物种种类及数量审批管理办法",
+   "dept": "国家林草局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/yinjinlushengyeshengdongwuwailaiwuzhongzhongleijis78aa4c.html",
+   "effective": "2005-09-27"
+  },
+  {
+   "slug": "pujixingguowaiyinzhongshizhongmiaopuzigerendingguaeffbb8",
+   "short": "普及型国外引种试种苗圃资格认定管理办法",
+   "dept": "国家林草局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/pujixingguowaiyinzhongshizhongmiaopuzigerendingguaeffbb8.html",
+   "effective": "2005-09-23"
+  },
+  {
+   "slug": "songcaixianchongbingyimujiagongbancaidingdianjiago3847a0",
+   "short": "松材线虫病疫木加工板材定点加工企业审批管理办法",
+   "dept": "国家林草局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/songcaixianchongbingyimujiagongbancaidingdianjiago3847a0.html",
+   "effective": "2005-09-23"
+  },
+  {
+   "slug": "linyegongzuozhanguanlibanfa",
+   "short": "林业工作站管理办法",
+   "dept": "国家林草局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/linyegongzuozhanguanlibanfa.html",
+   "effective": ""
+  },
+  {
+   "slug": "linyexingzhengchufatingzhengguize",
+   "short": "林业行政处罚听证规则",
+   "dept": "国家林草局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/linyexingzhengchufatingzhengguize.html",
+   "effective": "2002-11-02"
+  },
+  {
+   "slug": "linyexingzhengchufaanjianwenshuzhizuoguanliguiding",
+   "short": "林业行政处罚案件文书制作管理规定",
+   "dept": "国家林草局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/linyexingzhengchufaanjianwenshuzhizuoguanliguiding.html",
+   "effective": "2005-05-27"
+  },
+  {
+   "slug": "linyexingzhengchufachengxuguiding",
+   "short": "林业行政处罚程序规定",
+   "dept": "国家林草局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/linyexingzhengchufachengxuguiding.html",
+   "effective": "1996-09-27"
+  },
+  {
+   "slug": "linyexingzhengzhifajiandubanfa",
+   "short": "林业行政执法监督办法",
+   "dept": "国家林草局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/linyexingzhengzhifajiandubanfa.html",
+   "effective": "1996-09-27"
+  },
+  {
+   "slug": "linyexingzhengxuketingzhengbanfa",
+   "short": "林业行政许可听证办法",
+   "dept": "国家林草局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/linyexingzhengxuketingzhengbanfa.html",
+   "effective": "2008-08-01"
+  },
+  {
+   "slug": "linmulindiquanshuzhengyichulibanfa",
+   "short": "林木林地权属争议处理办法",
+   "dept": "国家林草局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/linmulindiquanshuzhengyichulibanfa.html",
+   "effective": "1996-10-14"
+  },
+  {
+   "slug": "linmuzhongzishengchanjingyingxukezhengguanlibanfa",
+   "short": "林木种子生产经营许可证管理办法",
+   "dept": "国家林草局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/linmuzhongzishengchanjingyingxukezhengguanlibanfa.html",
+   "effective": ""
+  },
+  {
+   "slug": "linmuzhongzizhiliangguanlibanfa",
+   "short": "林木种子质量管理办法",
+   "dept": "国家林草局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/linmuzhongzizhiliangguanlibanfa.html",
+   "effective": "2006-11-13"
+  },
+  {
+   "slug": "linmuzhongzhiziyuanguanlibanfa",
+   "short": "林木种质资源管理办法",
+   "dept": "国家林草局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/linmuzhongzhiziyuanguanlibanfa.html",
+   "effective": "2007-09-08"
+  },
+  {
+   "slug": "linmuliangzhongtuiguangshiyongguanlibanfa",
+   "short": "林木良种推广使用管理办法",
+   "dept": "国家林草局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/linmuliangzhongtuiguangshiyongguanlibanfa.html",
+   "effective": "1997-06-15"
+  },
+  {
+   "slug": "senlinziyuanjiandugongzuoguanlibanfa",
+   "short": "森林资源监督工作管理办法",
+   "dept": "国家林草局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/senlinziyuanjiandugongzuoguanlibanfa.html",
+   "effective": "2007-09-28"
+  },
+  {
+   "slug": "zhiwujianyitiaolishishixize",
+   "short": "植物检疫条例实施细则（林业部分）",
+   "dept": "国家林草局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zhiwujianyitiaolishishixize.html",
+   "effective": "1994-07-26"
+  },
+  {
+   "slug": "shidibaohuguanliguiding",
+   "short": "湿地保护管理规定",
+   "dept": "国家林草局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/shidibaohuguanliguiding.html",
+   "effective": "2013-03-28"
+  },
+  {
+   "slug": "tufalinyeyouhaishengwushijianchuzhibanfa",
+   "short": "突发林业有害生物事件处置办法",
+   "dept": "国家林草局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/tufalinyeyouhaishengwushijianchuzhibanfa.html",
+   "effective": "2005-05-23"
+  },
+  {
+   "slug": "yinglixingzhishaguanlibanfa",
+   "short": "营利性治沙管理办法",
+   "dept": "国家林草局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/yinglixingzhishaguanlibanfa.html",
+   "effective": "2004-07-01"
+  },
+  {
+   "slug": "yeshengdongzhiwujinchukouzhengshuguanlibanfa",
+   "short": "野生动植物进出口证书管理办法",
+   "dept": "国家林草局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/yeshengdongzhiwujinchukouzhengshuguanlibanfa.html",
+   "effective": ""
+  },
+  {
+   "slug": "yeshengdongwujiqizhipinjiazhipinggufangfa",
+   "short": "野生动物及其制品价值评估方法",
+   "dept": "国家林草局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/yeshengdongwujiqizhipinjiazhipinggufangfa.html",
+   "effective": "2017-10-25"
+  },
+  {
+   "slug": "yeshengdongwushourongjiuhuguanlibanfa",
+   "short": "野生动物收容救护管理办法",
+   "dept": "国家林草局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/yeshengdongwushourongjiuhuguanlibanfa.html",
+   "effective": "2017-12-01"
+  },
+  {
+   "slug": "lushengyeshengdongwuyiyuanyibingjiancefangkongguan42aca9",
+   "short": "陆生野生动物疫源疫病监测防控管理办法",
+   "dept": "国家林草局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/lushengyeshengdongwuyiyuanyibingjiancefangkongguan42aca9.html",
+   "effective": "2013-01-22"
+  },
+  {
+   "slug": "jitilinquanzhidugaigedanganguanlibanfa",
+   "short": "集体林权制度改革档案管理办法",
+   "dept": "国家林草局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/jitilinquanzhidugaigedanganguanlibanfa.html",
+   "effective": ""
+  },
+  {
+   "slug": "shijiewenhuayichanbaohuguanlibanfa",
+   "short": "世界文化遗产保护管理办法",
+   "dept": "文化和旅游部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/shijiewenhuayichanbaohuguanlibanfa.html",
+   "effective": "2006-11-14"
+  },
+  {
+   "slug": "zhongwaihezijingyinglvxingsheshidianjingyingchujin4d9fd7",
+   "short": "中外合资经营旅行社试点经营出境旅游业务监管暂行办法",
+   "dept": "文化和旅游部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zhongwaihezijingyinglvxingsheshidianjingyingchujin4d9fd7.html",
+   "effective": ""
+  },
+  {
+   "slug": "xiangzhenzonghewenhuazhanguanlibanfa",
+   "short": "乡镇综合文化站管理办法",
+   "dept": "文化和旅游部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/xiangzhenzonghewenhuazhanguanlibanfa.html",
+   "effective": "2009-10-01"
+  },
+  {
+   "slug": "hulianwangwenhuaguanlizanxingguiding",
+   "short": "互联网文化管理暂行规定（2011）",
+   "dept": "文化和旅游部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/hulianwangwenhuaguanlizanxingguiding.html",
+   "effective": "2011-04-01"
+  },
+  {
+   "slug": "quanguowenhuaxianjinxianquanguowenhuagongzuoxianji0fbfb3",
+   "short": "全国文化先进县、全国文化工作先进集体和全国文化系统先进工作者、劳动模范荣誉称号授予办法",
+   "dept": "文化和旅游部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/quanguowenhuaxianjinxianquanguowenhuagongzuoxianji0fbfb3.html",
+   "effective": "1999-04-22"
+  },
+  {
+   "slug": "bowuguanguanlibanfa",
+   "short": "博物馆管理办法",
+   "dept": "文化和旅游部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/bowuguanguanlibanfa.html",
+   "effective": "2006-01-01"
+  },
+  {
+   "slug": "bowuguancangpinguanlibanfa",
+   "short": "博物馆藏品管理办法",
+   "dept": "文化和旅游部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/bowuguancangpinguanlibanfa.html",
+   "effective": "2026-11-01"
+  },
+  {
+   "slug": "gurenleihuashihegujizhuidongwuhuashibaohuguanliban9e3045",
+   "short": "古人类化石和古脊椎动物化石保护管理办法",
+   "dept": "文化和旅游部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/gurenleihuashihegujizhuidongwuhuashibaohuguanliban9e3045.html",
+   "effective": "2006-08-07"
+  },
+  {
+   "slug": "guojiajiwenhuashengtaibaohuquguanlibanfa",
+   "short": "国家级文化生态保护区管理办法",
+   "dept": "文化和旅游部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/guojiajiwenhuashengtaibaohuquguanlibanfa.html",
+   "effective": "2019-03-01"
+  },
+  {
+   "slug": "guojiajifeiwuzhiwenhuayichandaibiaoxingchuanchengrffb8ac",
+   "short": "国家级非物质文化遗产代表性传承人认定与管理办法",
+   "dept": "文化和旅游部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/guojiajifeiwuzhiwenhuayichandaibiaoxingchuanchengrffb8ac.html",
+   "effective": "2020-03-01"
+  },
+  {
+   "slug": "guojiajifeiwuzhiwenhuayichanbaohuyuguanlizanxingba054e22",
+   "short": "国家级非物质文化遗产保护与管理暂行办法",
+   "dept": "文化和旅游部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/guojiajifeiwuzhiwenhuayichanbaohuyuguanlizanxingba054e22.html",
+   "effective": "2006-12-01"
+  },
+  {
+   "slug": "zaixianlvyoujingyingfuwuguanlizanxingguiding",
+   "short": "在线旅游经营服务管理暂行规定",
+   "dept": "文化和旅游部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zaixianlvyoujingyingfuwuguanlizanxingguiding.html",
+   "effective": "2020-10-01"
+  },
+  {
+   "slug": "dayunheyichanbaohuguanlibanfa",
+   "short": "大运河遗产保护管理办法",
+   "dept": "文化和旅游部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/dayunheyichanbaohuguanlibanfa.html",
+   "effective": "2012-10-01"
+  },
+  {
+   "slug": "dalujuminfutaiwandiqulvyouguanlibanfa",
+   "short": "大陆居民赴台湾地区旅游管理办法",
+   "dept": "文化和旅游部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/dalujuminfutaiwandiqulvyouguanlibanfa.html",
+   "effective": "2006-04-16"
+  },
+  {
+   "slug": "yulechangsuoguanlibanfa",
+   "short": "娱乐场所管理办法",
+   "dept": "文化和旅游部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/yulechangsuoguanlibanfa.html",
+   "effective": "2013-03-11"
+  },
+  {
+   "slug": "daoyourenyuandengjikaohepingdingguanlibanfa",
+   "short": "导游人员等级考核评定管理办法（试行）",
+   "dept": "文化和旅游部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/daoyourenyuandengjikaohepingdingguanlibanfa.html",
+   "effective": "2005-07-03"
+  },
+  {
+   "slug": "daoyoudengjikaoheguanlibanfa",
+   "short": "导游等级考核管理办法",
+   "dept": "文化和旅游部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/daoyoudengjikaoheguanlibanfa.html",
+   "effective": "2025-03-01"
+  },
+  {
+   "slug": "daoyouguanlibanfa",
+   "short": "导游管理办法",
+   "dept": "文化和旅游部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/daoyouguanlibanfa.html",
+   "effective": "2018-01-01"
+  },
+  {
+   "slug": "wenhuahelvyoushichangxinyongguanliguiding",
+   "short": "文化和旅游市场信用管理规定",
+   "dept": "文化和旅游部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/wenhuahelvyoushichangxinyongguanliguiding.html",
+   "effective": "2022-01-01"
+  },
+  {
+   "slug": "wenhuahelvyoubulifagongzuoguiding",
+   "short": "文化和旅游部立法工作规定",
+   "dept": "文化和旅游部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/wenhuahelvyoubulifagongzuoguiding.html",
+   "effective": "2021-03-01"
+  },
+  {
+   "slug": "wenhuahelvyoubuxingzhengfuyiheyingsubanfa",
+   "short": "文化和旅游部行政复议和应诉办法",
+   "dept": "文化和旅游部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/wenhuahelvyoubuxingzhengfuyiheyingsubanfa.html",
+   "effective": "2025-09-01"
+  },
+  {
+   "slug": "wenhuashichangzonghexingzhengzhifaguanlibanfa",
+   "short": "文化市场综合行政执法管理办法",
+   "dept": "文化和旅游部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/wenhuashichangzonghexingzhengzhifaguanlibanfa.html",
+   "effective": "2012-02-01"
+  },
+  {
+   "slug": "wenhuabushewaiwenhuayishubiaoyanjizhanlanguanliguie36a62",
+   "short": "文化部涉外文化艺术表演及展览管理规定",
+   "dept": "文化和旅游部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/wenhuabushewaiwenhuayishubiaoyanjizhanlanguanliguie36a62.html",
+   "effective": "1997-06-27"
+  },
+  {
+   "slug": "wenhuabuxingzhengfuyigongzuochengxuguiding",
+   "short": "文化部行政复议工作程序规定",
+   "dept": "文化和旅游部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/wenhuabuxingzhengfuyigongzuochengxuguiding.html",
+   "effective": "2008-03-01"
+  },
+  {
+   "slug": "wenwubaohugongchengguanlibanfa",
+   "short": "文物保护工程管理办法",
+   "dept": "文化和旅游部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/wenwubaohugongchengguanlibanfa.html",
+   "effective": "2003-05-01"
+  },
+  {
+   "slug": "wenwucangpindingjibiaozhun",
+   "short": "文物藏品定级标准",
+   "dept": "文化和旅游部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/wenwucangpindingjibiaozhun.html",
+   "effective": "2001-04-09"
+  },
+  {
+   "slug": "wenwuxingzhengchufachengxuzanxingguiding",
+   "short": "文物行政处罚程序暂行规定",
+   "dept": "文化和旅游部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/wenwuxingzhengchufachengxuzanxingguiding.html",
+   "effective": "2005-01-24"
+  },
+  {
+   "slug": "wenwurendingguanlizanxingbanfa",
+   "short": "文物认定管理暂行办法",
+   "dept": "文化和旅游部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/wenwurendingguanlizanxingbanfa.html",
+   "effective": "2009-10-01"
+  },
+  {
+   "slug": "wenwujinchujingshenheguanlibanfa",
+   "short": "文物进出境审核管理办法",
+   "dept": "文化和旅游部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/wenwujinchujingshenheguanlibanfa.html",
+   "effective": "2007-07-03"
+  },
+  {
+   "slug": "lvyouanquanguanlibanfa",
+   "short": "旅游安全管理办法",
+   "dept": "文化和旅游部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/lvyouanquanguanlibanfa.html",
+   "effective": "2016-12-01"
+  },
+  {
+   "slug": "lvyoutousuchulibanfa-2",
+   "short": "旅游投诉处理办法（2010）",
+   "dept": "文化和旅游部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/lvyoutousuchulibanfa-2.html",
+   "effective": "2010-07-01"
+  },
+  {
+   "slug": "lvyoutousuchulibanfa",
+   "short": "旅游投诉处理办法（2025）",
+   "dept": "文化和旅游部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/lvyoutousuchulibanfa.html",
+   "effective": "2026-03-15"
+  },
+  {
+   "slug": "lvyouxingzhengchufabanfa",
+   "short": "旅游行政处罚办法",
+   "dept": "文化和旅游部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/lvyouxingzhengchufabanfa.html",
+   "effective": "2013-10-01"
+  },
+  {
+   "slug": "lvyouxingzhengxukebanfa",
+   "short": "旅游行政许可办法",
+   "dept": "文化和旅游部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/lvyouxingzhengxukebanfa.html",
+   "effective": "2018-05-01"
+  },
+  {
+   "slug": "lvxingshetiaolishishixize",
+   "short": "旅行社条例实施细则",
+   "dept": "文化和旅游部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/lvxingshetiaolishishixize.html",
+   "effective": "2009-05-03"
+  },
+  {
+   "slug": "lvxingshezerenbaoxianguanlibanfa",
+   "short": "旅行社责任保险管理办法",
+   "dept": "文化和旅游部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/lvxingshezerenbaoxianguanlibanfa.html",
+   "effective": "2011-02-01"
+  },
+  {
+   "slug": "shehuiyishushuipingkaojiguanlibanfa",
+   "short": "社会艺术水平考级管理办法",
+   "dept": "文化和旅游部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/shehuiyishushuipingkaojiguanlibanfa.html",
+   "effective": "2004-07-01"
+  },
+  {
+   "slug": "yishupinjingyingguanlibanfa",
+   "short": "艺术品经营管理办法",
+   "dept": "文化和旅游部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/yishupinjingyingguanlibanfa.html",
+   "effective": "2015-12-17"
+  },
+  {
+   "slug": "yishudanganguanlibanfa",
+   "short": "艺术档案管理办法",
+   "dept": "文化和旅游部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/yishudanganguanlibanfa.html",
+   "effective": "2002-02-01"
+  },
+  {
+   "slug": "yingyexingyanchuguanlitiaolishishixize",
+   "short": "营业性演出管理条例实施细则",
+   "dept": "文化和旅游部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/yingyexingyanchuguanlitiaolishishixize.html",
+   "effective": "2009-10-01"
+  },
+  {
+   "slug": "bianjinglvyouguanlibanfa",
+   "short": "边境旅游管理办法",
+   "dept": "文化和旅游部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/bianjinglvyouguanlibanfa.html",
+   "effective": ""
+  },
+  {
+   "slug": "zhongwaihezuozhizuodianshijuguanliguidingdebuchong3c668f-2",
+   "short": "《中外合作制作电视剧管理规定》的补充规定（2008）",
+   "dept": "国家广播电视总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zhongwaihezuozhizuodianshijuguanliguidingdebuchong3c668f-2.html",
+   "effective": "2008-01-01"
+  },
+  {
+   "slug": "zhongwaihezuozhizuodianshijuguanliguidingdebuchong3c668f",
+   "short": "《中外合作制作电视剧管理规定》的补充规定（2008）",
+   "dept": "国家广播电视总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zhongwaihezuozhizuodianshijuguanliguidingdebuchong3c668f.html",
+   "effective": "2008-02-14"
+  },
+  {
+   "slug": "weixingdianshiguangbodimianjieshousheshiguanliguidcaf52f",
+   "short": "《卫星电视广播地面接收设施管理规定》实施细则",
+   "dept": "国家广播电视总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/weixingdianshiguangbodimianjieshousheshiguanliguidcaf52f.html",
+   "effective": ""
+  },
+  {
+   "slug": "guangbodianshiguanggaobochuguanlibanfadebuchongguid0a5e2",
+   "short": "《广播电视广告播出管理办法》的补充规定",
+   "dept": "国家广播电视总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/guangbodianshiguanggaobochuguanlibanfadebuchongguid0a5e2.html",
+   "effective": "2012-01-01"
+  },
+  {
+   "slug": "zhuanwangjidingxiangchuanboshitingjiemufuwuguanligbbbc9f",
+   "short": "专网及定向传播视听节目服务管理规定",
+   "dept": "国家广播电视总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zhuanwangjidingxiangchuanboshitingjiemufuwuguanligbbbc9f.html",
+   "effective": "2016-04-25"
+  },
+  {
+   "slug": "zhongwaihezuozhizuodianshijuguanliguiding",
+   "short": "中外合作制作电视剧管理规定",
+   "dept": "国家广播电视总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zhongwaihezuozhizuodianshijuguanliguiding.html",
+   "effective": "2004-10-21"
+  },
+  {
+   "slug": "hulianwangshitingjiemufuwuguanliguiding-3",
+   "short": "互联网视听节目服务管理规定（2007）",
+   "dept": "国家广播电视总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/hulianwangshitingjiemufuwuguanliguiding-3.html",
+   "effective": "2007-12-20"
+  },
+  {
+   "slug": "weixingdianshiguangbodimianjieshousheshianzhuangfu665aaa",
+   "short": "卫星电视广播地面接收设施安装服务暂行办法",
+   "dept": "国家广播电视总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/weixingdianshiguangbodimianjieshousheshianzhuangfu665aaa.html",
+   "effective": "2009-08-06"
+  },
+  {
+   "slug": "guojiaguangbodianyingdianshizongjuxingzhengxukeshi1192f0",
+   "short": "国家广播电影电视总局行政许可实施检查监督暂行办法",
+   "dept": "国家广播电视总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/guojiaguangbodianyingdianshizongjuxingzhengxukeshi1192f0.html",
+   "effective": "2004-08-01"
+  },
+  {
+   "slug": "guojiaguangbodianshizongjulingdi11haoguangbodianshd16bfb",
+   "short": "国家广播电视总局令第11号：《广播电视行政处罚程序规定》",
+   "dept": "国家广播电视总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/guojiaguangbodianshizongjulingdi11haoguangbodianshd16bfb.html",
+   "effective": "2021-12-01"
+  },
+  {
+   "slug": "guojiaguangbodianshizongjulingdi12haoguangbodiansh9cbcbd",
+   "short": "国家广播电视总局令第12号：《广播电视节目传送业务管理办法》",
+   "dept": "国家广播电视总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/guojiaguangbodianshizongjulingdi12haoguangbodiansh9cbcbd.html",
+   "effective": ""
+  },
+  {
+   "slug": "guojiaguangbodianshizongjulingdi13haoguangbodiansh096c7b",
+   "short": "国家广播电视总局令第13号：《广播电视无线传输覆盖网管理办法》",
+   "dept": "国家广播电视总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/guojiaguangbodianshizongjulingdi13haoguangbodiansh096c7b.html",
+   "effective": ""
+  },
+  {
+   "slug": "guojiaguangbodianshizongjuguanyuquxiaobufenguizhan65bfde",
+   "short": "国家广播电视总局关于取消部分规章和规范性文件设定的证明事项材料的决定",
+   "dept": "国家广播电视总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/guojiaguangbodianshizongjuguanyuquxiaobufenguizhan65bfde.html",
+   "effective": "2018-10-29"
+  },
+  {
+   "slug": "guojiaguangbodianshizongjulifagongzuoguiding",
+   "short": "国家广播电视总局立法工作规定",
+   "dept": "国家广播电视总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/guojiaguangbodianshizongjulifagongzuoguiding.html",
+   "effective": "2020-03-01"
+  },
+  {
+   "slug": "guojiaguangbodianshizongjuxingzhengguifanxingwenji30bdd0",
+   "short": "国家广播电视总局行政规范性文件管理规定",
+   "dept": "国家广播电视总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/guojiaguangbodianshizongjuxingzhengguifanxingwenji30bdd0.html",
+   "effective": "2019-12-31"
+  },
+  {
+   "slug": "jingwaiweixingdianshipindaoluodiguanlibanfa",
+   "short": "境外卫星电视频道落地管理办法",
+   "dept": "国家广播电视总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/jingwaiweixingdianshipindaoluodiguanlibanfa.html",
+   "effective": "2004-08-01"
+  },
+  {
+   "slug": "jingwaijigoushelizhuhuaguangbodianshibanshijigougu811e89",
+   "short": "境外机构设立驻华广播电视办事机构管理规定",
+   "dept": "国家广播电视总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/jingwaijigoushelizhuhuaguangbodianshibanshijigougu811e89.html",
+   "effective": "2004-08-01"
+  },
+  {
+   "slug": "jingwaidianshijiemuyinjinbochuguanliguiding",
+   "short": "境外电视节目引进、播出管理规定",
+   "dept": "国家广播电视总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/jingwaidianshijiemuyinjinbochuguanliguiding.html",
+   "effective": "2004-10-23"
+  },
+  {
+   "slug": "guangboyingshijiejijiemujiaoliuhuodongguanliguidinb441de",
+   "short": "广播影视节（展）及节目交流活动管理规定",
+   "dept": "国家广播电视总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/guangboyingshijiejijiemujiaoliuhuodongguanliguidinb441de.html",
+   "effective": "2004-09-07"
+  },
+  {
+   "slug": "guangbodiantaidianshitaishenpiguanlibanfa",
+   "short": "广播电台电视台审批管理办法",
+   "dept": "国家广播电视总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/guangbodiantaidianshitaishenpiguanlibanfa.html",
+   "effective": "2004-09-20"
+  },
+  {
+   "slug": "guangbodianyingdianshixingzhengfuyibanfa",
+   "short": "广播电影电视行政复议办法",
+   "dept": "国家广播电视总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/guangbodianyingdianshixingzhengfuyibanfa.html",
+   "effective": ""
+  },
+  {
+   "slug": "guangbodianshianquanbochuguanliguiding",
+   "short": "广播电视安全播出管理规定",
+   "dept": "国家广播电视总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/guangbodianshianquanbochuguanliguiding.html",
+   "effective": "2009-12-16"
+  },
+  {
+   "slug": "guangbodianshiguanggaobochuguanlibanfa",
+   "short": "广播电视广告播出管理办法",
+   "dept": "国家广播电视总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/guangbodianshiguanggaobochuguanlibanfa.html",
+   "effective": "2009-09-08"
+  },
+  {
+   "slug": "guangbodianshiwuxianchuanshufugaiwangguanlibanfa",
+   "short": "广播电视无线传输覆盖网管理办法",
+   "dept": "国家广播电视总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/guangbodianshiwuxianchuanshufugaiwangguanlibanfa.html",
+   "effective": "2004-11-15"
+  },
+  {
+   "slug": "guangbodianshizhanshenpiguanlizanxingguiding",
+   "short": "广播电视站审批管理暂行规定",
+   "dept": "国家广播电视总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/guangbodianshizhanshenpiguanlizanxingguiding.html",
+   "effective": "2004-08-10"
+  },
+  {
+   "slug": "guangbodianshibianjijizheboyinyuanzhuchirenzigegua2497b9",
+   "short": "广播电视编辑记者、播音员主持人资格管理暂行规定",
+   "dept": "国家广播电视总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/guangbodianshibianjijizheboyinyuanzhuchirenzigegua2497b9.html",
+   "effective": "2004-08-01"
+  },
+  {
+   "slug": "guangbodianshijiemuchuansongyewuguanlibanfa",
+   "short": "广播电视节目传送业务管理办法",
+   "dept": "国家广播电视总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/guangbodianshijiemuchuansongyewuguanlibanfa.html",
+   "effective": "2004-08-10"
+  },
+  {
+   "slug": "guangbodianshijiemuzhizuojingyingguanliguiding",
+   "short": "广播电视节目制作经营管理规定",
+   "dept": "国家广播电视总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/guangbodianshijiemuzhizuojingyingguanliguiding.html",
+   "effective": "2004-07-19"
+  },
+  {
+   "slug": "guangbodianshihangyetongjiguanliguiding",
+   "short": "广播电视行业统计管理规定",
+   "dept": "国家广播电视总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/guangbodianshihangyetongjiguanliguiding.html",
+   "effective": "2020-05-05"
+  },
+  {
+   "slug": "guangbodianshishipindianboyewuguanlibanfa",
+   "short": "广播电视视频点播业务管理办法",
+   "dept": "国家广播电视总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/guangbodianshishipindianboyewuguanlibanfa.html",
+   "effective": "2004-07-06"
+  },
+  {
+   "slug": "guangbodianshishebeiqicairuwangrendingguanlibanfa",
+   "short": "广播电视设备器材入网认定管理办法",
+   "dept": "国家广播电视总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/guangbodianshishebeiqicairuwangrendingguanlibanfa.html",
+   "effective": "2018-08-20"
+  },
+  {
+   "slug": "youxianguangbodianshiyunyingfuwuguanlizanxingguidid16fc5",
+   "short": "有线广播电视运营服务管理暂行规定",
+   "dept": "国家广播电视总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/youxianguangbodianshiyunyingfuwuguanlizanxingguidid16fc5.html",
+   "effective": "2011-12-02"
+  },
+  {
+   "slug": "weichengnianrenjiemuguanliguiding",
+   "short": "未成年人节目管理规定",
+   "dept": "国家广播电视总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/weichengnianrenjiemuguanliguiding.html",
+   "effective": "2019-04-30"
+  },
+  {
+   "slug": "dianshijuneirongguanliguiding",
+   "short": "电视剧内容管理规定",
+   "dept": "国家广播电视总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/dianshijuneirongguanliguiding.html",
+   "effective": "2010-05-14"
+  },
+  {
+   "slug": "budongchandengjizanxingtiaolishishixize",
+   "short": "不动产登记暂行条例实施细则",
+   "dept": "自然资源部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/budongchandengjizanxingtiaolishishixize.html",
+   "effective": "2016-01-01"
+  },
+  {
+   "slug": "budongchandengjiziliaochaxunzanxingbanfa",
+   "short": "不动产登记资料查询暂行办法",
+   "dept": "自然资源部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/budongchandengjiziliaochaxunzanxingbanfa.html",
+   "effective": "2016-01-01"
+  },
+  {
+   "slug": "ziranziyuanbuling",
+   "short": "自然资源部令",
+   "dept": "自然资源部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/ziranziyuanbuling.html",
+   "effective": "2022-10-27"
+  },
+  {
+   "slug": "huaboyongdimulu",
+   "short": "划拨用地目录",
+   "dept": "自然资源部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/huaboyongdimulu.html",
+   "effective": "2001-10-22"
+  },
+  {
+   "slug": "xieyichurangguoyoutudishiyongquanguiding",
+   "short": "协议出让国有土地使用权规定",
+   "dept": "自然资源部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/xieyichurangguoyoutudishiyongquanguiding.html",
+   "effective": "2003-08-01"
+  },
+  {
+   "slug": "gushengwuhuashibaohutiaolishishibanfa",
+   "short": "古生物化石保护条例实施办法",
+   "dept": "自然资源部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/gushengwuhuashibaohutiaolishishibanfa.html",
+   "effective": "2013-03-01"
+  },
+  {
+   "slug": "tudifukentiaolishishibanfa",
+   "short": "土地复垦条例实施办法",
+   "dept": "自然资源部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/tudifukentiaolishishibanfa.html",
+   "effective": "2012-12-27"
+  },
+  {
+   "slug": "tudiquanshuzhengyidiaochachulibanfa",
+   "short": "土地权属争议调查处理办法",
+   "dept": "自然资源部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/tudiquanshuzhengyidiaochachulibanfa.html",
+   "effective": "2003-01-03"
+  },
+  {
+   "slug": "tudidiaochatiaolishishibanfa",
+   "short": "土地调查条例实施办法",
+   "dept": "自然资源部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/tudidiaochatiaolishishibanfa.html",
+   "effective": "2009-06-17"
+  },
+  {
+   "slug": "ditushenheguanliguiding",
+   "short": "地图审核管理规定",
+   "dept": "自然资源部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/ditushenheguanliguiding.html",
+   "effective": "2006-06-23"
+  },
+  {
+   "slug": "dizhizaihaifangzhidanweizizhiguanlibanfa",
+   "short": "地质灾害防治单位资质管理办法",
+   "dept": "自然资源部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/dizhizaihaifangzhidanweizizhiguanlibanfa.html",
+   "effective": "2023-01-01"
+  },
+  {
+   "slug": "dizhihuanjingjianceguanlibanfa",
+   "short": "地质环境监测管理办法",
+   "dept": "自然资源部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/dizhihuanjingjianceguanlibanfa.html",
+   "effective": "2014-04-29"
+  },
+  {
+   "slug": "dizhiziliaoguanlitiaolishishibanfa",
+   "short": "地质资料管理条例实施办法",
+   "dept": "自然资源部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/dizhiziliaoguanlitiaolishishibanfa.html",
+   "effective": "2003-01-03"
+  },
+  {
+   "slug": "waiguodezuzhihuozhegerenlaihuacehuiguanlizanxingbac5cfd5",
+   "short": "外国的组织或者个人来华测绘管理暂行办法",
+   "dept": "自然资源部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/waiguodezuzhihuozhegerenlaihuacehuiguanlizanxingbac5cfd5.html",
+   "effective": "2007-03-01"
+  },
+  {
+   "slug": "jiansheyongdishenchabaopiguanlibanfa",
+   "short": "建设用地审查报批管理办法",
+   "dept": "自然资源部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/jiansheyongdishenchabaopiguanlibanfa.html",
+   "effective": "1999-03-02"
+  },
+  {
+   "slug": "jianshexiangmuyongdiyushenguanlibanfa",
+   "short": "建设项目用地预审管理办法",
+   "dept": "自然资源部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/jianshexiangmuyongdiyushenguanlibanfa.html",
+   "effective": "2001-07-25"
+  },
+  {
+   "slug": "zhaobiaopaimaiguapaichurangguoyoujiansheyongdishiy122ae8",
+   "short": "招标拍卖挂牌出让国有建设用地使用权规定",
+   "dept": "自然资源部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zhaobiaopaimaiguapaichurangguoyoujiansheyongdishiy122ae8.html",
+   "effective": "2002-04-03"
+  },
+  {
+   "slug": "haididianlanguandaobaohuguiding",
+   "short": "海底电缆管道保护规定",
+   "dept": "自然资源部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/haididianlanguandaobaohuguiding.html",
+   "effective": "2004-03-01"
+  },
+  {
+   "slug": "haiyanghangzhengchufashishibanfa",
+   "short": "海洋行政处罚实施办法",
+   "dept": "自然资源部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/haiyanghangzhengchufashishibanfa.html",
+   "effective": "2003-03-01"
+  },
+  {
+   "slug": "haiyangguancezhandianguanlibanfa",
+   "short": "海洋观测站点管理办法",
+   "dept": "自然资源部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/haiyangguancezhandianguanlibanfa.html",
+   "effective": "2017-06-07"
+  },
+  {
+   "slug": "haiyangguanceziliaoguanlibanfa",
+   "short": "海洋观测资料管理办法",
+   "dept": "自然资源部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/haiyangguanceziliaoguanlibanfa.html",
+   "effective": "2017-06-05"
+  },
+  {
+   "slug": "kuangchanziyuandengjitongjiguanlibanfa",
+   "short": "矿产资源登记统计管理办法",
+   "dept": "自然资源部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/kuangchanziyuandengjitongjiguanlibanfa.html",
+   "effective": "2004-03-01"
+  },
+  {
+   "slug": "kuangchanziyuanguihuabianzhishishibanfa",
+   "short": "矿产资源规划编制实施办法",
+   "dept": "自然资源部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/kuangchanziyuanguihuabianzhishishibanfa.html",
+   "effective": "2012-10-12"
+  },
+  {
+   "slug": "ziranziyuantingzhengguiding",
+   "short": "自然资源听证规定",
+   "dept": "自然资源部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/ziranziyuantingzhengguiding.html",
+   "effective": "2004-05-01"
+  },
+  {
+   "slug": "ziranziyuanzhifajianduguiding",
+   "short": "自然资源执法监督规定",
+   "dept": "自然资源部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/ziranziyuanzhifajianduguiding.html",
+   "effective": "2018-03-01"
+  },
+  {
+   "slug": "ziranziyuanxingzhengchufabanfa",
+   "short": "自然资源行政处罚办法",
+   "dept": "自然资源部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/ziranziyuanxingzhengchufabanfa.html",
+   "effective": "2014-04-10"
+  },
+  {
+   "slug": "ziranziyuanxingzhengfuyiguiding",
+   "short": "自然资源行政复议规定",
+   "dept": "自然资源部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/ziranziyuanxingzhengfuyiguiding.html",
+   "effective": "2019-09-01"
+  },
+  {
+   "slug": "ziranziyuanxingzhengyingsuguiding",
+   "short": "自然资源行政应诉规定",
+   "dept": "自然资源部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/ziranziyuanxingzhengyingsuguiding.html",
+   "effective": "2019-09-01"
+  },
+  {
+   "slug": "ziranziyuanguifanxingwenjianguanliguiding",
+   "short": "自然资源规范性文件管理规定",
+   "dept": "自然资源部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/ziranziyuanguifanxingwenjianguanliguiding.html",
+   "effective": "2019-01-01"
+  },
+  {
+   "slug": "ziranziyuanbulifagongzuochengxuguiding",
+   "short": "自然资源部立法工作程序规定",
+   "dept": "自然资源部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/ziranziyuanbulifagongzuochengxuguiding.html",
+   "effective": "2019-01-01"
+  },
+  {
+   "slug": "jieyuejiyueliyongtudiguiding",
+   "short": "节约集约利用土地规定",
+   "dept": "自然资源部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/jieyuejiyueliyongtudiguiding.html",
+   "effective": "2014-05-22"
+  },
+  {
+   "slug": "xianzhitudichuzhibanfa",
+   "short": "闲置土地处置办法",
+   "dept": "自然资源部",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/xianzhitudichuzhibanfa.html",
+   "effective": "1999-04-26"
+  },
+  {
+   "slug": "shangshigongsiguoyouguquanjianduguanlibanfa",
+   "short": "上市公司国有股权监督管理办法",
+   "dept": "国资委",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/shangshigongsiguoyouguquanjianduguanlibanfa.html",
+   "effective": "2018-05-16"
+  },
+  {
+   "slug": "zhongyangqiyeneibushenjiguanlizanxingbanfa",
+   "short": "中央企业内部审计管理暂行办法",
+   "dept": "国资委",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zhongyangqiyeneibushenjiguanlizanxingbanfa.html",
+   "effective": "2004-08-23"
+  },
+  {
+   "slug": "zhongyangqiyefazhanzhanlveheguihuaguanlibanfa",
+   "short": "中央企业发展战略和规划管理办法（试行）",
+   "dept": "国资委",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zhongyangqiyefazhanzhanlveheguihuaguanlibanfa.html",
+   "effective": "2004-11-26"
+  },
+  {
+   "slug": "zhongyangqiyeheguiguanlibanfa",
+   "short": "中央企业合规管理办法",
+   "dept": "国资委",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zhongyangqiyeheguiguanlibanfa.html",
+   "effective": "2022-08-23"
+  },
+  {
+   "slug": "zhongyangqiyejingwaiguoyouchanquanguanlizanxingbancc01ac",
+   "short": "中央企业境外国有产权管理暂行办法",
+   "dept": "国资委",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zhongyangqiyejingwaiguoyouchanquanguanlizanxingbancc01ac.html",
+   "effective": "2011-06-14"
+  },
+  {
+   "slug": "zhongyangqiyejingwaiguoyouzichanjianduguanlizanxin536338",
+   "short": "中央企业境外国有资产监督管理暂行办法",
+   "dept": "国资委",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zhongyangqiyejingwaiguoyouzichanjianduguanlizanxin536338.html",
+   "effective": "2011-06-14"
+  },
+  {
+   "slug": "zhongyangqiyejingwaitouzijianduguanlibanfa",
+   "short": "中央企业境外投资监督管理办法",
+   "dept": "国资委",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zhongyangqiyejingwaitouzijianduguanlibanfa.html",
+   "effective": "2017-01-07"
+  },
+  {
+   "slug": "zhongyangqiyeanquanshengchanjianduguanlizanxingbana45305",
+   "short": "中央企业安全生产监督管理暂行办法",
+   "dept": "国资委",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zhongyangqiyeanquanshengchanjianduguanlizanxingbana45305.html",
+   "effective": "2008-08-18"
+  },
+  {
+   "slug": "zhongyangqiyeanquanshengchanjinling",
+   "short": "中央企业安全生产禁令",
+   "dept": "国资委",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zhongyangqiyeanquanshengchanjinling.html",
+   "effective": "2010-12-24"
+  },
+  {
+   "slug": "zhongyangqiyegongzizongeguanlibanfa",
+   "short": "中央企业工资总额管理办法",
+   "dept": "国资委",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zhongyangqiyegongzizongeguanlibanfa.html",
+   "effective": "2018-12-27"
+  },
+  {
+   "slug": "zhongyangqiyeyingjiguanlizanxingbanfa",
+   "short": "中央企业应急管理暂行办法",
+   "dept": "国资委",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zhongyangqiyeyingjiguanlizanxingbanfa.html",
+   "effective": "2013-02-28"
+  },
+  {
+   "slug": "zhongyangqiyezongkuaijishigongzuozhizeguanlizanxin605f6a",
+   "short": "中央企业总会计师工作职责管理暂行办法",
+   "dept": "国资委",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zhongyangqiyezongkuaijishigongzuozhizeguanlizanxin605f6a.html",
+   "effective": "2006-04-14"
+  },
+  {
+   "slug": "zhongyangqiyetouzijianduguanlibanfa",
+   "short": "中央企业投资监督管理办法",
+   "dept": "国资委",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zhongyangqiyetouzijianduguanlibanfa.html",
+   "effective": "2017-01-07"
+  },
+  {
+   "slug": "zhongyangqiyefalvjiufenanjianguanlibanfa",
+   "short": "中央企业法律纠纷案件管理办法",
+   "dept": "国资委",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zhongyangqiyefalvjiufenanjianguanlibanfa.html",
+   "effective": "2023-08-01"
+  },
+  {
+   "slug": "zhongyangqiyezonghejixiaopingjiaguanlizanxingbanfa",
+   "short": "中央企业综合绩效评价管理暂行办法",
+   "dept": "国资委",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zhongyangqiyezonghejixiaopingjiaguanlizanxingbanfa.html",
+   "effective": "2006-04-07"
+  },
+  {
+   "slug": "zhongyangqiyejieyuenengyuanyushengtaihuanjingbaohu4c2d99",
+   "short": "中央企业节约能源与生态环境保护监督管理办法",
+   "dept": "国资委",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zhongyangqiyejieyuenengyuanyushengtaihuanjingbaohu4c2d99.html",
+   "effective": "2022-06-29"
+  },
+  {
+   "slug": "zhongyangqiyefuzerenjingyingyejikaohebanfa",
+   "short": "中央企业负责人经营业绩考核办法",
+   "dept": "国资委",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zhongyangqiyefuzerenjingyingyejikaohebanfa.html",
+   "effective": "2019-03-01"
+  },
+  {
+   "slug": "zhongyangqiyecaiwujuesuanbaogaoguanlibanfa",
+   "short": "中央企业财务决算报告管理办法",
+   "dept": "国资委",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zhongyangqiyecaiwujuesuanbaogaoguanlibanfa.html",
+   "effective": "2004-02-12"
+  },
+  {
+   "slug": "zhongyangqiyecaiwuyusuanguanlizanxingbanfa",
+   "short": "中央企业财务预算管理暂行办法",
+   "dept": "国资委",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zhongyangqiyecaiwuyusuanguanlizanxingbanfa.html",
+   "effective": "2007-05-25"
+  },
+  {
+   "slug": "zhongyangqiyeweiguijingyingtouzizerenzhuijiushishi898e05",
+   "short": "中央企业违规经营投资责任追究实施办法（试行）",
+   "dept": "国资委",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zhongyangqiyeweiguijingyingtouzizerenzhuijiushishi898e05.html",
+   "effective": "2018-07-13"
+  },
+  {
+   "slug": "zhongyangqiyezhongdafalvjiufenanjianguanlizanxingbe983bb",
+   "short": "中央企业重大法律纠纷案件管理暂行办法",
+   "dept": "国资委",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zhongyangqiyezhongdafalvjiufenanjianguanlizanxingbe983bb.html",
+   "effective": "2005-01-20"
+  },
+  {
+   "slug": "qiyeguoyouchanquanzhuanrangguanlizanxingbanfa",
+   "short": "企业国有产权转让管理暂行办法",
+   "dept": "国资委",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/qiyeguoyouchanquanzhuanrangguanlizanxingbanfa.html",
+   "effective": ""
+  },
+  {
+   "slug": "qiyeguoyouzichanjiaoyijianduguanlibanfa",
+   "short": "企业国有资产交易监督管理办法",
+   "dept": "国资委",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/qiyeguoyouzichanjiaoyijianduguanlibanfa.html",
+   "effective": "2016-06-24"
+  },
+  {
+   "slug": "qiyeguoyouzichantongjibaogaobanfa",
+   "short": "企业国有资产统计报告办法",
+   "dept": "国资委",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/qiyeguoyouzichantongjibaogaobanfa.html",
+   "effective": "2004-02-12"
+  },
+  {
+   "slug": "qiyeguoyouzichanpingguguanlizanxingbanfa",
+   "short": "企业国有资产评估管理暂行办法",
+   "dept": "国资委",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/qiyeguoyouzichanpingguguanlizanxingbanfa.html",
+   "effective": "2005-08-25"
+  },
+  {
+   "slug": "qiyeguoyouzibenbaozhizengzhijieguoquerenzanxingban604ca8",
+   "short": "企业国有资本保值增值结果确认暂行办法",
+   "dept": "国资委",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/qiyeguoyouzibenbaozhizengzhijieguoquerenzanxingban604ca8.html",
+   "effective": "2004-08-25"
+  },
+  {
+   "slug": "guojiachuziqiyechanquandengjiguanlizanxingbanfa",
+   "short": "国家出资企业产权登记管理暂行办法",
+   "dept": "国资委",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/guojiachuziqiyechanquandengjiguanlizanxingbanfa.html",
+   "effective": "2012-04-20"
+  },
+  {
+   "slug": "guoyouqiyefalvguwenguanlibanfa",
+   "short": "国有企业法律顾问管理办法",
+   "dept": "国资委",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/guoyouqiyefalvguwenguanlibanfa.html",
+   "effective": "2004-05-11"
+  },
+  {
+   "slug": "guoyouqiyeqingchanhezibanfa",
+   "short": "国有企业清产核资办法",
+   "dept": "国资委",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/guoyouqiyeqingchanhezibanfa.html",
+   "effective": "2003-09-09"
+  },
+  {
+   "slug": "difangguoyouzichanjianguangongzuozhidaojiandubanfa",
+   "short": "地方国有资产监管工作指导监督办法",
+   "dept": "国资委",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/difangguoyouzichanjianguangongzuozhidaojiandubanfa.html",
+   "effective": "2011-05-01"
+  },
+  {
+   "slug": "hulianwangyaopinxinxifuwuguanlibanfa",
+   "short": "互联网药品信息服务管理办法",
+   "dept": "国家药监局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/hulianwangyaopinxinxifuwuguanlibanfa.html",
+   "effective": "2004-07-08"
+  },
+  {
+   "slug": "baojianshipinzhuceyubeianguanlibanfa-2",
+   "short": "保健食品注册与备案管理办法（2016）",
+   "dept": "国家药监局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/baojianshipinzhuceyubeianguanlibanfa-2.html",
+   "effective": "2016-07-01"
+  },
+  {
+   "slug": "baojianshipinzhuceyubeianguanlibanfa",
+   "short": "保健食品注册与备案管理办法（2016）",
+   "dept": "国家药监局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/baojianshipinzhuceyubeianguanlibanfa.html",
+   "effective": "2016-07-01"
+  },
+  {
+   "slug": "yiliaoqixieshiyongzhiliangjianduguanlibanfa",
+   "short": "医疗器械使用质量监督管理办法",
+   "dept": "国家药监局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/yiliaoqixieshiyongzhiliangjianduguanlibanfa.html",
+   "effective": "2016-02-01"
+  },
+  {
+   "slug": "yiliaoqixiefenleiguize",
+   "short": "医疗器械分类规则",
+   "dept": "国家药监局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/yiliaoqixiefenleiguize.html",
+   "effective": "2016-01-01"
+  },
+  {
+   "slug": "yiliaoqixiezhaohuiguanlibanfa",
+   "short": "医疗器械召回管理办法",
+   "dept": "国家药监局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/yiliaoqixiezhaohuiguanlibanfa.html",
+   "effective": "2017-05-01"
+  },
+  {
+   "slug": "yiliaoqixiebiaozhunguanlibanfa",
+   "short": "医疗器械标准管理办法",
+   "dept": "国家药监局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/yiliaoqixiebiaozhunguanlibanfa.html",
+   "effective": "2017-07-01"
+  },
+  {
+   "slug": "yiliaoqixiewangluoxiaoshoujianduguanlibanfa",
+   "short": "医疗器械网络销售监督管理办法",
+   "dept": "国家药监局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/yiliaoqixiewangluoxiaoshoujianduguanlibanfa.html",
+   "effective": "2018-03-01"
+  },
+  {
+   "slug": "yiliaoqixieshuomingshuhebiaoqianguanliguiding",
+   "short": "医疗器械说明书和标签管理规定",
+   "dept": "国家药监局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/yiliaoqixieshuomingshuhebiaoqianguanliguiding.html",
+   "effective": "2014-10-01"
+  },
+  {
+   "slug": "yiliaoqixietongyongmingchengmingmingguize",
+   "short": "医疗器械通用名称命名规则",
+   "dept": "国家药监局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/yiliaoqixietongyongmingchengmingmingguize.html",
+   "effective": "2016-04-01"
+  },
+  {
+   "slug": "yiliaojigouzhijizhuceguanlibanfa",
+   "short": "医疗机构制剂注册管理办法(试行)",
+   "dept": "国家药监局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/yiliaojigouzhijizhuceguanlibanfa.html",
+   "effective": "2005-08-01"
+  },
+  {
+   "slug": "yiliaojigouzhijipeizhijianduguanlibanfa",
+   "short": "医疗机构制剂配制监督管理办法(试行)",
+   "dept": "国家药监局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/yiliaojigouzhijipeizhijianduguanlibanfa.html",
+   "effective": "2005-06-01"
+  },
+  {
+   "slug": "yiliaojigouzhijipeizhizhiliangguanliguifan",
+   "short": "医疗机构制剂配制质量管理规范（试行）",
+   "dept": "国家药监局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/yiliaojigouzhijipeizhizhiliangguanliguifan.html",
+   "effective": "2001-03-13"
+  },
+  {
+   "slug": "guojiashipinyaopinjianduguanlijuyaopintebieshenpic58b1f4",
+   "short": "国家食品药品监督管理局药品特别审批程序",
+   "dept": "国家药监局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/guojiashipinyaopinjianduguanlijuyaopintebieshenpic58b1f4.html",
+   "effective": "2005-11-18"
+  },
+  {
+   "slug": "guojiashipinyaopinjianduguanlizongjuguanyutiaozhen059198",
+   "short": "国家食品药品监督管理总局关于调整进口药品注册管理有关事项的决定",
+   "dept": "国家药监局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/guojiashipinyaopinjianduguanlizongjuguanyutiaozhen059198.html",
+   "effective": "2017-10-10"
+  },
+  {
+   "slug": "guojiashipinyaopinjianduguanlizongjuguanyutiaozhen901ce6",
+   "short": "国家食品药品监督管理总局关于调整部分医疗器械行政审批事项审批程序的决定",
+   "dept": "国家药监局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/guojiashipinyaopinjianduguanlizongjuguanyutiaozhen901ce6.html",
+   "effective": "2017-07-01"
+  },
+  {
+   "slug": "guojiashipinyaopinjianduguanlizongjuguanyutiaozhene3d813",
+   "short": "国家食品药品监督管理总局关于调整部分药品行政审批事项审批程序的决定",
+   "dept": "国家药监局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/guojiashipinyaopinjianduguanlizongjuguanyutiaozhene3d813.html",
+   "effective": "2017-05-01"
+  },
+  {
+   "slug": "guojiashipinyaopinjianduguanlizongjuxingzhengfuyibfb614d",
+   "short": "国家食品药品监督管理总局行政复议办法",
+   "dept": "国家药监局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/guojiashipinyaopinjianduguanlizongjuxingzhengfuyibfb614d.html",
+   "effective": "2014-01-01"
+  },
+  {
+   "slug": "yingyouerpeifangrufenchanpinpeifangzhuceguanlibanfbba623-2",
+   "short": "婴幼儿配方乳粉产品配方注册管理办法（2016）",
+   "dept": "国家药监局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/yingyouerpeifangrufenchanpinpeifangzhuceguanlibanfbba623-2.html",
+   "effective": "2016-10-01"
+  },
+  {
+   "slug": "teshuyixueyongtupeifangshipinzhuceguanlibanfa",
+   "short": "特殊医学用途配方食品注册管理办法",
+   "dept": "国家药监局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/teshuyixueyongtupeifangshipinzhuceguanlibanfa.html",
+   "effective": "2016-03-07"
+  },
+  {
+   "slug": "wangluoshipinanquanweifaxingweichachubanfa",
+   "short": "网络食品安全违法行为查处办法",
+   "dept": "国家药监局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/wangluoshipinanquanweifaxingweichachubanfa.html",
+   "effective": "2016-10-01"
+  },
+  {
+   "slug": "wangluocanyinfuwushipinanquanjianduguanlibanfa",
+   "short": "网络餐饮服务食品安全监督管理办法",
+   "dept": "国家药监局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/wangluocanyinfuwushipinanquanjianduguanlibanfa.html",
+   "effective": "2018-01-01"
+  },
+  {
+   "slug": "yaopinyiliaoqixiefeixingjianchabanfa",
+   "short": "药品医疗器械飞行检查办法",
+   "dept": "国家药监局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/yaopinyiliaoqixiefeixingjianchabanfa.html",
+   "effective": "2015-09-01"
+  },
+  {
+   "slug": "yaopinshuomingshuhebiaoqianguanliguiding",
+   "short": "药品说明书和标签管理规定",
+   "dept": "国家药监局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/yaopinshuomingshuhebiaoqianguanliguiding.html",
+   "effective": "2006-06-01"
+  },
+  {
+   "slug": "yaopinjinkouguanlibanfa",
+   "short": "药品进口管理办法",
+   "dept": "国家药监局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/yaopinjinkouguanlibanfa.html",
+   "effective": "2004-01-01"
+  },
+  {
+   "slug": "yaowufeilinchuangyanjiuzhiliangguanliguifan",
+   "short": "药物非临床研究质量管理规范",
+   "dept": "国家药监局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/yaowufeilinchuangyanjiuzhiliangguanliguifan.html",
+   "effective": "2017-09-01"
+  },
+  {
+   "slug": "danbaitonghuazhijihetaileijisujinchukouguanlibanfa",
+   "short": "蛋白同化制剂和肽类激素进出口管理办法",
+   "dept": "国家药监局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/danbaitonghuazhijihetaileijisujinchukouguanlibanfa.html",
+   "effective": "2014-12-01"
+  },
+  {
+   "slug": "shipinzhaohuiguanlibanfa-2",
+   "short": "食品召回管理办法（2015）",
+   "dept": "国家药监局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/shipinzhaohuiguanlibanfa-2.html",
+   "effective": "2015-09-01"
+  },
+  {
+   "slug": "shipinjingyingxukeguanlibanfa",
+   "short": "食品经营许可管理办法",
+   "dept": "国家药监局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/shipinjingyingxukeguanlibanfa.html",
+   "effective": "2015-10-01"
+  },
+  {
+   "slug": "shiyongnongchanpinshichangxiaoshouzhilianganquanji5e1757",
+   "short": "食用农产品市场销售质量安全监督管理办法",
+   "dept": "国家药监局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/shiyongnongchanpinshichangxiaoshouzhilianganquanji5e1757.html",
+   "effective": "2016-03-01"
+  },
+  {
+   "slug": "gerenxinxibaohuheguishenjiguanlibanfa",
+   "short": "个人信息保护合规审计管理办法",
+   "dept": "国家网信办",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/gerenxinxibaohuheguishenjiguanlibanfa.html",
+   "effective": ""
+  },
+  {
+   "slug": "gerenxinxichujingbiaozhunhetongbanfa",
+   "short": "个人信息出境标准合同办法",
+   "dept": "国家网信办",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/gerenxinxichujingbiaozhunhetongbanfa.html",
+   "effective": ""
+  },
+  {
+   "slug": "hulianwangxinxineirongguanlixingzhengzhifachengxug6d3fcf",
+   "short": "互联网信息内容管理行政执法程序规定",
+   "dept": "国家网信办",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/hulianwangxinxineirongguanlixingzhengzhifachengxug6d3fcf.html",
+   "effective": ""
+  },
+  {
+   "slug": "hulianwangxinxifuwushenduhechengguanliguiding-2",
+   "short": "互联网信息服务深度合成管理规定",
+   "dept": "国家网信办",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/hulianwangxinxifuwushenduhechengguanliguiding-2.html",
+   "effective": ""
+  },
+  {
+   "slug": "hulianwangxinxifuwusuanfatuijianguanliguiding",
+   "short": "互联网信息服务算法推荐管理规定",
+   "dept": "国家网信办",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/hulianwangxinxifuwusuanfatuijianguanliguiding.html",
+   "effective": ""
+  },
+  {
+   "slug": "hulianwangyumingguanlibanfa-2",
+   "short": "互联网域名管理办法",
+   "dept": "国家网信办",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/hulianwangyumingguanlibanfa-2.html",
+   "effective": ""
+  },
+  {
+   "slug": "hulianwangwenhuaguanlizanxingguiding-2",
+   "short": "互联网文化管理暂行规定（2011）",
+   "dept": "国家网信办",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/hulianwangwenhuaguanlizanxingguiding-2.html",
+   "effective": "2011-04-01"
+  },
+  {
+   "slug": "hulianwangxinwenxinxifuwuguanliguiding",
+   "short": "互联网新闻信息服务管理规定",
+   "dept": "国家网信办",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/hulianwangxinwenxinxifuwuguanliguiding.html",
+   "effective": ""
+  },
+  {
+   "slug": "hulianwangyonghuzhanghaoxinxiguanliguiding",
+   "short": "互联网用户账号信息管理规定",
+   "dept": "国家网信办",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/hulianwangyonghuzhanghaoxinxiguanliguiding.html",
+   "effective": ""
+  },
+  {
+   "slug": "hulianwangdengxinxiwangluochuanboshitingjiemuguanlc9b031",
+   "short": "互联网等信息网络传播视听节目管理办法",
+   "dept": "国家网信办",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/hulianwangdengxinxiwangluochuanboshitingjiemuguanlc9b031.html",
+   "effective": "2004-10-11"
+  },
+  {
+   "slug": "hulianwangshitingjiemufuwuguanliguiding-2",
+   "short": "互联网视听节目服务管理规定（2007）",
+   "dept": "国家网信办",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/hulianwangshitingjiemufuwuguanliguiding-2.html",
+   "effective": "2008-01-31"
+  },
+  {
+   "slug": "renlianshibiejishuyingyonganquanguanlibanfa",
+   "short": "人脸识别技术应用安全管理办法",
+   "dept": "国家网信办",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/renlianshibiejishuyingyonganquanguanlibanfa.html",
+   "effective": ""
+  },
+  {
+   "slug": "cujinheguifanshujukuajingliudongguiding",
+   "short": "促进和规范数据跨境流动规定",
+   "dept": "国家网信办",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/cujinheguifanshujukuajingliudongguiding.html",
+   "effective": ""
+  },
+  {
+   "slug": "ertonggerenxinxiwangluobaohuguiding",
+   "short": "儿童个人信息网络保护规定",
+   "dept": "国家网信办",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/ertonggerenxinxiwangluobaohuguiding.html",
+   "effective": ""
+  },
+  {
+   "slug": "qukuailianxinxifuwuguanliguiding",
+   "short": "区块链信息服务管理规定",
+   "dept": "国家网信办",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/qukuailianxinxifuwuguanliguiding.html",
+   "effective": ""
+  },
+  {
+   "slug": "guojiawangluoshenfenrenzhenggonggongfuwuguanlibanf9de600",
+   "short": "国家网络身份认证公共服务管理办法",
+   "dept": "国家网信办",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/guojiawangluoshenfenrenzhenggonggongfuwuguanlibanf9de600.html",
+   "effective": ""
+  },
+  {
+   "slug": "waiguojigouzaizhongguojingneitigongjinrongxinxifuw845771-2",
+   "short": "外国机构在中国境内提供金融信息服务管理规定",
+   "dept": "国家网信办",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/waiguojigouzaizhongguojingneitigongjinrongxinxifuw845771-2.html",
+   "effective": ""
+  },
+  {
+   "slug": "shujuchujinganquanpinggubanfa",
+   "short": "数据出境安全评估办法",
+   "dept": "国家网信办",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/shujuchujinganquanpinggubanfa.html",
+   "effective": ""
+  },
+  {
+   "slug": "qicheshujuanquanguanliruoganguiding",
+   "short": "汽车数据安全管理若干规定（试行）",
+   "dept": "国家网信办",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/qicheshujuanquanguanliruoganguiding.html",
+   "effective": ""
+  },
+  {
+   "slug": "shengchengshirengongzhinengfuwuguanlizanxingbanfa",
+   "short": "生成式人工智能服务管理暂行办法",
+   "dept": "国家网信办",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/shengchengshirengongzhinengfuwuguanlizanxingbanfa.html",
+   "effective": ""
+  },
+  {
+   "slug": "dianxinhehulianwangyonghugerenxinxibaohuguiding",
+   "short": "电信和互联网用户个人信息保护规定（2013）",
+   "dept": "国家网信办",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/dianxinhehulianwangyonghugerenxinxibaohuguiding.html",
+   "effective": "2013-09-01"
+  },
+  {
+   "slug": "wangxinbumenxingzhengzhifachengxuguiding",
+   "short": "网信部门行政执法程序规定",
+   "dept": "国家网信办",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/wangxinbumenxingzhengzhifachengxuguiding.html",
+   "effective": ""
+  },
+  {
+   "slug": "wangluoxinxineirongshengtaizhiliguiding",
+   "short": "网络信息内容生态治理规定",
+   "dept": "国家网信办",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/wangluoxinxineirongshengtaizhiliguiding.html",
+   "effective": ""
+  },
+  {
+   "slug": "wangluochubanfuwuguanliguiding-3",
+   "short": "网络出版服务管理规定",
+   "dept": "国家网信办",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/wangluochubanfuwuguanliguiding-3.html",
+   "effective": ""
+  },
+  {
+   "slug": "wangluoanquanshenchabanfa-4",
+   "short": "网络安全审查办法（2020）",
+   "dept": "国家网信办",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/wangluoanquanshenchabanfa-4.html",
+   "effective": "2020-04-13"
+  },
+  {
+   "slug": "wangluoanquanshenchabanfa",
+   "short": "网络安全审查办法",
+   "dept": "国家网信办",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/wangluoanquanshenchabanfa.html",
+   "effective": ""
+  },
+  {
+   "slug": "wangluobaolixinxizhiliguiding",
+   "short": "网络暴力信息治理规定",
+   "dept": "国家网信办",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/wangluobaolixinxizhiliguiding.html",
+   "effective": ""
+  },
+  {
+   "slug": "guifanhulianwangxinxifuwushichangzhixuruoganguidin311944-2",
+   "short": "规范互联网信息服务市场秩序若干规定（2011）",
+   "dept": "国家网信办",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/guifanhulianwangxinxifuwushichangzhixuruoganguidin311944-2.html",
+   "effective": "2012-03-15"
+  },
+  {
+   "slug": "neibuziliaoxingchubanwuguanlibanfa",
+   "short": "内部资料性出版物管理办法",
+   "dept": "国家新闻出版署",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/neibuziliaoxingchubanwuguanlibanfa.html",
+   "effective": "2015-04-01"
+  },
+  {
+   "slug": "chubanzhuanyejishurenyuanzhiyezigeguanliguiding",
+   "short": "出版专业技术人员职业资格管理规定",
+   "dept": "国家新闻出版署",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/chubanzhuanyejishurenyuanzhiyezigeguanliguiding.html",
+   "effective": "2008-06-01"
+  },
+  {
+   "slug": "chubanwushichangguanliguiding",
+   "short": "出版物市场管理规定",
+   "dept": "国家新闻出版署",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/chubanwushichangguanliguiding.html",
+   "effective": "2016-06-01"
+  },
+  {
+   "slug": "chubanwujinkoubeianguanlibanfa",
+   "short": "出版物进口备案管理办法",
+   "dept": "国家新闻出版署",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/chubanwujinkoubeianguanlibanfa.html",
+   "effective": "2017-01-22"
+  },
+  {
+   "slug": "chubanguanlixingzhengchufashishibanfa",
+   "short": "出版管理行政处罚实施办法",
+   "dept": "国家新闻出版署",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/chubanguanlixingzhengchufashishibanfa.html",
+   "effective": "1997-12-30"
+  },
+  {
+   "slug": "yinshuayejingyingzhezigetiaojianzanxingguiding",
+   "short": "印刷业经营者资格条件暂行规定",
+   "dept": "国家新闻出版署",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/yinshuayejingyingzhezigetiaojianzanxingguiding.html",
+   "effective": "2001-11-09"
+  },
+  {
+   "slug": "yinshuapinchengyinguanliguiding",
+   "short": "印刷品承印管理规定",
+   "dept": "国家新闻出版署",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/yinshuapinchengyinguanliguiding.html",
+   "effective": "2003-07-18"
+  },
+  {
+   "slug": "tushuchubanguanliguiding",
+   "short": "图书出版管理规定",
+   "dept": "国家新闻出版署",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/tushuchubanguanliguiding.html",
+   "effective": "2008-05-01"
+  },
+  {
+   "slug": "tushuzhiliangbaozhangtixi",
+   "short": "图书质量保障体系",
+   "dept": "国家新闻出版署",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/tushuzhiliangbaozhangtixi.html",
+   "effective": "1997-06-26"
+  },
+  {
+   "slug": "tushuzhiliangguanliguiding",
+   "short": "图书质量管理规定",
+   "dept": "国家新闻出版署",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/tushuzhiliangguanliguiding.html",
+   "effective": "2004-12-24"
+  },
+  {
+   "slug": "fuzhiguanlibanfa",
+   "short": "复制管理办法",
+   "dept": "国家新闻出版署",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/fuzhiguanlibanfa.html",
+   "effective": "2009-08-01"
+  },
+  {
+   "slug": "baozhichubanguanliguiding",
+   "short": "报纸出版管理规定",
+   "dept": "国家新闻出版署",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/baozhichubanguanliguiding.html",
+   "effective": "2005-09-30"
+  },
+  {
+   "slug": "xinwenchubantongjiguanlibanfa",
+   "short": "新闻出版统计管理办法",
+   "dept": "国家新闻出版署",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/xinwenchubantongjiguanlibanfa.html",
+   "effective": "2016-07-01"
+  },
+  {
+   "slug": "xinwenchubanhangyebiaozhunhuaguanlibanfa",
+   "short": "新闻出版行业标准化管理办法",
+   "dept": "国家新闻出版署",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/xinwenchubanhangyebiaozhunhuaguanlibanfa.html",
+   "effective": "2014-02-01"
+  },
+  {
+   "slug": "xinwenchubanxukezhengguanlibanfa",
+   "short": "新闻出版许可证管理办法",
+   "dept": "国家新闻出版署",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/xinwenchubanxukezhengguanlibanfa.html",
+   "effective": "2016-03-01"
+  },
+  {
+   "slug": "xinwendanweizhudifangjigouguanlibanfa",
+   "short": "新闻单位驻地方机构管理办法（试行）",
+   "dept": "国家新闻出版署",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/xinwendanweizhudifangjigouguanlibanfa.html",
+   "effective": "2017-06-01"
+  },
+  {
+   "slug": "xinwenjizhezhengguanlibanfa",
+   "short": "新闻记者证管理办法",
+   "dept": "国家新闻出版署",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/xinwenjizhezhengguanlibanfa.html",
+   "effective": "2009-10-15"
+  },
+  {
+   "slug": "qikanchubanguanliguiding",
+   "short": "期刊出版管理规定",
+   "dept": "国家新闻出版署",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/qikanchubanguanliguiding.html",
+   "effective": "2005-12-01"
+  },
+  {
+   "slug": "dianzichubanwuchubanguanliguiding",
+   "short": "电子出版物出版管理规定",
+   "dept": "国家新闻出版署",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/dianzichubanwuchubanguanliguiding.html",
+   "effective": "2008-04-15"
+  },
+  {
+   "slug": "wangluochubanfuwuguanliguiding",
+   "short": "网络出版服务管理规定（2016）",
+   "dept": "国家新闻出版署",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/wangluochubanfuwuguanliguiding.html",
+   "effective": "2016-03-10"
+  },
+  {
+   "slug": "dinghudinggoujinkouchubanwuguanlibanfa",
+   "short": "订户订购进口出版物管理办法",
+   "dept": "国家新闻出版署",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/dinghudinggoujinkouchubanwuguanlibanfa.html",
+   "effective": "2011-03-25"
+  },
+  {
+   "slug": "sheliwaishangtouziyinshuaqiyezanxingguiding",
+   "short": "设立外商投资印刷企业暂行规定",
+   "dept": "国家新闻出版署",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/sheliwaishangtouziyinshuaqiyezanxingguiding.html",
+   "effective": "2002-01-29"
+  },
+  {
+   "slug": "yinxiangzhipinchubanguanliguiding",
+   "short": "音像制品出版管理规定",
+   "dept": "国家新闻出版署",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/yinxiangzhipinchubanguanliguiding.html",
+   "effective": "2004-08-01"
+  },
+  {
+   "slug": "yinxiangzhipinzhizuoguanliguiding",
+   "short": "音像制品制作管理规定",
+   "dept": "国家新闻出版署",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/yinxiangzhipinzhizuoguanliguiding.html",
+   "effective": "2008-04-15"
+  },
+  {
+   "slug": "yinxiangzhipinjinkouguanlibanfa",
+   "short": "音像制品进口管理办法",
+   "dept": "国家新闻出版署",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/yinxiangzhipinjinkouguanlibanfa.html",
+   "effective": "2011-04-06"
+  },
+  {
+   "slug": "xiangzhendangangongzuobanfa",
+   "short": "乡镇档案工作办法",
+   "dept": "档案局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/xiangzhendangangongzuobanfa.html",
+   "effective": "2022-01-01"
+  },
+  {
+   "slug": "qiyewenjiancailiaoguidangfanweihedanganbaoguanqixibc8059",
+   "short": "企业文件材料归档范围和档案保管期限规定",
+   "dept": "档案局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/qiyewenjiancailiaoguidangfanweihedanganbaoguanqixibc8059.html",
+   "effective": "2013-02-01"
+  },
+  {
+   "slug": "qiyedanganguanliguiding",
+   "short": "企业档案管理规定",
+   "dept": "档案局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/qiyedanganguanliguiding.html",
+   "effective": "2023-10-01"
+  },
+  {
+   "slug": "gejigeleidanganguanshoujidanganfanweideguiding",
+   "short": "各级各类档案馆收集档案范围的规定",
+   "dept": "档案局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/gejigeleidanganguanshoujidanganfanweideguiding.html",
+   "effective": "2011-11-21"
+  },
+  {
+   "slug": "gejiguojiadanganguanguancangdanganjiemihehuafenkonf04836",
+   "short": "各级国家档案馆馆藏档案解密和划分控制使用范围的暂行规定",
+   "dept": "档案局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/gejiguojiadanganguanguancangdanganjiemihehuafenkonf04836.html",
+   "effective": "1991-09-27"
+  },
+  {
+   "slug": "guojiadanganguandangankaifangbanfa",
+   "short": "国家档案馆档案开放办法",
+   "dept": "档案局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/guojiadanganguandangankaifangbanfa.html",
+   "effective": "2022-08-01"
+  },
+  {
+   "slug": "guojiazhongdianjianshexiangmudanganguanlidengjiban07fe03",
+   "short": "国家重点建设项目档案管理登记办法",
+   "dept": "档案局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/guojiazhongdianjianshexiangmudanganguanlidengjiban07fe03.html",
+   "effective": "1997-08-19"
+  },
+  {
+   "slug": "guoyouqiyezichanyuchanquanbiandongdanganchuzhibanf1efa04",
+   "short": "国有企业资产与产权变动档案处置办法",
+   "dept": "档案局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/guoyouqiyezichanyuchanquanbiandongdanganchuzhibanf1efa04.html",
+   "effective": "2021-11-01"
+  },
+  {
+   "slug": "chengshijianshedanganguishuyuliuxiangzanxingbanfa",
+   "short": "城市建设档案归属与流向暂行办法",
+   "dept": "档案局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/chengshijianshedanganguishuyuliuxiangzanxingbanfa.html",
+   "effective": "1997-07-28"
+  },
+  {
+   "slug": "chengshishequdanganguanlibanfa",
+   "short": "城市社区档案管理办法（2015）",
+   "dept": "档案局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/chengshishequdanganguanlibanfa.html",
+   "effective": "2016-01-01"
+  },
+  {
+   "slug": "kaifaliyongkexuejishudanganxinxiziyuanzanxingbanfa",
+   "short": "开发利用科学技术档案信息资源暂行办法",
+   "dept": "档案局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/kaifaliyongkexuejishudanganxinxiziyuanzanxingbanfa.html",
+   "effective": "1988-10-26"
+  },
+  {
+   "slug": "kaifaqudanganguanlizanxingguiding",
+   "short": "开发区档案管理暂行规定",
+   "dept": "档案局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/kaifaqudanganguanlizanxingguiding.html",
+   "effective": "1995-06-30"
+  },
+  {
+   "slug": "jiguanwenjiancailiaoguidangfanweihewenshudanganbao5acac2",
+   "short": "机关文件材料归档范围和文书档案保管期限规定",
+   "dept": "档案局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/jiguanwenjiancailiaoguidangfanweihewenshudanganbao5acac2.html",
+   "effective": "2006-12-18"
+  },
+  {
+   "slug": "jiguandanganguanliguiding",
+   "short": "机关档案管理规定",
+   "dept": "档案局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/jiguandanganguanliguiding.html",
+   "effective": "2019-01-01"
+  },
+  {
+   "slug": "cunjidanganguanlibanfa",
+   "short": "村级档案管理办法（2017）",
+   "dept": "档案局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/cunjidanganguanlibanfa.html",
+   "effective": "2018-01-01"
+  },
+  {
+   "slug": "danganzhifajiandujianchagongzuozanxingguiding",
+   "short": "档案执法监督检查工作暂行规定",
+   "dept": "档案局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/danganzhifajiandujianchagongzuozanxingguiding.html",
+   "effective": "1992-03-30"
+  },
+  {
+   "slug": "danganxingzhengchufachengxuguiding",
+   "short": "档案行政处罚程序规定",
+   "dept": "档案局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/danganxingzhengchufachengxuguiding.html",
+   "effective": "2023-04-01"
+  },
+  {
+   "slug": "danganxingzhengxukechengxuguiding",
+   "short": "档案行政许可程序规定",
+   "dept": "档案局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/danganxingzhengxukechengxuguiding.html",
+   "effective": "2005-07-01"
+  },
+  {
+   "slug": "danganguangongzuotongze",
+   "short": "档案馆工作通则",
+   "dept": "档案局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/danganguangongzuotongze.html",
+   "effective": "1983-04-26"
+  },
+  {
+   "slug": "dianzigongwenguidangguanlizanxingbanfa",
+   "short": "电子公文归档管理暂行办法",
+   "dept": "档案局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/dianzigongwenguidangguanlizanxingbanfa.html",
+   "effective": "2003-07-22"
+  },
+  {
+   "slug": "dianzidanganguanlibanfa",
+   "short": "电子档案管理办法",
+   "dept": "档案局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/dianzidanganguanlibanfa.html",
+   "effective": "2024-11-01"
+  },
+  {
+   "slug": "kexuejishuyanjiudanganguanliguiding",
+   "short": "科学技术研究档案管理规定",
+   "dept": "档案局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/kexuejishuyanjiudanganguanliguiding.html",
+   "effective": "2020-11-01"
+  },
+  {
+   "slug": "zhongdahuodonghetufashijiandanganguanlibanfa",
+   "short": "重大活动和突发事件档案管理办法",
+   "dept": "档案局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zhongdahuodonghetufashijiandanganguanlibanfa.html",
+   "effective": "2021-06-01"
+  },
+  {
+   "slug": "zhongdengtiyuyundongxuexiaoguanlibanfa",
+   "short": "中等体育运动学校管理办法",
+   "dept": "体育总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zhongdengtiyuyundongxuexiaoguanlibanfa.html",
+   "effective": "2011-10-01"
+  },
+  {
+   "slug": "tiyujingsaicaipanyuanguanlibanfa",
+   "short": "体育竞赛裁判员管理办法",
+   "dept": "体育总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/tiyujingsaicaipanyuanguanlibanfa.html",
+   "effective": "2016-01-01"
+  },
+  {
+   "slug": "tiyuleiminbanfeiqiyedanweidengjishenchayuguanlizanc1e785",
+   "short": "体育类民办非企业单位登记审查与管理暂行办法（2000）",
+   "dept": "体育总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/tiyuleiminbanfeiqiyedanweidengjishenchayuguanlizanc1e785.html",
+   "effective": "2000-11-10"
+  },
+  {
+   "slug": "tiyutongjigongzuoguanlibanfa",
+   "short": "体育统计工作管理办法",
+   "dept": "体育总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/tiyutongjigongzuoguanlibanfa.html",
+   "effective": "2009-05-01"
+  },
+  {
+   "slug": "tiyusaishihuodongguanlibanfa",
+   "short": "体育赛事活动管理办法",
+   "dept": "体育总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/tiyusaishihuodongguanlibanfa.html",
+   "effective": "2020-05-01"
+  },
+  {
+   "slug": "jianshenqigongguanlibanfa",
+   "short": "健身气功管理办法",
+   "dept": "体育总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/jianshenqigongguanlibanfa.html",
+   "effective": "2006-12-20"
+  },
+  {
+   "slug": "quanguoxingdanxiangtiyujingsaicaiwuguanlibanfa",
+   "short": "全国性单项体育竞赛财务管理办法",
+   "dept": "体育总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/quanguoxingdanxiangtiyujingsaicaiwuguanlibanfa.html",
+   "effective": "2000-03-01"
+  },
+  {
+   "slug": "quanguozonghexingyundonghuigongzuorenyuanjilvguidibe77a7",
+   "short": "全国综合性运动会工作人员纪律规定",
+   "dept": "体育总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/quanguozonghexingyundonghuigongzuorenyuanjilvguidibe77a7.html",
+   "effective": "2000-05-18"
+  },
+  {
+   "slug": "fanxingfenjiguanlibanfa-2",
+   "short": "反兴奋剂管理办法（2014）",
+   "dept": "体育总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/fanxingfenjiguanlibanfa-2.html",
+   "effective": "2015-01-01"
+  },
+  {
+   "slug": "fanxingfenjiguanlibanfa",
+   "short": "反兴奋剂管理办法（2021）",
+   "dept": "体育总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/fanxingfenjiguanlibanfa.html",
+   "effective": "2021-07-20"
+  },
+  {
+   "slug": "fanxingfenjiguize",
+   "short": "反兴奋剂规则",
+   "dept": "体育总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/fanxingfenjiguize.html",
+   "effective": "2020-12-28"
+  },
+  {
+   "slug": "guoneidengshanguanlibanfa",
+   "short": "国内登山管理办法",
+   "dept": "体育总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/guoneidengshanguanlibanfa.html",
+   "effective": "2003-07-25"
+  },
+  {
+   "slug": "guojiatiyuzongjuguizhangheguifanxingwenjianzhiding07506d",
+   "short": "国家体育总局规章和规范性文件制定程序规定",
+   "dept": "体育总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/guojiatiyuzongjuguizhangheguifanxingwenjianzhiding07506d.html",
+   "effective": "2018-01-01"
+  },
+  {
+   "slug": "daxingyundonghuidanganguanlibanfa",
+   "short": "大型运动会档案管理办法",
+   "dept": "体育总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/daxingyundonghuidanganguanlibanfa.html",
+   "effective": "1999-10-14"
+  },
+  {
+   "slug": "shejijingjitiyuyundongqiangzhiguanlibanfa",
+   "short": "射击竞技体育运动枪支管理办法",
+   "dept": "体育总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/shejijingjitiyuyundongqiangzhiguanlibanfa.html",
+   "effective": "2011-01-01"
+  },
+  {
+   "slug": "shaonianertongtiyuxuexiaoguanlibanfa",
+   "short": "少年儿童体育学校管理办法",
+   "dept": "体育总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/shaonianertongtiyuxuexiaoguanlibanfa.html",
+   "effective": "2011-10-01"
+  },
+  {
+   "slug": "caipiaoguanlitiaolishishixize-2",
+   "short": "彩票管理条例实施细则（2012）",
+   "dept": "体育总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/caipiaoguanlitiaolishishixize-2.html",
+   "effective": "2012-01-18"
+  },
+  {
+   "slug": "shehuitiyuzhidaoyuanguanlibanfa",
+   "short": "社会体育指导员管理办法",
+   "dept": "体育总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/shehuitiyuzhidaoyuanguanlibanfa.html",
+   "effective": "2011-10-09"
+  },
+  {
+   "slug": "jingyinggaoweixianxingtiyuxiangmuxukeguanlibanfa",
+   "short": "经营高危险性体育项目许可管理办法",
+   "dept": "体育总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/jingyinggaoweixianxingtiyuxiangmuxukeguanlibanfa.html",
+   "effective": "2013-05-01"
+  },
+  {
+   "slug": "danbaitonghuazhijitaileijisujinchukouguanlibanfa",
+   "short": "蛋白同化制剂、肽类激素进出口管理办法",
+   "dept": "体育总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/danbaitonghuazhijitaileijisujinchukouguanlibanfa.html",
+   "effective": "2014-09-28"
+  },
+  {
+   "slug": "yundongyuanjishudengjiguanlibanfa",
+   "short": "运动员技术等级管理办法",
+   "dept": "体育总局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/yundongyuanjishudengjiguanlibanfa.html",
+   "effective": "2014-03-01"
+  },
+  {
+   "slug": "rengongzhinengqixiangyingyongfuwubanfa",
+   "short": "人工智能气象应用服务办法",
+   "dept": "中国气象局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/rengongzhinengqixiangyingyongfuwubanfa.html",
+   "effective": ""
+  },
+  {
+   "slug": "shengfangqiqiuguanlibanfa",
+   "short": "升放气球管理办法",
+   "dept": "中国气象局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/shengfangqiqiuguanlibanfa.html",
+   "effective": "2021-01-01"
+  },
+  {
+   "slug": "xinjiankuojiangaijianjianshegongchengbimianweihaiqc0f4e1",
+   "short": "新建、扩建、改建建设工程避免危害气象探测环境行政许可管理办法",
+   "dept": "中国气象局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/xinjiankuojiangaijianjianshegongchengbimianweihaiqc0f4e1.html",
+   "effective": "2016-09-01"
+  },
+  {
+   "slug": "qihoukexingxinglunzhengguanlibanfa",
+   "short": "气候可行性论证管理办法",
+   "dept": "中国气象局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/qihoukexingxinglunzhengguanlibanfa.html",
+   "effective": "2009-01-01"
+  },
+  {
+   "slug": "qixiangzhuanyongjishuzhuangbeishiyongxukeguanlibane58837",
+   "short": "气象专用技术装备使用许可管理办法",
+   "dept": "中国气象局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/qixiangzhuanyongjishuzhuangbeishiyongxukeguanlibane58837.html",
+   "effective": "2016-06-01"
+  },
+  {
+   "slug": "qixiangxinxifuwuguanlibanfa",
+   "short": "气象信息服务管理办法",
+   "dept": "中国气象局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/qixiangxinxifuwuguanlibanfa.html",
+   "effective": "2015-06-01"
+  },
+  {
+   "slug": "qixiangtaizhanqianjianhangzhengxukeguanlibanfa",
+   "short": "气象台站迁建行政许可管理办法",
+   "dept": "中国气象局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/qixiangtaizhanqianjianhangzhengxukeguanlibanfa.html",
+   "effective": "2016-09-01"
+  },
+  {
+   "slug": "qixiangtancehuanjinghesheshibaohubanfa",
+   "short": "气象探测环境和设施保护办法",
+   "dept": "中国气象局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/qixiangtancehuanjinghesheshibaohubanfa.html",
+   "effective": "2004-10-01"
+  },
+  {
+   "slug": "qixiangzaihaiyujingxinhaofabuyuchuanbobanfa",
+   "short": "气象灾害预警信号发布与传播办法",
+   "dept": "中国气象局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/qixiangzaihaiyujingxinhaofabuyuchuanbobanfa.html",
+   "effective": "2007-06-12"
+  },
+  {
+   "slug": "qixianghangyeguanliruoganguiding",
+   "short": "气象行业管理若干规定",
+   "dept": "中国气象局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/qixianghangyeguanliruoganguiding.html",
+   "effective": "2017-05-01"
+  },
+  {
+   "slug": "qixiangxingzhengfuyibanfa",
+   "short": "气象行政复议办法",
+   "dept": "中国气象局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/qixiangxingzhengfuyibanfa.html",
+   "effective": "2000-05-02"
+  },
+  {
+   "slug": "qixiangxingzhengguifanxingwenjianguanlibanfa",
+   "short": "气象行政规范性文件管理办法",
+   "dept": "中国气象局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/qixiangxingzhengguifanxingwenjianguanlibanfa.html",
+   "effective": "2021-01-01"
+  },
+  {
+   "slug": "qixiangxingzhengxukeshishibanfa",
+   "short": "气象行政许可实施办法",
+   "dept": "中国气象局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/qixiangxingzhengxukeshishibanfa.html",
+   "effective": "2017-05-01"
+  },
+  {
+   "slug": "qixiangziliaogongxiangguanlibanfa",
+   "short": "气象资料共享管理办法",
+   "dept": "中国气象局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/qixiangziliaogongxiangguanlibanfa.html",
+   "effective": "2001-11-27"
+  },
+  {
+   "slug": "qixiangyubaofabuyuchuanboguanlibanfa",
+   "short": "气象预报发布与传播管理办法",
+   "dept": "中国气象局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/qixiangyubaofabuyuchuanboguanlibanfa.html",
+   "effective": "2015-05-01"
+  },
+  {
+   "slug": "shewaiqixiangtanceheziliaoguanlibanfa",
+   "short": "涉外气象探测和资料管理办法",
+   "dept": "中国气象局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/shewaiqixiangtanceheziliaoguanlibanfa.html",
+   "effective": "2022-08-01"
+  },
+  {
+   "slug": "fangleijianzaiguanlibanfa",
+   "short": "防雷减灾管理办法",
+   "dept": "中国气象局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/fangleijianzaiguanlibanfa.html",
+   "effective": "2011-07-21"
+  },
+  {
+   "slug": "leidianfanghuzhuangzhijiancezizhiguanlibanfa",
+   "short": "雷电防护装置检测资质管理办法",
+   "dept": "中国气象局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/leidianfanghuzhuangzhijiancezizhiguanlibanfa.html",
+   "effective": "2016-10-01"
+  },
+  {
+   "slug": "leidianfanghuzhuangzhishejishenhehejungongyanshoug787d5a",
+   "short": "雷电防护装置设计审核和竣工验收规定",
+   "dept": "中国气象局",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/leidianfanghuzhuangzhishejishenhehejungongyanshoug787d5a.html",
+   "effective": "2021-01-01"
+  },
+  {
+   "slug": "zhuanxiangguihuahuanjingyingxiangbaogaoshushenchab509cb1",
+   "short": "专项规划环境影响报告书审查办法",
+   "dept": "其他部门",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zhuanxiangguihuahuanjingyingxiangbaogaoshushenchab509cb1.html",
+   "effective": "2003-10-08"
+  },
+  {
+   "slug": "gerenxinxichujingrenzhengbanfa",
+   "short": "个人信息出境认证办法",
+   "dept": "其他部门",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/gerenxinxichujingrenzhengbanfa.html",
+   "effective": "2026-01-01"
+  },
+  {
+   "slug": "guojiashenjizhunze",
+   "short": "国家审计准则",
+   "dept": "其他部门",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/guojiashenjizhunze.html",
+   "effective": "2011-01-01"
+  },
+  {
+   "slug": "jingneiwaiguorenzongjiaohuodongguanliguidingshishi875fb2",
+   "short": "境内外国人宗教活动管理规定实施细则",
+   "dept": "其他部门",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/jingneiwaiguorenzongjiaohuodongguanliguidingshishi875fb2.html",
+   "effective": "2000-08-11"
+  },
+  {
+   "slug": "zhiwuxinpinzhongbaohuminglu-6",
+   "short": "植物新品种保护名录（林业部分）（第一批）",
+   "dept": "其他部门",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zhiwuxinpinzhongbaohuminglu-6.html",
+   "effective": "1999-04-22"
+  },
+  {
+   "slug": "yuyexingzhengzhifachuanboguanlibanfa",
+   "short": "渔业行政执法船舶管理办法",
+   "dept": "其他部门",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/yuyexingzhengzhifachuanboguanlibanfa.html",
+   "effective": "2000-06-13"
+  },
+  {
+   "slug": "zhongguogongminminzuchengfendengjiguanlibanfa",
+   "short": "中国公民民族成份登记管理办法",
+   "dept": "其他部门",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zhongguogongminminzuchengfendengjiguanlibanfa.html",
+   "effective": "2016-01-01"
+  },
+  {
+   "slug": "zhongwaihezuoshezhidianyingpianguanliguiding",
+   "short": "中外合作摄制电影片管理规定",
+   "dept": "其他部门",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zhongwaihezuoshezhidianyingpianguanliguiding.html",
+   "effective": "2004-08-10"
+  },
+  {
+   "slug": "zhongyangguojiajiguanxingzhengdanweicaiwuguizeshis41adfd",
+   "short": "中央国家机关《行政单位财务规则》实施细则",
+   "dept": "其他部门",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zhongyangguojiajiguanxingzhengdanweicaiwuguizeshis41adfd.html",
+   "effective": "1998-07-01"
+  },
+  {
+   "slug": "zhongyangguojiajiguanrenminfangkongxingzhengchufas6853ec",
+   "short": "中央国家机关人民防空行政处罚实施办法",
+   "dept": "其他部门",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zhongyangguojiajiguanrenminfangkongxingzhengchufas6853ec.html",
+   "effective": "1999-01-01"
+  },
+  {
+   "slug": "zhongyangguojiajiguanxingzhengdanweikuaijizhidu",
+   "short": "中央国家机关行政单位会计制度",
+   "dept": "其他部门",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zhongyangguojiajiguanxingzhengdanweikuaijizhidu.html",
+   "effective": "1998-01-01"
+  },
+  {
+   "slug": "hulianwangzongjiaoxinxifuwuguanlibanfa",
+   "short": "互联网宗教信息服务管理办法",
+   "dept": "其他部门",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/hulianwangzongjiaoxinxifuwuguanlibanfa.html",
+   "effective": ""
+  },
+  {
+   "slug": "hulianwangzhuzuoquanxingzhengbaohubanfa",
+   "short": "互联网著作权行政保护办法",
+   "dept": "其他部门",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/hulianwangzhuzuoquanxingzhengbaohubanfa.html",
+   "effective": "2005-04-29"
+  },
+  {
+   "slug": "renleiyichuanziyuanguanlitiaolishishixize",
+   "short": "人类遗传资源管理条例实施细则",
+   "dept": "其他部门",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/renleiyichuanziyuanguanlitiaolishishixize.html",
+   "effective": "2023-07-01"
+  },
+  {
+   "slug": "yisilanjiaochaojinshiwuguanlibanfa-2",
+   "short": "伊斯兰教朝觐事务管理办法",
+   "dept": "其他部门",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/yisilanjiaochaojinshiwuguanlibanfa-2.html",
+   "effective": ""
+  },
+  {
+   "slug": "yisilanjiaochaojinshiwuguanlibanfa",
+   "short": "伊斯兰教朝觐事务管理办法（2020）",
+   "dept": "其他部门",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/yisilanjiaochaojinshiwuguanlibanfa.html",
+   "effective": "2020-12-01"
+  },
+  {
+   "slug": "youfuyiyuanguanlibanfa",
+   "short": "优抚医院管理办法",
+   "dept": "其他部门",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/youfuyiyuanguanlibanfa.html",
+   "effective": "2011-06-09"
+  },
+  {
+   "slug": "shangcanfuxuguanlibanfa",
+   "short": "伤残抚恤管理办法",
+   "dept": "其他部门",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/shangcanfuxuguanlibanfa.html",
+   "effective": "2007-07-31"
+  },
+  {
+   "slug": "tiyugongzuozhongguojiamimijiqimijijutifanweideguid0247c0",
+   "short": "体育工作中国家秘密及其密级具体范围的规定",
+   "dept": "其他部门",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/tiyugongzuozhongguojiamimijiqimijijutifanweideguid0247c0.html",
+   "effective": "1990-05-26"
+  },
+  {
+   "slug": "zuopinziyuandengjishixingbanfa",
+   "short": "作品自愿登记试行办法",
+   "dept": "其他部门",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zuopinziyuandengjishixingbanfa.html",
+   "effective": "1995-01-01"
+  },
+  {
+   "slug": "shiyongwenzizuopinzhifubaochoubanfa",
+   "short": "使用文字作品支付报酬办法",
+   "dept": "其他部门",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/shiyongwenzizuopinzhifubaochoubanfa.html",
+   "effective": "2014-11-01"
+  },
+  {
+   "slug": "baomishixiangfanweizhidingxiudingheshiyongbanfa",
+   "short": "保密事项范围制定、修订和使用办法",
+   "dept": "其他部门",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/baomishixiangfanweizhidingxiudingheshiyongbanfa.html",
+   "effective": "2017-04-01"
+  },
+  {
+   "slug": "baoxiangongsichangfunengliguanliguiding",
+   "short": "保险公司偿付能力管理规定",
+   "dept": "其他部门",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/baoxiangongsichangfunengliguanliguiding.html",
+   "effective": "2021-03-01"
+  },
+  {
+   "slug": "guangrongyuanguanlibanfa",
+   "short": "光荣院管理办法",
+   "dept": "其他部门",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/guangrongyuanguanlibanfa.html",
+   "effective": "2010-12-25"
+  },
+  {
+   "slug": "quanguominzutuanjiejinbujiaoyujidipingshenmingming21fc97",
+   "short": "全国民族团结进步教育基地评审命名办法",
+   "dept": "其他部门",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/quanguominzutuanjiejinbujiaoyujidipingshenmingming21fc97.html",
+   "effective": "2013-09-24"
+  },
+  {
+   "slug": "quanguohuanbaoxitongliuxiangjinling",
+   "short": "全国环保系统六项禁令",
+   "dept": "其他部门",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/quanguohuanbaoxitongliuxiangjinling.html",
+   "effective": "2003-12-03"
+  },
+  {
+   "slug": "guanyuzhongyangdangzhengjiguangongzuorenyuanzaiguo55e3a0",
+   "short": "关于中央党政机关工作人员在国内交往中收受礼品登记和处理办法",
+   "dept": "其他部门",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/guanyuzhongyangdangzhengjiguangongzuorenyuanzaiguo55e3a0.html",
+   "effective": "1995-09-02"
+  },
+  {
+   "slug": "guanyuyinfajiaqiangdianwangdiaofenggongzuoruogangufce93b",
+   "short": "关于印发《加强电网调峰工作若干规定》等文件的通知",
+   "dept": "其他部门",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/guanyuyinfajiaqiangdianwangdiaofenggongzuoruogangufce93b.html",
+   "effective": "1990-12-31"
+  },
+  {
+   "slug": "guanyuyinfajiaqiangdianwangdiaoduguanligongzuoderuefaf7d",
+   "short": "关于印发《加强电网调度管理工作的若干规定》的通知",
+   "dept": "其他部门",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/guanyuyinfajiaqiangdianwangdiaoduguanligongzuoderuefaf7d.html",
+   "effective": "1997-03-20"
+  },
+  {
+   "slug": "guanyushoulixianggangaomentebiexingzhengqutuijiang046e05",
+   "short": "关于受理香港澳门特别行政区推荐国家科学技术奖的规定",
+   "dept": "其他部门",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/guanyushoulixianggangaomentebiexingzhengqutuijiang046e05.html",
+   "effective": "2003-02-01"
+  },
+  {
+   "slug": "guanyuzaiwaijiaohuodongzhongzouchangguogedeguiding",
+   "short": "关于在外交活动中奏唱国歌的规定",
+   "dept": "其他部门",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/guanyuzaiwaijiaohuodongzhongzouchangguogedeguiding.html",
+   "effective": "2019-09-29"
+  },
+  {
+   "slug": "guanyuwoguotiyuyundongxiangmutongjishijieguanjunao070784",
+   "short": "关于我国体育运动项目统计世界冠军、奥运会冠军（金牌）的管理办法",
+   "dept": "其他部门",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/guanyuwoguotiyuyundongxiangmutongjishijieguanjunao070784.html",
+   "effective": "1995-12-10"
+  },
+  {
+   "slug": "guanyushouyutiyugongzuogongxianzhangdeguiding",
+   "short": "关于授予“体育工作贡献章”的规定",
+   "dept": "其他部门",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/guanyushouyutiyugongzuogongxianzhangdeguiding.html",
+   "effective": "1990-04-10"
+  },
+  {
+   "slug": "guanyubanfameitanqiyezonggongchengshizerenzhideton3c9e5c",
+   "short": "关于颁发《煤炭企业总工程师责任制》的通知",
+   "dept": "其他部门",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/guanyubanfameitanqiyezonggongchengshizerenzhideton3c9e5c.html",
+   "effective": "1996-08-29"
+  },
+  {
+   "slug": "guanjianxinxijichusheshishangyongmimashiyongguanli0f441b",
+   "short": "关键信息基础设施商用密码使用管理规定",
+   "dept": "其他部门",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/guanjianxinxijichusheshishangyongmimashiyongguanli0f441b.html",
+   "effective": ""
+  },
+  {
+   "slug": "junduilixiutuixiuganbufuwuguanlibanfa",
+   "short": "军队离休退休干部服务管理办法",
+   "dept": "其他部门",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/junduilixiutuixiuganbufuwuguanlibanfa.html",
+   "effective": "2014-09-23"
+  },
+  {
+   "slug": "nongyejixiezhiliangdiaochabanfa",
+   "short": "农业机械质量调查办法",
+   "dept": "其他部门",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/nongyejixiezhiliangdiaochabanfa.html",
+   "effective": "2006-08-20"
+  },
+  {
+   "slug": "nongcuntudichengbaozhongcaiweiyuanhuishifanzhangcha3da3b",
+   "short": "农村土地承包仲裁委员会示范章程",
+   "dept": "其他部门",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/nongcuntudichengbaozhongcaiweiyuanhuishifanzhangcha3da3b.html",
+   "effective": ""
+  },
+  {
+   "slug": "nongcuntudichengbaojingyingjiufenzhongcaiguize-2",
+   "short": "农村土地承包经营纠纷仲裁规则",
+   "dept": "其他部门",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/nongcuntudichengbaojingyingjiufenzhongcaiguize-2.html",
+   "effective": ""
+  },
+  {
+   "slug": "huaxuepinshoucijinkoujiyouduhuaxuepinjinchukouhuancae54a",
+   "short": "化学品首次进口及有毒化学品进出口环境管理规定",
+   "dept": "其他部门",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/huaxuepinshoucijinkoujiyouduhuaxuepinjinchukouhuancae54a.html",
+   "effective": "1994-03-16"
+  },
+  {
+   "slug": "yiliaobaozhangjijinshiyongjianduguanlijubaochuliza7f6f61",
+   "short": "医疗保障基金使用监督管理举报处理暂行办法",
+   "dept": "其他部门",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/yiliaobaozhangjijinshiyongjianduguanlijubaochuliza7f6f61.html",
+   "effective": "2022-03-01"
+  },
+  {
+   "slug": "yiliaobaozhangjijinfeixingjianchaguanlizanxingbanfe9e329",
+   "short": "医疗保障基金飞行检查管理暂行办法",
+   "dept": "其他部门",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/yiliaobaozhangjijinfeixingjianchaguanlizanxingbanfe9e329.html",
+   "effective": "2023-05-01"
+  },
+  {
+   "slug": "yiliaobaozhangxingzhengchufachengxuzanxingguiding",
+   "short": "医疗保障行政处罚程序暂行规定",
+   "dept": "其他部门",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/yiliaobaozhangxingzhengchufachengxuzanxingguiding.html",
+   "effective": "2021-07-15"
+  },
+  {
+   "slug": "yiliaoqixieshengchanqiyezhiliangtixikaohebanfa",
+   "short": "医疗器械生产企业质量体系考核办法",
+   "dept": "其他部门",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/yiliaoqixieshengchanqiyezhiliangtixikaohebanfa.html",
+   "effective": "2000-07-01"
+  },
+  {
+   "slug": "yiliaojigouyiliaobaozhangdingdianguanlizanxingbanf3b9373",
+   "short": "医疗机构医疗保障定点管理暂行办法",
+   "dept": "其他部门",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/yiliaojigouyiliaobaozhangdingdianguanlizanxingbanf3b9373.html",
+   "effective": "2021-02-01"
+  },
+  {
+   "slug": "shangyongmimayingyonganquanxingpingguguanlibanfa",
+   "short": "商用密码应用安全性评估管理办法",
+   "dept": "其他部门",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/shangyongmimayingyonganquanxingpingguguanlibanfa.html",
+   "effective": ""
+  },
+  {
+   "slug": "shangyongmimajiancejigouguanlibanfa",
+   "short": "商用密码检测机构管理办法",
+   "dept": "其他部门",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/shangyongmimajiancejigouguanlibanfa.html",
+   "effective": ""
+  },
+  {
+   "slug": "guojiayuanzinengjigoushangwubuwaijiaobuhaiguanzong2a94f0",
+   "short": "国家原子能机构、商务部、外交部、海关总署公告第2018年第1号发布《核出口管制清单》",
+   "dept": "其他部门",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/guojiayuanzinengjigoushangwubuwaijiaobuhaiguanzong2a94f0.html",
+   "effective": ""
+  },
+  {
+   "slug": "guojiaguojifazhanhezuoshuxingzhengchufashishibanfa",
+   "short": "国家国际发展合作署行政处罚实施办法",
+   "dept": "其他部门",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/guojiaguojifazhanhezuoshuxingzhengchufashishibanfa.html",
+   "effective": ""
+  },
+  {
+   "slug": "guojiaguojifazhanhezuoshuxingzhengfuyishishibanfa",
+   "short": "国家国际发展合作署行政复议实施办法",
+   "dept": "其他部门",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/guojiaguojifazhanhezuoshuxingzhengfuyishishibanfa.html",
+   "effective": ""
+  },
+  {
+   "slug": "guojiamimaguanlijuguizhangzhidingchengxuguiding",
+   "short": "国家密码管理局规章制定程序规定",
+   "dept": "其他部门",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/guojiamimaguanlijuguizhangzhidingchengxuguiding.html",
+   "effective": ""
+  },
+  {
+   "slug": "guojiaminweizhidingguizhangheguifanxingwenjiandegu827360",
+   "short": "国家民委制定规章和规范性文件的规定",
+   "dept": "其他部门",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/guojiaminweizhidingguizhangheguifanxingwenjiandegu827360.html",
+   "effective": "2011-09-01"
+  },
+  {
+   "slug": "guojiaminweikeyanxiangmuguanlibanfa",
+   "short": "国家民委科研项目管理办法",
+   "dept": "其他部门",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/guojiaminweikeyanxiangmuguanlibanfa.html",
+   "effective": "2017-03-07"
+  },
+  {
+   "slug": "guojiahuanjingbaohujuhuanjingbaohukexuejishuyanjiue4e208",
+   "short": "国家环境保护局环境保护科学技术研究成果管理办法",
+   "dept": "其他部门",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/guojiahuanjingbaohujuhuanjingbaohukexuejishuyanjiue4e208.html",
+   "effective": "1992-02-20"
+  },
+  {
+   "slug": "guojiakexuejishujianglitiaolishishixize",
+   "short": "国家科学技术奖励条例实施细则",
+   "dept": "其他部门",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/guojiakexuejishujianglitiaolishishixize.html",
+   "effective": "1999-12-24"
+  },
+  {
+   "slug": "guojiakejijihuashishizhongkeyanbuduanxingweichulibe52d09",
+   "short": "国家科技计划实施中科研不端行为处理办法（试行）",
+   "dept": "其他部门",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/guojiakejijihuashishizhongkeyanbuduanxingweichulibe52d09.html",
+   "effective": "2007-01-01"
+  },
+  {
+   "slug": "guojiakejijihuaguanlizanxingguiding",
+   "short": "国家科技计划管理暂行规定",
+   "dept": "其他部门",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/guojiakejijihuaguanlizanxingguiding.html",
+   "effective": "2001-01-20"
+  },
+  {
+   "slug": "guojiakejijihuaxiangmuguanlizanxingbanfa",
+   "short": "国家科技计划项目管理暂行办法",
+   "dept": "其他部门",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/guojiakejijihuaxiangmuguanlizanxingbanfa.html",
+   "effective": "2001-01-20"
+  },
+  {
+   "slug": "guojiakejijihuaxiangmupinggupingshenxingweizhunzey6c62b0",
+   "short": "国家科技计划项目评估评审行为准则与督查办法",
+   "dept": "其他部门",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/guojiakejijihuaxiangmupinggupingshenxingweizhunzey6c62b0.html",
+   "effective": "2003-03-01"
+  },
+  {
+   "slug": "guojiamimidingmiguanlizanxingguiding",
+   "short": "国家秘密定密管理暂行规定",
+   "dept": "其他部门",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/guojiamimidingmiguanlizanxingguiding.html",
+   "effective": "2014-03-09"
+  },
+  {
+   "slug": "guojiamimidingmiguanliguiding",
+   "short": "国家秘密定密管理规定",
+   "dept": "其他部门",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/guojiamimidingmiguanliguiding.html",
+   "effective": "2025-05-01"
+  },
+  {
+   "slug": "guojiamimizaitiyinzhizizhiguanlibanfa-2",
+   "short": "国家秘密载体印制资质管理办法（2020）",
+   "dept": "其他部门",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/guojiamimizaitiyinzhizizhiguanlibanfa-2.html",
+   "effective": "2021-03-01"
+  },
+  {
+   "slug": "guojiamimizaitiyinzhizizhiguanlibanfa",
+   "short": "国家秘密载体印制资质管理办法（2020）",
+   "dept": "其他部门",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/guojiamimizaitiyinzhizizhiguanlibanfa.html",
+   "effective": "2021-03-01"
+  },
+  {
+   "slug": "guojiamimijiandinggongzuoguiding",
+   "short": "国家秘密鉴定工作规定",
+   "dept": "其他部门",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/guojiamimijiandinggongzuoguiding.html",
+   "effective": "2021-09-01"
+  },
+  {
+   "slug": "guofangkexuejishujianglibanfa",
+   "short": "国防科学技术奖励办法（2010）",
+   "dept": "其他部门",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/guofangkexuejishujianglibanfa.html",
+   "effective": "2010-07-01"
+  },
+  {
+   "slug": "guofangkexuejishugongyeweiyuanhuitingzhengguize-2",
+   "short": "国防科学技术工业委员会听证规则（2006）",
+   "dept": "其他部门",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/guofangkexuejishugongyeweiyuanhuitingzhengguize-2.html",
+   "effective": "2007-03-01"
+  },
+  {
+   "slug": "guofangkexuejishugongyeweiyuanhuixingzhengchufashi6fc158",
+   "short": "国防科学技术工业委员会行政处罚实施办法（试行）",
+   "dept": "其他部门",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/guofangkexuejishugongyeweiyuanhuixingzhengchufashi6fc158.html",
+   "effective": "2007-03-01"
+  },
+  {
+   "slug": "guofangkegongweixingzhengshenpiguanlizanxingbanfa-2",
+   "short": "国防科工委行政审批管理暂行办法（2003）",
+   "dept": "其他部门",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/guofangkegongweixingzhengshenpiguanlizanxingbanfa-2.html",
+   "effective": "2003-09-01"
+  },
+  {
+   "slug": "guofangkejigongyejunyonghesheshianquanjianduguanlidd5910",
+   "short": "国防科技工业军用核设施安全监督管理规定",
+   "dept": "其他部门",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/guofangkejigongyejunyonghesheshianquanjianduguanlidd5910.html",
+   "effective": ""
+  },
+  {
+   "slug": "guofangkejigongyejiliangjianduguanlizanxingguiding-2",
+   "short": "国防科技工业计量监督管理暂行规定",
+   "dept": "其他部门",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/guofangkejigongyejiliangjianduguanlizanxingguiding-2.html",
+   "effective": ""
+  },
+  {
+   "slug": "guofangkeyanshengchananquanshigubaogaohediaochachu732428-2",
+   "short": "国防科研生产安全事故报告和调查处理办法（2004）",
+   "dept": "其他部门",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/guofangkeyanshengchananquanshigubaogaohediaochachu732428-2.html",
+   "effective": "2004-10-22"
+  },
+  {
+   "slug": "dizhenxingzhengfuyiguiding",
+   "short": "地震行政复议规定",
+   "dept": "其他部门",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/dizhenxingzhengfuyiguiding.html",
+   "effective": "1999-10-01"
+  },
+  {
+   "slug": "dizhenxingzhengzhifaguiding",
+   "short": "地震行政执法规定",
+   "dept": "其他部门",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/dizhenxingzhengzhifaguiding.html",
+   "effective": "1998-08-10"
+  },
+  {
+   "slug": "dizhenxingzhengfazhijianduguiding",
+   "short": "地震行政法制监督规定",
+   "dept": "其他部门",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/dizhenxingzhengfazhijianduguiding.html",
+   "effective": "2000-03-01"
+  },
+  {
+   "slug": "dizhenxingzhengguizhangzhidingchengxuguiding",
+   "short": "地震行政规章制定程序规定",
+   "dept": "其他部门",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/dizhenxingzhengguizhangzhidingchengxuguiding.html",
+   "effective": "2000-03-01"
+  },
+  {
+   "slug": "chengshizhenkongzhixingxiangxiguihuabianzhishenpibdc87e8",
+   "short": "城市、镇控制性详细规划编制审批办法",
+   "dept": "其他部门",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/chengshizhenkongzhixingxiangxiguihuabianzhishenpibdc87e8.html",
+   "effective": "2011-01-01"
+  },
+  {
+   "slug": "chengshigongyuanguanlibanfa",
+   "short": "城市公园管理办法",
+   "dept": "其他部门",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/chengshigongyuanguanlibanfa.html",
+   "effective": "2024-12-01"
+  },
+  {
+   "slug": "jiyingongchenganquanguanlibanfa",
+   "short": "基因工程安全管理办法",
+   "dept": "其他部门",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/jiyingongchenganquanguanlibanfa.html",
+   "effective": "1993-12-24"
+  },
+  {
+   "slug": "jibenyiliaobaoxianyongyaoguanlizanxingbanfa",
+   "short": "基本医疗保险用药管理暂行办法",
+   "dept": "其他部门",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/jibenyiliaobaoxianyongyaoguanlizanxingbanfa.html",
+   "effective": "2020-09-01"
+  },
+  {
+   "slug": "jingwailieshijiniansheshibaohuguanlibanfa",
+   "short": "境外烈士纪念设施保护管理办法",
+   "dept": "其他部门",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/jingwailieshijiniansheshibaohuguanlibanfa.html",
+   "effective": "2020-04-01"
+  },
+  {
+   "slug": "chufangyaoyufeichufangyaofenleiguanlibanfa",
+   "short": "处方药与非处方药分类管理办法（试行）",
+   "dept": "其他部门",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/chufangyaoyufeichufangyaofenleiguanlibanfa.html",
+   "effective": "2000-01-01"
+  },
+  {
+   "slug": "waishangtouzidianyingyuanzanxingguiding",
+   "short": "外商投资电影院暂行规定",
+   "dept": "其他部门",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/waishangtouzidianyingyuanzanxingguiding.html",
+   "effective": "2004-01-01"
+  },
+  {
+   "slug": "waiguojigouzaizhongguojingneitigongjinrongxinxifuw845771",
+   "short": "外国机构在中国境内提供金融信息服务管理规定（2009）",
+   "dept": "其他部门",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/waiguojigouzaizhongguojingneitigongjinrongxinxifuw845771.html",
+   "effective": "2009-06-01"
+  },
+  {
+   "slug": "anquanshengchanjiandufakuanguanlizanxingbanfa",
+   "short": "安全生产监督罚款管理暂行办法",
+   "dept": "其他部门",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/anquanshengchanjiandufakuanguanlizanxingbanfa.html",
+   "effective": "2004-11-03"
+  },
+  {
+   "slug": "anquanshengchanlingyuweifaweijixingweizhengjichufe2c107b",
+   "short": "安全生产领域违法违纪行为政纪处分暂行规定",
+   "dept": "其他部门",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/anquanshengchanlingyuweifaweijixingweizhengjichufe2c107b.html",
+   "effective": "2006-11-22"
+  },
+  {
+   "slug": "zongjiaotuantiguanlibanfa",
+   "short": "宗教团体管理办法",
+   "dept": "其他部门",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zongjiaotuantiguanlibanfa.html",
+   "effective": ""
+  },
+  {
+   "slug": "zongjiaojiaozhirenyuanguanlibanfa",
+   "short": "宗教教职人员管理办法",
+   "dept": "其他部门",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zongjiaojiaozhirenyuanguanlibanfa.html",
+   "effective": ""
+  },
+  {
+   "slug": "zongjiaohuodongchangsuoguanlibanfa",
+   "short": "宗教活动场所管理办法",
+   "dept": "其他部门",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zongjiaohuodongchangsuoguanlibanfa.html",
+   "effective": ""
+  },
+  {
+   "slug": "zongjiaohuodongchangsuoshelishenpihedengjibanfa",
+   "short": "宗教活动场所设立审批和登记办法",
+   "dept": "其他部门",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zongjiaohuodongchangsuoshelishenpihedengjibanfa.html",
+   "effective": ""
+  },
+  {
+   "slug": "zongjiaohuodongchangsuocaiwuguanlibanfa",
+   "short": "宗教活动场所财务管理办法",
+   "dept": "其他部门",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zongjiaohuodongchangsuocaiwuguanlibanfa.html",
+   "effective": ""
+  },
+  {
+   "slug": "zongjiaoyuanxiaoxueweishouyubanfa",
+   "short": "宗教院校学位授予办法（试行）",
+   "dept": "其他部门",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zongjiaoyuanxiaoxueweishouyubanfa.html",
+   "effective": ""
+  },
+  {
+   "slug": "zongjiaoyuanxiaojiaoshizigerendinghezhichengpingsh5544e2",
+   "short": "宗教院校教师资格认定和职称评审聘任办法（试行）",
+   "dept": "其他部门",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zongjiaoyuanxiaojiaoshizigerendinghezhichengpingsh5544e2.html",
+   "effective": ""
+  },
+  {
+   "slug": "zongjiaoyuanxiaoguanlibanfa",
+   "short": "宗教院校管理办法",
+   "dept": "其他部门",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zongjiaoyuanxiaoguanlibanfa.html",
+   "effective": ""
+  },
+  {
+   "slug": "shenjijiguanshenjitingzhengguiding",
+   "short": "审计机关审计听证规定",
+   "dept": "其他部门",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/shenjijiguanshenjitingzhengguiding.html",
+   "effective": "2021-11-19"
+  },
+  {
+   "slug": "shenjijiguanshenjidanganguanliguiding",
+   "short": "审计机关审计档案管理规定",
+   "dept": "其他部门",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/shenjijiguanshenjidanganguanliguiding.html",
+   "effective": "2013-01-01"
+  },
+  {
+   "slug": "shenjijiguanfengcunziliaozichanguiding",
+   "short": "审计机关封存资料资产规定",
+   "dept": "其他部门",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/shenjijiguanfengcunziliaozichanguiding.html",
+   "effective": "2011-02-01"
+  },
+  {
+   "slug": "shenjishuguanyuneibushenjigongzuodeguiding",
+   "short": "审计署关于内部审计工作的规定",
+   "dept": "其他部门",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/shenjishuguanyuneibushenjigongzuodeguiding.html",
+   "effective": "2018-03-01"
+  },
+  {
+   "slug": "duiwaiyuanzhubiaoshishiyongguanlibanfa",
+   "short": "对外援助标识使用管理办法",
+   "dept": "其他部门",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/duiwaiyuanzhubiaoshishiyongguanlibanfa.html",
+   "effective": ""
+  },
+  {
+   "slug": "duiwaiyuanzhuguanlibanfa-2",
+   "short": "对外援助管理办法（2021）",
+   "dept": "其他部门",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/duiwaiyuanzhuguanlibanfa-2.html",
+   "effective": "2021-10-01"
+  },
+  {
+   "slug": "duiwaiyuanzhuguanlibanfa",
+   "short": "对外援助管理办法",
+   "dept": "其他部门",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/duiwaiyuanzhuguanlibanfa.html",
+   "effective": ""
+  },
+  {
+   "slug": "duiwaiyuanzhuxiangmuzixunfuwudanweizigerendingbanf8d654c",
+   "short": "对外援助项目咨询服务单位资格认定办法",
+   "dept": "其他部门",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/duiwaiyuanzhuxiangmuzixunfuwudanweizigerendingbanf8d654c.html",
+   "effective": ""
+  },
+  {
+   "slug": "yingjiguanlixingzhengzhifarenyuanyifalvzhiguanligu08778e",
+   "short": "应急管理行政执法人员依法履职管理规定",
+   "dept": "其他部门",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/yingjiguanlixingzhengzhifarenyuanyifalvzhiguanligu08778e.html",
+   "effective": "2022-12-01"
+  },
+  {
+   "slug": "jianzhushigongtezhongzuoyerenyuanguanliguiding",
+   "short": "建筑施工特种作业人员管理规定",
+   "dept": "其他部门",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/jianzhushigongtezhongzuoyerenyuanguanliguiding.html",
+   "effective": "2026-06-01"
+  },
+  {
+   "slug": "jianshegongchengkangzhenshefangyaoqiuguanliguiding",
+   "short": "建设工程抗震设防要求管理规定",
+   "dept": "其他部门",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/jianshegongchengkangzhenshefangyaoqiuguanliguiding.html",
+   "effective": "2002-01-28"
+  },
+  {
+   "slug": "jianshegongchengxiaofangshejishenchayanshouguanliz31f704",
+   "short": "建设工程消防设计审查验收管理暂行规定",
+   "dept": "其他部门",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/jianshegongchengxiaofangshejishenchayanshouguanliz31f704.html",
+   "effective": "2020-04-01"
+  },
+  {
+   "slug": "jianshegongchengzhiliangjianceguanlibanfa",
+   "short": "建设工程质量检测管理办法",
+   "dept": "其他部门",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/jianshegongchengzhiliangjianceguanlibanfa.html",
+   "effective": "2023-03-01"
+  },
+  {
+   "slug": "luyinfadingxukefuchoubiaozhunzanxingguiding",
+   "short": "录音法定许可付酬标准暂行规定",
+   "dept": "其他部门",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/luyinfadingxukefuchoubiaozhunzanxingguiding.html",
+   "effective": "1993-08-01"
+  },
+  {
+   "slug": "zhengfucaigougongyingshangtousuchulibanfa",
+   "short": "政府采购供应商投诉处理办法",
+   "dept": "其他部门",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zhengfucaigougongyingshangtousuchulibanfa.html",
+   "effective": ""
+  },
+  {
+   "slug": "jiaokeshufadingxukeshiyongzuopinzhifubaochoubanfa",
+   "short": "教科书法定许可使用作品支付报酬办法",
+   "dept": "其他部门",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/jiaokeshufadingxukeshiyongzuopinzhifubaochoubanfa.html",
+   "effective": "2013-12-01"
+  },
+  {
+   "slug": "wugonghainongchanpinguanlibanfa-2",
+   "short": "无公害农产品管理办法（2002）",
+   "dept": "其他部门",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/wugonghainongchanpinguanlibanfa-2.html",
+   "effective": "2002-04-29"
+  },
+  {
+   "slug": "wugonghainongchanpinguanlibanfa",
+   "short": "无公害农产品管理办法（2002）",
+   "dept": "其他部门",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/wugonghainongchanpinguanlibanfa.html",
+   "effective": "2002-04-29"
+  },
+  {
+   "slug": "wuqizhuangbeikeyanshengchanxukeshishibanfa-2",
+   "short": "武器装备科研生产许可实施办法（2010）",
+   "dept": "其他部门",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/wuqizhuangbeikeyanshengchanxukeshishibanfa-2.html",
+   "effective": "2010-05-10"
+  },
+  {
+   "slug": "minzutongjigongzuoguanlibanfa",
+   "short": "民族统计工作管理办法",
+   "dept": "其他部门",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/minzutongjigongzuoguanlibanfa.html",
+   "effective": "2017-12-20"
+  },
+  {
+   "slug": "shuikudizhenjianceguanlibanfa",
+   "short": "水库地震监测管理办法",
+   "dept": "其他部门",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/shuikudizhenjianceguanlibanfa.html",
+   "effective": "2011-01-05"
+  },
+  {
+   "slug": "xiemianjianchachubanfa",
+   "short": "泄密案件查处办法",
+   "dept": "其他部门",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/xiemianjianchachubanfa.html",
+   "effective": "2018-01-01"
+  },
+  {
+   "slug": "paishengguojiamimidingmiguanlizanxingbanfa",
+   "short": "派生国家秘密定密管理暂行办法",
+   "dept": "其他部门",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/paishengguojiamimidingmiguanlizanxingbanfa.html",
+   "effective": "2023-04-01"
+  },
+  {
+   "slug": "shewaidiaochaguanlibanfa",
+   "short": "涉外调查管理办法",
+   "dept": "其他部门",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/shewaidiaochaguanlibanfa.html",
+   "effective": "2004-10-13"
+  },
+  {
+   "slug": "shemixinxixitongjichengzizhiguanlibanfa",
+   "short": "涉密信息系统集成资质管理办法",
+   "dept": "其他部门",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/shemixinxixitongjichengzizhiguanlibanfa.html",
+   "effective": "2021-03-01"
+  },
+  {
+   "slug": "dianboyingyuandianboyuanxianguanliguiding",
+   "short": "点播影院、点播院线管理规定",
+   "dept": "其他部门",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/dianboyingyuandianboyuanxianguanliguiding.html",
+   "effective": "2018-03-30"
+  },
+  {
+   "slug": "lieshigongjibanfa",
+   "short": "烈士公祭办法",
+   "dept": "其他部门",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/lieshigongjibanfa.html",
+   "effective": "2014-03-31"
+  },
+  {
+   "slug": "lieshianzangbanfa",
+   "short": "烈士安葬办法",
+   "dept": "其他部门",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/lieshianzangbanfa.html",
+   "effective": "2013-04-03"
+  },
+  {
+   "slug": "lieshijiniansheshibaohuguanlibanfa",
+   "short": "烈士纪念设施保护管理办法",
+   "dept": "其他部门",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/lieshijiniansheshibaohuguanlibanfa.html",
+   "effective": "2013-06-27"
+  },
+  {
+   "slug": "huanjingbaohufaguijieshiguanlibanfa",
+   "short": "环境保护法规解释管理办法",
+   "dept": "其他部门",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/huanjingbaohufaguijieshiguanlibanfa.html",
+   "effective": "1998-12-08"
+  },
+  {
+   "slug": "huanjingyingxiangpingjiashenchazhuanjiakuguanliban25c98a",
+   "short": "环境影响评价审查专家库管理办法",
+   "dept": "其他部门",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/huanjingyingxiangpingjiashenchazhuanjiakuguanliban25c98a.html",
+   "effective": "2003-08-20"
+  },
+  {
+   "slug": "dianliyewuxukezhengguanliguiding",
+   "short": "电力业务许可证管理规定",
+   "dept": "其他部门",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/dianliyewuxukezhengguanliguiding.html",
+   "effective": "2005-12-01"
+  },
+  {
+   "slug": "dianlishichangjianguanbanfa",
+   "short": "电力市场监管办法",
+   "dept": "其他部门",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/dianlishichangjianguanbanfa.html",
+   "effective": "2005-12-01"
+  },
+  {
+   "slug": "dianlishichangyunyingjibenguize",
+   "short": "电力市场运营基本规则",
+   "dept": "其他部门",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/dianlishichangyunyingjibenguize.html",
+   "effective": "2005-12-01"
+  },
+  {
+   "slug": "dianlijianguanbaogaobianzhifabuguiding",
+   "short": "电力监管报告编制发布规定",
+   "dept": "其他部门",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/dianlijianguanbaogaobianzhifabuguiding.html",
+   "effective": "2007-05-10"
+  },
+  {
+   "slug": "dianlijianguanjigouxianchangjianchaguiding",
+   "short": "电力监管机构现场检查规定",
+   "dept": "其他部门",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/dianlijianguanjigouxianchangjianchaguiding.html",
+   "effective": "2006-05-15"
+  },
+  {
+   "slug": "dianzizhengwudianzirenzhengfuwuguanlibanfa",
+   "short": "电子政务电子认证服务管理办法",
+   "dept": "其他部门",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/dianzizhengwudianzirenzhengfuwuguanlibanfa.html",
+   "effective": ""
+  },
+  {
+   "slug": "dianyingqiyejingyingzigezhunruzanxingguiding",
+   "short": "电影企业经营资格准入暂行规定",
+   "dept": "其他部门",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/dianyingqiyejingyingzigezhunruzanxingguiding.html",
+   "effective": "2004-11-10"
+  },
+  {
+   "slug": "dianyingjubenbeiandianyingpianguanliguiding",
+   "short": "电影剧本（梗概）备案、电影片管理规定",
+   "dept": "其他部门",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/dianyingjubenbeiandianyingpianguanliguiding.html",
+   "effective": "2006-06-22"
+  },
+  {
+   "slug": "dianyingyishudanganguanliguiding",
+   "short": "电影艺术档案管理规定",
+   "dept": "其他部门",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/dianyingyishudanganguanliguiding.html",
+   "effective": "2010-08-01"
+  },
+  {
+   "slug": "dianwangdiaoduguanlitiaolishishibanfa",
+   "short": "电网调度管理条例实施办法",
+   "dept": "其他部门",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/dianwangdiaoduguanlitiaolishishibanfa.html",
+   "effective": "1994-10-11"
+  },
+  {
+   "slug": "dianwangyunxingguize",
+   "short": "电网运行规则（试行）",
+   "dept": "其他部门",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/dianwangyunxingguize.html",
+   "effective": "2007-01-01"
+  },
+  {
+   "slug": "shengbujikexuejishujiangliguanlibanfa",
+   "short": "省、部级科学技术奖励管理办法",
+   "dept": "其他部门",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/shengbujikexuejishujiangliguanlibanfa.html",
+   "effective": "1999-12-26"
+  },
+  {
+   "slug": "shehuijuanzengyundongyuanjiaolianyuanjiangjinjiang676542",
+   "short": "社会捐赠（赞助）运动员、教练员奖金、奖品管理暂行办法",
+   "dept": "其他部门",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/shehuijuanzengyundongyuanjiaolianyuanjiangjinjiang676542.html",
+   "effective": "1996-07-05"
+  },
+  {
+   "slug": "jinzhifeiyixuexuyaodetaierxingbiejiandinghexuanzexa67d89",
+   "short": "禁止非医学需要的胎儿性别鉴定和选择性别人工终止妊娠的规定（2016）",
+   "dept": "其他部门",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/jinzhifeiyixuexuyaodetaierxingbiejiandinghexuanzexa67d89.html",
+   "effective": "2016-05-01"
+  },
+  {
+   "slug": "kexuejishubaomiguiding",
+   "short": "科学技术保密规定",
+   "dept": "其他部门",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/kexuejishubaomiguiding.html",
+   "effective": "2015-11-16"
+  },
+  {
+   "slug": "kexuejishuhuodongweiguixingweichulizanxingguiding",
+   "short": "科学技术活动违规行为处理暂行规定",
+   "dept": "其他部门",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/kexuejishuhuodongweiguixingweichulizanxingguiding.html",
+   "effective": "2020-09-01"
+  },
+  {
+   "slug": "kexuejishuhuodongweiguixingweidiaochachuliguiding",
+   "short": "科学技术活动违规行为调查处理规定",
+   "dept": "其他部门",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/kexuejishuhuodongweiguixingweidiaochachuliguiding.html",
+   "effective": "2026-03-20"
+  },
+  {
+   "slug": "kexuejishubuxingzhengchufashishibanfa",
+   "short": "科学技术部行政处罚实施办法",
+   "dept": "其他部门",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/kexuejishubuxingzhengchufashishibanfa.html",
+   "effective": "2023-04-20"
+  },
+  {
+   "slug": "kexuejishubuguizhangzhidingchengxudeguiding",
+   "short": "科学技术部规章制定程序的规定",
+   "dept": "其他部门",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/kexuejishubuguizhangzhidingchengxudeguiding.html",
+   "effective": "2003-08-04"
+  },
+  {
+   "slug": "kongjianwutidengjiguanlibanfa-2",
+   "short": "空间物体登记管理办法",
+   "dept": "其他部门",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/kongjianwutidengjiguanlibanfa-2.html",
+   "effective": ""
+  },
+  {
+   "slug": "tongjiyanzhongshixinqiyexinyongguanlibanfa",
+   "short": "统计严重失信企业信用管理办法",
+   "dept": "其他部门",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/tongjiyanzhongshixinqiyexinyongguanlibanfa.html",
+   "effective": "2022-04-14"
+  },
+  {
+   "slug": "tongjizhifajiandujianchabanfa",
+   "short": "统计执法监督检查办法",
+   "dept": "其他部门",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/tongjizhifajiandujianchabanfa.html",
+   "effective": "2017-07-05"
+  },
+  {
+   "slug": "tongjizhifazhengguanlibanfa",
+   "short": "统计执法证管理办法",
+   "dept": "其他部门",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/tongjizhifazhengguanlibanfa.html",
+   "effective": "2017-06-26"
+  },
+  {
+   "slug": "tongjidiaochazhengguanlibanfa",
+   "short": "统计调查证管理办法",
+   "dept": "其他部门",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/tongjidiaochazhengguanlibanfa.html",
+   "effective": "2017-09-01"
+  },
+  {
+   "slug": "tongjiweifaweijixingweichufenguiding",
+   "short": "统计违法违纪行为处分规定",
+   "dept": "其他部门",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/tongjiweifaweijixingweichufenguiding.html",
+   "effective": "2009-05-01"
+  },
+  {
+   "slug": "wangluoanquanshenchabanfa-2",
+   "short": "网络安全审查办法",
+   "dept": "其他部门",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/wangluoanquanshenchabanfa-2.html",
+   "effective": ""
+  },
+  {
+   "slug": "wangluoanquanshenchabanfa-5",
+   "short": "网络安全审查办法（2020）",
+   "dept": "其他部门",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/wangluoanquanshenchabanfa-5.html",
+   "effective": "2020-06-01"
+  },
+  {
+   "slug": "hangkongtiyuyundongguanlibanfa",
+   "short": "航空体育运动管理办法",
+   "dept": "其他部门",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/hangkongtiyuyundongguanlibanfa.html",
+   "effective": "1991-08-10"
+  },
+  {
+   "slug": "yaopinjingyingzhiliangguanliguifan",
+   "short": "药品经营质量管理规范",
+   "dept": "其他部门",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/yaopinjingyingzhiliangguanliguifan.html",
+   "effective": "2000-04-30"
+  },
+  {
+   "slug": "zhuzuoquanxingzhengchufashishibanfa",
+   "short": "著作权行政处罚实施办法",
+   "dept": "其他部门",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zhuzuoquanxingzhengchufashishibanfa.html",
+   "effective": "2009-06-15"
+  },
+  {
+   "slug": "zhuzuoquanzhiquandengjibanfa",
+   "short": "著作权质权登记办法",
+   "dept": "其他部门",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zhuzuoquanzhiquandengjibanfa.html",
+   "effective": "2010-11-25"
+  },
+  {
+   "slug": "cangchuanfojiaoxuexianshouyubanfa",
+   "short": "藏传佛教学衔授予办法（试行）",
+   "dept": "其他部门",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/cangchuanfojiaoxuexianshouyubanfa.html",
+   "effective": ""
+  },
+  {
+   "slug": "cangchuanfojiaosimiaoguanlibanfa",
+   "short": "藏传佛教寺庙管理办法",
+   "dept": "其他部门",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/cangchuanfojiaosimiaoguanlibanfa.html",
+   "effective": ""
+  },
+  {
+   "slug": "cangchuanfojiaohuofozhuanshiguanlibanfa",
+   "short": "藏传佛教活佛转世管理办法",
+   "dept": "其他部门",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/cangchuanfojiaohuofozhuanshiguanlibanfa.html",
+   "effective": ""
+  },
+  {
+   "slug": "jihuashengyutongjigongzuoguanlibanfa",
+   "short": "计划生育统计工作管理办法",
+   "dept": "其他部门",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/jihuashengyutongjigongzuoguanlibanfa.html",
+   "effective": "1999-07-01"
+  },
+  {
+   "slug": "jisuanjiruanjianzhuzuoquandengjibanfa",
+   "short": "计算机软件著作权登记办法",
+   "dept": "其他部门",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/jisuanjiruanjianzhuzuoquandengjibanfa.html",
+   "effective": "2002-02-20"
+  },
+  {
+   "slug": "bianjingxiaoemaoyihebianjingdiquduiwaijingjijishuhcfa646",
+   "short": "边境小额贸易和边境地区对外经济技术合作管理办法",
+   "dept": "其他部门",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/bianjingxiaoemaoyihebianjingdiquduiwaijingjijishuhcfa646.html",
+   "effective": "1996-04-01"
+  },
+  {
+   "slug": "yundongyuanjiaolianyuanjianglishishibanfa",
+   "short": "运动员、教练员奖励实施办法",
+   "dept": "其他部门",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/yundongyuanjiaolianyuanjianglishishibanfa.html",
+   "effective": "1996-07-03"
+  },
+  {
+   "slug": "jinanhaiyuhuanjinggongnengquguanlibanfa",
+   "short": "近岸海域环境功能区管理办法",
+   "dept": "其他部门",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/jinanhaiyuhuanjinggongnengquguanlibanfa.html",
+   "effective": "1999-12-10"
+  },
+  {
+   "slug": "bumentongjidiaochaxiangmuguanlibanfa",
+   "short": "部门统计调查项目管理办法",
+   "dept": "其他部门",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/bumentongjidiaochaxiangmuguanlibanfa.html",
+   "effective": "2017-10-01"
+  },
+  {
+   "slug": "pushehaididianlanguandaoguanliguidingshishibanfa",
+   "short": "铺设海底电缆管道管理规定实施办法",
+   "dept": "其他部门",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/pushehaididianlanguandaoguanliguidingshishibanfa.html",
+   "effective": "1992-08-26"
+  },
+  {
+   "slug": "fangzhihanduolvlianbendianlizhuangzhijiqifeiwuwura2da053",
+   "short": "防止含多氯联苯电力装置及其废物污染环境的规定",
+   "dept": "其他部门",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/fangzhihanduolvlianbendianlizhuangzhijiqifeiwuwura2da053.html",
+   "effective": "1991-03-01"
+  },
+  {
+   "slug": "lushengyeshengdongwuziyuanbaohuguanlifeishoufeiban3244e2",
+   "short": "陆生野生动物资源保护管理费收费办法",
+   "dept": "其他部门",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/lushengyeshengdongwuziyuanbaohuguanlifeishoufeiban3244e2.html",
+   "effective": "1992-11-22"
+  },
+  {
+   "slug": "lingshouyaodianyiliaobaozhangdingdianguanlizanxinge7e2a7",
+   "short": "零售药店医疗保障定点管理暂行办法",
+   "dept": "其他部门",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/lingshouyaodianyiliaobaozhangdingdianguanlizanxinge7e2a7.html",
+   "effective": "2021-02-01"
+  },
+  {
+   "slug": "zhenhoudizhenqushipandinggonggaoguiding",
+   "short": "震后地震趋势判定公告规定",
+   "dept": "其他部门",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zhenhoudizhenqushipandinggonggaoguiding.html",
+   "effective": "1998-12-29"
+  },
+  {
+   "slug": "lingshirenzhengbanfa",
+   "short": "领事认证办法",
+   "dept": "其他部门",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/lingshirenzhengbanfa.html",
+   "effective": "2016-03-01"
+  },
+  {
+   "slug": "yinyongshuishuiyuanbaohuquwuranfangzhiguanliguidin2e9abc-2",
+   "short": "饮用水水源保护区污染防治管理规定（1989）",
+   "dept": "其他部门",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/yinyongshuishuiyuanbaohuquwuranfangzhiguanliguidin2e9abc-2.html",
+   "effective": "1989-07-10"
+  },
+  {
+   "slug": "yinyongshuishuiyuanbaohuquwuranfangzhiguanliguidin2e9abc",
+   "short": "饮用水水源保护区污染防治管理规定（1989）",
+   "dept": "其他部门",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/yinyongshuishuiyuanbaohuquwuranfangzhiguanliguidin2e9abc.html",
+   "effective": "1989-07-10"
+  },
+  {
+   "slug": "zhuwaiwaijiaorenyuandashixianbaoliuyuzhongzhizanxiba0905",
+   "short": "驻外外交人员大使衔保留与终止暂行规定",
+   "dept": "其他部门",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/zhuwaiwaijiaorenyuandashixianbaoliuyuzhongzhizanxiba0905.html",
+   "effective": "2013-02-01"
+  },
+  {
+   "slug": "gaodengjibingyuanweishengwushiyanshijiansheshencha331e0b",
+   "short": "高等级病原微生物实验室建设审查办法",
+   "dept": "其他部门",
+   "sec": "ministerial-rules",
+   "kind": "law",
+   "file": "ministerial-rules/laws/gaodengjibingyuanweishengwushiyanshijiansheshencha331e0b.html",
+   "effective": "2011-06-24"
   }
  ],
  "hist": [
