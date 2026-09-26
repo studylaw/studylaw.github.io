@@ -1,0 +1,29 @@
+# ============================================================
+# studylaw.github.io 是公开仓库 —— 下面这些绝不能提交上去
+# ============================================================
+
+# 同步工具与凭据（脚本和 ini 都在仓库外的 D:\GitHub\_sync\）
+_deploy/
+_sync/
+*.ini
+*.env
+*.env.*
+config.json
+credentials*
+*credential*
+
+# 同步状态文件（记录本地文件指纹，属工具数据）
+.sync_state_*.json
+
+# 备份与临时文件
+*.bak
+*.bak*
+*.tmp
+*.old
+__pycache__/
+*.pyc
+
+# 系统垃圾
+.DS_Store
+Thumbs.db
+desktop.ini
