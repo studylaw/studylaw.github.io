@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html lang="zh-CN"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>首页</title>
+<title>Law Study</title>
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="icon" type="image/png" href="favicon.png">
 <style>
   :root{--bg:#eff1e8;--ink:#37402f;--link:#4f7350;--line:#c5ccb8}
   *{box-sizing:border-box}
@@ -16,6 +18,8 @@
         background:
           linear-gradient(90deg,#eff1e8,rgba(239,241,232,0) 6%,rgba(239,241,232,0) 94%,#eff1e8),
           linear-gradient(180deg,#eff1e8,rgba(239,241,232,0) 6%,rgba(239,241,232,0) 94%,#eff1e8)}
+  /* 左上角徽标（底色与页面同色，与背景自然融合） */
+  .logo{position:fixed;left:26px;top:24px;width:112px;height:112px;z-index:2}
   .cards{position:relative;z-index:1;display:flex;gap:38px;padding:40px}
   .pcard{display:block;width:320px;padding:40px 36px;background:rgba(239,241,232,.90);
          border:1px solid var(--line);border-radius:16px;text-decoration:none;color:var(--ink);
@@ -28,11 +32,15 @@
            border-radius:2px;opacity:.45}
   footer{position:fixed;left:0;right:0;bottom:0;z-index:2;text-align:center;padding:14px;
          font-size:.8em;color:#7a8270}
-  @media(max-width:760px){.cards{flex-direction:column}}
+  @media(max-width:760px){
+    .cards{flex-direction:column}
+    .logo{width:76px;height:76px;left:16px;top:14px}
+  }
 </style></head>
 <body>
   <img class="bg" src="bg.jpg" alt="">
   <div class="fade"></div>
+  <img class="logo" src="logo.png" alt="Law Study">
   <nav class="cards">
     <a class="pcard" href="laws.html"><span class="pcard-t">法律法规</span><span class="pcard-u"></span></a>
     <a class="pcard" href="cases.html"><span class="pcard-t">指导性案例</span><span class="pcard-u"></span></a>
