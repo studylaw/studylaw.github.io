@@ -9,6 +9,16 @@
 <div class="portal">
 <h1 class="portal-h1">法律法规和司法解释</h1>
 <p class="portal-sub">中国现行有效法律法规条文库</p>
+<form class="gsearch" action="https://national-laws.vinsco.net/search/" method="get">
+  <input type="text" name="q" placeholder="检索全部法律法规（法律 / 行政法规 / 司法解释 / 部门规章）" autocomplete="off">
+  <button type="submit">检索</button>
+</form>
+<style>
+.gsearch{display:flex;gap:8px;margin:18px 0 24px;max-width:640px}
+.gsearch input{flex:1;padding:11px 15px;border:1px solid #c5ccb8;border-radius:9px;font-size:1em;background:#fff;color:#37402f}
+.gsearch button{padding:11px 26px;background:#4f7350;color:#fff;border:0;border-radius:9px;cursor:pointer;font-size:1em}
+.gsearch button:hover{background:#628a5e}
+</style>
 <div class="portal-cards">
   <a class="pcard" href="https://national-laws.vinsco.net/constitution-laws/">
     <div class="pcard-t">宪法和法律</div>
