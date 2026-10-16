@@ -1,6 +1,7 @@
 // AI 版权诉讼观察 · 前端渲染（列表 + 筛选 + 速读卡片）
 (function () {
   var CASES = window.RS_CASES || [];
+  var NEW = window.RS_NEW || [];
   var META = window.RS_META || {};
   var $list = document.getElementById('rs-list-body');
   var $card = document.getElementById('rs-card');
@@ -11,7 +12,7 @@
   var fQ = document.getElementById('f-q');
   if (!$list || !$card) return;
   var byId = {};
-  CASES.forEach(function (c) { byId[c.id] = c; });
+  CASES.concat(NEW).forEach(function (c) { byId[c.id] = c; });
 
   function groupOf(c) {
     if (!c) return '其他';
@@ -73,6 +74,14 @@
         '<span class="rs-item-t">' + esc(c.title) + '</span>' +
         '<span class="rs-item-m">' + esc(shortCourt(c.court)) + ' · ' + esc(c.status) + '</span></a>';
     });
+    if (NEW.length) {
+      html += '<div class="rs-group">本月自动收录 · 待精读</div>';
+      NEW.forEach(function (c) {
+        html += '<a class="rs-item" href="#' + c.id + '" data-id="' + c.id + '">' +
+          '<span class="rs-item-t">' + esc(c.title) + '</span>' +
+          '<span class="rs-item-m">' + esc(shortCourt(c.court)) + ' · ' + esc(c.status) + '</span></a>';
+      });
+    }
     $list.innerHTML = html || '<div class="rs-empty">无匹配案件</div>';
     $list.querySelectorAll('.rs-item').forEach(function (a) {
       a.addEventListener('click', function (e) {
