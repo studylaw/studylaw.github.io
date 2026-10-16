@@ -1,6 +1,8 @@
 // AI 版权诉讼观察 · 数据文件（每月更新只需替换本文件）
 // 数据口径：张力案精选（案例地图 v1 + AI Lawsuit Tracker 2026-10 + 公开报道交叉核实）
 window.RS_META = { updated: '2026-10-16', source: 'AI Lawsuit Tracker / 人民法院案例库 / 公开报道', note: '标〔核〕处建议使用前核对判决原文或实时 docket' };
+// 自动收录区：由 GitHub Actions 每月从 AI Lawsuit Tracker 抓取新增版权类案件填充（待人工精读后并入上方精选）
+window.RS_NEW = [];
 
 window.RS_CASES = [
 // ============ 中国（11） ============
