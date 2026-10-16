@@ -1,7 +1,7 @@
 // AI 版权诉讼观察 · 前端渲染（列表 + 筛选 + 速读卡片）
 (function () {
-  var CASES = window.RS_CASES || [];
-  var NEW = window.RS_NEW || [];
+  var CASES = window.RS_CASES || [];   // 精选精读（人工维护）
+  var AUTO = window.RS_AUTO || [];     // 张力案全录（自动收录，每月追加）
   var META = window.RS_META || {};
   var $list = document.getElementById('rs-list-body');
   var $card = document.getElementById('rs-card');
@@ -12,7 +12,7 @@
   var fQ = document.getElementById('f-q');
   if (!$list || !$card) return;
   var byId = {};
-  CASES.concat(NEW).forEach(function (c) { byId[c.id] = c; });
+  CASES.concat(AUTO).forEach(function (c) { byId[c.id] = c; });
 
   function groupOf(c) {
     if (!c) return '其他';
@@ -31,7 +31,7 @@
   }
 
   var countries = [], issues = [], statuses = [];
-  CASES.forEach(function (c) {
+  CASES.concat(AUTO).forEach(function (c) {
     var g = groupOf(c.country);
     if (countries.indexOf(g) < 0) countries.push(g);
     (c.issues || []).forEach(function (i) { if (issues.indexOf(i) < 0) issues.push(i); });
@@ -44,42 +44,46 @@
   fill(fCountry, countries, '全部法域');
   fill(fIssue, issues, '全部争点');
   fill(fStatus, statuses, '全部状态');
-  $meta.textContent = '共 ' + CASES.length + ' 件 · 数据更新 ' + (META.updated || '') +
-    ' · 来源：' + (META.source || '') + (META.note ? ' · ' + META.note : '');
+  $meta.textContent = '精选精读 ' + CASES.length + ' 件 · 张力案全录 ' + AUTO.length +
+    ' 件 · 数据更新 ' + (META.updated || '') + ' · 来源：' + (META.source || '') +
+    (META.note ? ' · ' + META.note : '');
 
-  function filtered() {
+  function matchFilter(c) {
+    if (fCountry.value && groupOf(c.country) !== fCountry.value) return false;
+    if (fIssue.value && (c.issues || []).indexOf(fIssue.value) < 0) return false;
+    if (fStatus.value && c.status !== fStatus.value) return false;
     var q = fQ.value.trim().toLowerCase();
-    var fs = CASES.filter(function (c) {
-      if (fCountry.value && groupOf(c.country) !== fCountry.value) return false;
-      if (fIssue.value && (c.issues || []).indexOf(fIssue.value) < 0) return false;
-      if (fStatus.value && c.status !== fStatus.value) return false;
-      if (q) {
-        var hay = (c.title + ' ' + c.court + ' ' + (c.case_no || '') + ' ' +
-          (c.brief || '') + ' ' + (c.holding || '') + ' ' + (c.significance || '')).toLowerCase();
-        if (hay.indexOf(q) < 0) return false;
-      }
-      return true;
-    });
-    fs.sort(function (a, b) { return groupOf(a.country).localeCompare(groupOf(b.country), 'zh'); });
-    return fs;
+    if (q) {
+      var hay = (c.title + ' ' + c.court + ' ' + (c.case_no || '') + ' ' +
+        (c.brief || '') + ' ' + (c.holding || '') + ' ' + (c.significance || '')).toLowerCase();
+      if (hay.indexOf(q) < 0) return false;
+    }
+    return true;
+  }
+  function itemHtml(c) {
+    return '<a class="rs-item" href="#' + c.id + '" data-id="' + c.id + '">' +
+      '<span class="rs-item-t">' + esc(c.title) + '</span>' +
+      '<span class="rs-item-m">' + esc(shortCourt(c.court)) + ' · ' + esc(c.status) + '</span></a>';
   }
 
   function renderList() {
-    var fs = filtered();
+    var fsC = CASES.filter(matchFilter);
+    var fsA = AUTO.filter(matchFilter);
     var html = '', lastGroup = '';
-    fs.forEach(function (c) {
+    fsC.forEach(function (c) {
       var g = groupOf(c.country);
-      if (g !== lastGroup) { html += '<div class="rs-group">' + g + '</div>'; lastGroup = g; }
-      html += '<a class="rs-item" href="#' + c.id + '" data-id="' + c.id + '">' +
-        '<span class="rs-item-t">' + esc(c.title) + '</span>' +
-        '<span class="rs-item-m">' + esc(shortCourt(c.court)) + ' · ' + esc(c.status) + '</span></a>';
+      if (g !== lastGroup) { html += '<div class="rs-group">精选精读 · ' + g + '</div>'; lastGroup = g; }
+      html += itemHtml(c);
     });
-    if (NEW.length) {
-      html += '<div class="rs-group">本月自动收录 · 待精读</div>';
-      NEW.forEach(function (c) {
-        html += '<a class="rs-item" href="#' + c.id + '" data-id="' + c.id + '">' +
-          '<span class="rs-item-t">' + esc(c.title) + '</span>' +
-          '<span class="rs-item-m">' + esc(shortCourt(c.court)) + ' · ' + esc(c.status) + '</span></a>';
+    if (fsA.length) {
+      var byC = {};
+      fsA.forEach(function (c) {
+        var g = groupOf(c.country);
+        (byC[g] = byC[g] || []).push(c);
+      });
+      Object.keys(byC).sort(function (a, b) { return a.localeCompare(b, 'zh'); }).forEach(function (g) {
+        html += '<div class="rs-group">张力案全录 · ' + g + '（' + byC[g].length + '）</div>';
+        byC[g].forEach(function (c) { html += itemHtml(c); });
       });
     }
     $list.innerHTML = html || '<div class="rs-empty">无匹配案件</div>';
@@ -89,20 +93,18 @@
         show(a.dataset.id, true);
       });
     });
-    return fs;
   }
 
-  var current = null;
   function show(id, pushHash) {
     var c = byId[id];
     if (!c) return;
-    current = id;
     $list.querySelectorAll('.rs-item').forEach(function (a) {
       a.classList.toggle('on', a.dataset.id === id);
     });
     var tags = (c.issues || []).map(function (i) {
       return '<span class="rs-tag">' + esc(i) + '</span>';
     }).join('');
+    if (c.auto) tags += '<span class="rs-tag" style="background:#e8e4d4">自动收录 · 待精读</span>';
     $card.innerHTML =
       '<h1 class="rs-h1">' + esc(c.title) + '</h1>' +
       '<div class="rs-meta-line">' + esc(c.country) + ' · ' + esc(c.court) +
@@ -116,7 +118,6 @@
       '<h2>案情</h2><p>' + esc(c.brief || '—') + '</p>' +
       '<h2>裁判要点 / 最新进展</h2><p>' + esc(c.holding || '—') + '</p>' +
       '<h2>意义</h2><p>' + esc(c.significance || '—') + '</p>' +
-      (c.next ? '<div class="rs-next"><b>下一步</b>' + esc(c.next) + '</div>' : '') +
       (c.source ? '<div class="rs-src"><a href="' + esc(c.source) + '" target="_blank" rel="noopener">来源与原文 ↗</a></div>' : '') +
       '<div class="rs-upd">本页为客观资料整理，不构成法律意见 · 数据更新 ' + esc(META.updated || '') + '</div>';
     if (pushHash && history.replaceState) history.replaceState(null, '', '#' + id);
@@ -130,7 +131,7 @@
   window.addEventListener('hashchange', function () { show(location.hash.slice(1), false); });
 
   var initId = location.hash.slice(1);
-  var fs = renderList();
+  renderList();
   if (initId && byId[initId]) show(initId, false);
-  else if (fs.length) show(fs[0].id, false);
+  else if (CASES.length) show(CASES[0].id, false);
 })();
