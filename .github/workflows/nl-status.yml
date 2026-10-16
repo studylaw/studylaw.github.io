@@ -1,0 +1,34 @@
+name: national-laws-status
+on:
+  schedule:
+    - cron: '0 21 1 * *'   # 每月 1 日 UTC 21:00（北京时间 2 日凌晨 5:00）
+  workflow_dispatch: {}     # 支持手动触发
+
+permissions:
+  contents: write
+
+jobs:
+  recon:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: 对账 flk 时效性并更新 D1
+        env:
+          CF_ACCOUNT_ID: ${{ secrets.CF_ACCOUNT_ID }}
+          CF_API_TOKEN: ${{ secrets.CF_API_TOKEN }}
+        run: python scripts/nl_status_recon.py
+      - name: 提交对账报告
+        run: |
+          git config user.name "lawstudy-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "无变更，跳过提交"
+          else
+            git commit -m "nl-status $(date -u +%Y-%m-%d): 全库时效性对账"
+            git push
+          fi
