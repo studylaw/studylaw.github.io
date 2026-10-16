@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AI 版权诉讼观察 · 专题资料</title>
+<meta name="description" content="国内外 AI 版权诉讼速读：训练数据与合理使用、AI 生成物可版权性、输出相似性、模型权重、服务商责任。">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="icon" type="image/png" href="favicon.png">
+<style>
+  :root{--bg:#eff1e8;--ink:#37402f;--link:#4f7350;--line:#c5ccb8;--side:#b0bc99;--fail:#9c4a3f}
+  *{box-sizing:border-box}
+  body{margin:0;color:var(--ink);background:var(--bg);
+       font:16px/1.75 Georgia,"Times New Roman","Microsoft YaHei",serif}
+  .wrap{max-width:1200px;margin:0 auto;padding:18px 20px 60px}
+  header{padding:22px 4px 4px;border-bottom:1px solid var(--line);margin-bottom:16px}
+  .title-row{display:flex;align-items:baseline;gap:16px;flex-wrap:wrap}
+  h1.title{font-family:"Kaiti SC","KaiTi","STKaiti","Noto Serif SC","SimSun",serif;
+           font-weight:400;font-size:1.85em;letter-spacing:.14em;margin:0;color:#3a4234}
+  .title-row .back{font-size:.85em;color:var(--link);text-decoration:none}
+  .title-row .back:hover{text-decoration:underline}
+  #rs-meta{font-size:.82em;color:#7a8270;margin:6px 0 0}
+  .filters{display:flex;gap:8px;flex-wrap:wrap;margin:14px 0}
+  .filters input,.filters select{font:inherit;font-size:.88em;padding:7px 10px;
+      border:1px solid var(--line);border-radius:8px;background:#fff;color:var(--ink)}
+  .filters input{flex:1;min-width:150px}
+  .rs-layout{display:grid;grid-template-columns:350px 1fr;gap:20px;align-items:start}
+  /* 左：列表 */
+  .rs-side{position:sticky;top:12px;max-height:calc(100vh - 30px);overflow:auto;
+           background:rgba(255,255,255,.55);border:1px solid var(--line);border-radius:12px;padding:8px}
+  .rs-group{font-size:.8em;letter-spacing:.2em;color:#6b7561;padding:10px 8px 4px;
+            border-bottom:1px solid var(--line);margin-top:6px}
+  .rs-item{display:block;padding:9px 10px;border-radius:8px;text-decoration:none;color:var(--ink);
+           border-left:3px solid transparent}
+  .rs-item:hover{background:rgba(223,230,205,.6)}
+  .rs-item.on{background:rgba(223,230,205,.9);border-left-color:var(--link)}
+  .rs-item-t{display:block;font-size:.92em;line-height:1.45}
+  .rs-item-m{display:block;font-size:.75em;color:#7a8270;margin-top:2px}
+  .rs-empty{padding:18px;color:#7a8270;font-size:.9em}
+  /* 右：速读卡片 */
+  .rs-card{background:rgba(255,255,255,.72);border:1px solid var(--line);border-radius:14px;
+           padding:26px 30px;min-height:420px}
+  .rs-h1{font-size:1.35em;line-height:1.5;margin:0 0 8px;color:#33402f}
+  .rs-meta-line{font-size:.85em;color:#6b7561;margin-bottom:10px}
+  .rs-tags{margin:4px 0 12px}
+  .rs-tag{display:inline-block;font-size:.78em;padding:2px 10px;margin:0 6px 6px 0;
+          background:#dfe6cd;border-radius:20px;color:#43503c}
+  .rs-kv{width:100%;border-collapse:collapse;margin:6px 0 14px;font-size:.92em}
+  .rs-kv th{width:96px;text-align:left;color:#6b7561;font-weight:400;padding:4px 8px 4px 0;
+            vertical-align:top;border-bottom:1px dashed var(--line)}
+  .rs-kv td{padding:4px 0;border-bottom:1px dashed var(--line)}
+  .rs-card h2{font-family:"Kaiti SC","KaiTi","STKaiti","Noto Serif SC","SimSun",serif;
+      font-size:1.02em;letter-spacing:.18em;font-weight:400;color:#43503c;
+      margin:20px 0 4px;padding-left:10px;border-left:3px solid var(--link)}
+  .rs-card p{margin:6px 0 0}
+  .rs-next{margin-top:18px;padding:10px 14px;background:#eef0e4;border-radius:10px;font-size:.92em}
+  .rs-next b{margin-right:10px;color:var(--link)}
+  .rs-src{margin-top:14px;font-size:.9em}
+  .rs-src a{color:var(--link)}
+  .rs-upd{margin-top:22px;font-size:.76em;color:#93a08d}
+  footer{padding:26px 0 8px;text-align:center;font-size:.8em;color:#7a8270}
+  @media(max-width:860px){
+    .rs-layout{grid-template-columns:1fr}
+    .rs-side{position:static;max-height:340px}
+    .rs-card{padding:20px 18px}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="title-row">
+      <h1 class="title">AI 版权诉讼观察</h1>
+      <a class="back" href="index.html">⌂ 返回 Law Study 首页</a>
+    </div>
+    <p id="rs-meta"></p>
+  </header>
+  <div class="filters">
+    <input id="f-q" type="text" placeholder="搜索案件、法院、要点…">
+    <select id="f-country"></select>
+    <select id="f-issue"></select>
+    <select id="f-status"></select>
+  </div>
+  <div class="rs-layout">
+    <aside class="rs-side" id="rs-list-body"></aside>
+    <main class="rs-card" id="rs-card"></main>
+  </div>
+  <footer>© 2026 Lawstudy · 专题资料</footer>
+</div>
+<script src="research-data.js"></script>
+<script src="research-app.js"></script>
+</body>
+</html>
