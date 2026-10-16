@@ -1,8 +1,1666 @@
 // AI 版权诉讼观察 · 数据文件（每月更新只需替换本文件）
 // 数据口径：张力案精选（案例地图 v1 + AI Lawsuit Tracker 2026-10 + 公开报道交叉核实）
 window.RS_META = { updated: '2026-10-16', source: 'AI Lawsuit Tracker / 人民法院案例库 / 公开报道', note: '标〔核〕处建议使用前核对判决原文或实时 docket' };
-// 自动收录区：由 GitHub Actions 每月从 AI Lawsuit Tracker 抓取新增版权类案件填充（待人工精读后并入上方精选）
-window.RS_NEW = [];
+
+// 张力案全录：tracker 版权类张力案件自动收录（每月脚本追加新案；人工精读后升入精选 RS_CASES）
+window.RS_AUTO = [
+ {
+  "id": "a-001",
+  "title": "USA Today Co. v. OpenAI",
+  "country": "美国",
+  "court": "U.S. District Court for the Southern District of New York 1:26-cv-08892",
+  "case_no": "1:26-cv-08892",
+  "filed": "Oct 8, 2026",
+  "status": "在审",
+  "damages": "—",
+  "issues": [
+   "著作权"
+  ],
+  "brief": "〔自动收录 · 待人工精读〕",
+  "holding": "—",
+  "significance": "—",
+  "auto": true,
+  "source": "https://ailawsuittracker.com/cases/usa-today-co-inc-v-openai-foundation-1-26-cv-08892/"
+ },
+ {
+  "id": "a-004",
+  "title": "Emmerich Newspapers et al. v. Microsoft and OpenAI",
+  "country": "美国",
+  "court": "U.S. District Court for the Southern District of Mississippi 3:26-cv-00791",
+  "case_no": "3:26-cv-00791",
+  "filed": "Oct 2, 2026",
+  "status": "在审",
+  "damages": "—",
+  "issues": [
+   "著作权"
+  ],
+  "brief": "〔自动收录 · 待人工精读〕",
+  "holding": "—",
+  "significance": "—",
+  "auto": true,
+  "source": "https://ailawsuittracker.com/cases/emmerich-newspapers-inc-v-microsoft-corporation-3-26-cv-00791/"
+ },
+ {
+  "id": "a-008",
+  "title": "Times Publishing v. Microsoft & OpenAI (26 local publishers)",
+  "country": "美国",
+  "court": "S.D.N.Y. 1:26-cv-08082",
+  "case_no": "1:26-cv-08082",
+  "filed": "Sep 16, 2026",
+  "status": "在审",
+  "damages": "—",
+  "issues": [
+   "著作权"
+  ],
+  "brief": "〔自动收录 · 待人工精读〕",
+  "holding": "—",
+  "significance": "—",
+  "auto": true,
+  "source": "https://ailawsuittracker.com/cases/times-publishing-company-v-microsoft-corporation-1-26-cv-08082/"
+ },
+ {
+  "id": "a-012",
+  "title": "Seattle Times & Newsday v. OpenAI",
+  "country": "美国",
+  "court": "S.D.N.Y. 1:26-cv-07644",
+  "case_no": "1:26-cv-07644",
+  "filed": "Sep 4, 2026",
+  "status": "在审",
+  "damages": "—",
+  "issues": [
+   "著作权"
+  ],
+  "brief": "〔自动收录 · 待人工精读〕",
+  "holding": "—",
+  "significance": "—",
+  "auto": true,
+  "source": "https://ailawsuittracker.com/cases/the-seattle-times-company-v-openai-inc-1-26-cv-07644/"
+ },
+ {
+  "id": "a-016",
+  "title": "Sony Music Publishing v. Anthropic (lyrics)",
+  "country": "美国",
+  "court": "N.D. Cal. 5:26-cv-09217",
+  "case_no": "5:26-cv-09217",
+  "filed": "Aug 28, 2026",
+  "status": "在审",
+  "damages": "—",
+  "issues": [
+   "著作权"
+  ],
+  "brief": "〔自动收录 · 待人工精读〕",
+  "holding": "—",
+  "significance": "—",
+  "auto": true,
+  "source": "https://ailawsuittracker.com/cases/sony-music-publishing-us-llc-v-anthropic-pbc-5-26-cv-09217/"
+ },
+ {
+  "id": "a-018",
+  "title": "wikiHow v. OpenAI",
+  "country": "美国",
+  "court": "S.D.N.Y. 1:26-cv-07171",
+  "case_no": "1:26-cv-07171",
+  "filed": "Aug 21, 2026",
+  "status": "在审",
+  "damages": "—",
+  "issues": [
+   "著作权"
+  ],
+  "brief": "〔自动收录 · 待人工精读〕",
+  "holding": "—",
+  "significance": "—",
+  "auto": true,
+  "source": "https://ailawsuittracker.com/cases/wikihow-inc-v-openai-inc-1-26-cv-07171/"
+ },
+ {
+  "id": "a-022",
+  "title": "Sullivan v. OpenAI (textbook authors) Related to the OpenAI copyright MDL (1:25-md-03143) S.D.N.Y. · Filed Aug 14, 2026",
+  "country": "美国",
+  "court": "S.D.N.Y. 1:26-cv-06966",
+  "case_no": "1:26-cv-06966",
+  "filed": "Aug 14, 2026",
+  "status": "已中止",
+  "damages": "—",
+  "issues": [
+   "著作权"
+  ],
+  "brief": "〔自动收录 · 待人工精读〕已并入精选 MDL 3143 卡片。",
+  "holding": "—",
+  "significance": "—",
+  "auto": true,
+  "source": "https://ailawsuittracker.com/cases/sullivan-v-openai-foundation-f-k-a-openai-inc-1-26-cv-06966/"
+ },
+ {
+  "id": "a-035",
+  "title": "Hachette Book Group v. Google Google's request to transfer the case to N.D. Cal. and stay proceedings is pending; on September 29, 2026 Google cited Judge Castel's transfer of Elsevier v. Meta in support U.S. District Court for the Southern District of New York · Filed Jul 10, 2026",
+  "country": "美国",
+  "court": "U.S. District Court for the Southern District of New York 1:26-cv-05870",
+  "case_no": "1:26-cv-05870",
+  "filed": "Jul 10, 2026",
+  "status": "在审",
+  "damages": "—",
+  "issues": [
+   "著作权"
+  ],
+  "brief": "〔自动收录 · 待人工精读〕",
+  "holding": "—",
+  "significance": "—",
+  "auto": true,
+  "source": "https://ailawsuittracker.com/cases/hachette-book-group-inc-v-google-llc-1-26-cv-05870/"
+ },
+ {
+  "id": "a-041",
+  "title": "Richner Communications, Inc. v. Microsoft Corporation Proceedings stayed by stipulated order pending summary-judgment rulings in the OpenAI copyright MDL July 13, 2026 U.S. District Court for the Southern District of New York · Filed Jun 24, 2026",
+  "country": "美国",
+  "court": "U.S. District Court for the Southern District of New York 1:26-cv-05320",
+  "case_no": "1:26-cv-05320",
+  "filed": "Jun 24, 2026",
+  "status": "已中止",
+  "damages": "—",
+  "issues": [
+   "著作权"
+  ],
+  "brief": "〔自动收录 · 待人工精读〕已并入精选 MDL 3143 卡片。",
+  "holding": "—",
+  "significance": "—",
+  "auto": true,
+  "source": "https://ailawsuittracker.com/cases/richner-communications-inc-v-microsoft-corporation-1-26-cv-05320/"
+ },
+ {
+  "id": "a-042",
+  "title": "Jamendo v. NVIDIA S.A. Jamendo voluntarily dismissed its suit against NVIDIA without prejudice, October 9, 2026, before NVIDIA answered or moved for summary judgment U.S. District Court for the Northern District of California · Filed Jun 22, 2026",
+  "country": "美国",
+  "court": "U.S. District Court for the Northern District of California 5:26-cv-06206",
+  "case_no": "5:26-cv-06206",
+  "filed": "Jun 22, 2026",
+  "status": "已驳回",
+  "damages": "—",
+  "issues": [
+   "著作权"
+  ],
+  "brief": "〔自动收录 · 待人工精读〕",
+  "holding": "—",
+  "significance": "—",
+  "auto": true,
+  "source": "https://ailawsuittracker.com/cases/s-a-jamendo-v-nvidia-corporation-5-26-cv-06206/"
+ },
+ {
+  "id": "a-044",
+  "title": "Shakespeare v. Anthropic Anthropic moved to dismiss on statute-of-limitations grounds September 18, 2026 N.D. Cal. · Filed Jun 17, 2026",
+  "country": "美国",
+  "court": "N.D. Cal. 5:26-cv-05931",
+  "case_no": "5:26-cv-05931",
+  "filed": "Jun 17, 2026",
+  "status": "在审",
+  "damages": "—",
+  "issues": [
+   "著作权"
+  ],
+  "brief": "〔自动收录 · 待人工精读〕",
+  "holding": "—",
+  "significance": "—",
+  "auto": true,
+  "source": "https://ailawsuittracker.com/cases/shakespeare-v-anthropic-pbc-3-26-cv-05931/"
+ },
+ {
+  "id": "a-047",
+  "title": "CNN v. Perplexity Perplexity's partial motion to dismiss (Counts II–V)",
+  "country": "美国",
+  "court": "S.D.N.Y. 1:26-cv-04427",
+  "case_no": "1:26-cv-04427",
+  "filed": "May 28, 2026",
+  "status": "在审",
+  "damages": "—",
+  "issues": [
+   "著作权"
+  ],
+  "brief": "〔自动收录 · 待人工精读〕",
+  "holding": "—",
+  "significance": "—",
+  "auto": true,
+  "source": "https://ailawsuittracker.com/cases/cable-news-network-inc-v-perplexity-ai-inc-1-26-cv-04427/"
+ },
+ {
+  "id": "a-048",
+  "title": "Tanzer v. Adobe Inc. Anna's Archive/Nemotron claim dismissed with leave to amend August 20, 2026 N.D. Cal. · Filed May 18, 2026",
+  "country": "美国",
+  "court": "N.D. Cal. 3:26-cv-04712",
+  "case_no": "3:26-cv-04712",
+  "filed": "May 18, 2026",
+  "status": "在审",
+  "damages": "—",
+  "issues": [
+   "著作权"
+  ],
+  "brief": "〔自动收录 · 待人工精读〕",
+  "holding": "—",
+  "significance": "—",
+  "auto": true,
+  "source": "https://ailawsuittracker.com/cases/tanzer-v-adobe-inc/"
+ },
+ {
+  "id": "a-049",
+  "title": "Kwon v. Anthropic PBC Related to Cambronne (Carreyrou) v. Anthropic before Judge Pitts; Anthropic",
+  "country": "美国",
+  "court": "N.D. Cal. 5:26-cv-04649",
+  "case_no": "5:26-cv-04649",
+  "filed": "May 15, 2026",
+  "status": "在审",
+  "damages": "—",
+  "issues": [
+   "著作权"
+  ],
+  "brief": "〔自动收录 · 待人工精读〕",
+  "holding": "—",
+  "significance": "—",
+  "auto": true,
+  "source": "https://ailawsuittracker.com/cases/kwon-v-anthropic-pbc/"
+ },
+ {
+  "id": "a-050",
+  "title": "Cruz v. Anthropic Anthropic",
+  "country": "美国",
+  "court": "U.S. District Court for the Northern District of California 5:26-cv-04482",
+  "case_no": "5:26-cv-04482",
+  "filed": "May 13, 2026",
+  "status": "在审",
+  "damages": "—",
+  "issues": [
+   "著作权"
+  ],
+  "brief": "〔自动收录 · 待人工精读〕",
+  "holding": "—",
+  "significance": "—",
+  "auto": true,
+  "source": "https://ailawsuittracker.com/cases/cruz-v-anthropic-3-26-cv-04482/"
+ },
+ {
+  "id": "a-051",
+  "title": "Chicken Soup for the Soul v. Anthropic Related to Cambronne (Carreyrou) v. Anthropic before Judge Pitts; Anthropic",
+  "country": "美国",
+  "court": "N.D. Cal. 5:26-cv-04218",
+  "case_no": "5:26-cv-04218",
+  "filed": "May 7, 2026",
+  "status": "在审",
+  "damages": "—",
+  "issues": [
+   "著作权"
+  ],
+  "brief": "〔自动收录 · 待人工精读〕",
+  "holding": "—",
+  "significance": "—",
+  "auto": true,
+  "source": "https://ailawsuittracker.com/cases/chicken-soup-for-the-soul-llc-v-anthropic-pbc-5-26-cv-04218/"
+ },
+ {
+  "id": "a-053",
+  "title": "Elsevier v. Meta S.D.N.Y. (Judge Castel) granted Meta's motion to transfer the case to the Northern District of California September 25, 2026 S.D.N.Y. (transfer to N.D. Cal. granted September 25, 2026) · Filed May 5, 2026",
+  "country": "美国",
+  "court": "S.D.N.Y. (transfer to N.D. Cal. granted September 25, 2026) 1:26-cv-03689",
+  "case_no": "1:26-cv-03689",
+  "filed": "May 5, 2026",
+  "status": "在审",
+  "damages": "—",
+  "issues": [
+   "著作权"
+  ],
+  "brief": "〔自动收录 · 待人工精读〕",
+  "holding": "—",
+  "significance": "—",
+  "auto": true,
+  "source": "https://ailawsuittracker.com/cases/elsevier-v-meta/"
+ },
+ {
+  "id": "a-054",
+  "title": "Cognella v. Anthropic Related to Cambronne (Carreyrou) v. Anthropic before Judge Pitts; Anthropic",
+  "country": "美国",
+  "court": "N.D. Cal. 5:26-cv-04056",
+  "case_no": "5:26-cv-04056",
+  "filed": "May 4, 2026",
+  "status": "在审",
+  "damages": "—",
+  "issues": [
+   "著作权"
+  ],
+  "brief": "〔自动收录 · 待人工精读〕",
+  "holding": "—",
+  "significance": "—",
+  "auto": true,
+  "source": "https://ailawsuittracker.com/cases/cognella-v-anthropic-3-26-cv-04056/"
+ },
+ {
+  "id": "a-057",
+  "title": "Ted Entertainment v. Amazon Amazon moved to dismiss DMCA anti-circumvention claim in first amended complaint (reported July 30, 2026) U.S. District Court, Western District of Washington (Seattle Division) · Filed Apr 3, 2026",
+  "country": "美国",
+  "court": "U.S. District Court, Western District of Washington (Seattle Division) 2:26-cv-01134",
+  "case_no": "2:26-cv-01134",
+  "filed": "Apr 3, 2026",
+  "status": "在审",
+  "damages": "—",
+  "issues": [
+   "著作权"
+  ],
+  "brief": "〔自动收录 · 待人工精读〕",
+  "holding": "—",
+  "significance": "—",
+  "auto": true,
+  "source": "https://ailawsuittracker.com/cases/ted-entertainment-inc-v-amazon-com-inc-2-26-cv-01134/"
+ },
+ {
+  "id": "a-058",
+  "title": "Ted Entertainment v. Apple Judge Seeborg denied Apple's motion to dismiss the DMCA anti-circumvention (17 U.S.C. § 1201(a)) claim October 9, 2026, rejecting Apple's argument that an access control must take the form of a paywall or password prompt; case proceeds N.D. Cal. · Filed Apr 3, 2026",
+  "country": "美国",
+  "court": "N.D. Cal. 3:26-cv-02936",
+  "case_no": "3:26-cv-02936",
+  "filed": "Apr 3, 2026",
+  "status": "在审",
+  "damages": "—",
+  "issues": [
+   "著作权"
+  ],
+  "brief": "〔自动收录 · 待人工精读〕",
+  "holding": "—",
+  "significance": "—",
+  "auto": true,
+  "source": "https://ailawsuittracker.com/cases/ted-entertainment-v-apple-3-26-cv-02936/"
+ },
+ {
+  "id": "a-059",
+  "title": "Ted Entertainment v. OpenAI OpenAI's motion to dismiss pending; plaintiffs' opposition",
+  "country": "美国",
+  "court": "N.D. Cal. 5:26-cv-02935",
+  "case_no": "5:26-cv-02935",
+  "filed": "Apr 3, 2026",
+  "status": "在审",
+  "damages": "—",
+  "issues": [
+   "著作权"
+  ],
+  "brief": "〔自动收录 · 待人工精读〕",
+  "holding": "—",
+  "significance": "—",
+  "auto": true,
+  "source": "https://ailawsuittracker.com/cases/ted-entertainment-inc-v-openai-inc-3-26-cv-02935/"
+ },
+ {
+  "id": "a-061",
+  "title": "BMG v. Anthropic First Amended",
+  "country": "美国",
+  "court": "N.D. Cal. 5:26-cv-02334",
+  "case_no": "5:26-cv-02334",
+  "filed": "Mar 17, 2026",
+  "status": "在审",
+  "damages": "—",
+  "issues": [
+   "著作权"
+  ],
+  "brief": "〔自动收录 · 待人工精读〕",
+  "holding": "—",
+  "significance": "—",
+  "auto": true,
+  "source": "https://ailawsuittracker.com/cases/bmg-rights-management-us-llc-v-anthropic-pbc-5-26-cv-02334/"
+ },
+ {
+  "id": "a-062",
+  "title": "Chicken Soup for the Soul v. Meta Discovery ongoing; case management conference held before Judge Chhabria September 9, 2026; jury trial set May 24, 2027 N.D. Cal. · Filed Mar 17, 2026",
+  "country": "美国",
+  "court": "N.D. Cal. 3:26-cv-02333",
+  "case_no": "3:26-cv-02333",
+  "filed": "Mar 17, 2026",
+  "status": "在审",
+  "damages": "—",
+  "issues": [
+   "著作权"
+  ],
+  "brief": "〔自动收录 · 待人工精读〕",
+  "holding": "—",
+  "significance": "—",
+  "auto": true,
+  "source": "https://ailawsuittracker.com/cases/chicken-soup-for-the-soul-llc-v-meta-platforms-inc-5-26-cv-02333/"
+ },
+ {
+  "id": "a-064",
+  "title": "Britannica & Merriam-Webster v. OpenAI Related to the OpenAI copyright MDL on March 17, 2026; stayed April 21, 2026 pending summary-judgment rulings in the MDL S.D.N.Y. · Filed Mar 13, 2026",
+  "country": "美国",
+  "court": "S.D.N.Y. 1:26-cv-02097",
+  "case_no": "1:26-cv-02097",
+  "filed": "Mar 13, 2026",
+  "status": "已中止",
+  "damages": "—",
+  "issues": [
+   "著作权"
+  ],
+  "brief": "〔自动收录 · 待人工精读〕已并入精选 MDL 3143 卡片。",
+  "holding": "—",
+  "significance": "—",
+  "auto": true,
+  "source": "https://ailawsuittracker.com/cases/encyclopaedia-britannica-inc-v-openai-inc-1-26-cv-02097/"
+ },
+ {
+  "id": "a-065",
+  "title": "Gracenote Media v. OpenAI All proceedings stayed pending MDL summary judgment rulings April 21, 2026 S.D.N.Y. · Filed Mar 10, 2026",
+  "country": "美国",
+  "court": "S.D.N.Y. 1:26-cv-01947",
+  "case_no": "1:26-cv-01947",
+  "filed": "Mar 10, 2026",
+  "status": "已中止",
+  "damages": "—",
+  "issues": [
+   "著作权"
+  ],
+  "brief": "〔自动收录 · 待人工精读〕已并入精选 MDL 3143 卡片。",
+  "holding": "—",
+  "significance": "—",
+  "auto": true,
+  "source": "https://ailawsuittracker.com/cases/gracenote-media-services-llc-v-openai-foundation-1-26-cv-01947/"
+ },
+ {
+  "id": "a-073",
+  "title": "Businessing v. Runway AI Into Ace Cam v. Runway AI (master docket 1:26-cv-01362-LAK) March 27, 2026 S.D.N.Y. · Filed Feb 27, 2026",
+  "country": "美国",
+  "court": "S.D.N.Y. 1:26-cv-01655",
+  "case_no": "1:26-cv-01655",
+  "filed": "Feb 27, 2026",
+  "status": "已并入MDL",
+  "damages": "—",
+  "issues": [
+   "著作权"
+  ],
+  "brief": "〔自动收录 · 待人工精读〕",
+  "holding": "—",
+  "significance": "—",
+  "auto": true,
+  "source": "https://ailawsuittracker.com/cases/businessing-llc-v-runway-ai-inc-1-26-cv-01655/"
+ },
+ {
+  "id": "a-074",
+  "title": "Gardner v. Runway AI Transferred to S.D.N.Y. and consolidated with Ace Cam v. Runway AI (1:26-cv-01362-LAK) June 9, 2026 S.D.N.Y. · Filed Feb 23, 2026",
+  "country": "美国",
+  "court": "S.D.N.Y. 1:26-cv-04360 (transferred from C.D. Cal. 2:26-cv-01941)",
+  "case_no": "1:26-cv-04360 (transferred from C.D. Cal. 2:26-cv-01941)",
+  "filed": "Feb 23, 2026",
+  "status": "已并入MDL",
+  "damages": "—",
+  "issues": [
+   "著作权"
+  ],
+  "brief": "〔自动收录 · 待人工精读〕",
+  "holding": "—",
+  "significance": "—",
+  "auto": true,
+  "source": "https://ailawsuittracker.com/cases/david-vance-gardner-v-runway-ai-inc-2-26-cv-01941/"
+ },
+ {
+  "id": "a-075",
+  "title": "Ace Cam v. Runway AI Motion to dismiss denied August 19, 2026 (lead case of consolidated Runway class actions, master docket 1:26-cv-01362-LAK) S.D.N.Y. · Filed Feb 18, 2026",
+  "country": "美国",
+  "court": "S.D.N.Y. 1:26-cv-01362",
+  "case_no": "1:26-cv-01362",
+  "filed": "Feb 18, 2026",
+  "status": "在审",
+  "damages": "—",
+  "issues": [
+   "著作权"
+  ],
+  "brief": "〔自动收录 · 待人工精读〕",
+  "holding": "—",
+  "significance": "—",
+  "auto": true,
+  "source": "https://ailawsuittracker.com/cases/ace-cam-inc-v-runway-ai-inc-1-26-cv-01362/"
+ },
+ {
+  "id": "a-076",
+  "title": "Chmura v. Snap Consolidated into Ted Entertainment v. Snap (2:26-cv-00754) April 15, 2026; motion to dismiss consolidated complaint denied August 19, 2026 C.D. Cal. · Filed Feb 18, 2026",
+  "country": "美国",
+  "court": "C.D. Cal. 2:26-cv-01732",
+  "case_no": "2:26-cv-01732",
+  "filed": "Feb 18, 2026",
+  "status": "已并入MDL",
+  "damages": "—",
+  "issues": [
+   "著作权"
+  ],
+  "brief": "〔自动收录 · 待人工精读〕",
+  "holding": "—",
+  "significance": "—",
+  "auto": true,
+  "source": "https://ailawsuittracker.com/cases/chmura-v-snap-2-26-cv-01732/"
+ },
+ {
+  "id": "a-077",
+  "title": "Erickson v. OpenAI Case dismissed by Judge Vince Chhabria on April 17, 2026 after pro se plaintiff failed to respond to OpenAI motion to dismiss; terminated April 20, 2026. (Reassigned from Magistrate Judge Lisa J. Cisneros to Judge Chhabria on Feb 19, 2026.) N.D. Cal. (transferred from D. Nev., 2:26-cv-00083, on Feb 10, 2026 per ChatGPT Terms of Use forum-selection clause) · Filed Feb 12, 2026",
+  "country": "美国",
+  "court": "N.D. Cal. (transferred from D. Nev., 2:26-cv-00083, on Feb 10, 2026 per ChatGPT Terms of Use forum-selection clause) 3:26-cv-01303",
+  "case_no": "2:26-cv-00083, on Feb 10, 2026 per ChatGPT Terms of Use forum-selection clause) 3:26-cv-01303",
+  "filed": "Feb 12, 2026",
+  "status": "已驳回",
+  "damages": "—",
+  "issues": [
+   "著作权"
+  ],
+  "brief": "〔自动收录 · 待人工精读〕",
+  "holding": "—",
+  "significance": "—",
+  "auto": true,
+  "source": "https://ailawsuittracker.com/cases/erickson-v-openai-inc-3-26-cv-01303/"
+ },
+ {
+  "id": "a-078",
+  "title": "Kleiner v. Adobe Kleiner joined consolidated complaint in Lyon v. Adobe (5:25-cv-10732) April 22, 2026; member case terminated July 1, 2026 N.D. Cal. · Filed Feb 9, 2026",
+  "country": "美国",
+  "court": "N.D. Cal. 5:26-cv-01218",
+  "case_no": "5:26-cv-01218",
+  "filed": "Feb 9, 2026",
+  "status": "已并入MDL",
+  "damages": "—",
+  "issues": [
+   "著作权"
+  ],
+  "brief": "〔自动收录 · 待人工精读〕",
+  "holding": "—",
+  "significance": "—",
+  "auto": true,
+  "source": "https://ailawsuittracker.com/cases/kleiner-v-adobe-5-26-cv-01218/"
+ },
+ {
+  "id": "a-079",
+  "title": "Youngblood v. Meta Voluntarily dismissed without prejudice February 19, 2026 N.D. Cal. · Filed Feb 4, 2026",
+  "country": "美国",
+  "court": "N.D. Cal. 3:26-cv-01100",
+  "case_no": "3:26-cv-01100",
+  "filed": "Feb 4, 2026",
+  "status": "已驳回",
+  "damages": "—",
+  "issues": [
+   "著作权"
+  ],
+  "brief": "〔自动收录 · 待人工精读〕",
+  "holding": "—",
+  "significance": "—",
+  "auto": true,
+  "source": "https://ailawsuittracker.com/cases/youngblood-v-meta-3-26-cv-01100/"
+ },
+ {
+  "id": "a-080",
+  "title": "Youngblood v. NVIDIA Plaintiff's notice of voluntary dismissal without prejudice February 3, 2026 N.D. Cal. · Filed Jan 29, 2026",
+  "country": "美国",
+  "court": "N.D. Cal. 5:26-cv-00916",
+  "case_no": "5:26-cv-00916",
+  "filed": "Jan 29, 2026",
+  "status": "已驳回",
+  "damages": "—",
+  "issues": [
+   "著作权"
+  ],
+  "brief": "〔自动收录 · 待人工精读〕",
+  "holding": "—",
+  "significance": "—",
+  "auto": true,
+  "source": "https://ailawsuittracker.com/cases/youngblood-v-nvidia-5-26-cv-00916/"
+ },
+ {
+  "id": "a-083",
+  "title": "Ted Entertainment v. Snap Motion to dismiss denied August 19, 2026; Snap answered consolidated complaint September 2, 2026 C.D. Cal. · Filed Jan 23, 2026",
+  "country": "美国",
+  "court": "C.D. Cal. 2:26-cv-00754",
+  "case_no": "2:26-cv-00754",
+  "filed": "Jan 23, 2026",
+  "status": "在审",
+  "damages": "—",
+  "issues": [
+   "著作权"
+  ],
+  "brief": "〔自动收录 · 待人工精读〕",
+  "holding": "—",
+  "significance": "—",
+  "auto": true,
+  "source": "https://ailawsuittracker.com/cases/ted-entertainment-v-snap-2-26-cv-00754/"
+ },
+ {
+  "id": "a-086",
+  "title": "Gholami v. OpenAI After the January 8, 2026 dismissal, pro se plaintiff",
+  "country": "美国",
+  "court": "N.D. Cal. 3:26-cv-00174",
+  "case_no": "3:26-cv-00174",
+  "filed": "Jan 6, 2026",
+  "status": "已中止",
+  "damages": "—",
+  "issues": [
+   "著作权"
+  ],
+  "brief": "〔自动收录 · 待人工精读〕",
+  "holding": "—",
+  "significance": "—",
+  "auto": true,
+  "source": "https://ailawsuittracker.com/cases/gholami-v-openai-inc-3-26-cv-00174/"
+ },
+ {
+  "id": "a-088",
+  "title": "Anders v. Stability AI First amended complaint dismissed with prejudice March 23, 2026; motion to alter or amend judgment denied May 6, 2026 W.D.N.C. · Filed Dec 29, 2025",
+  "country": "美国",
+  "court": "W.D.N.C. 1:25-cv-00451",
+  "case_no": "1:25-cv-00451",
+  "filed": "Dec 29, 2025",
+  "status": "已驳回",
+  "damages": "—",
+  "issues": [
+   "著作权"
+  ],
+  "brief": "〔自动收录 · 待人工精读〕",
+  "holding": "—",
+  "significance": "—",
+  "auto": true,
+  "source": "https://ailawsuittracker.com/cases/anders-v-stability-ai-us-services-corporation-1-25-cv-00451/"
+ },
+ {
+  "id": "a-091",
+  "title": "Ted Entertainment v. ByteDance Judge Corley denied ByteDance's motion to dismiss the First Amended Complaint October 2, 2026, after oral argument September 24, 2026 N.D. Cal. · Filed Dec 23, 2025",
+  "country": "美国",
+  "court": "N.D. Cal. 3:25-cv-10933",
+  "case_no": "3:25-cv-10933",
+  "filed": "Dec 23, 2025",
+  "status": "在审",
+  "damages": "—",
+  "issues": [
+   "著作权"
+  ],
+  "brief": "〔自动收录 · 待人工精读〕",
+  "holding": "—",
+  "significance": "—",
+  "auto": true,
+  "source": "https://ailawsuittracker.com/cases/ted-entertainment-inc-v-bytedance-inc-3-25-cv-10933/"
+ },
+ {
+  "id": "a-092",
+  "title": "Ted Entertainment v. Meta Meta's motion to dismiss first amended complaint pending; plaintiffs' opposition",
+  "country": "美国",
+  "court": "N.D. Cal. 4:25-cv-10931",
+  "case_no": "4:25-cv-10931",
+  "filed": "Dec 23, 2025",
+  "status": "在审",
+  "damages": "—",
+  "issues": [
+   "著作权"
+  ],
+  "brief": "〔自动收录 · 待人工精读〕",
+  "holding": "—",
+  "significance": "—",
+  "auto": true,
+  "source": "https://ailawsuittracker.com/cases/ted-entertainment-v-meta-4-25-cv-10931/"
+ },
+ {
+  "id": "a-093",
+  "title": "Carreyrou v. Anthropic Against Anthropic alone: the claims against Google, xAI, Perplexity, Apple and NVIDIA were severed and dismissed June 8, 2026, after OpenAI and Meta were severed into cases of their own; Anthropic",
+  "country": "美国",
+  "court": "N.D. Cal. 5:25-cv-10897",
+  "case_no": "5:25-cv-10897",
+  "filed": "Dec 22, 2025",
+  "status": "在审",
+  "damages": "—",
+  "issues": [
+   "著作权"
+  ],
+  "brief": "〔自动收录 · 待人工精读〕",
+  "holding": "—",
+  "significance": "—",
+  "auto": true,
+  "source": "https://ailawsuittracker.com/cases/carreyrou-v-anthropic-pbc-3-25-cv-10897/"
+ },
+ {
+  "id": "a-094",
+  "title": "Carreyrou v. Meta Meta answered the amended complaint June 19, 2026; discovery referred to Magistrate Judge Hixson; jury trial set May 24, 2027 N.D. Cal. · Filed Dec 22, 2025",
+  "country": "美国",
+  "court": "N.D. Cal. 3:26-cv-03725",
+  "case_no": "3:26-cv-03725",
+  "filed": "Dec 22, 2025",
+  "status": "在审",
+  "damages": "—",
+  "issues": [
+   "著作权"
+  ],
+  "brief": "〔自动收录 · 待人工精读〕",
+  "holding": "—",
+  "significance": "—",
+  "auto": true,
+  "source": "https://ailawsuittracker.com/cases/carreyrou-v-meta-platforms-inc-3-26-cv-03725/"
+ },
+ {
+  "id": "a-095",
+  "title": "Carreyrou v. OpenAI Severed from Carreyrou v. Anthropic, transferred into the OpenAI copyright MDL (received in S.D.N.Y. May 1, 2026) and stayed June 1, 2026 pending the MDL summary-judgment rulings S.D.N.Y. (MDL 25-md-03143) · Filed Dec 22, 2025",
+  "country": "美国",
+  "court": "S.D.N.Y. (MDL 25-md-03143) 1:26-cv-03625 (formerly N.D. Cal. 5:26-cv-02730)",
+  "case_no": "25-md-03143) 1:26-cv-03625 (formerly N.D. Cal. 5:26-cv-02730)",
+  "filed": "Dec 22, 2025",
+  "status": "已中止",
+  "damages": "—",
+  "issues": [
+   "著作权"
+  ],
+  "brief": "〔自动收录 · 待人工精读〕已并入精选 MDL 3143 卡片。",
+  "holding": "—",
+  "significance": "—",
+  "auto": true,
+  "source": "https://ailawsuittracker.com/cases/carreyrou-v-openai-inc-5-26-cv-02730/"
+ },
+ {
+  "id": "a-098",
+  "title": "Magnus Fiennes and Michael Mell v. Kunlun Tech Co. Kunlun Tech and Skywork AI moved to dismiss the complaint; Kunlun's motion",
+  "country": "美国",
+  "court": "U.S. District Court for the Northern District of Illinois Eastern Division 1:25-cv-15354",
+  "case_no": "1:25-cv-15354",
+  "filed": "Dec 17, 2025",
+  "status": "在审",
+  "damages": "—",
+  "issues": [
+   "著作权"
+  ],
+  "brief": "〔自动收录 · 待人工精读〕",
+  "holding": "—",
+  "significance": "—",
+  "auto": true,
+  "source": "https://ailawsuittracker.com/cases/attack-the-sound-llc-et-al-v-kunlun-tech-co-ltd-et-al-1-25-cv-15354/"
+ },
+ {
+  "id": "a-099",
+  "title": "Lyon v. Adobe Related Kleiner v. Adobe administratively closed at case management conference July 1, 2026 N.D. Cal. · Filed Dec 16, 2025",
+  "country": "美国",
+  "court": "N.D. Cal. 3:25-cv-10732",
+  "case_no": "3:25-cv-10732",
+  "filed": "Dec 16, 2025",
+  "status": "在审",
+  "damages": "—",
+  "issues": [
+   "著作权"
+  ],
+  "brief": "〔自动收录 · 待人工精读〕",
+  "holding": "—",
+  "significance": "—",
+  "auto": true,
+  "source": "https://ailawsuittracker.com/cases/lyon-v-adobe-3-25-cv-10732/"
+ },
+ {
+  "id": "a-100",
+  "title": "The New York Times Company v. Perplexity AI, Inc. Perplexity moved to dismiss Counts II–V of amended complaint April 17, 2026; no ruling seen S.D.N.Y. · Filed Dec 5, 2025",
+  "country": "美国",
+  "court": "S.D.N.Y. 1:25-cv-10106",
+  "case_no": "1:25-cv-10106",
+  "filed": "Dec 5, 2025",
+  "status": "在审",
+  "damages": "—",
+  "issues": [
+   "著作权"
+  ],
+  "brief": "〔自动收录 · 待人工精读〕",
+  "holding": "—",
+  "significance": "—",
+  "auto": true,
+  "source": "https://ailawsuittracker.com/cases/the-new-york-times-company-v-perplexity-ai-inc-1-25-cv-10106/"
+ },
+ {
+  "id": "a-101",
+  "title": "Chicago Tribune & 7 Other Dailies v. Perplexity Perplexity moved to dismiss Counts II–III of amended complaint April 17, 2026; no ruling seen S.D.N.Y. · Filed Dec 4, 2025",
+  "country": "美国",
+  "court": "S.D.N.Y. 1:25-cv-10094",
+  "case_no": "1:25-cv-10094",
+  "filed": "Dec 4, 2025",
+  "status": "在审",
+  "damages": "—",
+  "issues": [
+   "著作权"
+  ],
+  "brief": "〔自动收录 · 待人工精读〕",
+  "holding": "—",
+  "significance": "—",
+  "auto": true,
+  "source": "https://ailawsuittracker.com/cases/chicago-tribune-company-llc-v-perplexity-ai-inc-1-25-cv-10094/"
+ },
+ {
+  "id": "a-103",
+  "title": "California Newspapers Partnership et al. v. Microsoft Corporation Plaintiffs agreed to stay the case pending Judge Stein's summary-judgment rulings in the OpenAI MDL (reported December 19, 2025) U.S. District Court for the Southern District of New York · Filed Nov 26, 2025",
+  "country": "美国",
+  "court": "U.S. District Court for the Southern District of New York 1:25-cv-09904",
+  "case_no": "1:25-cv-09904",
+  "filed": "Nov 26, 2025",
+  "status": "已中止",
+  "damages": "—",
+  "issues": [
+   "著作权"
+  ],
+  "brief": "〔自动收录 · 待人工精读〕已并入精选 MDL 3143 卡片。",
+  "holding": "—",
+  "significance": "—",
+  "auto": true,
+  "source": "https://ailawsuittracker.com/cases/california-newspapers-partnership-v-microsoft-corporation-1-25-cv-09904/"
+ },
+ {
+  "id": "a-104",
+  "title": "Ted Entertainment v. NVIDIA Motion to dismiss First Amended Complaint argued July 23, 2026; ruling pending N.D. Cal. · Filed Nov 26, 2025",
+  "country": "美国",
+  "court": "N.D. Cal. 5:25-cv-10287",
+  "case_no": "5:25-cv-10287",
+  "filed": "Nov 26, 2025",
+  "status": "在审",
+  "damages": "—",
+  "issues": [
+   "著作权"
+  ],
+  "brief": "〔自动收录 · 待人工精读〕",
+  "holding": "—",
+  "significance": "—",
+  "auto": true,
+  "source": "https://ailawsuittracker.com/cases/ted-entertainment-v-nvidia-5-25-cv-10287/"
+ },
+ {
+  "id": "a-105",
+  "title": "U.S. News & World Report v. OpenAI Member case of In re OpenAI Copyright Infringement Litigation, MDL 25-md-03143 (Stein, J.); individual docket flagged stayed; MDL summary judgment briefing began September 4, 2026 S.D.N.Y. · Filed Nov 26, 2025",
+  "country": "美国",
+  "court": "S.D.N.Y. 1:25-cv-09912",
+  "case_no": "1:25-cv-09912",
+  "filed": "Nov 26, 2025",
+  "status": "已并入MDL",
+  "damages": "—",
+  "issues": [
+   "著作权"
+  ],
+  "brief": "〔自动收录 · 待人工精读〕已并入精选 MDL 3143 卡片。",
+  "holding": "—",
+  "significance": "—",
+  "auto": true,
+  "source": "https://ailawsuittracker.com/cases/u-s-news-and-world-report-l-p-v-openai-inc-1-25-cv-09912/"
+ },
+ {
+  "id": "a-106",
+  "title": "James v. Snowflake D. Mont. · Filed Nov 21, 2025",
+  "country": "美国",
+  "court": "D. Mont. 2:25-cv-00108",
+  "case_no": "2:25-cv-00108",
+  "filed": "Nov 21, 2025",
+  "status": "在审",
+  "damages": "—",
+  "issues": [
+   "著作权"
+  ],
+  "brief": "〔自动收录 · 待人工精读〕",
+  "holding": "—",
+  "significance": "—",
+  "auto": true,
+  "source": "https://ailawsuittracker.com/cases/james-v-snowflake-inc-2-25-cv-00108/"
+ },
+ {
+  "id": "a-108",
+  "title": "Entrepreneur Media v. Meta Motion to dismiss denied March 30, 2026; Meta answered April 29, 2026 N.D. Cal. · Filed Nov 6, 2025",
+  "country": "美国",
+  "court": "N.D. Cal. 3:25-cv-09579",
+  "case_no": "3:25-cv-09579",
+  "filed": "Nov 6, 2025",
+  "status": "在审",
+  "damages": "—",
+  "issues": [
+   "著作权"
+  ],
+  "brief": "〔自动收录 · 待人工精读〕",
+  "holding": "—",
+  "significance": "—",
+  "auto": true,
+  "source": "https://ailawsuittracker.com/cases/entrepreneur-media-llc-v-meta-platforms-inc-3-25-cv-09579/"
+ },
+ {
+  "id": "a-109",
+  "title": "James v. Together Computer Amended complaint",
+  "country": "美国",
+  "court": "N.D. Cal. 3:25-cv-09578",
+  "case_no": "3:25-cv-09578",
+  "filed": "Nov 6, 2025",
+  "status": "在审",
+  "damages": "—",
+  "issues": [
+   "著作权"
+  ],
+  "brief": "〔自动收录 · 待人工精读〕",
+  "holding": "—",
+  "significance": "—",
+  "auto": true,
+  "source": "https://ailawsuittracker.com/cases/james-v-together-computer-3-25-cv-09578/"
+ },
+ {
+  "id": "a-111",
+  "title": "James v. Cerebras Systems Cerebras answered First Amended Complaint July 9, 2026 N.D. Cal. · Filed Oct 30, 2025",
+  "country": "美国",
+  "court": "N.D. Cal. 3:25-cv-09361",
+  "case_no": "3:25-cv-09361",
+  "filed": "Oct 30, 2025",
+  "status": "在审",
+  "damages": "—",
+  "issues": [
+   "著作权"
+  ],
+  "brief": "〔自动收录 · 待人工精读〕",
+  "holding": "—",
+  "significance": "—",
+  "auto": true,
+  "source": "https://ailawsuittracker.com/cases/james-v-cerebras-systems-3-25-cv-09361/"
+ },
+ {
+  "id": "a-112",
+  "title": "Reddit v. Perplexity Court allowed case to proceed without serving defendant AWMProxy August 19, 2026 S.D.N.Y. · Filed Oct 22, 2025",
+  "country": "美国",
+  "court": "S.D.N.Y. 1:25-cv-08736",
+  "case_no": "1:25-cv-08736",
+  "filed": "Oct 22, 2025",
+  "status": "在审",
+  "damages": "—",
+  "issues": [
+   "著作权"
+  ],
+  "brief": "〔自动收录 · 待人工精读〕",
+  "holding": "—",
+  "significance": "—",
+  "auto": true,
+  "source": "https://ailawsuittracker.com/cases/reddit-v-perplexity-1-25-cv-08713/"
+ },
+ {
+  "id": "a-115",
+  "title": "In re Salesforce LLM Copyright Infringement Litigation Salesforce answered amended consolidated complaint February 19, 2026; discovery underway (fact discovery closes July 23, 2027); case management conference set November 20, 2026 N.D. Cal. · Filed Oct 15, 2025",
+  "country": "美国",
+  "court": "N.D. Cal. 3:25-cv-08862",
+  "case_no": "3:25-cv-08862",
+  "filed": "Oct 15, 2025",
+  "status": "在审",
+  "damages": "—",
+  "issues": [
+   "著作权"
+  ],
+  "brief": "〔自动收录 · 待人工精读〕",
+  "holding": "—",
+  "significance": "—",
+  "auto": true,
+  "source": "https://ailawsuittracker.com/cases/in-re-salesforce-llm-copyright-infringement-litigation-3-25-cv-08862/"
+ },
+ {
+  "id": "a-117",
+  "title": "Chloé Sabourin v. Meta Platforms et al. Application for class authorisation",
+  "country": "美国",
+  "court": "Quebec Superior Court (Cour supérieure du Québec) Application filed October 2025",
+  "case_no": "",
+  "filed": "Oct 8, 2025",
+  "status": "待裁决",
+  "damages": "—",
+  "issues": [
+   "著作权"
+  ],
+  "brief": "〔自动收录 · 待人工精读〕",
+  "holding": "—",
+  "significance": "—",
+  "auto": true,
+  "source": "https://ailawsuittracker.com/cases/chlo-sabourin-v-meta-platforms-et-al-application-filed-october-2025/"
+ },
+ {
+  "id": "a-121",
+  "title": "Disney v. MiniMax Motions to dismiss denied May 22, 2026; defendants answered with counterclaims June 5, 2026 C.D. Cal. · Filed Sep 16, 2025",
+  "country": "美国",
+  "court": "C.D. Cal. 2:25-cv-08768",
+  "case_no": "2:25-cv-08768",
+  "filed": "Sep 16, 2025",
+  "status": "在审",
+  "damages": "—",
+  "issues": [
+   "著作权"
+  ],
+  "brief": "〔自动收录 · 待人工精读〕",
+  "holding": "—",
+  "significance": "—",
+  "auto": true,
+  "source": "https://ailawsuittracker.com/cases/disney-enterprises-inc-v-minimax-2-25-cv-08768/"
+ },
+ {
+  "id": "a-128",
+  "title": "Encyclopaedia Britannica & Merriam-Webster v. Perplexity Civil Case Management Plan entered December 17, 2025 (fact discovery through October 16, 2026); ruling on Perplexity's November 3, 2025 motion to dismiss not confirmed S.D.N.Y. · Filed Sep 10, 2025",
+  "country": "美国",
+  "court": "S.D.N.Y. 1:25-cv-07546",
+  "case_no": "1:25-cv-07546",
+  "filed": "Sep 10, 2025",
+  "status": "在审",
+  "damages": "—",
+  "issues": [
+   "著作权"
+  ],
+  "brief": "〔自动收录 · 待人工精读〕",
+  "holding": "—",
+  "significance": "—",
+  "auto": true,
+  "source": "https://ailawsuittracker.com/cases/encyclopaedia-britannica-inc-v-perplexity-ai-inc-1-25-cv-07546/"
+ },
+ {
+  "id": "a-129",
+  "title": "Hendrix v. Apple Parties proposed a schedule putting fair-use summary judgment first, at Judge Gonzalez Rogers' request, June 23, 2026 N.D. Cal. · Filed Sep 5, 2025",
+  "country": "美国",
+  "court": "N.D. Cal. 4:25-cv-07558",
+  "case_no": "4:25-cv-07558",
+  "filed": "Sep 5, 2025",
+  "status": "在审",
+  "damages": "—",
+  "issues": [
+   "著作权"
+  ],
+  "brief": "〔自动收录 · 待人工精读〕",
+  "holding": "—",
+  "significance": "—",
+  "auto": true,
+  "source": "https://ailawsuittracker.com/cases/hendrix-v-apple-inc-4-25-cv-07558/"
+ },
+ {
+  "id": "a-140",
+  "title": "Denial v. OpenAI Denial action stayed by stipulation during pendency of MDL September 9, 2025 N.D. Cal. → SDNY MDL · Filed Jul 30, 2025",
+  "country": "美国",
+  "court": "N.D. Cal. → SDNY MDL 1:25-cv-06286",
+  "case_no": "1:25-cv-06286",
+  "filed": "Jul 30, 2025",
+  "status": "已中止",
+  "damages": "—",
+  "issues": [
+   "著作权"
+  ],
+  "brief": "〔自动收录 · 待人工精读〕已并入精选 MDL 3143 卡片。",
+  "holding": "—",
+  "significance": "—",
+  "auto": true,
+  "source": "https://ailawsuittracker.com/cases/denial-v-openai-inc-1-25-cv-06286/"
+ },
+ {
+  "id": "a-143",
+  "title": "Strike 3 Holdings v. Meta Judge Eumi K. Lee denied Meta's motion to dismiss June 11, 2026; case in discovery, jury trial set for February 2028 N.D. Cal. · Filed Jul 23, 2025",
+  "country": "美国",
+  "court": "N.D. Cal. 5:25-cv-06213",
+  "case_no": "5:25-cv-06213",
+  "filed": "Jul 23, 2025",
+  "status": "在审",
+  "damages": "—",
+  "issues": [
+   "著作权"
+  ],
+  "brief": "〔自动收录 · 待人工精读〕",
+  "holding": "—",
+  "significance": "—",
+  "auto": true,
+  "source": "https://ailawsuittracker.com/cases/strike-3-holdings-v-meta-5-25-cv-06213/"
+ },
+ {
+  "id": "a-145",
+  "title": "Bird v. Microsoft (order to stay proceedings Sept 9, 2025) S.D.N.Y. · Filed Jun 24, 2025",
+  "country": "美国",
+  "court": "S.D.N.Y. 1:25-cv-05282",
+  "case_no": "1:25-cv-05282",
+  "filed": "Jun 24, 2025",
+  "status": "已中止",
+  "damages": "—",
+  "issues": [
+   "著作权"
+  ],
+  "brief": "〔自动收录 · 待人工精读〕",
+  "holding": "—",
+  "significance": "—",
+  "auto": true,
+  "source": "https://ailawsuittracker.com/cases/bird-v-microsoft-1-25-cv-05282/"
+ },
+ {
+  "id": "a-149",
+  "title": "Reddit v. Anthropic In San Francisco Superior Court; Anthropic's demurrer argued August 12, 2026; ruling pending Superior Court of California, County of San Francisco · Filed Jun 4, 2025",
+  "country": "美国",
+  "court": "Superior Court of California, County of San Francisco CGC-25-625892",
+  "case_no": "",
+  "filed": "Jun 4, 2025",
+  "status": "在审",
+  "damages": "—",
+  "issues": [
+   "著作权"
+  ],
+  "brief": "〔自动收录 · 待人工精读〕",
+  "holding": "—",
+  "significance": "—",
+  "auto": true,
+  "source": "https://ailawsuittracker.com/cases/reddit-v-anthropic-cgc-25-625234/"
+ },
+ {
+  "id": "a-152",
+  "title": "Ziff Davis v. OpenAI (narrowed) — material-contribution contributory infringement and trademark dilution claims dismissed with prejudice by Judge Stein (reported August 7, 2026) Del. → SDNY MDL · Filed Apr 24, 2025",
+  "country": "美国",
+  "court": "Del. → SDNY MDL 1:25-cv-04315 (MDL 25-md-03143)",
+  "case_no": "1:25-cv-04315 (MDL 25-md-03143)",
+  "filed": "Apr 24, 2025",
+  "status": "在审",
+  "damages": "—",
+  "issues": [
+   "著作权"
+  ],
+  "brief": "〔自动收录 · 待人工精读〕已并入精选 MDL 3143 卡片。",
+  "holding": "—",
+  "significance": "—",
+  "auto": true,
+  "source": "https://ailawsuittracker.com/cases/ziff-davis-v-openai-1-25-cv-04315-mdl-25-md-03143/"
+ },
+ {
+  "id": "a-153",
+  "title": "Millette v. OpenAI (now captioned Petryazhna v. OpenAI) Stayed by agreement of counsel within MDL 1:25-md-03143 (reported June 5, 2025) SDNY (MDL 1:25-md-03143) · Filed Apr 21, 2025",
+  "country": "美国",
+  "court": "SDNY (MDL 1:25-md-03143) 1:25-cv-03297-SHS-OTW (formerly 5:24-cv-04710-EJD, N.D. Cal.)",
+  "case_no": "1:25-md-03143) 1:25-cv-03297-SHS-OTW (formerly 5:24-cv-04710-EJD, N.D. Cal.)",
+  "filed": "Apr 21, 2025",
+  "status": "已中止",
+  "damages": "—",
+  "issues": [
+   "著作权"
+  ],
+  "brief": "〔自动收录 · 待人工精读〕已并入精选 MDL 3143 卡片。",
+  "holding": "—",
+  "significance": "—",
+  "auto": true,
+  "source": "https://ailawsuittracker.com/cases/millette-v-openai-inc-1-25-cv-03297/"
+ },
+ {
+  "id": "a-158",
+  "title": "Anne Robillard v. Meta Platforms (Quebec class action) Application for class authorisation in progress Quebec Superior Court (Cour supérieure du Québec) · Filed Mar 1, 2025",
+  "country": "美国",
+  "court": "Quebec Superior Court (Cour supérieure du Québec) Robillard c. Meta Platforms, inc., 2025 QCCS 4131",
+  "case_no": "",
+  "filed": "Mar 1, 2025",
+  "status": "待裁决",
+  "damages": "—",
+  "issues": [
+   "著作权"
+  ],
+  "brief": "〔自动收录 · 待人工精读〕",
+  "holding": "—",
+  "significance": "—",
+  "auto": true,
+  "source": "https://ailawsuittracker.com/cases/anne-robillard-v-meta-platforms-quebec-class-action-robillard-c-meta-platforms-inc-2025-qccs-4131/"
+ },
+ {
+  "id": "a-164",
+  "title": "Pierce v. Photobucket March 10, 2026 order by Chief Judge Brimmer dismissed the damages claims without prejudice, sent plaintiff Niki Hughes to arbitration and administratively closed the case pending arbitration (it can be reopened for good cause) D. Colo. · Filed Dec 11, 2024",
+  "country": "美国",
+  "court": "D. Colo. 1:24-cv-03432",
+  "case_no": "1:24-cv-03432",
+  "filed": "Dec 11, 2024",
+  "status": "已中止",
+  "damages": "—",
+  "issues": [
+   "著作权"
+  ],
+  "brief": "〔自动收录 · 待人工精读〕",
+  "holding": "—",
+  "significance": "—",
+  "auto": true,
+  "source": "https://ailawsuittracker.com/cases/pierce-v-photobucket-1-24-cv-03432/"
+ },
+ {
+  "id": "a-166",
+  "title": "Toronto Star Newspapers Limited et al. v. OpenAI et al. Jurisdiction upheld November 7, 2025 (2025 ONSC 6217, Kimmel J.) over six OpenAI entities; OpenAI's appeal of jurisdiction ruling pending Ontario Superior Court of Justice (Commercial List) · Filed Nov 28, 2024",
+  "country": "美国",
+  "court": "Ontario Superior Court of Justice (Commercial List) CV-24-00732231-00CL",
+  "case_no": "",
+  "filed": "Nov 28, 2024",
+  "status": "在审",
+  "damages": "—",
+  "issues": [
+   "著作权"
+  ],
+  "brief": "〔自动收录 · 待人工精读〕",
+  "holding": "—",
+  "significance": "—",
+  "auto": true,
+  "source": "https://ailawsuittracker.com/cases/toronto-star-newspapers-limited-et-al-v-openai-et-al-cv-24-00732231-00cl/"
+ },
+ {
+  "id": "a-170",
+  "title": "Alcon Entertainment v. Tesla Magistrate Judge Oliver deferred ruling on Alcon's bid to depose Elon Musk, reported August 19, 2026 C.D. Cal. · Filed Oct 21, 2024",
+  "country": "美国",
+  "court": "C.D. Cal. 2:24-cv-09033",
+  "case_no": "2:24-cv-09033",
+  "filed": "Oct 21, 2024",
+  "status": "在审",
+  "damages": "—",
+  "issues": [
+   "著作权"
+  ],
+  "brief": "〔自动收录 · 待人工精读〕",
+  "holding": "—",
+  "significance": "—",
+  "auto": true,
+  "source": "https://ailawsuittracker.com/cases/alcon-entertainment-v-tesla-2-24-cv-09033/"
+ },
+ {
+  "id": "a-178",
+  "title": "Millette v. NVIDIA Voluntarily dismissed by plaintiff; case terminated March 24, 2025 N.D. Cal. · Filed Aug 14, 2024",
+  "country": "美国",
+  "court": "N.D. Cal. 5:24-cv-05157",
+  "case_no": "5:24-cv-05157",
+  "filed": "Aug 14, 2024",
+  "status": "已驳回",
+  "damages": "—",
+  "issues": [
+   "著作权"
+  ],
+  "brief": "〔自动收录 · 待人工精读〕",
+  "holding": "—",
+  "significance": "—",
+  "auto": true,
+  "source": "https://ailawsuittracker.com/cases/millette-v-nvidia-corporation-5-24-cv-05157/"
+ },
+ {
+  "id": "a-180",
+  "title": "Millette v. Google Case terminated April 30, 2025 N.D. Cal. · Filed Aug 2, 2024",
+  "country": "美国",
+  "court": "N.D. Cal. 5:24-cv-04708",
+  "case_no": "5:24-cv-04708",
+  "filed": "Aug 2, 2024",
+  "status": "已驳回",
+  "damages": "—",
+  "issues": [
+   "著作权"
+  ],
+  "brief": "〔自动收录 · 待人工精读〕",
+  "holding": "—",
+  "significance": "—",
+  "auto": true,
+  "source": "https://ailawsuittracker.com/cases/millette-v-google-llc-5-24-cv-04708/"
+ },
+ {
+  "id": "a-182",
+  "title": "Center for Investigative Reporting v. OpenAI Summary-judgment motions",
+  "country": "美国",
+  "court": "S.D.N.Y. 1:24-cv-04872 (MDL 25-md-03143)",
+  "case_no": "1:24-cv-04872 (MDL 25-md-03143)",
+  "filed": "Jun 27, 2024",
+  "status": "在审",
+  "damages": "—",
+  "issues": [
+   "著作权"
+  ],
+  "brief": "〔自动收录 · 待人工精读〕已并入精选 MDL 3143 卡片。",
+  "holding": "—",
+  "significance": "—",
+  "auto": true,
+  "source": "https://ailawsuittracker.com/cases/center-for-investigative-reporting-v-openai-1-24-cv-04872-mdl-25-md-03143/"
+ },
+ {
+  "id": "a-187",
+  "title": "Dubus v. Nvidia Member case closed May 13, 2025 and proceeding under lead case Nazemian v. NVIDIA, No. 4:24-cv-01454-JST; Judge Tigar ordered supplemental briefing on a dataset-discovery appeal August 6, 2026 U.S. District Court for the Northern District of California · Filed May 2, 2024",
+  "country": "美国",
+  "court": "U.S. District Court for the Northern District of California 4:24-cv-02655-JST",
+  "case_no": "4:24-cv-02655-JST",
+  "filed": "May 2, 2024",
+  "status": "已并入MDL",
+  "damages": "—",
+  "issues": [
+   "著作权"
+  ],
+  "brief": "〔自动收录 · 待人工精读〕",
+  "holding": "—",
+  "significance": "—",
+  "auto": true,
+  "source": "https://ailawsuittracker.com/cases/andre-dubus-iii-et-al-v-nvidia-corporation-4-24-cv-02655-jst/"
+ },
+ {
+  "id": "a-188",
+  "title": "NY Daily News et al. v. OpenAI Material-contribution contributory infringement and trademark dilution claims dismissed with prejudice (reported August 7, 2026) S.D.N.Y. · Filed Apr 30, 2024",
+  "country": "美国",
+  "court": "S.D.N.Y. 1:24-cv-03285 (MDL 25-md-03143)",
+  "case_no": "1:24-cv-03285 (MDL 25-md-03143)",
+  "filed": "Apr 30, 2024",
+  "status": "在审",
+  "damages": "—",
+  "issues": [
+   "著作权"
+  ],
+  "brief": "〔自动收录 · 待人工精读〕已并入精选 MDL 3143 卡片。",
+  "holding": "—",
+  "significance": "—",
+  "auto": true,
+  "source": "https://ailawsuittracker.com/cases/ny-daily-news-et-al-v-openai-1-24-cv-03285-mdl-25-md-03143/"
+ },
+ {
+  "id": "a-190",
+  "title": "Abdi Nazemian v. NVIDIA Judge Tigar ordered supplemental briefing on plaintiffs' objection to the magistrate judge's dataset-discovery ruling August 5, 2026 N.D. Cal. · Filed Mar 8, 2024",
+  "country": "美国",
+  "court": "N.D. Cal. 4:24-cv-01454",
+  "case_no": "4:24-cv-01454",
+  "filed": "Mar 8, 2024",
+  "status": "在审",
+  "damages": "—",
+  "issues": [
+   "著作权"
+  ],
+  "brief": "〔自动收录 · 待人工精读〕",
+  "holding": "—",
+  "significance": "—",
+  "auto": true,
+  "source": "https://ailawsuittracker.com/cases/nazemian-v-nvidia-corporation-4-24-cv-01454/"
+ },
+ {
+  "id": "a-195",
+  "title": "Basbanes v. Microsoft Member case of In re OpenAI Copyright Infringement Litigation MDL (1:25-md-03143, S.D.N.Y.) S.D.N.Y. · Filed Jan 5, 2024",
+  "country": "美国",
+  "court": "S.D.N.Y. 1:24-cv-00084",
+  "case_no": "1:24-cv-00084",
+  "filed": "Jan 5, 2024",
+  "status": "已中止",
+  "damages": "—",
+  "issues": [
+   "著作权"
+  ],
+  "brief": "〔自动收录 · 待人工精读〕已并入精选 MDL 3143 卡片。",
+  "holding": "—",
+  "significance": "—",
+  "auto": true,
+  "source": "https://ailawsuittracker.com/cases/basbanes-v-microsoft-corporation-1-24-cv-00084/"
+ },
+ {
+  "id": "a-196",
+  "title": "Huckabee v. Meta Without prejudice January 30, 2024 (stipulation with a tolling agreement) N.D. Cal. · Filed Dec 28, 2023",
+  "country": "美国",
+  "court": "N.D. Cal. 3:23-cv-06663 (transferred from S.D.N.Y. 1:23-cv-09152)",
+  "case_no": "3:23-cv-06663 (transferred from S.D.N.Y. 1:23-cv-09152)",
+  "filed": "Dec 28, 2023",
+  "status": "已驳回",
+  "damages": "—",
+  "issues": [
+   "著作权"
+  ],
+  "brief": "〔自动收录 · 待人工精读〕",
+  "holding": "—",
+  "significance": "—",
+  "auto": true,
+  "source": "https://ailawsuittracker.com/cases/huckabee-v-meta-platforms-inc-3-23-cv-06663/"
+ },
+ {
+  "id": "a-200",
+  "title": "Huckabee v. Bloomberg Motion to dismiss DENIED IN FULL November 24, 2025; discovery to proceed S.D.N.Y. · Filed Oct 17, 2023",
+  "country": "美国",
+  "court": "S.D.N.Y. 1:23-cv-09152-MMG",
+  "case_no": "1:23-cv-09152-MMG",
+  "filed": "Oct 17, 2023",
+  "status": "在审",
+  "damages": "—",
+  "issues": [
+   "著作权"
+  ],
+  "brief": "〔自动收录 · 待人工精读〕",
+  "holding": "—",
+  "significance": "—",
+  "auto": true,
+  "source": "https://ailawsuittracker.com/cases/huckabee-v-bloomberg-1-23-cv-09152/"
+ },
+ {
+  "id": "a-209",
+  "title": "Tremblay / Silverman v. OpenAI Summary judgment briefing began in MDL 25-md-03143 (news and class plaintiffs) September 4, 2026 N.D. Cal. → SDNY MDL · Filed Jun 28, 2023",
+  "country": "美国",
+  "court": "N.D. Cal. → SDNY MDL MDL 25-md-03143",
+  "case_no": "25-md-03143",
+  "filed": "Jun 28, 2023",
+  "status": "在审",
+  "damages": "—",
+  "issues": [
+   "著作权"
+  ],
+  "brief": "〔自动收录 · 待人工精读〕已并入精选 MDL 3143 卡片。",
+  "holding": "—",
+  "significance": "—",
+  "auto": true,
+  "source": "https://ailawsuittracker.com/cases/tremblay-silverman-v-openai-mdl-25-md-03143/"
+ },
+ {
+  "id": "a-239",
+  "title": "Penguin Random House v. OpenAI (Coconut the Little Dragon) Landgericht München I (Munich Regional Court I) · Filed Mar 27, 2026",
+  "country": "德国",
+  "court": "Landgericht München I (Munich Regional Court I)",
+  "case_no": "",
+  "filed": "Mar 27, 2026",
+  "status": "待裁决",
+  "damages": "—",
+  "issues": [
+   "著作权"
+  ],
+  "brief": "〔自动收录 · 待人工精读〕",
+  "holding": "—",
+  "significance": "—",
+  "auto": true,
+  "source": "https://ailawsuittracker.com/cases/penguin-random-house-v-openai-coconut-the-little-dragon-not-yet-publicly-confirmed/"
+ },
+ {
+  "id": "a-240",
+  "title": "DJV e.V. v. Süddeutsche Zeitung Munich Regional Court I (Az. 42 O 5002/25) ruled for DJV and ver.di September 23, 2026, barring Süddeutsche Zeitung's AI-rights clauses for freelancers as intransparent; judgment not yet final Landgericht München I (Munich Regional Court I) · Filed Apr 16, 2025",
+  "country": "德国",
+  "court": "Landgericht München I (Munich Regional Court I)",
+  "case_no": "",
+  "filed": "Apr 16, 2025",
+  "status": "已判决",
+  "damages": "—",
+  "issues": [
+   "著作权"
+  ],
+  "brief": "〔自动收录 · 待人工精读〕",
+  "holding": "—",
+  "significance": "—",
+  "auto": true,
+  "source": "https://ailawsuittracker.com/cases/djv-e-v-v-s-ddeutsche-zeitung-not-yet-publicly-confirmed/"
+ },
+ {
+  "id": "a-242",
+  "title": "Graphic designer v. internet user (AI-generated logos copyright case) (13 February 2026) Amtsgericht München (Munich District Court / Local Court) · Filed 2025",
+  "country": "德国",
+  "court": "Amtsgericht München (Munich District Court / Local Court) 142 C 9786/25",
+  "case_no": "",
+  "filed": "2025",
+  "status": "已判决",
+  "damages": "—",
+  "issues": [
+   "著作权"
+  ],
+  "brief": "〔自动收录 · 待人工精读〕",
+  "holding": "—",
+  "significance": "—",
+  "auto": true,
+  "source": "https://ailawsuittracker.com/cases/graphic-designer-v-internet-user-ai-generated-logos-copyright-case-142-c-9786-25/"
+ },
+ {
+  "id": "a-243",
+  "title": "Lyricist v. Publisher (AI-modified song lyrics copyright case) (17 December 2025) Landgericht Frankfurt am Main (Frankfurt Regional Court) · Filed 2025",
+  "country": "德国",
+  "court": "Landgericht Frankfurt am Main (Frankfurt Regional Court) 2-06 O 401/25",
+  "case_no": "",
+  "filed": "2025",
+  "status": "已判决",
+  "damages": "—",
+  "issues": [
+   "著作权"
+  ],
+  "brief": "〔自动收录 · 待人工精读〕",
+  "holding": "—",
+  "significance": "—",
+  "auto": true,
+  "source": "https://ailawsuittracker.com/cases/lyricist-v-publisher-ai-modified-song-lyrics-copyright-case-2-06-o-401-25/"
+ },
+ {
+  "id": "a-246",
+  "title": "Robert Kneschke v. LAION e.V. (First instance) (27 September 2024, first instance); affirmed on appeal 10 December 2025; further appeal heard by Federal Court of Justice September 3, 2026, decision pending Landgericht Hamburg (Hamburg Regional Court) · Filed 2023",
+  "country": "德国",
+  "court": "Landgericht Hamburg (Hamburg Regional Court) 310 O 227/23",
+  "case_no": "",
+  "filed": "2023",
+  "status": "已判决",
+  "damages": "—",
+  "issues": [
+   "著作权"
+  ],
+  "brief": "〔自动收录 · 待人工精读〕",
+  "holding": "—",
+  "significance": "—",
+  "auto": true,
+  "source": "https://ailawsuittracker.com/cases/robert-kneschke-v-laion-e-v-first-instance-310-o-227-23/"
+ },
+ {
+  "id": "a-249",
+  "title": "Asian News International (ANI) Media Pvt. v. OpenAI OpCo Interim injunction denied July 24, 2026; Division Bench issued notice on ANI's appeal September 15, 2026 Delhi High Court · Filed Nov 19, 2024",
+  "country": "英国",
+  "court": "Delhi High Court CS(COMM) 1028/2024",
+  "case_no": "",
+  "filed": "Nov 19, 2024",
+  "status": "在审",
+  "damages": "—",
+  "issues": [
+   "著作权"
+  ],
+  "brief": "〔自动收录 · 待人工精读〕",
+  "holding": "—",
+  "significance": "—",
+  "auto": true,
+  "source": "https://ailawsuittracker.com/cases/asian-news-international-ani-media-pvt-v-openai-opco-not-yet-publicly-confirmed-filed-under-copyright-act-1957-s-62/"
+ },
+ {
+  "id": "a-253",
+  "title": "Like Company v. Google Ireland Limited (CJEU referral C-250/25) Oral hearing held 10 March 2026; CJEU judgment expected late 2026 or 2027 Court of Justice of the European Union (CJEU); referring court: Budapest Metropolitan Court / Budapest District Court · Filed Apr 3, 2025",
+  "country": "匈牙利",
+  "court": "Court of Justice of the European Union (CJEU); referring court: Budapest Metropolitan Court / Budapest District Court C-250/25",
+  "case_no": "",
+  "filed": "Apr 3, 2025",
+  "status": "待裁决",
+  "damages": "—",
+  "issues": [
+   "著作权"
+  ],
+  "brief": "〔自动收录 · 待人工精读〕",
+  "holding": "—",
+  "significance": "—",
+  "auto": true,
+  "source": "https://ailawsuittracker.com/cases/like-company-v-google-ireland-limited-cjeu-referral-c-250-25-c-250-25/"
+ },
+ {
+  "id": "a-254",
+  "title": "Anonymous Publisher v. Anonymous Online Search Engine Provider (3 December 2024) Budapest Municipal Court of Appeals (Fővárosi Ítélőtábla) · Filed 2024",
+  "country": "匈牙利",
+  "court": "Budapest Municipal Court of Appeals (Fővárosi Ítélőtábla) 9.Pf.20.353/2024/6-II",
+  "case_no": "6-II",
+  "filed": "2024",
+  "status": "已判决",
+  "damages": "—",
+  "issues": [
+   "著作权"
+  ],
+  "brief": "〔自动收录 · 待人工精读〕",
+  "holding": "—",
+  "significance": "—",
+  "auto": true,
+  "source": "https://ailawsuittracker.com/cases/anonymous-publisher-v-anonymous-online-search-engine-provider-9-pf-20-353-2024-6-ii/"
+ },
+ {
+  "id": "a-255",
+  "title": "Pictoright c.s. v. Meta Platforms Interim judgments issued; expert investigation proceeding; final judgment pending Rechtbank Amsterdam (Amsterdam District Court) · Filed Oct 30, 2023",
+  "country": "荷兰",
+  "court": "Rechtbank Amsterdam (Amsterdam District Court)",
+  "case_no": "",
+  "filed": "Oct 30, 2023",
+  "status": "在审",
+  "damages": "—",
+  "issues": [
+   "著作权"
+  ],
+  "brief": "〔自动收录 · 待人工精读〕",
+  "holding": "—",
+  "significance": "—",
+  "auto": true,
+  "source": "https://ailawsuittracker.com/cases/pictoright-c-s-v-meta-platforms-filed-october-2023-interim-judgment-issued-20-november-2024-additional-interim-judgment-16-april-2025-additional-interim-judgment-3-september-2025/"
+ },
+ {
+  "id": "a-256",
+  "title": "DPG Media B.V., Mediahuis Nederland B.V. and Mediahuis NRC B.V. v. Knowledge Exchange B.V. (HowardsHome) (30 October 2024) Rechtbank Amsterdam (Amsterdam District Court) · Filed 2023",
+  "country": "荷兰",
+  "court": "Rechtbank Amsterdam (Amsterdam District Court) C/13/737170 / HA ZA 23-690",
+  "case_no": "",
+  "filed": "2023",
+  "status": "已判决",
+  "damages": "—",
+  "issues": [
+   "著作权"
+  ],
+  "brief": "〔自动收录 · 待人工精读〕",
+  "holding": "—",
+  "significance": "—",
+  "auto": true,
+  "source": "https://ailawsuittracker.com/cases/dpg-media-b-v-mediahuis-nederland-b-v-and-mediahuis-nrc-b-v-v-knowledge-exchange-b-v-howardshome-c-13-737170-ha-za-23-690/"
+ },
+ {
+  "id": "a-259",
+  "title": "RTI and Medusa Film v. Perplexity AI Tribunale di Roma (Civil Court of Rome) · Filed Dec 3, 2025",
+  "country": "意大利",
+  "court": "Tribunale di Roma (Civil Court of Rome)",
+  "case_no": "",
+  "filed": "Dec 3, 2025",
+  "status": "待裁决",
+  "damages": "—",
+  "issues": [
+   "著作权"
+  ],
+  "brief": "〔自动收录 · 待人工精读〕",
+  "holding": "—",
+  "significance": "—",
+  "auto": true,
+  "source": "https://ailawsuittracker.com/cases/rti-and-medusa-film-v-perplexity-ai-not-yet-publicly-confirmed/"
+ },
+ {
+  "id": "a-260",
+  "title": "Folha de S.Paulo v. OpenAI (Brazil) Lawsuit ended by OpenAI content licensing agreement with Folha and UOL announced May 25, 2026 (court disposition under seal) Tribunal de Justiça de São Paulo / São Paulo business court (first instance) · Filed Aug 20, 2025",
+  "country": "巴西",
+  "court": "Tribunal de Justiça de São Paulo / São Paulo business court (first instance)",
+  "case_no": "",
+  "filed": "Aug 20, 2025",
+  "status": "已和解",
+  "damages": "—",
+  "issues": [
+   "著作权"
+  ],
+  "brief": "〔自动收录 · 待人工精读〕",
+  "holding": "—",
+  "significance": "—",
+  "auto": true,
+  "source": "https://ailawsuittracker.com/cases/folha-de-s-paulo-v-openai-brazil-not-publicly-confirmed-case-is-under-court-ordered-confidentiality-seal/"
+ },
+ {
+  "id": "a-261",
+  "title": "SNE, SGDL and SNAC v. Meta Platforms Tribunal Judiciaire de Paris, Troisième Chambre (Paris Judicial Court, Third Chamber) · Filed Mar 6, 2025",
+  "country": "法国",
+  "court": "Tribunal Judiciaire de Paris, Troisième Chambre (Paris Judicial Court, Third Chamber) Claim issued 6 March 2025",
+  "case_no": "",
+  "filed": "Mar 6, 2025",
+  "status": "待裁决",
+  "damages": "—",
+  "issues": [
+   "著作权"
+  ],
+  "brief": "〔自动收录 · 待人工精读〕",
+  "holding": "—",
+  "significance": "—",
+  "auto": true,
+  "source": "https://ailawsuittracker.com/cases/sne-sgdl-and-snac-v-meta-platforms-claim-issued-6-march-2025-docket-number-not-publicly-confirmed/"
+ },
+ {
+  "id": "a-262",
+  "title": "S. Š. v. Taubel Legal (AI-generated image authorship case) (11 December 2023) Obvodní soud pro Prahu 10 / Municipal Court in Prague · Filed 2023",
+  "country": "捷克",
+  "court": "Obvodní soud pro Prahu 10 / Municipal Court in Prague 10 C 13/2023",
+  "case_no": "",
+  "filed": "2023",
+  "status": "已判决",
+  "damages": "—",
+  "issues": [
+   "著作权"
+  ],
+  "brief": "〔自动收录 · 待人工精读〕",
+  "holding": "—",
+  "significance": "—",
+  "auto": true,
+  "source": "https://ailawsuittracker.com/cases/s-v-taubel-legal-ai-generated-image-authorship-case-10-c-13-2023/"
+ }
+];
 
 window.RS_CASES = [
 // ============ 中国（11） ============
