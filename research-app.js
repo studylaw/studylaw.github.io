@@ -119,7 +119,7 @@
       '<h2>裁判要点 / 最新进展</h2><p>' + esc(c.holding || '—') + '</p>' +
       '<h2>意义</h2><p>' + esc(c.significance || '—') + '</p>' +
       (c.source ? '<div class="rs-src"><a href="' + esc(c.source) + '" target="_blank" rel="noopener">来源与原文 ↗</a></div>' : '') +
-      '<div class="rs-upd">本页为客观资料整理，不构成法律意见 · 数据更新 ' + esc(META.updated || '') + '</div>';
+      '<div class="rs-upd">数据更新 ' + esc(META.updated || '') + '</div>';
     if (pushHash && history.replaceState) history.replaceState(null, '', '#' + id);
     if (window.innerWidth < 860) $card.scrollIntoView({ behavior: 'smooth' });
   }
