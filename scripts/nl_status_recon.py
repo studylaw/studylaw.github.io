@@ -31,6 +31,7 @@ def d1(sql):
 
 
 def flk_detail(bbbs):
+    # 逐次新建连接（勿用 keep-alive：同连接高频会触发 flk WAF 挑战页）
     url = 'https://flk.npc.gov.cn/law-search/search/flfgDetails?bbbs=' + bbbs
     last = None
     for i in range(3):
